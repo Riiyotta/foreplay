@@ -1,0 +1,23 @@
+{
+  "id": "enterprise-card",
+  "kind": "component",
+  "purpose": "'.pricing-footer' Enterprise card (subtitle, title, 3 bullet items, Book a Demo).",
+  "measuredFrom": [
+    "src/components/shared/EnterpriseCard.jsx:12"
+  ],
+  "props": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "type": "string[]"
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "button"
+  ]
+}

@@ -1,0 +1,239 @@
+URL https://www.foreplay.co/pre-black-friday W1440 docH 3349 title="Pre Black Friday" wfpage=68fa767a9d4ca73055d22b29 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 1440x3349] minh:100% bg:rgb(2, 3, 8) of:clip visible
+  div.global [0,0 0x0] pos:fixed t0px r1440px b900px l0px of:clip
+  div.code-style.w-embed (display:none)
+  div.main [0,72 1440x2345] 
+    section#product-hero-section.section.relative [0,72 1440x456] pos:relative
+      canvas#product-hero-canvas.product-hero-canvas [0,72 0x0] pos:absolute t0px r0px b0px l0px of:clip
+      div.container [0,72 1440x456] p:0px 40px maxw:1440px
+        div.product-hero [40,72 1360x10] d:flex fx:column/center/flex-start p:10px 0px 0px
+          div.product-hero-animation-trigger [0,0 1440x900] pos:absolute t-72px r0px b-372.469px l0px @wid=ada86b34-fc44-2717-f2b7-e0a48ca54738
+        div.us-container [40,82 1360x446] p:50px 0px pos:relative
+          div.us-bg [40,82 1360x446] pos:absolute t0px r0px b0px l0px
+            div.us-canvas.w-embed [40,82 1360x446] pos:absolute t0px r0px b0px l0px
+              div.us-canvas [40,82 1360x446] pos:absolute t0px r0px b0px l0px @data-us-project=aTrCmTNQlX5iRJ0vlnVR @data-us-initialized=true @data-scene-id=id-c57ypsbc6i59iiyg5yimlr
+                canvas [40,82 1360x445] d:inline-block of:clip ar:auto 2040 / 668 @role=img
+                a [625,463 190x35] d:flex fx:row/center/center p:10px m:0px 585px bg:rgb(255, 255, 255) r:6px sh:rgba(0, 0, 0, 0.2) 0px 3px 9px 0px pos:absolute t380.953px r0px b30px l0px z:99999999 @target=_blank href=https://unicorn.studio?utm_source=public-url
+                  img [635,473 170x15] IMG made_in_us_small_web.svg nat466x40 alt="Made with unicorn.studio" maxw:100% of:clip cursor:pointer
+          div.us-content [40,132 1360x346] d:flex fx:row/normal/center pos:relative z:1
+            div.hero-text [433,132 573x346] d:flex fx:column/center/flex-start gap:16px maxw:900px
+              a.home-hero-announcement.bounties.w-inline-block [492,132 457x36] d:flex fx:row/center/center p:5px 5px 5px 10px maxw:100% bg:rgba(255, 255, 255, 0.1) r:10px pos:relative of:hidden bf:blur(2px) tr:all 0.2s ease @target=_blank href=/bounties/build-share-a-workflow-using-the-foreplay-api
+                div.home-hero-announcement-text [502,137 442x26] d:flex fx:row/center/normal gap:10px cursor:pointer
+                  div.text-label-s.mobile-xs [502,140 58x20] cursor:pointer {Inter 14px/20px w500 ls-0.09px c:rgb(255, 255, 255)} "Bounties" (1L)
+                  div.announcement-seperator [570,144 1x12] bg:rgba(255, 255, 255, 0.2) r:2px cursor:pointer
+                  div.text-label-s.mobile-xs [581,140 236x20] cursor:pointer {Inter 14px/20px w500 ls-0.09px c:rgb(255, 255, 255)} "Win $5,000 by Building with the API" (1L)
+                  div.announcement-new [827,137 116x26] d:flex fx:row/normal/normal p:5px 8px bg:rgba(255, 255, 255, 0.06) r:7px cursor:pointer
+                    div.text-overline.mobile-xs [835,142 100x16] cursor:pointer {Inter 12px/16px w550 ls2px c:rgb(255, 255, 255) uppercase} "ENDS OCT 31" (1L)
+              div.text-white [433,184 573x108] 
+                h1.text-display-h2 [433,184 573x108]  {Inter Display 44px/53.76px w600 ls-0.33px c:rgb(255, 255, 255) ta:center} "Capture the Q4 Demand with winning creative" (2L)
+              div.max-w-lg [464,308 512x112] maxw:512px
+                div.text-alpha-100 [464,308 512x112] flex:1 1 0%
+                  p.text-body-l.text-white-84 [464,308 512x112]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 213ch 4L]
+              div.main-cta-buttons [562,436 317x42] d:flex fx:row/center/flex-start gap:12px pos:relative z:2
+                a.button-dark.button-primary.w-inline-block [562,437 134x40] d:flex fx:row/center/center p:8px maxw:100% flex:1 1 0% bg:rgb(255, 255, 255) r:10px pos:relative z:5 tr:all 0.2s ease href=https://app.foreplay.co/sign-up
+                  div.button-text-block [570,445 98x24] p:0px 6px pos:relative z:2 cursor:pointer
+                    div.text-heading-m [576,445 86x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14) ta:center} "Claim Offer" (1L)
+                  div.button-icon-block.icon-right.opacity-100 [663,445 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative z:2 cursor:pointer
+                    div.icon-medium [663,445 24x24] d:flex fx:row/center/center cursor:pointer
+                      div.svg.w-embed [663,445 24x24] d:flex fx:row/center/center cursor:pointer
+                        svg [663,445 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) of:hidden cursor:pointer
+                a.button-dark.button-secondary.w-inline-block [707,436 171x42] d:flex fx:row/center/center p:8px maxw:100% bg:rgb(9, 10, 14) r:10px b:1px solid rgb(36, 38, 46) pos:relative z:5 tr:all 0.2s ease href=#api-pricing
+                  div.button-text-block [716,445 133x24] p:0px 6px pos:relative z:2 cursor:pointer
+                    div.text-heading-m [722,445 121x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255) ta:center} "View Q4 Pricing" (1L)
+                  div.button-icon-block.icon-right [845,445 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative op:0.68 z:2 cursor:pointer
+                    div.icon-medium [845,445 24x24] d:flex fx:row/center/center cursor:pointer
+                      div.svg.w-embed [845,445 24x24] d:flex fx:row/center/center cursor:pointer
+                        svg [845,445 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) of:hidden cursor:pointer
+    section#lens-hero-section.section.relative [0,528 1440x0] pos:relative
+      canvas#lens-hero-canvas.product-hero-canvas [0,528 1440x0] pos:absolute t0px r0px b0px l0px of:clip ar:auto 1440 / 0
+    section.section [0,528 1440x0] 
+    div#api-pricing.section [0,528 1440x995] 
+      div.container.section-container [48,528 1344x995] p:0px 40px m:0px 48px maxw:1344px
+        div.pricing [88,528 1264x995] d:flex fx:column/normal/normal p:72px 0px 108px
+          div.api-pricing-wrapper [88,600 1264x815] d:flex fx:column/normal/normal gap:25px
+            div.section-head [360,600 720x156] d:flex fx:column/center/flex-start gap:12px m:0px 272px maxw:720px
+              div.section-head_title [360,600 720x88] 
+                h2.text-display-h3 [360,600 720x88]  {Inter Display 36px/44px w600 ls-0.26px c:rgb(255, 255, 255) ta:center} "Why getting into Foreplay before the holiday is crucial" (2L)
+              div.max-w-lg [464,700 512x56] maxw:512px
+                div.text-alpha-100 [464,700 512x56] flex:1 1 0%
+                  p.text-body-l.text-white-84 [464,700 512x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 108ch 2L]
+            div.pricing-content [88,781 1264x634] d:flex fx:column/normal/normal
+              div.api-pricing-grid [88,829 1264x586] d:grid gtc:404.656px 404.672px 404.656px gtr:255px 306px gap:25px m:48px 0px 0px
+                div.api-pricing-card-container [88,829 405x255] bg:rgb(2, 3, 8) r:20px sh:rgba(255, 255, 255, 0.16) 0px 0px 0px 1px
+                  div.pricing-card [88,829 405x255] d:flex fx:column/normal/normal gap:20px p:24px
+                    div.pricing-card-head [112,853 357x36] d:flex fx:column/center/flex-start gap:8px
+                      div.text-balance [198,853 184x36] 
+                        div.api-credis-pricing-title [198,853 184x36] d:flex fx:row/center/normal gap:10px p:4px 8px 4px 4px bg:rgba(255, 255, 255, 0.06) r:100px
+                          div.icon-large.w-embed [202,857 28x28] 
+                            svg [202,857 28x30] SVG vb=0 0 28 30 fill=none color=rgba(255, 255, 255, 0.36) d:inline of:hidden
+                          div.text-white [240,859 134x24] 
+                            div.text-label-l [240,859 134x24]  {Inter 18px/24px w500 ls-0.259999px c:rgb(255, 255, 255) ta:center} "100,000 Credits" (1L)
+                    div.horizontal_divider [112,909 357x1] bg:rgb(23, 25, 32)
+                    div.pricing-card-cta [112,930 357x130] d:flex fx:column/normal/normal gap:20px
+                      div.flex-col-gap-2 [112,930 357x32] d:flex fx:column/center/flex-start gap:8px
+                        div.flex-baseline [243,930 95x32] d:flex fx:row/baseline/normal gap:4px
+                          div.text-white [243,930 44x32] 
+                            div.text-display-h5 [243,930 44x32]  {Inter Display 24px/32px w600 ls-0.16px c:rgb(255, 255, 255)} "$99" (1L)
+                          div.text-alpha-100 [291,939 47x20] flex:1 1 0%
+                            div.text-body-s [291,939 47x20]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} "/month" (1L)
+                      div.flex-col-gap-2 [112,982 357x78] d:flex fx:column/center/flex-start gap:8px
+                        div.div-block-335 [112,982 357x78] d:flex fx:column/normal/normal
+                          a.button-dark.button-primary.w-inline-block [112,982 357x40] d:flex fx:row/center/center p:8px maxw:100% flex:1 1 0% bg:rgb(255, 255, 255) r:10px pos:relative z:5 tr:all 0.2s ease href=https://app.foreplay.co/sign-up
+                            div.button-text-block [219,990 123x24] p:0px 6px pos:relative z:2 cursor:pointer
+                              div.text-heading-m [225,990 111x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Start Free Trial" (1L)
+                            div.button-icon-block.icon-right.opacity-100 [338,990 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative z:2 cursor:pointer
+                              div.icon-medium [338,990 24x24] d:flex fx:row/center/center cursor:pointer
+                                div.svg.w-embed [338,990 24x24] d:flex fx:row/center/center cursor:pointer
+                                  svg [338,990 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) of:hidden cursor:pointer
+                          div.free-credit-pricing [112,1032 357x28] d:flex fx:row/stretch/center p:4px 8px m:10px 0px 0px bg:rgba(255, 255, 255, 0.06) r:4px
+                            div.text-label-s [173,1036 235x20]  {Inter 14px/20px w500 ls-0.09px c:rgba(255, 255, 255, 0.36) ta:center} "10,000 Free credits during your trial" (1L)
+                        div.no-cc-required (display:none)
+                div.api-pricing-card-container [518,829 405x255] bg:rgb(2, 3, 8) r:20px sh:rgba(255, 255, 255, 0.16) 0px 0px 0px 1px
+                  div.pricing-card [518,829 405x255] d:flex fx:column/normal/normal gap:20px p:24px
+                    div.pricing-card-head [542,853 357x36] d:flex fx:column/center/flex-start gap:8px
+                      div.text-balance [627,853 186x36] 
+                        div.api-credis-pricing-title [627,853 186x36] d:flex fx:row/center/normal gap:10px p:4px 8px 4px 4px bg:rgba(255, 255, 255, 0.06) r:100px
+                          div.icon-large.w-embed [631,857 28x28] 
+                            svg [631,857 28x30] SVG vb=0 0 28 30 fill=none color=rgba(255, 255, 255, 0.36) d:inline of:hidden
+                          div.text-white [669,859 136x24] 
+                            div.text-label-l [669,859 136x24]  {Inter 18px/24px w500 ls-0.259999px c:rgb(255, 255, 255) ta:center} "250,000 Credits" (1L)
+                    div.horizontal_divider [542,909 357x1] bg:rgb(23, 25, 32)
+                    div.pricing-card-cta [542,930 357x130] d:flex fx:column/normal/normal gap:20px
+                      div.flex-col-gap-2 [542,930 357x32] d:flex fx:column/center/flex-start gap:8px
+                        div.flex-baseline [668,930 104x32] d:flex fx:row/baseline/normal gap:4px
+                          div.text-white [668,930 53x32] 
+                            div.text-display-h5 [668,930 53x32]  {Inter Display 24px/32px w600 ls-0.16px c:rgb(255, 255, 255)} "$189" (1L)
+                          div.text-alpha-100 [725,939 47x20] flex:1 1 0%
+                            div.text-body-s [725,939 47x20]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} "/month" (1L)
+                      div.flex-col-gap-2 [542,982 357x78] d:flex fx:column/center/flex-start gap:8px
+                        div.div-block-335 [542,982 357x78] d:flex fx:column/normal/normal
+                          a.button-dark.button-primary.w-inline-block [542,982 357x40] d:flex fx:row/center/center p:8px maxw:100% flex:1 1 0% bg:rgb(255, 255, 255) r:10px pos:relative z:5 tr:all 0.2s ease href=https://app.foreplay.co/sign-up
+                            div.button-text-block [648,990 123x24] p:0px 6px pos:relative z:2 cursor:pointer
+                              div.text-heading-m [654,990 111x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Start Free Trial" (1L)
+                            div.button-icon-block.icon-right.opacity-100 [768,990 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative z:2 cursor:pointer
+                              div.icon-medium [768,990 24x24] d:flex fx:row/center/center cursor:pointer
+                                div.svg.w-embed [768,990 24x24] d:flex fx:row/center/center cursor:pointer
+                                  svg [768,990 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) of:hidden cursor:pointer
+                          div.free-credit-pricing [542,1032 357x28] d:flex fx:row/stretch/center p:4px 8px m:10px 0px 0px bg:rgba(255, 255, 255, 0.06) r:4px
+                            div.text-label-s [602,1036 235x20]  {Inter 14px/20px w500 ls-0.09px c:rgba(255, 255, 255, 0.36) ta:center} "10,000 Free credits during your trial" (1L)
+                        div.no-cc-required (display:none)
+                … +1 more div.api-pricing-card-container (repeat)
+                div#w-node-a1e63b10-a410-ef9c-0c96-923e20146dad-55d22b29.pricing-footer [88,1109 1264x306] d:flex fx:row/normal/normal r:20px b:1px solid rgba(255, 255, 255, 0.1)
+                  div.pricing-footer-enterprise [89,1110 368x304] d:flex fx:column/normal/normal gap:20px p:20px 24px 24px maxw:368px
+                    div.pricing-footer-head [113,1130 320x72] d:flex fx:column/normal/normal gap:8px p:8px 0px 0px
+                      div.text-alpha-0 [113,1138 320x16] 
+                        div.text-overline [113,1138 320x16]  {Inter 12px/16px w550 ls2px c:rgb(255, 255, 255) uppercase} "ENTERPRISE" (1L)
+                      div.text-alpha-100 [113,1162 320x40] flex:1 1 0%
+                        div.text-body-s [113,1162 320x40]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} "For custom API use cases and large credit usage." (2L)
+                    div.horizontal_divider [113,1222 320x1] bg:rgb(23, 25, 32)
+                    div.pricing-footer-custom [113,1243 320x60] d:flex fx:column/normal/normal gap:8px
+                      div.text-white [113,1243 320x32] 
+                        h4.text-display-h5 [113,1243 320x32]  {Inter Display 24px/32px w600 ls-0.16px c:rgb(255, 255, 255)} "Custom" (1L)
+                      div.flex-gap-1 [113,1283 320x20] d:flex fx:row/center/flex-start gap:4px
+                        div.icon-20 [113,1283 20x20] 
+                          div.svg.w-embed [113,1283 20x20] d:flex fx:row/center/center
+                            svg [113,1283 20x20] SVG vb=null fill=none color=rgba(255, 255, 255, 0.36) of:hidden
+                        div.text-white [137,1283 105x20] 
+                          div.text-label-s [137,1283 105x20]  {Inter 14px/20px w500 ls-0.09px c:rgb(255, 255, 255)} "Save up-to 80%" (1L)
+                    div.horizontal_divider [113,1323 320x1] bg:rgb(23, 25, 32)
+                    a.button-dark.button-secondary.w-inline-block [113,1344 320x42] d:flex fx:row/center/center p:8px maxw:100% bg:rgb(9, 10, 14) r:10px b:1px solid rgb(36, 38, 46) pos:relative z:5 tr:all 0.2s ease href=/book-demo
+                      div.button-text-block [185,1353 156x24] p:0px 6px pos:relative z:2 cursor:pointer
+                        div.text-heading-m [191,1353 144x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Talk with an Expert" (1L)
+                      div.button-icon-block.icon-right [337,1353 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative op:0.68 z:2 cursor:pointer
+                        div.icon-medium [337,1353 24x24] d:flex fx:row/center/center cursor:pointer
+                          div.svg.w-embed [337,1353 24x24] d:flex fx:row/center/center cursor:pointer
+                            svg [337,1353 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) of:hidden cursor:pointer
+                  div.pricing-footer-vertical_divider [457,1110 1x0] bg:rgba(255, 255, 255, 0.16)
+                  div.pricing-footer-extra [458,1110 893x304] d:flex fx:column/normal/space-between gap:40px p:32px 24px flex:1 1 0%
+                    div.pricing-footer-extra-content [482,1142 845x116] d:flex fx:column/normal/normal gap:12px
+                      div.text-alpha-100 [482,1142 845x20] flex:1 1 0%
+                        div.text-label-s [482,1142 845x20]  {Inter 14px/20px w500 ls-0.09px c:rgba(255, 255, 255, 0.68)} "Let's discuss a tailored solution that covers unique needs." (1L)
+                      ul.pricing-footer-extra-list.w-list-unstyled [482,1174 845x84] d:flex fx:column/normal/normal gap:12px @role=list
+                        li.pricing-footer-extra-list-item [482,1174 845x20] d:flex fx:row/center/flex-start gap:8px
+                          div.text-white [482,1174 20x20] 
+                            div.icon-20 [482,1174 20x20] 
+                              div.svg.w-embed [482,1174 20x20] d:flex fx:row/center/center
+                                svg [482,1174 20x20] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) of:hidden
+                          div.text-white [510,1174 192x20] 
+                            div.text-body-s [510,1174 192x20]  {Inter 14px/20px w400 ls-0.09px c:rgb(255, 255, 255)} "Highly discounted API credits" (1L)
+                        li.pricing-footer-extra-list-item [482,1206 845x20] d:flex fx:row/center/flex-start gap:8px
+                          div.text-white [482,1206 20x20] 
+                            div.icon-20 [482,1206 20x20] 
+                              div.svg.w-embed [482,1206 20x20] d:flex fx:row/center/center
+                                svg [482,1206 20x20] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) of:hidden
+                          div.text-white [510,1206 204x20] 
+                            div.text-body-s [510,1206 204x20]  {Inter 14px/20px w400 ls-0.09px c:rgb(255, 255, 255)} "Priority in-app or Slack support" (1L)
+                        … +1 more li.pricing-footer-extra-list-item (repeat)
+                    div.div-block-332 [482,1298 845x84] d:flex fx:column/normal/normal gap:16px
+                      div.text-alpha-100 [482,1298 845x20] flex:1 1 0%
+                        div.text-label-s [482,1298 845x20]  {Inter 14px/20px w500 ls-0.09px c:rgba(255, 255, 255, 0.68)} "Trusted by over 10,000 growth teams and agencies" (1L)
+                      div.pricing-enterprise-logo-wrapper [482,1334 845x48] d:flex fx:row/center/space-between/wrap gap:15px
+                        div.pricing-grid-logo-wrapper [482,1334 92x48] d:flex fx:column/center/center p:10px tr:all 0.2s ease
+                          div.home-hero-logo-image.w-embed [492,1344 72x28] d:flex fx:row/center/center
+                            svg [492,1346 72x24] SVG vb=0 0 72 24 fill=none color=rgba(255, 255, 255, 0.84) of:hidden
+                        div.pricing-grid-logo-wrapper [640,1334 150x48] d:flex fx:column/center/center p:10px tr:all 0.2s ease
+                          div.home-hero-logo-image.w-embed [650,1344 130x28] d:flex fx:row/center/center
+                            svg [650,1348 130x19] SVG vb=0 0 130 19 fill=none color=rgba(255, 255, 255, 0.84) of:hidden
+                        … +3 more div.pricing-grid-logo-wrapper (repeat)
+    div.section [0,1523 1440x895] 
+      div.container [0,1523 1440x895] p:0px 40px maxw:1440px
+        div.faq [40,1523 1360x895] d:flex fx:column/normal/normal gap:48px p:140px 0px
+          div.section-head [360,1663 720x150] d:flex fx:column/center/flex-start gap:12px m:0px 320px maxw:720px
+            div.section-head-wrapper [464,1663 512x150] d:flex fx:column/center/normal gap:12px
+              div.section-head_subtitle [705,1663 30x16] 
+                div.text-overline.text-white-68 [705,1663 30x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "FAQ" (1L)
+              div.section-head_title [471,1691 499x54] 
+                h3.text-display-h2 [471,1691 499x54]  {Inter Display 44px/53.76px w600 ls-0.33px c:rgb(255, 255, 255) ta:center} "Questions about the API?" (1L)
+              div.section-head_paragraph [464,1756 512x56] maxw:512px
+                div.text-alpha-100 [464,1756 512x56] flex:1 1 0%
+                  p.text-body-l [464,1756 512x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} "Most common questions about the Foreplay API pricing and features." (2L)
+          div.faq-block-container [344,1860 752x305] m:0px 304px maxw:752px @data-accordion-container=
+            div.code-style.w-embed (display:none)
+            div.w-dyn-list [344,1860 752x305] 
+              div.w-dyn-items [344,1860 752x305]  @role=list
+                div.w-dyn-item [344,1860 752x61]  @role=listitem
+                  div.faq-block [344,1860 752x61] d:flex fx:row/flex-start/center gap:44px p:20px 0px 12px b:0px none rgba(255, 255, 255, 0.68)|0px none rgba(255, 255, 255, 0.68)|1px solid rgba(255, 255, 255, 0.1)|0px none rgba(255, 255, 255, 0.68) tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer @role=button @data-accordion-item= @data-expanded=false @aria-expanded=false
+                    div.faq-block_content [344,1880 680x24] d:flex fx:column/normal/normal flex:1 1 0% cursor:pointer
+                      div.faq-block_head [344,1880 680x24] d:flex fx:row/center/normal gap:44px cursor:pointer
+                        h4.text-label-l [344,1880 184x24] cursor:pointer {Inter 18px/24px w500 ls-0.259999px c:rgba(255, 255, 255, 0.68)} "Do credits carry over?" (1L)
+                      div.faq-block_body [344,1904 680x0] of:hidden tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer
+                        div.faq-block_answer [344,1904 680x56] p:8px 0px of:hidden tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer
+                          div.faq-rtb [344,1912 680x40] cursor:pointer
+                            div.text-alpha-100 [344,1912 680x40] flex:1 1 0% cursor:pointer
+                              div.text-body-s.w-richtext [344,1912 680x40] cursor:pointer
+                                p [344,1912 680x40] cursor:pointer {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} [TEXT 118ch 2L]
+                    div.faq-block_icon [1068,1880 28x28] d:flex fx:row/center/center tr:all 0.2s ease cursor:pointer
+                      div.icon-medium [1070,1882 24x24] d:flex fx:row/center/center cursor:pointer
+                        div.svg.w-embed [1070,1882 24x24] d:flex fx:row/center/center cursor:pointer
+                          svg [1070,1882 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgba(255, 255, 255, 0.68) of:hidden cursor:pointer
+                div.w-dyn-item [344,1921 752x61]  @role=listitem
+                  div.faq-block [344,1921 752x61] d:flex fx:row/flex-start/center gap:44px p:20px 0px 12px b:0px none rgba(255, 255, 255, 0.68)|0px none rgba(255, 255, 255, 0.68)|1px solid rgba(255, 255, 255, 0.1)|0px none rgba(255, 255, 255, 0.68) tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer @role=button @data-accordion-item= @data-expanded=false @aria-expanded=false
+                    div.faq-block_content [344,1941 680x24] d:flex fx:column/normal/normal flex:1 1 0% cursor:pointer
+                      div.faq-block_head [344,1941 680x24] d:flex fx:row/center/normal gap:44px cursor:pointer
+                        h4.text-label-l [344,1941 277x24] cursor:pointer {Inter 18px/24px w500 ls-0.259999px c:rgba(255, 255, 255, 0.68)} "How does pro-rated billing work?" (1L)
+                      div.faq-block_body [344,1965 680x0] of:hidden tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer
+                        div.faq-block_answer [344,1965 680x56] p:8px 0px of:hidden tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer
+                          div.faq-rtb [344,1973 680x40] cursor:pointer
+                            div.text-alpha-100 [344,1973 680x40] flex:1 1 0% cursor:pointer
+                              div.text-body-s.w-richtext [344,1973 680x40] cursor:pointer
+                                p [344,1973 680x40] cursor:pointer {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} [TEXT 135ch 2L]
+                    div.faq-block_icon [1068,1941 28x28] d:flex fx:row/center/center tr:all 0.2s ease cursor:pointer
+                      div.icon-medium [1070,1943 24x24] d:flex fx:row/center/center cursor:pointer
+                        div.svg.w-embed [1070,1943 24x24] d:flex fx:row/center/center cursor:pointer
+                          svg [1070,1943 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgba(255, 255, 255, 0.68) of:hidden cursor:pointer
+                … +3 more div.w-dyn-item (repeat)
+          div.faq-buttons [40,2213 1360x64] d:flex fx:row/center/center gap:12px p:12px 0px
+            a#intercomButton.button-dark.ghost-icon-button.w-inline-block [536,2225 177x40] d:flex fx:row/center/center gap:5px p:8px maxw:100% bg:rgb(2, 3, 8) r:10px pos:relative z:5 tr:all 0.2s ease href=#
+              div.button-icon-block.icon-left [544,2233 24x24] d:flex fx:row/center/center m:0px -4px 0px 0px pos:relative op:0.68 z:2 cursor:pointer
+                div.icon-medium [544,2233 24x24] d:flex fx:row/center/center cursor:pointer
+                  div.svg.w-embed [546,2235 20x20] d:flex fx:row/center/center cursor:pointer
+                    svg [546,2235 20x20] SVG vb=0 0 20 20 fill=none color=rgb(255, 255, 255) of:hidden cursor:pointer
+              div.button-text-block [569,2233 136x24] p:0px 6px pos:relative z:2 cursor:pointer
+                div.text-heading-m [575,2233 124x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Contact support" (1L)
+            a.button-dark.ghost-icon-button.w-inline-block [725,2225 179x40] d:flex fx:row/center/center gap:5px p:8px maxw:100% bg:rgb(2, 3, 8) r:10px pos:relative z:5 tr:all 0.2s ease @target=_blank href=https://foreplay.featurebase.app/help
+              div.button-icon-block.icon-left [733,2233 24x24] d:flex fx:row/center/center m:0px -4px 0px 0px pos:relative op:0.68 z:2 cursor:pointer
+                div.icon-medium [733,2233 24x24] d:flex fx:row/center/center cursor:pointer
+                  div.svg.w-embed [733,2233 24x24] d:flex fx:row/center/center cursor:pointer
+                    svg [733,2233 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) of:hidden cursor:pointer
+              div.button-text-block [758,2233 138x24] p:0px 6px pos:relative z:2 cursor:pointer
+                div.text-heading-m [764,2233 126x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Knowledge Base" (1L)

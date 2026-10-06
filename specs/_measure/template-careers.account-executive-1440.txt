@@ -1,0 +1,68 @@
+URL https://www.foreplay.co/careers/account-executive W1440 docH 2471 title="Account Executive - Remote" wfpage=64a7037dd519617f8ade34f0 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 1440x2471] minh:100% bg:rgb(2, 3, 8) of:clip visible
+  div.global [0,0 0x0] pos:fixed t0px r1440px b900px l0px of:clip
+  div.main [0,72 1440x1467] 
+    section.section [0,72 1440x120] 
+      div.container.blog-container [304,72 832x120] p:0px 40px m:0px 304px maxw:832px
+        div.blog-breadcrumb [336,72 752x120] d:flex fx:row/center/flex-start gap:4px p:40px 0px m:0px -8px of:hidden
+          a.blog-breadcrumb-link.w-inline-block [336,112 74x40] d:flex fx:row/center/flex-start gap:5px p:8px maxw:100% of:hidden href=/careers
+            div [344,120 58x24] cursor:pointer {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.68) ws:nowrap} "Careers" (1L)
+          div.blog-breadcrumb-separator [414,122 5x20] 
+            div.text-body-s [414,122 5x20]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.36)} "/" (1L)
+          a.blog-breadcrumb-link.w-inline-block [423,112 153x40] d:flex fx:row/center/flex-start gap:5px p:8px maxw:100% of:hidden href=#
+            div [431,120 137x24] cursor:pointer {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.68) ws:nowrap} "Account Executive" (1L)
+    section.section [0,192 1440x77] 
+      div.container.blog-container [304,192 832x76] p:0px 40px m:0px 304px maxw:832px
+        div.blog-top [344,192 752x76] d:flex fx:column/normal/normal gap:24px p:0px 0px 40px
+          div.blog-head [344,192 752x36] d:flex fx:column/normal/normal gap:8px
+            div.text-white [344,192 752x36] 
+              div.text-balance [344,192 752x36] 
+                h1.text-display-h4 [344,192 752x36]  {Inter Display 28px/36px w600 ls-0.2px c:rgb(255, 255, 255)} "Account Executive" (1L)
+      div.container [0,268 1440x1] p:0px 40px maxw:1440px
+        div.blog-line [40,268 1360x1] bg:rgba(255, 255, 255, 0.1)
+    div.section [0,269 1440x1270] 
+      div.container.blog-container [304,269 832x1270] p:0px 40px m:0px 304px maxw:832px
+        div.fireside-subscribe-action [344,269 752x185] d:flex fx:row/center/flex-start p:40px 0px 80px b:0px none rgba(255, 255, 255, 0.36)|0px none rgba(255, 255, 255, 0.36)|1px solid rgba(255, 255, 255, 0.1)|0px none rgba(255, 255, 255, 0.36)
+          div.fireside-section-title-text [344,309 620x64] d:flex fx:column/normal/normal gap:16px flex:1 1 0%
+            div.text-white [344,309 620x24] 
+              div.fireside-subscribe-action-title [344,309 620x24] d:flex fx:row/normal/normal gap:8px
+                div.icon-medium.w-embed [344,309 24x24] d:flex fx:row/center/center
+                  svg [344,309 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) of:hidden
+                div.text-label-l [376,309 91x24]  {Inter 18px/24px w500 ls-0.259999px c:rgb(255, 255, 255)} "Apply Now" (1L)
+            div.text-alpha-50 [344,349 620x24] 
+              div.text-body-m [344,349 620x24]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 61ch 1L]
+          a.button-dark.button-secondary.w-inline-block [964,320 132x42] d:flex fx:row/center/center p:8px maxw:100% bg:rgb(9, 10, 14) r:10px b:1px solid rgb(36, 38, 46) pos:relative z:5 tr:all 0.2s ease href=<google-form>
+            div.button-text-block [973,329 94x24] p:0px 6px pos:relative z:2 cursor:pointer
+              div.text-heading-m [979,329 82x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Apply Now" (1L)
+            div.button-icon-block.icon-right [1063,329 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative op:0.68 z:2 cursor:pointer
+              div.icon-medium [1063,329 24x24] d:flex fx:row/center/center cursor:pointer
+                div.svg.w-embed [1063,329 24x24] d:flex fx:row/center/center cursor:pointer
+                  svg [1063,329 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) of:hidden cursor:pointer
+        div.fireside-subscribe-action [344,454 752x1085] d:flex fx:row/center/flex-start p:40px 0px 80px b:0px none rgba(255, 255, 255, 0.36)|0px none rgba(255, 255, 255, 0.36)|1px solid rgba(255, 255, 255, 0.1)|0px none rgba(255, 255, 255, 0.36)
+          div.fireside-section-title-text [344,494 752x964] d:flex fx:column/normal/normal gap:16px flex:1 1 0%
+            div.text-white [344,494 752x24] 
+              div.fireside-subscribe-action-title [344,494 752x24] d:flex fx:row/normal/normal gap:8px
+                div.icon-medium.w-embed [344,494 24x24] d:flex fx:row/center/center
+                  svg [344,494 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) of:hidden
+                div.text-label-l [376,494 132x24]  {Inter 18px/24px w500 ls-0.259999px c:rgb(255, 255, 255)} "Job Description" (1L)
+            div.text-alpha-50 [344,534 752x924] 
+              div#blog-rtb.blog-rtb [344,534 752x924] 
+                div.w-richtext [344,534 752x924] 
+                  p [344,534 752x72]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 288ch 3L]
+                  p [344,606 752x48]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 138ch 2L]
+                    >strong [344,608 494x20] {Inter 16px/24px w700 ls-0.18px c:rgba(255, 255, 255, 0.84)} d:inline "Foreplay is already the home f"
+                  … +4 more p (repeat)
+                  h2 [344,846 752x36] m:24px 0px 16px {Inter Display 28px/36px w700 ls-0.18px c:rgba(255, 255, 255, 0.84)} "About this Role:" (1L)
+                  p [344,898 752x48]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 105ch 2L]
+                  p [344,946 752x24]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 64ch 1L]
+                  … +1 more p (repeat)
+                  h2 [344,1018 752x36] m:24px 0px 16px {Inter Display 28px/36px w700 ls-0.18px c:rgba(255, 255, 255, 0.84)} "The Ideal Candidate" (1L)
+                  p [344,1070 752x24]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 102ch 1L]
+                  p [344,1094 752x24]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 76ch 1L]
+                  … +2 more p (repeat)
+                  h2 [344,1190 752x36] m:24px 0px 16px {Inter Display 28px/36px w700 ls-0.18px c:rgba(255, 255, 255, 0.84)} "Why Foreplay?" (1L)
+                  p [344,1242 752x48]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 129ch 2L]
+                    >strong [344,1244 180x20] {Inter 16px/24px w700 ls-0.18px c:rgba(255, 255, 255, 0.84)} d:inline "• Work Hard, Play Hard: "
+                  p [344,1290 752x48]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 116ch 2L]
+                    >strong [344,1292 150x20] {Inter 16px/24px w700 ls-0.18px c:rgba(255, 255, 255, 0.84)} d:inline "• Meritocracy First: "
+                  … +3 more p (repeat)

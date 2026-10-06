@@ -1,0 +1,128 @@
+{
+  "id": "content.product-showcase",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Dark product section: centered head + homepage ProductCard rows (in-card tabs). 'research' shows Swipe File, Spyder, Discovery + the Chrome-extension card; 'analytics' shows Lens + Briefs.",
+  "measuredFrom": [
+    "src/pages/Home.jsx:14-15",
+    "src/components/ProductSections.jsx:233",
+    "src/components/ProductSections.jsx:248"
+  ],
+  "variants": [
+    {
+      "name": "research",
+      "description": "Research & Inspiration: swipe, spyder, discovery + ChromeExtension card",
+      "measuredFrom": [
+        "src/components/ProductSections.jsx:233-245"
+      ]
+    },
+    {
+      "name": "analytics",
+      "description": "Creative Analytics & Production: lens, briefs",
+      "measuredFrom": [
+        "src/components/ProductSections.jsx:248-258"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 32,
+        "measuredFrom": [
+          "src/components/ProductSections.jsx:251"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 48,
+        "measuredFrom": [
+          "src/components/ProductSections.jsx:251"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 160,
+        "measuredFrom": [
+          "src/components/ProductSections.jsx:252-253"
+        ]
+      },
+      "products": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 3,
+        "items": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "swipe",
+            "spyder",
+            "discovery",
+            "lens",
+            "briefs"
+          ],
+          "measuredFrom": [
+            "src/components/ProductSections.jsx:25"
+          ]
+        },
+        "measuredFrom": [
+          "src/components/ProductSections.jsx:240-242"
+        ]
+      },
+      "chromeExtensionCard": {
+        "type": "boolean",
+        "required": true,
+        "measuredFrom": [
+          "src/components/ProductSections.jsx:243"
+        ],
+        "note": "true only in the research variant"
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "maxPerPage": 2,
+    "distinctVariants": true,
+    "homeRouteOnly": true
+  },
+  "motion": {
+    "pattern": "instant-tabs",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/ProductSections.jsx:150"
+    ],
+    "durationMs": 400,
+    "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-lg",
+        "change": "product card stacks content above figure; video replaced by isometric image",
+        "measuredFrom": [
+          "src/components/ProductSections.jsx:131"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "component.productCard.contentRing",
+    "component.productCard.figureBg",
+    "semanticTypography.display.section",
+    "layout.sectionRhythm.productSectionTop"
+  ],
+  "usedOnTemplates": [
+    "home"
+  ],
+  "usedOnRoutes": [
+    "/"
+  ]
+}

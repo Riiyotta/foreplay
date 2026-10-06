@@ -1,0 +1,103 @@
+{
+  "id": "content.bounty-detail",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Bounty entry: Details/Submissions tabs (instant), stand-in details rich text, then the submit form (formSections, reCAPTCHA placeholder, Submit; never submits).",
+  "measuredFrom": [
+    "src/pages/templates/Bounty.jsx:160"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "details": {
+        "type": "richtext-inline",
+        "required": true,
+        "maxChars": 1198,
+        "measuredFrom": [
+          "src/components/templates/standin.js:191"
+        ],
+        "note": "max 1198 (measured: max over every CMS entry by executing the clone's own generator at build time; see measured-values.json generatorMeasurements)"
+      },
+      "submitTitle": {
+        "type": "string",
+        "required": true,
+        "maxChars": 24,
+        "measuredFrom": [
+          "src/data/bounties.json:13"
+        ]
+      },
+      "submitIntro": {
+        "type": "string",
+        "required": true,
+        "maxChars": 191,
+        "measuredFrom": [
+          "src/pages/templates/Bounty.jsx:194"
+        ],
+        "copyBudget": {
+          "generator": "paragraph",
+          "targetChars": 120,
+          "upperBoundChars": 191
+        },
+        "standIn": true
+      },
+      "formSections": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 16,
+              "measuredFrom": [
+                "src/data/bounties.json:15"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/data/bounties.json:15"
+        ]
+      },
+      "captcha": {
+        "type": "assetRef",
+        "assetRole": "third-party-embed",
+        "required": true,
+        "measuredFrom": [
+          "src/components/templates/Form.jsx:14"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "captcha"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "instant-tabs",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/Bounty.jsx:101"
+    ],
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "bounty"
+  ],
+  "usedOnRoutes": [
+    "/bounties/:slug"
+  ]
+}

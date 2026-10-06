@@ -1,0 +1,847 @@
+[
+ {
+  "slug": "are-there-any-usage-limitations",
+  "title": "Are there any usage limitations?",
+  "question": "Are there any usage limitations?",
+  "order": 55,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 137,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "as-an-agency-owner-can-i-use-my-affiliate-link-with-my-clients",
+  "title": "As an agency owner, can I use my affiliate link with my clients?",
+  "question": "As an agency owner, can I use my affiliate link with my clients?",
+  "order": 58,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 112,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "can-claude-access-my-swipe-file-and-boards",
+  "title": "Can Claude access my swipe file and boards?",
+  "question": "Can Claude access my swipe file and boards?",
+  "order": 3,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 253,
+   "lists": 0,
+   "links": 1
+  },
+  "updated": "2026-05-12"
+ },
+ {
+  "slug": "can-i-advertise-to-your-domain",
+  "title": "Can I Advertise to Your Domain?",
+  "question": "Can I Advertise to Your Domain?",
+  "order": 21,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 176,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-09-22"
+ },
+ {
+  "slug": "can-i-cancel-at-anytime",
+  "title": "Can I cancel at anytime?",
+  "question": "Can I cancel at anytime?",
+  "order": 24,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 214,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-31"
+ },
+ {
+  "slug": "can-i-download-ads",
+  "title": "Can I download ads?",
+  "question": "Can I download ads?",
+  "order": 34,
+  "answer": {
+   "paragraphs": 0,
+   "chars": 0,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "can-i-save-ads-from-instagram",
+  "title": "Can I save ads from Instagram?",
+  "question": "Can I save ads from Instagram?",
+  "order": 60,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 126,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "can-i-save-ads-from-instagram-2",
+  "title": "Can I save ads from Instagram?",
+  "question": "Can I save ads from Instagram?",
+  "order": 60,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 126,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "can-i-see-my-competitors-ads",
+  "title": "Can I see my competitor's ads?",
+  "question": "Can I see my competitor's ads?",
+  "order": 29,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 171,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "can-i-share-boards-with-freelancers",
+  "title": "Can I share boards with Freelancers?",
+  "question": "Can I share boards with Freelancers?",
+  "order": 44,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 182,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "do-credits-carry-over",
+  "title": "Do credits carry over?",
+  "question": "Do credits carry over?",
+  "order": 7,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 118,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2025-08-28"
+ },
+ {
+  "slug": "do-i-get-support-help-as-a-customer",
+  "title": "Do I get support & help as a customer?",
+  "question": "Do I get support & help as a customer?",
+  "order": 23,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 196,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-31"
+ },
+ {
+  "slug": "do-you-have-a-brand-monitoring-program",
+  "title": "Do you have a brand monitoring program?",
+  "question": "Do you have a brand monitoring program?",
+  "order": 28,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 145,
+   "lists": 0,
+   "links": 1
+  },
+  "updated": "2024-06-11"
+ },
+ {
+  "slug": "do-you-offer-annual-discounts",
+  "title": "Do you offer annual discounts?",
+  "question": "Do you offer annual discounts?",
+  "order": 56,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 139,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2025-07-28"
+ },
+ {
+  "slug": "does-it-work-with-chatgpt-too-or-just-claude",
+  "title": "Does it work with ChatGPT too, or just Claude?",
+  "question": "Does it work with ChatGPT too, or just Claude?",
+  "order": 2,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 281,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2026-05-12"
+ },
+ {
+  "slug": "does-this-ad-spy-tool-show-every-ad-online",
+  "title": "Does this ad spy tool show every ad online?",
+  "question": "Does this ad spy tool show every ad online?",
+  "order": 37,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 135,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-are-credits-calculated",
+  "title": "How are credits calculated?",
+  "question": "How are credits calculated?",
+  "order": 10,
+  "answer": {
+   "paragraphs": 4,
+   "chars": 264,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2025-08-28"
+ },
+ {
+  "slug": "how-can-an-advertising-agency-use-the-ai-brief-builder",
+  "title": "How can an advertising agency use the AI Brief Builder?",
+  "question": "How can an advertising agency use the AI Brief Builder?",
+  "order": 42,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 304,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-current-is-the-data",
+  "title": "How current is the data?",
+  "question": "How current is the data?",
+  "order": 0,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 185,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2026-05-12"
+ },
+ {
+  "slug": "how-do-ads-get-into-the-foreplay-platform",
+  "title": "How do ads get into the foreplay platform?",
+  "question": "How do ads get into the foreplay platform?",
+  "order": 35,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 121,
+   "lists": 0,
+   "links": 1
+  },
+  "updated": "2024-06-11"
+ },
+ {
+  "slug": "how-do-i-become-a-foreplay-expert",
+  "title": "How do I become a Foreplay Expert?",
+  "question": "How do I become a Foreplay Expert?",
+  "order": 30,
+  "answer": {
+   "paragraphs": 2,
+   "chars": 183,
+   "lists": 0,
+   "links": 1
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-do-i-find-the-best-facebook-ads",
+  "title": "How do I find the best facebook ads?",
+  "question": "How do I find the best facebook ads?",
+  "order": 27,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 153,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-do-i-get-paid-my-commission",
+  "title": "How do I get paid my commission?",
+  "question": "How do I get paid my commission?",
+  "order": 59,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 182,
+   "lists": 0,
+   "links": 1
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-do-i-know-if-a-facebook-ad-is-a-winning-campaign",
+  "title": "How do I know if a Facebook ad is a winning campaign?",
+  "question": "How do I know if a Facebook ad is a winning campaign?",
+  "order": 33,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 223,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-do-i-save-ads-from-facebook-ad-library",
+  "title": "How do I save ads from Facebook Ad Library?",
+  "question": "How do I save ads from Facebook Ad Library?",
+  "order": 53,
+  "answer": {
+   "paragraphs": 0,
+   "chars": 242,
+   "lists": 1,
+   "links": 2
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-do-i-save-linkedin-ads",
+  "title": "How do I save LinkedIn Ads",
+  "question": "How do I save LinkedIn Ads",
+  "order": 52,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 229,
+   "lists": 1,
+   "links": 2
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-do-i-use-facebook-ad-library",
+  "title": "How do I use Facebook Ad Library?",
+  "question": "How do I use Facebook Ad Library?",
+  "order": 47,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 262,
+   "lists": 0,
+   "links": 2
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-do-i-use-the-facebook-ad-library",
+  "title": "How do I use the Facebook Ad Library?",
+  "question": "How do I use the Facebook Ad Library?",
+  "order": 64,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 260,
+   "lists": 0,
+   "links": 2
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-does-foreplay-connect-to-claude-or-chatgpt",
+  "title": "How does Foreplay connect to Claude or ChatGPT?",
+  "question": "How does Foreplay connect to Claude or ChatGPT?",
+  "order": 6,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 358,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2026-05-12"
+ },
+ {
+  "slug": "how-does-pro-rated-billing-work",
+  "title": "How does pro-rated billing work?",
+  "question": "How does pro-rated billing work?",
+  "order": 8,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 135,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2025-08-28"
+ },
+ {
+  "slug": "how-does-spyder-compare-to-other-facebook-ad-spy-tools",
+  "title": "How does Spyder compare to other Facebook ad spy tools?",
+  "question": "How does Spyder compare to other Facebook ad spy tools?",
+  "order": 12,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 163,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2024-06-25"
+ },
+ {
+  "slug": "how-does-spyder-help-identify-winning-ads",
+  "title": "How does Spyder help identify winning ads?",
+  "question": "How does Spyder help identify winning ads?",
+  "order": 13,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 142,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2024-06-25"
+ },
+ {
+  "slug": "how-does-spyder-help-with-facebook-ad-spying",
+  "title": "How does Spyder help with Facebook ad spying?",
+  "question": "How does Spyder help with Facebook ad spying?",
+  "order": 16,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 172,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2024-06-25"
+ },
+ {
+  "slug": "how-does-the-inspiration-library-fit-into-my-workflow",
+  "title": "How does the Inspiration Library fit into my workflow?",
+  "question": "How does the Inspiration Library fit into my workflow?",
+  "order": 26,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 217,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-does-the-trial-work-will-i-be-charged",
+  "title": "How does the trial work? Will I be charged?",
+  "question": "How does the trial work? Will I be charged?",
+  "order": 25,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 460,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2025-07-28"
+ },
+ {
+  "slug": "how-long-can-i-access-the-tracked-ads",
+  "title": "How long can I access the tracked ads?",
+  "question": "How long can I access the tracked ads?",
+  "order": 15,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 165,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2024-06-25"
+ },
+ {
+  "slug": "how-long-is-your-cookie-window",
+  "title": "How long is your cookie window?",
+  "question": "How long is your cookie window?",
+  "order": 57,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 152,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-many-brands-ads-can-i-scrape",
+  "title": "How many brand’s ads can I scrape?",
+  "question": "How many brand’s ads can I scrape?",
+  "order": 20,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 105,
+   "lists": 0,
+   "links": 1
+  },
+  "updated": "2024-06-25"
+ },
+ {
+  "slug": "how-often-is-the-example-ad-library-updated",
+  "title": "How often is the example ad library updated?",
+  "question": "How often is the example ad library updated?",
+  "order": 32,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 167,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "how-to-make-an-ad-swipe-file",
+  "title": "How to make an ad Swipe File?",
+  "question": "How to make an ad Swipe File?",
+  "order": 48,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 295,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "is-foreplay-support-available-during-my-trial",
+  "title": "Is Foreplay support available during my trial?",
+  "question": "Is Foreplay support available during my trial?",
+  "order": 22,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 268,
+   "lists": 0,
+   "links": 1
+  },
+  "updated": "2023-05-31"
+ },
+ {
+  "slug": "what-ad-data-does-claude-chat-have-access-to",
+  "title": "What ad data does Claude/Chat have access to?",
+  "question": "What ad data does Claude/Chat have access to?",
+  "order": 4,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 352,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2026-05-12"
+ },
+ {
+  "slug": "what-are-the-most-important-things-i-should-include-in-my-creative-brief",
+  "title": "What are the most important things I should include in my creative brief?",
+  "question": "What are the most important things I should include in my creative brief?",
+  "order": 41,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 148,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "what-can-i-actually-do-with-the-foreplay-mcp",
+  "title": "What can I actually do with the Foreplay MCP?",
+  "question": "What can I actually do with the Foreplay MCP?",
+  "order": 5,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 464,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2026-05-12"
+ },
+ {
+  "slug": "what-inputs-can-i-control-when-using-the-ai-script-writer",
+  "title": "What inputs can I control when using the AI script writer?",
+  "question": "What inputs can I control when using the AI script writer?",
+  "order": 38,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 177,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "what-insights-can-i-gain-from-using-spyder",
+  "title": "What insights can I gain from using Spyder?",
+  "question": "What insights can I gain from using Spyder?",
+  "order": 14,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 213,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2024-06-25"
+ },
+ {
+  "slug": "what-is-a-swipe-file",
+  "title": "What is a Swipe File?",
+  "question": "What is a Swipe File?",
+  "order": 50,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 126,
+   "lists": 0,
+   "links": 1
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "what-is-creative-strategy",
+  "title": "What is Creative Strategy?",
+  "question": "What is Creative Strategy?",
+  "order": 54,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 207,
+   "lists": 0,
+   "links": 1
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "what-is-facebook-ad-library",
+  "title": "What is Facebook Ad Library?",
+  "question": "What is Facebook Ad Library?",
+  "order": 63,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 266,
+   "lists": 0,
+   "links": 2
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "what-is-spyder-meta-ad-spy",
+  "title": "What is Spyder Meta Ad Spy?",
+  "question": "What is Spyder Meta Ad Spy?",
+  "order": 17,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 172,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2024-06-25"
+ },
+ {
+  "slug": "what-is-tiktok-creative-center",
+  "title": "What is TikTok Creative Center?",
+  "question": "What is TikTok Creative Center?",
+  "order": 62,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 243,
+   "lists": 0,
+   "links": 2
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "what-makes-an-effective-creative-brief",
+  "title": "What makes an effective creative brief?",
+  "question": "What makes an effective creative brief?",
+  "order": 43,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 300,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "what-platforms-are-included-in-this-ad-spy",
+  "title": "What platforms are included in this ad spy?",
+  "question": "What platforms are included in this ad spy?",
+  "order": 36,
+  "answer": {
+   "paragraphs": 0,
+   "chars": 126,
+   "lists": 1,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "what-types-of-content-can-i-save-to-foreplay",
+  "title": "What types of content can I save to Foreplay?",
+  "question": "What types of content can I save to Foreplay?",
+  "order": 51,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 203,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "when-do-my-credits-renew",
+  "title": "When do my credits renew?",
+  "question": "When do my credits renew?",
+  "order": 9,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 197,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2025-08-28"
+ },
+ {
+  "slug": "when-will-my-credits-be-added",
+  "title": "When will my credits be added?",
+  "question": "When will my credits be added?",
+  "order": 11,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 177,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2025-08-28"
+ },
+ {
+  "slug": "where-can-i-find-creative-brief-examples",
+  "title": "Where can I find creative brief examples?",
+  "question": "Where can I find creative brief examples?",
+  "order": 40,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 154,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "where-do-i-find-good-ad-inspiration",
+  "title": "Where do I find good ad inspiration?",
+  "question": "Where do I find good ad inspiration?",
+  "order": 49,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 215,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "where-does-this-tool-fit-into-the-design-process",
+  "title": "Where does this tool fit into the design process?",
+  "question": "Where does this tool fit into the design process?",
+  "order": 39,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 314,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "why-do-facebook-ad-library-links-expire",
+  "title": "Why do Facebook Ad Library Links Expire?",
+  "question": "Why do Facebook Ad Library Links Expire?",
+  "order": 45,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 306,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "why-is-this-the-best-ad-spy-tool",
+  "title": "Why is this the best ad spy tool?",
+  "question": "Why is this the best ad spy tool?",
+  "order": 31,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 229,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "will-spyder-track-instagram-ads-in-addition-to-facebook-ads",
+  "title": "Will Spyder track instagram ads in addition to Facebook Ads?",
+  "question": "Will Spyder track instagram ads in addition to Facebook Ads?",
+  "order": 19,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 112,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2024-02-29"
+ },
+ {
+  "slug": "will-the-ads-expire-like-in-facebook-ad-library",
+  "title": "Will the ads expire like in Facebook Ad Library?",
+  "question": "Will the ads expire like in Facebook Ad Library?",
+  "order": 18,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 139,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2024-02-29"
+ },
+ {
+  "slug": "will-the-ads-i-save-stay-forever",
+  "title": "Will the ads I save stay forever?",
+  "question": "Will the ads I save stay forever?",
+  "order": 61,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 193,
+   "lists": 0,
+   "links": 0
+  },
+  "updated": "2023-05-30"
+ },
+ {
+  "slug": "will-this-use-extra-credits-or-cost-more",
+  "title": "Will this use extra credits or cost more?",
+  "question": "Will this use extra credits or cost more?",
+  "order": 1,
+  "answer": {
+   "paragraphs": 1,
+   "chars": 221,
+   "lists": 0,
+   "links": 1
+  },
+  "updated": "2026-05-12"
+ }
+]

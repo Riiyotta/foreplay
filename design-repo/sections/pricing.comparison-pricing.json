@@ -1,0 +1,95 @@
+{
+  "id": "pricing.comparison-pricing",
+  "kind": "section",
+  "category": "pricing",
+  "purpose": "Comparison pricing cards: Foreplay vs competitor plan cards (pricing[] from data, stand-in notes).",
+  "measuredFrom": [
+    "src/components/misc/Comparison.jsx:195"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "cards": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "logo": {
+              "type": "assetRef",
+              "assetRole": "third-party-mark",
+              "required": true,
+              "measuredFrom": [
+                "src/data/comparison.json:71"
+              ],
+              "note": "Foreplay or competitor logo"
+            },
+            "price": {
+              "type": "string",
+              "required": true,
+              "maxChars": 12,
+              "measuredFrom": [
+                "src/data/comparison.json:71"
+              ]
+            },
+            "bullets": {
+              "type": "array",
+              "required": true,
+              "minItems": 6,
+              "maxItems": 6,
+              "items": {
+                "type": "string",
+                "required": true,
+                "maxChars": 48,
+                "measuredFrom": [
+                  "src/data/comparison.json:71"
+                ]
+              },
+              "measuredFrom": [
+                "src/data/comparison.json:71"
+              ]
+            },
+            "noteChars": {
+              "type": "integer",
+              "required": false,
+              "minimum": 0,
+              "measuredFrom": [
+                "src/data/comparison.json:71"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/data/comparison.json:71"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/misc/Comparison.jsx:195"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "comparison"
+  ],
+  "usedOnRoutes": [
+    "/comparison/:slug"
+  ]
+}

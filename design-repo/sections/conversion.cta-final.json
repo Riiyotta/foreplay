@@ -1,0 +1,215 @@
+{
+  "id": "conversion.cta-final",
+  "kind": "section",
+  "category": "conversion",
+  "purpose": "Closing call to action 'Ready to ship more winning ads?' with Start free trial + secondary button and the home-cta image. Comparison and industry entries override title, paragraph and the secondary button.",
+  "measuredFrom": [
+    "src/components/CTA.jsx:5",
+    "src/components/CTA.jsx:6-8"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 60,
+        "measuredFrom": [
+          "src/components/CTA.jsx:6"
+        ],
+        "note": "Default 31 chars; comparison/industries pass ctaTitle from data."
+      },
+      "paragraph": {
+        "type": "string",
+        "required": true,
+        "maxChars": 160,
+        "measuredFrom": [
+          "src/components/CTA.jsx:7"
+        ],
+        "note": "Default 67 chars; comparison/industries use stand-in of ctaParaLen."
+      },
+      "primary": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 16,
+            "measuredFrom": [
+              "src/components/CTA.jsx:27"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/components/CTA.jsx:27"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/components/CTA.jsx:27"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/components/CTA.jsx:27"
+        ],
+        "note": "Fixed: Start free trial -> https://app.foreplay.co/sign-up (external, as implemented)."
+      },
+      "secondary": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 16,
+            "measuredFrom": [
+              "src/components/CTA.jsx:8"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/components/CTA.jsx:8"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/components/CTA.jsx:8"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/components/CTA.jsx:8"
+        ]
+      },
+      "image": {
+        "type": "assetRef",
+        "assetRole": "product-screenshot",
+        "required": true,
+        "measuredFrom": [
+          "src/components/CTA.jsx:33"
+        ],
+        "note": "Two people at a laptop with the dashboard: real photo + product UI."
+      }
+    }
+  },
+  "mediaFields": [
+    "image"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustPrecedeFooter": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/CTA.jsx:5"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-sm",
+        "change": "buttons stack full width; top padding 108 -> 80",
+        "measuredFrom": [
+          "src/components/CTA.jsx:26"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticTypography.display.section",
+    "semanticTypography.body.lead",
+    "layout.sectionRhythm.ctaTop"
+  ],
+  "usedOnTemplates": [
+    "agency",
+    "author",
+    "blog-index",
+    "bounty",
+    "category",
+    "comparison",
+    "creative-strategist-jobs",
+    "event",
+    "expert",
+    "experts-index",
+    "faq-index",
+    "faq-item",
+    "fireside",
+    "fireside-replays",
+    "home",
+    "industry",
+    "post",
+    "pricing",
+    "product-feature",
+    "product-spyder",
+    "reviews",
+    "university-course",
+    "university-landing",
+    "video",
+    "work-with"
+  ],
+  "usedOnRoutes": [
+    "/",
+    "/agencies/:slug",
+    "/authors/:slug",
+    "/blog",
+    "/bounties/:slug",
+    "/briefs",
+    "/category/:slug",
+    "/comparison/:slug",
+    "/creative-strategist-jobs",
+    "/discovery",
+    "/events/:slug",
+    "/experts",
+    "/experts/:slug",
+    "/faq",
+    "/faqs/:slug",
+    "/fireside",
+    "/fireside-replays",
+    "/industries/:slug",
+    "/post/:slug",
+    "/pricing",
+    "/reviews",
+    "/spyder-ad-spy",
+    "/swipe-file",
+    "/university/classes",
+    "/university/psychology-in-advertising",
+    "/videos/:slug",
+    "/work-with-brands",
+    "/work-with-marketers"
+  ]
+}

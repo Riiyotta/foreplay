@@ -1,0 +1,28 @@
+{
+  "id": "white-block",
+  "kind": "primitive",
+  "purpose": "The rounded white panel inset 8px from the viewport ('section-white-block'); radius 36 (16 <=479), text solid-700.",
+  "measuredFrom": [
+    "src/components/shared/Layout.jsx:22"
+  ],
+  "props": {
+    "as": {
+      "type": "enum",
+      "values": [
+        "section",
+        "div"
+      ]
+    },
+    "innerClassName": {
+      "type": "string"
+    },
+    "children": {
+      "type": "node"
+    }
+  },
+  "tokensUsed": [
+    "semanticColor.surface.whiteBlock",
+    "semanticRadius.whiteBlock",
+    "component.whiteBlock.inset"
+  ]
+}

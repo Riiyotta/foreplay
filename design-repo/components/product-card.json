@@ -1,0 +1,45 @@
+{
+  "id": "product-card",
+  "kind": "component",
+  "purpose": "Homepage product row: content card (overline, h3, Get Free Trial + Learn More, 3 in-card tabs, product video/iso image) + 829x640 figure whose panes swap instantly.",
+  "measuredFrom": [
+    "src/components/ProductSections.jsx:127"
+  ],
+  "props": {
+    "product": {
+      "type": "enum",
+      "values": [
+        "swipe",
+        "spyder",
+        "discovery",
+        "lens",
+        "briefs"
+      ]
+    },
+    "ghost": {
+      "type": "cta"
+    },
+    "title": {
+      "type": "string"
+    }
+  },
+  "tokensUsed": [
+    "component.productCard.contentRing",
+    "component.productCard.figureBg",
+    "semanticMotion.instantTabs"
+  ],
+  "motion": {
+    "pattern": "instant-tabs",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/ProductSections.jsx:150"
+    ],
+    "durationMs": 400,
+    "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+  },
+  "composes": [
+    "button",
+    "overline"
+  ]
+}

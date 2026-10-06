@@ -1,0 +1,1531 @@
+{
+  "meta": {
+    "source": "Foreplay clone at /foreplay (React+Vite), derived from design-repo/templates + sections, which record src/ as built. Mirrors https://www.foreplay.co sitemap.",
+    "status": "measured-from-codebase",
+    "totalRoutes": 506,
+    "totalTemplates": 48,
+    "redirects": [
+      {
+        "from": "/university",
+        "to": "/university/classes",
+        "measuredFrom": [
+          "src/App.jsx:35"
+        ]
+      },
+      {
+        "from": "/apac-demo",
+        "to": "/book-demo",
+        "note": "/apac-demo is not specced; the book-demo APAC bar links here",
+        "measuredFrom": [
+          "src/App.jsx:36"
+        ]
+      }
+    ],
+    "notes": "Long copy outside the homepage is stand-in text; third-party embeds are placeholders; navbar/footer carry no outbound links."
+  },
+  "categories": {
+    "SHELL": "Global chrome mounted once in src/App.jsx on every route (navbar, footer, overlays).",
+    "NAV": "In-page navigation aids (breadcrumbs, tables of contents) that are not the global navbar.",
+    "HERO": "The opening block of a page: title, intro copy, primary actions and hero media.",
+    "CONTENT": "Body blocks that explain products, list CMS entries, or carry article/rich-text content.",
+    "SOCIAL-PROOF": "Reviews, testimonials, logo walls and ratings.",
+    "PRICING": "Plan cards, pricing comparisons and plan-feature tables.",
+    "INTERACTIVE": "Blocks whose main job is a behaviour: tabs, carousels, accordions, filters.",
+    "FORM": "Lead / application / signup forms (render fields, never submit).",
+    "CONVERSION": "Closing calls to action that push to trial or demo.",
+    "OVERLAY": "Fixed or modal UI layered above the page."
+  },
+  "sections": {
+    "content.agency-directory": {
+      "category": "CONTENT",
+      "description": "Agency directory: filter sidebar (service/industry checkboxes with counts) + paginated feed of AgencyCards (9 per page). INTENTIONAL DEVIATION: <=767 the sidebar stacks above the feed (live overflows at 390).",
+      "scope": "Carried by 1 routes, on templates: agency-directory.",
+      "implementedBy": "AgencyDirectory.jsx"
+    },
+    "content.agency-profile": {
+      "category": "CONTENT",
+      "description": "Agency entry: tilt profile card (logo, name, verified, Visit Website/Contact/LinkedIn, location, service + industry pills) beside 4 stand-in sections (About, What sets them apart, Core Services & Offer, Contact + lead form). INTENTIONAL DEVIATION: stacks <=767.",
+      "scope": "Carried by 26 routes, on templates: agency.",
+      "implementedBy": "Agency.jsx"
+    },
+    "content.article": {
+      "category": "CONTENT",
+      "description": "Post body: 3-column grid (sticky TOC | article | sticky TrialCard): optional cover (showCover), author row with external socials + 'More Articles', optional '30 Second Summary', stand-in rich-text body with heading anchors.",
+      "scope": "Carried by 182 routes, on templates: post.",
+      "implementedBy": "Post.jsx"
+    },
+    "content.author-row": {
+      "category": "CONTENT",
+      "description": "Post footer author row (.blog-author repeated after the related carousel).",
+      "scope": "Carried by 182 routes, on templates: post.",
+      "implementedBy": "Post.jsx"
+    },
+    "content.before-after": {
+      "category": "CONTENT",
+      "description": "First white block 'Your new secret weapon for ads': Before (logo rain physics) vs After Foreplay (loader video) cards.",
+      "scope": "Carried by 1 routes, on templates: home.",
+      "implementedBy": "BeforeAfter.jsx + Home.jsx"
+    },
+    "content.bounty-detail": {
+      "category": "CONTENT",
+      "description": "Bounty entry: Details/Submissions tabs (instant), stand-in details rich text, then the submit form (formSections, reCAPTCHA placeholder, Submit; never submits).",
+      "scope": "Carried by 1 routes, on templates: bounty.",
+      "implementedBy": "Bounty.jsx"
+    },
+    "content.bounty-list": {
+      "category": "CONTENT",
+      "description": "Open bounties list: 'Open Bounties' tag, BountyCards (amount, due date, status, title, stand-in description, author) and a 'coming soon' placeholder card.",
+      "scope": "Carried by 1 routes, on templates: bounties-index.",
+      "implementedBy": "Bounties.jsx"
+    },
+    "content.career-body": {
+      "category": "CONTENT",
+      "description": "Career entry body: 'Apply Now' action row (job.applyUrl, external) + 'Job Description' stand-in rich text (blocksFrom, bodyLen up to 3244).",
+      "scope": "Carried by 3 routes, on templates: career.",
+      "implementedBy": "Career.jsx"
+    },
+    "content.ce-install-guide": {
+      "category": "CONTENT",
+      "description": "Chrome-extension legacy page body: sticky lottie pin, 5px blue bar, black section with Chrome/Phone pills and three numbered install steps (Chrome extension, Instagram mobile, TikTok mobile with store buttons).",
+      "scope": "Carried by 1 routes, on templates: chrome-extension.",
+      "implementedBy": "ChromeExtension.jsx"
+    },
+    "content.collaboration": {
+      "category": "CONTENT",
+      "description": "Second white block: 'Collaboration' head, testimonial-pin rays around an oval illustration (7 real customer testimonials) and the 'Beautifully present wins' sharing tabs.",
+      "scope": "Carried by 1 routes, on templates: home.",
+      "implementedBy": "Collaboration.jsx + Home.jsx + Sharing.jsx"
+    },
+    "content.comparison-table": {
+      "category": "CONTENT",
+      "description": "Comparison table: head (tableOverline/Title + stand-in) and a 3-col grid (feature | Foreplay | competitor) of value cells with check/x icons, coloured bars and pills.",
+      "scope": "Carried by 10 routes, on templates: comparison.",
+      "implementedBy": "Comparison.jsx"
+    },
+    "content.contest-faq": {
+      "category": "CONTENT",
+      "description": "Contest FAQ ('Questions? We got answers!'): ContestFaqItem rows (IX2 accordion, contest theme).",
+      "scope": "Carried by 1 routes, on templates: contest-submission.",
+      "implementedBy": "contest.jsx"
+    },
+    "content.contest-finalists": {
+      "category": "CONTENT",
+      "description": "'Watch the Finalist Submissions': prize groups (PrizeBlock) each with 3-col FinalistCards (video thumb + play, brand row, creator, LinkedIn) opening an embed lightbox placeholder.",
+      "scope": "Carried by 1 routes, on templates: contest.",
+      "implementedBy": "Contest.jsx"
+    },
+    "content.contest-sponsors": {
+      "category": "CONTENT",
+      "description": "Contest sponsors row (logos).",
+      "scope": "Carried by 1 routes, on templates: contest.",
+      "implementedBy": "Contest.jsx"
+    },
+    "content.contest-submission-grid": {
+      "category": "CONTENT",
+      "description": "Contest submission hub grid (blocks A-E): submission options with eligible awards, bonus entries (X post embed placeholder), judges, resources.",
+      "scope": "Carried by 1 routes, on templates: contest-submission.",
+      "implementedBy": "ContestSubmission.jsx"
+    },
+    "content.event-body": {
+      "category": "CONTENT",
+      "description": "Event body: 800px framed video placeholder (Luma signup only for upcoming), 'Never miss an event' row (lu.ma external), 'What you'll learn' stand-in list and optional transcript dropdown (INTENTIONAL FIX: transparent bg instead of live #ddd).",
+      "scope": "Carried by 27 routes, on templates: event.",
+      "implementedBy": "Event.jsx"
+    },
+    "content.event-more": {
+      "category": "CONTENT",
+      "description": "Event aside: 'Watch More Replays' row (-> /fireside-replays) + 3 latest UpcomingCards.",
+      "scope": "Carried by 27 routes, on templates: event.",
+      "implementedBy": "Event.jsx"
+    },
+    "content.expert-more": {
+      "category": "CONTENT",
+      "description": "Expert entry white block: 'More ad creative experts' + paragraph(110) stand-in + 3-col ExpertCards (6 others).",
+      "scope": "Carried by 67 routes, on templates: expert.",
+      "implementedBy": "Expert.jsx"
+    },
+    "content.experts-directory": {
+      "category": "CONTENT",
+      "description": "C7 experts white block: 'Featured Experts' head + 3 board cards, 'More Experts' h2 + 2-col row cards (all 67 experts).",
+      "scope": "Carried by 1 routes, on templates: experts-index.",
+      "implementedBy": "Experts.jsx"
+    },
+    "content.faq-list": {
+      "category": "CONTENT",
+      "description": "/faq: the 65 CMS FAQ rows (sorted by order) as bare accordion rows (max 752) with plain rich-text stand-in answers.",
+      "scope": "Carried by 1 routes, on templates: faq-index.",
+      "implementedBy": "Faq.jsx"
+    },
+    "content.faq": {
+      "category": "CONTENT",
+      "description": "FAQ section (shared Faq.jsx): overline 'FAQ', title, body, accordion rows (max 752 wide) and the FaqButtons row (Contact support + Knowledge Base).",
+      "scope": "Carried by 9 routes, on templates: product-feature, product-spyder, developer-api, developer-mcp, pricing, pre-black-friday, affiliates.",
+      "implementedBy": "Faq.jsx"
+    },
+    "content.feature-section": {
+      "category": "CONTENT",
+      "description": "'ALL FEATURES' groups of feature cards (image or lottie, title, text), optionally followed by a customer testimonial per group.",
+      "scope": "Carried by 4 routes, on templates: product-feature, product-spyder.",
+      "implementedBy": "FeatureSection.jsx"
+    },
+    "content.image-step-cards": {
+      "category": "CONTENT",
+      "description": "C3 image step cards (Features-grid style, 768x528 images): affiliates 3 numbered steps; fireside 'Why should I attend?' with head + icons.",
+      "scope": "Carried by 2 routes, on templates: affiliates, fireside.",
+      "implementedBy": "ImageStepCards.jsx"
+    },
+    "content.industry-examples": {
+      "category": "CONTENT",
+      "description": "Industry ad examples: examplesHead + 3 example ad cards (avatar, brand, days running, ad image) + CTA row (stand-in examplesCta, Start Browsing -> sign-up).",
+      "scope": "Carried by 6 routes, on templates: industry.",
+      "implementedBy": "Industry.jsx"
+    },
+    "content.jobs-list": {
+      "category": "CONTENT",
+      "description": "Careers white block: JobsList rows (title, type, location, link) in live page order.",
+      "scope": "Carried by 1 routes, on templates: careers-index.",
+      "implementedBy": "JobsList.jsx"
+    },
+    "content.jumpstart-offer": {
+      "category": "CONTENT",
+      "description": "Jumpstart white offer block: velocity head, bullet list, video card, savings rows, offer head, countdown card.",
+      "scope": "Carried by 1 routes, on templates: jumpstart.",
+      "implementedBy": "Jumpstart.jsx"
+    },
+    "content.legal-richtext": {
+      "category": "CONTENT",
+      "description": "Full-bleed white block (no 8px inset) with plain legal rich text (misc-legal-rt) built by blocksFrom(structure, bodyLen) with 'see here' stand-in links.",
+      "scope": "Carried by 5 routes, on templates: legal-page.",
+      "implementedBy": "LegalPage.jsx"
+    },
+    "content.lens-contextual-block": {
+      "category": "CONTENT",
+      "description": "Lens white block S4: 'CONTEXTUAL AD REPORTS' head, two left/right illustration rows (Gamification, Benchmarks) and two benchmarking-segment marquees (0.75 and 0.5 px/frame, opposite directions).",
+      "scope": "Carried by 1 routes, on templates: product-lens.",
+      "implementedBy": "Lens.jsx + LensBenchmarking.jsx"
+    },
+    "content.lens-enrichment": {
+      "category": "CONTENT",
+      "description": "'AI METADATA' rays illustration with hover tooltips (left/right pins).",
+      "scope": "Carried by 1 routes, on templates: product-lens.",
+      "implementedBy": "LensEnrichment.jsx"
+    },
+    "content.lens-solution-block": {
+      "category": "CONTENT",
+      "description": "Lens white block S2: 4 solution icons, 'Axe the ad spend tax.' two graph cards with scroll-drawn SVG lines, and the white-label reporting carousel (two testimonial panes with report mockups).",
+      "scope": "Carried by 1 routes, on templates: product-lens.",
+      "implementedBy": "Lens.jsx + LensGraphCard.jsx + LensReporting.jsx"
+    },
+    "content.media-rows": {
+      "category": "CONTENT",
+      "description": "White block of alternating illustration rows (GridRow content 5 / illustration 7, or LeftRightRow): api Spyder/Discovery/Swipe File API rows with product icons; mcp capability rows.",
+      "scope": "Carried by 2 routes, on templates: developer-api, developer-mcp.",
+      "implementedBy": "Mcp.jsx + Rows.jsx"
+    },
+    "content.mobile-app-features": {
+      "category": "CONTENT",
+      "description": "Mobile-app S2 feature stack: video feature card with YouTube lightbox trigger, 'Save content from your Phone' card and two video rows.",
+      "scope": "Carried by 2 routes, on templates: mobile-app, paid-landing.",
+      "implementedBy": "MobileAppFeatures.jsx"
+    },
+    "content.not-found": {
+      "category": "CONTENT",
+      "description": "TemplateNotFound / NotFound state: 'Page not found' + back-home link. Rendered for the two post slugs whose CMS entry is a '404' stub, for any unknown CMS slug, and by the * catch-all.",
+      "scope": "Carried by 2 routes, on templates: not-found.",
+      "implementedBy": "App.jsx + Layout.jsx"
+    },
+    "content.post-grid": {
+      "category": "CONTENT",
+      "description": "S4 BlogList grid of BlogListCards (3/2/1 cols). blog: 'Explore More Blogs' head + category chips + 24/page grid + ?page=N pagination; csj: SectionHead + 66 cards; category: topic chips + posts in category; author: 'Blogs' feed.",
+      "scope": "Carried by 60 routes, on templates: blog-index, creative-strategist-jobs, author, category.",
+      "implementedBy": "CardGrid.jsx"
+    },
+    "content.product-showcase": {
+      "category": "CONTENT",
+      "description": "Dark product section: centered head + homepage ProductCard rows (in-card tabs). 'research' shows Swipe File, Spyder, Discovery + the Chrome-extension card; 'analytics' shows Lens + Briefs.",
+      "scope": "Carried by 1 routes, on templates: home.",
+      "implementedBy": "Home.jsx + ProductSections.jsx"
+    },
+    "content.related-carousel": {
+      "category": "CONTENT",
+      "description": "S5 related posts carousel (track transform .6s expo, snap-x) with BlogCarouselCards (up to 5 related posts).",
+      "scope": "Carried by 182 routes, on templates: post.",
+      "implementedBy": "RelatedCarousel.jsx"
+    },
+    "content.replay-list": {
+      "category": "CONTENT",
+      "description": "C4/S6 Fireside replay rows (flex col gap 24): fireside-replays page (all 27 events newest first) and author pages (events by speaker).",
+      "scope": "Carried by 44 routes, on templates: fireside-replays, author.",
+      "implementedBy": "EventRow.jsx + ReplayRow.jsx"
+    },
+    "content.security-grid": {
+      "category": "CONTENT",
+      "description": "Section head + the 3-card '.lens-security-grid' frame (icon + title, image body, footer text with optional ghost button). Homepage 'Miles beyond the status quo', lens security, spyder use cases, apps-extensions downloads, comparison features.",
+      "scope": "Carried by 14 routes, on templates: home, product-spyder, product-lens, apps-extensions, comparison.",
+      "implementedBy": "Features.jsx + SecurityGrid.jsx"
+    },
+    "content.ships-grid": {
+      "category": "CONTENT",
+      "description": "Ships white grid: 2-col release cards (image 300/400/175 tall, date, Ebgaramond title hover cta, light stand-in excerpt).",
+      "scope": "Carried by 1 routes, on templates: ships.",
+      "implementedBy": "Ships.jsx"
+    },
+    "content.solution-cards": {
+      "category": "CONTENT",
+      "description": "Before/after solution block on product pages: head + two cards (dark 'before', light 'after') with images.",
+      "scope": "Carried by 4 routes, on templates: product-feature, product-spyder.",
+      "implementedBy": "SolutionCards.jsx"
+    },
+    "content.split-sections": {
+      "category": "CONTENT",
+      "description": "University SplitSection: alternating image/text rows from the entry's sections (bodies are stand-in).",
+      "scope": "Carried by 2 routes, on templates: university-landing, university-course.",
+      "implementedBy": "SplitSection.jsx"
+    },
+    "content.university-curriculum": {
+      "category": "CONTENT",
+      "description": "Course curriculum: module tab list (instant tabs + 300ms tpl-fade-in pane) with trailer VideoBox placeholder and coming-soon module posters.",
+      "scope": "Carried by 1 routes, on templates: university-course.",
+      "implementedBy": "University.jsx"
+    },
+    "content.work-best": {
+      "category": "CONTENT",
+      "description": "C5 WorkBest: centred head 'The world’s best marketers use Foreplay' + stand-in lead + illustration.",
+      "scope": "Carried by 2 routes, on templates: work-with.",
+      "implementedBy": "WorkWith.jsx"
+    },
+    "conversion.cta-banner": {
+      "category": "CONVERSION",
+      "description": "Product-page trial banner 'Get a 7-Day free trial today' with body, product video and isometric icon.",
+      "scope": "Carried by 5 routes, on templates: product-feature, product-spyder, product-lens.",
+      "implementedBy": "CtaBanner.jsx"
+    },
+    "conversion.cta-final": {
+      "category": "CONVERSION",
+      "description": "Closing call to action 'Ready to ship more winning ads?' with Start free trial + secondary button and the home-cta image. Comparison and industry entries override title, paragraph and the secondary button.",
+      "scope": "Carried by 475 routes, on templates: home, product-feature, product-spyder, pricing, work-with, fireside, experts-index, reviews, blog-index, faq-index, creative-strategist-jobs, fireside-replays, post, expert, faq-item, author, event, agency, video, category, comparison, industry, university-landing, university-course, bounty.",
+      "implementedBy": "CTA.jsx"
+    },
+    "form.embed-application": {
+      "category": "FORM",
+      "description": "C2 application page body: centred head (overline, h1, lead) + NoteForms iframe placeholder (830 / 620 tall). No final CTA.",
+      "scope": "Carried by 2 routes, on templates: application-form.",
+      "implementedBy": "ApplicationPage.jsx"
+    },
+    "form.work-hero": {
+      "category": "FORM",
+      "description": "C5 WorkHero: left overline/title/lead + 3x3 logo grid, right DemoForm (brands/marketers field sets, never submits).",
+      "scope": "Carried by 2 routes, on templates: work-with.",
+      "implementedBy": "WorkWith.jsx"
+    },
+    "hero.blog-top": {
+      "category": "HERO",
+      "description": "S2 title block (.blog-top): h1 display-h4 (28/36 at all widths) + optional body + line. Variants by template: post (excerpt), faq (answer rich text), event (EventMeta), career, bounty (desc, video, detail card, Submit), replays (lead), author (headshot, role, website, bio, socials).",
+      "scope": "Carried by 322 routes, on templates: fireside-replays, post, faq-item, author, event, career, bounty.",
+      "implementedBy": "TitleBlock.jsx"
+    },
+    "hero.booking": {
+      "category": "HERO",
+      "description": "Book-demo hero: overline + h1 + lead, APAC 'Request Call' bar (-> /apac-demo, which redirects to /book-demo), Cal.com scheduler placeholder (480 / 1019 tall) and the logo strip.",
+      "scope": "Carried by 1 routes, on templates: book-demo.",
+      "implementedBy": "BookDemo.jsx"
+    },
+    "hero.centered": {
+      "category": "HERO",
+      "description": "S9 centred hero (.demo-hero / .fireside-hero + .section-head): overline, h1 (display-h2), stand-in paragraph. careers, creative-strategist-jobs, category.",
+      "scope": "Carried by 17 routes, on templates: careers-index, creative-strategist-jobs, category.",
+      "implementedBy": "CenteredHero.jsx"
+    },
+    "hero.comparison": {
+      "category": "HERO",
+      "description": "Comparison entry hero: overline, h1 'Foreplay vs X', stand-in intro (introLen), buttons and a hero video/poster.",
+      "scope": "Carried by 10 routes, on templates: comparison.",
+      "implementedBy": "Comparison.jsx"
+    },
+    "hero.contest": {
+      "category": "HERO",
+      "description": "Contest theme header (.contest wrapper, Circular, gradient heading): contest page (date, prize info, header bg radial fade >=1280) or submission hub (pill, 'Presented By', tips).",
+      "scope": "Carried by 2 routes, on templates: contest, contest-submission.",
+      "implementedBy": "Contest.jsx + ContestSubmission.jsx + contest.jsx"
+    },
+    "hero.demo-video": {
+      "category": "HERO",
+      "description": "Watch-demo: section head, Wistia player placeholder (16:9) and a white message card with a Start Free Trial button.",
+      "scope": "Carried by 1 routes, on templates: watch-demo.",
+      "implementedBy": "WatchDemo.jsx"
+    },
+    "hero.directory": {
+      "category": "HERO",
+      "description": "Agency directory hero (WorkHeroGrid): icon + overline h1, h2 title, lead, empty decorative panel (0 tall <=991).",
+      "scope": "Carried by 1 routes, on templates: agency-directory.",
+      "implementedBy": "AgencyDirectory.jsx"
+    },
+    "hero.expert-profile": {
+      "category": "HERO",
+      "description": "Expert entry hero: breadcrumb inside, headshot, name h1, social icons, role/bio text, 'Access Free Swipe File' CTA and the large board-window card.",
+      "scope": "Carried by 67 routes, on templates: expert.",
+      "implementedBy": "Expert.jsx"
+    },
+    "hero.gradient": {
+      "category": "HERO",
+      "description": "M1 gradient page hero: centred overline + H1-size gradient title (+ optional paragraph), with optional children (FAQ buttons) or an 'after' block (blog featured grid, paid-lp CTA).",
+      "scope": "Carried by 3 routes, on templates: paid-landing, blog-index, faq-index.",
+      "implementedBy": "GradientHero.jsx"
+    },
+    "hero.home": {
+      "category": "HERO",
+      "description": "Homepage hero: gradient h1, lead, Start Free Trial, the 14-logo strip and the full-width product video; the sticky block shrinks on scroll.",
+      "scope": "Carried by 1 routes, on templates: home.",
+      "implementedBy": "Hero.jsx + Home.jsx"
+    },
+    "hero.industry": {
+      "category": "HERO",
+      "description": "Industry entry hero: industry icon, overline, h1, stand-in paragraph (paraLen), Start Free Trial + Book a Demo, and a 20s CSS logo marquee (two copies).",
+      "scope": "Carried by 6 routes, on templates: industry.",
+      "implementedBy": "Industry.jsx"
+    },
+    "hero.jumpstart": {
+      "category": "HERO",
+      "description": "Jumpstart-2026 hero: spaced uppercase kicker, giant '2026' type, countdown stand-in, rotating circle (60s loop) and background video.",
+      "scope": "Carried by 1 routes, on templates: jumpstart.",
+      "implementedBy": "Jumpstart.jsx"
+    },
+    "hero.legal-title": {
+      "category": "HERO",
+      "description": "Legal page title: centred display-h2 h1, padding 75/0.",
+      "scope": "Carried by 5 routes, on templates: legal-page.",
+      "implementedBy": "LegalPage.jsx"
+    },
+    "hero.media-kit": {
+      "category": "HERO",
+      "description": "Media-kit hero only: 200px folder image + h1 + stand-in subline + 'Download all brand assets' (href #).",
+      "scope": "Carried by 1 routes, on templates: media-kit.",
+      "implementedBy": "MediaKit.jsx"
+    },
+    "hero.page": {
+      "category": "HERO",
+      "description": "C1 community PageHero (fireside, bounties, affiliates): optional top media, overline, title (h1 gradient or h2), subtitle, dark-primary CTA, optional children (fireside tabs, bounty characters).",
+      "scope": "Carried by 3 routes, on templates: affiliates, fireside, bounties-index.",
+      "implementedBy": "PageHero.jsx"
+    },
+    "hero.product-content": {
+      "category": "HERO",
+      "description": "Short centred product hero without media (apps-extensions): overline inside, h1, subtitle, one CTA.",
+      "scope": "Carried by 1 routes, on templates: apps-extensions.",
+      "implementedBy": "AppsExtensions.jsx + ProductHero.jsx"
+    },
+    "hero.product-shell": {
+      "category": "HERO",
+      "description": "ProductHeroShell with page-specific sticky content (api: icon, h1 gradient, docs cards, integrations row; mcp: setup tabs for Claude/ChatGPT with copy buttons; mobile-app: phone video + store badges). Same a-71 parallax as hero.product.",
+      "scope": "Carried by 3 routes, on templates: developer-api, developer-mcp, mobile-app.",
+      "implementedBy": "Api.jsx + Mcp.jsx + MobileApp.jsx + ProductHero.jsx"
+    },
+    "hero.product": {
+      "category": "HERO",
+      "description": "Product-page hero (swipe-file, discovery, spyder, briefs, lens): animated product icon, overline, h1, subtitle, Start free trial, then the sticky product screen video that shrinks on scroll (inOutCubic translate).",
+      "scope": "Carried by 5 routes, on templates: product-feature, product-spyder, product-lens.",
+      "implementedBy": "ProductHero.jsx"
+    },
+    "hero.promo": {
+      "category": "HERO",
+      "description": "Pre-black-friday hero: animated gradient stand-in for the Unicorn Studio WebGL scene, Bounties announcement pill, h1, stand-in lead, Claim Offer / View Q4 Pricing.",
+      "scope": "Carried by 1 routes, on templates: pre-black-friday.",
+      "implementedBy": "PreBlackFriday.jsx"
+    },
+    "hero.section-head": {
+      "category": "HERO",
+      "description": "Plain section-head page header (reviews: 'WALL OF LOVE').",
+      "scope": "Carried by 1 routes, on templates: reviews.",
+      "implementedBy": "Reviews.jsx"
+    },
+    "hero.ships": {
+      "category": "HERO",
+      "description": "Ships legacy '2.0' header: helmet icon + 'Foreplay Ships' (Circular, gradient), Ebgaramond 54px title, light stand-in subline, header art.",
+      "scope": "Carried by 1 routes, on templates: ships.",
+      "implementedBy": "Ships.jsx"
+    },
+    "hero.split-video": {
+      "category": "HERO",
+      "description": "Experts index hero: left overline/title/lead + Browse Experts / Become a Expert, right framed background video.",
+      "scope": "Carried by 1 routes, on templates: experts-index.",
+      "implementedBy": "Experts.jsx"
+    },
+    "hero.university": {
+      "category": "HERO",
+      "description": "University hero: landing (/university/classes: logo, heroTitle, tilt course cards over a faded bg) or course (breadcrumb, wordmark, blurb, teacher, email capture form, branding art).",
+      "scope": "Carried by 2 routes, on templates: university-landing, university-course.",
+      "implementedBy": "University.jsx"
+    },
+    "hero.video": {
+      "category": "HERO",
+      "description": "Video entry: S9 demo hero with overline/title/paragraph(110), primary + secondary CTAs from data, and the 16:9 VideoBox placeholder.",
+      "scope": "Carried by 16 routes, on templates: video.",
+      "implementedBy": "Video.jsx"
+    },
+    "interactive.lens-integrations": {
+      "category": "INTERACTIVE",
+      "description": "'INTEGRATIONS' head, two rows of platform logos and instant tabs (Creative Test Analysis / Group Comparison / Trend Analysis) with dashboard mockups.",
+      "scope": "Carried by 1 routes, on templates: product-lens.",
+      "implementedBy": "LensIntegrations.jsx"
+    },
+    "interactive.product-carousel": {
+      "category": "INTERACTIVE",
+      "description": "'USE CASES' slider: section head + slide cards (image, title, text) moved by prev/next arrows (translateX, .8s expo).",
+      "scope": "Carried by 3 routes, on templates: product-feature.",
+      "implementedBy": "ProductCarousel.jsx"
+    },
+    "interactive.product-tabs-5": {
+      "category": "INTERACTIVE",
+      "description": "M2 '5 products in 1' Webflow tabs (fade 100/300): each pane is the homepage ProductCard with ghost 'Book a Demo'; tab order from tabOrder; default from tabsDefault.",
+      "scope": "Carried by 16 routes, on templates: comparison, industry.",
+      "implementedBy": "ProductTabs5.jsx"
+    },
+    "interactive.product-tabs": {
+      "category": "INTERACTIVE",
+      "description": "'CORE FEATURES' fade tabs (100ms out / 300ms in) each showing a feature screenshot, plus the optional Chrome-extension card.",
+      "scope": "Carried by 4 routes, on templates: product-feature, product-spyder.",
+      "implementedBy": "ProductTabs.jsx"
+    },
+    "nav.breadcrumb": {
+      "category": "NAV",
+      "description": "S1 breadcrumb row (padding 40/0, hidden <=479): parent crumb -> current title (ellipsis).",
+      "scope": "Carried by 348 routes, on templates: fireside-replays, post, faq-item, author, event, agency, career, bounty.",
+      "implementedBy": "Breadcrumb.jsx"
+    },
+    "overlay.psa-sticky": {
+      "category": "OVERLAY",
+      "description": "Comparison PSA sticky card (stand-in text, psaTextLen); its close button hides it (display:none).",
+      "scope": "Carried by 10 routes, on templates: comparison.",
+      "implementedBy": "Comparison.jsx"
+    },
+    "pricing.api-credits": {
+      "category": "PRICING",
+      "description": "#api-pricing: section head, 3 credit cards and the Enterprise footer card (api and pre-black-friday).",
+      "scope": "Carried by 2 routes, on templates: developer-api, pre-black-friday.",
+      "implementedBy": "ApiPricing.jsx"
+    },
+    "pricing.compare-table": {
+      "category": "PRICING",
+      "description": "Sticky plan comparison grid: 4 plan columns (Basic, Workflow, Agency -> sign-up; Enterprise -> /book-demo), collapsible categories (instant height, chevron 600ms expo) and tooltips.",
+      "scope": "Carried by 1 routes, on templates: pricing.",
+      "implementedBy": "Comparison.jsx"
+    },
+    "pricing.comparison-pricing": {
+      "category": "PRICING",
+      "description": "Comparison pricing cards: Foreplay vs competitor plan cards (pricing[] from data, stand-in notes).",
+      "scope": "Carried by 10 routes, on templates: comparison.",
+      "implementedBy": "Comparison.jsx"
+    },
+    "pricing.plans": {
+      "category": "PRICING",
+      "description": "Pricing hero + plans: h1 gradient head, Monthly/Annually toggle (instant swap, Annually default), 3 PlanCards with benefit popovers, and the Enterprise card.",
+      "scope": "Carried by 1 routes, on templates: pricing.",
+      "implementedBy": "Pricing.jsx"
+    },
+    "shell.exit-intent-modal": {
+      "category": "SHELL",
+      "description": "Global exit-intent dialog: armed on desktop (>768) once per 7 days / cookie, opens when the pointer leaves the top edge (clientY <= 20).",
+      "scope": "Carried by 506 routes, on templates: home, product-feature, product-spyder, product-lens, developer-api, developer-mcp, mobile-app, paid-landing, apps-extensions, chrome-extension, pricing, pre-black-friday, book-demo, watch-demo, application-form, work-with, agency-directory, affiliates, fireside, bounties-index, experts-index, reviews, contest, contest-submission, blog-index, faq-index, careers-index, creative-strategist-jobs, media-kit, jumpstart, ships, fireside-replays, post, expert, faq-item, author, event, agency, video, category, comparison, industry, legal-page, career, university-landing, university-course, bounty, not-found.",
+      "implementedBy": "App.jsx + ExitIntentModal.jsx"
+    },
+    "shell.footer": {
+      "category": "SHELL",
+      "description": "Global footer (with the floating calendar pop-up inside it): product sprite badges, review badges, link columns (Product, Resources + Compare dropdown, Solutions, Company, Community), an Ad Count snapshot and the legal row. No outbound links; the Ask-AI row and social icons were removed.",
+      "scope": "Carried by 505 routes, on templates: home, product-feature, product-spyder, product-lens, developer-api, developer-mcp, mobile-app, apps-extensions, chrome-extension, pricing, pre-black-friday, book-demo, watch-demo, application-form, work-with, agency-directory, affiliates, fireside, bounties-index, experts-index, reviews, contest, contest-submission, blog-index, faq-index, careers-index, creative-strategist-jobs, media-kit, jumpstart, ships, fireside-replays, post, expert, faq-item, author, event, agency, video, category, comparison, industry, legal-page, career, university-landing, university-course, bounty, not-found.",
+      "implementedBy": "App.jsx + Footer.jsx"
+    },
+    "shell.navbar": {
+      "category": "SHELL",
+      "description": "Global sticky navigation mounted once in App.jsx: brand, Product/Solutions/Resources click dropdowns, Pricing, Book a Demo and a 'Start free trial' CTA. Every href is internal: the clone deliberately has NO outbound navbar links.",
+      "scope": "Carried by 506 routes, on templates: home, product-feature, product-spyder, product-lens, developer-api, developer-mcp, mobile-app, paid-landing, apps-extensions, chrome-extension, pricing, pre-black-friday, book-demo, watch-demo, application-form, work-with, agency-directory, affiliates, fireside, bounties-index, experts-index, reviews, contest, contest-submission, blog-index, faq-index, careers-index, creative-strategist-jobs, media-kit, jumpstart, ships, fireside-replays, post, expert, faq-item, author, event, agency, video, category, comparison, industry, legal-page, career, university-landing, university-course, bounty, not-found.",
+      "implementedBy": "App.jsx + Navbar.jsx"
+    },
+    "social-proof.comparison-reviews": {
+      "category": "SOCIAL-PROOF",
+      "description": "Comparison reviews: head (reviewsOverline/Title + stand-in paragraph) and 2 ReviewCards (Foreplay vs competitor: logo, store ratings, review image, callout).",
+      "scope": "Carried by 10 routes, on templates: comparison.",
+      "implementedBy": "Comparison.jsx"
+    },
+    "social-proof.industry-testimonials": {
+      "category": "SOCIAL-PROOF",
+      "description": "Industry testimonials: SectionHead (testimonialsHead + stand-in) and 3 TestimonialCards (logo, stand-in quote of quoteLen, headshot, name, role, link).",
+      "scope": "Carried by 6 routes, on templates: industry.",
+      "implementedBy": "Industry.jsx"
+    },
+    "social-proof.logo-strip": {
+      "category": "SOCIAL-PROOF",
+      "description": "Stand-alone logo strip section (jumpstart), hidden <=479.",
+      "scope": "Carried by 1 routes, on templates: jumpstart.",
+      "implementedBy": "Jumpstart2026.jsx"
+    },
+    "social-proof.ratings-wall": {
+      "category": "SOCIAL-PROOF",
+      "description": "White social-proof block: 'Loved by brands and agencies globally.' head + 3 rating tiles (G2 4.9, Chrome 4.8, Capterra 4.8) + Senja testimonial-wall placeholder.",
+      "scope": "Carried by 3 routes, on templates: book-demo, work-with.",
+      "implementedBy": "BookDemo.jsx + WorkWith.jsx"
+    },
+    "social-proof.senja-wall": {
+      "category": "SOCIAL-PROOF",
+      "description": "Reviews wall inside a white block: 64 locally generated stand-in testimonial cards (SenjaWall: generic first names + initials, stars, months) - no Senja request.",
+      "scope": "Carried by 1 routes, on templates: reviews.",
+      "implementedBy": "SenjaWall.jsx"
+    }
+  },
+  "templates": [
+    {
+      "id": "template.home",
+      "name": "Home",
+      "purpose": "Convert first-time visitors: workflow promise, before/after proof, the five products, collaboration testimonials, features, trial CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.home",
+        "content.before-after",
+        "content.product-showcase",
+        "content.collaboration",
+        "content.security-grid",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.product-feature",
+      "name": "Product Feature",
+      "purpose": "Explain one product (swipe-file, discovery, briefs): hero, before/after, use-case carousel, core-feature tabs, all features, trial banner, FAQ, CTA.",
+      "routeCount": 3,
+      "routes": [
+        "/briefs",
+        "/discovery",
+        "/swipe-file"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.product",
+        "content.solution-cards",
+        "interactive.product-carousel",
+        "interactive.product-tabs",
+        "content.feature-section",
+        "conversion.cta-banner",
+        "content.faq",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.product-spyder",
+      "name": "Product Spyder",
+      "purpose": "Spyder product page: same as product-feature but the use cases are a 3-card security grid and the tabs use the spyder layout.",
+      "routeCount": 1,
+      "routes": [
+        "/spyder-ad-spy"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.product",
+        "content.solution-cards",
+        "content.security-grid",
+        "interactive.product-tabs",
+        "content.feature-section",
+        "conversion.cta-banner",
+        "content.faq",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.product-lens",
+      "name": "Product Lens",
+      "purpose": "Lens analytics page: hero, solution/graph/reporting white block, integrations, contextual reports + benchmarks, AI metadata, security grid, trial banner (no FAQ, no final CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/lens-creative-analytics"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.product",
+        "content.lens-solution-block",
+        "interactive.lens-integrations",
+        "content.lens-contextual-block",
+        "content.lens-enrichment",
+        "content.security-grid",
+        "conversion.cta-banner",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.developer-api",
+      "name": "Developer Api",
+      "purpose": "API page: shell hero with docs + integrations, API rows, credit pricing, FAQ (no final CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/api"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.product-shell",
+        "content.media-rows",
+        "pricing.api-credits",
+        "content.faq",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.developer-mcp",
+      "name": "Developer Mcp",
+      "purpose": "MCP page: shell hero with setup tabs, capability rows, FAQ (no final CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/mcp"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.product-shell",
+        "content.media-rows",
+        "content.faq",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.mobile-app",
+      "name": "Mobile App",
+      "purpose": "Mobile app page: phone hero + feature stack; ends on a -80px spacer (no CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/mobile-app"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.product-shell",
+        "content.mobile-app-features",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.paid-landing",
+      "name": "Paid Landing",
+      "purpose": "/2026-paid-lp: gradient product hero + mobile-app feature stack and NO footer (App.jsx hideFooterOn).",
+      "routeCount": 1,
+      "routes": [
+        "/2026-paid-lp"
+      ],
+      "routePattern": null,
+      "chrome": "nav-only",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.gradient",
+        "content.mobile-app-features",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.apps-extensions",
+      "name": "Apps Extensions",
+      "purpose": "Companion apps: short centred hero + 3 download cards.",
+      "routeCount": 1,
+      "routes": [
+        "/apps-extensions"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.product-content",
+        "content.security-grid",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.chrome-extension",
+      "name": "Chrome Extension",
+      "purpose": "Legacy chrome-extension install guide (no hero section: h1 lives in the guide).",
+      "routeCount": 1,
+      "routes": [
+        "/chrome-extension"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "content.ce-install-guide",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.pricing",
+      "name": "Pricing",
+      "purpose": "Pricing: plans with billing toggle, comparison grid, FAQ, CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/pricing"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "pricing.plans",
+        "pricing.compare-table",
+        "content.faq",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.pre-black-friday",
+      "name": "Pre Black Friday",
+      "purpose": "Seasonal promo: animated hero, API credit pricing, FAQ (no CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/pre-black-friday"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.promo",
+        "pricing.api-credits",
+        "content.faq",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.book-demo",
+      "name": "Book Demo",
+      "purpose": "Book a demo: booking hero with scheduler placeholder + ratings wall (no CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/book-demo"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.booking",
+        "social-proof.ratings-wall",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.watch-demo",
+      "name": "Watch Demo",
+      "purpose": "Watch the pre-recorded demo (single section page).",
+      "routeCount": 1,
+      "routes": [
+        "/watch-demo"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.demo-video",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.application-form",
+      "name": "Application Form",
+      "purpose": "Experts/fireside application: centred head + NoteForms placeholder; no hero section, no CTA.",
+      "routeCount": 2,
+      "routes": [
+        "/experts-application",
+        "/fireside-application"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "form.embed-application",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.work-with",
+      "name": "Work With",
+      "purpose": "Work with brands/marketers: hero + lead form, best-marketers illustration, loved-by block, CTA.",
+      "routeCount": 2,
+      "routes": [
+        "/work-with-brands",
+        "/work-with-marketers"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "form.work-hero",
+        "content.work-best",
+        "social-proof.ratings-wall",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.agency-directory",
+      "name": "Agency Directory",
+      "purpose": "Agency directory: hero + filterable feed (no CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/agency-directory"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.directory",
+        "content.agency-directory",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.affiliates",
+      "name": "Affiliates",
+      "purpose": "Affiliate program: page hero, 3 image steps, FAQ (no final CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/affiliates"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.page",
+        "content.image-step-cards",
+        "content.faq",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.fireside",
+      "name": "Fireside",
+      "purpose": "Fireside events hub: page hero with tabs, why-attend cards, CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/fireside"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.page",
+        "content.image-step-cards",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.bounties-index",
+      "name": "Bounties Index",
+      "purpose": "Bounties hub: page hero with characters + bounty list (no CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/bounties"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.page",
+        "content.bounty-list",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.experts-index",
+      "name": "Experts Index",
+      "purpose": "Experts hub: split video hero, featured + all experts, CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/experts"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.split-video",
+        "content.experts-directory",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.reviews",
+      "name": "Reviews",
+      "purpose": "Wall of love: section-head header, stand-in review wall, CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/reviews"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.section-head",
+        "social-proof.senja-wall",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.contest",
+      "name": "Contest",
+      "purpose": "Contest (scoped contest theme): header, sponsors, finalists (no CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/contest"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "contest",
+      "sections": [
+        "shell.navbar",
+        "hero.contest",
+        "content.contest-sponsors",
+        "content.contest-finalists",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.contest-submission",
+      "name": "Contest Submission",
+      "purpose": "Contest submission hub (scoped contest theme): header, submission grid, FAQ (no CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/contest-submission"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "contest",
+      "sections": [
+        "shell.navbar",
+        "hero.contest",
+        "content.contest-submission-grid",
+        "content.contest-faq",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.blog-index",
+      "name": "Blog Index",
+      "purpose": "Blog index: gradient hero with featured/popular grid, paginated post grid, CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/blog"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.gradient",
+        "content.post-grid",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.faq-index",
+      "name": "Faq Index",
+      "purpose": "FAQ index: gradient hero with support buttons, 65 accordion rows, CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/faq"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.gradient",
+        "content.faq-list",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.careers-index",
+      "name": "Careers Index",
+      "purpose": "Careers: centred hero + white jobs list (no CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/careers"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.centered",
+        "content.jobs-list",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.creative-strategist-jobs",
+      "name": "Creative Strategist Jobs",
+      "purpose": "Creative strategist job board: centred hero, article grid (66 cards), CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/creative-strategist-jobs"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.centered",
+        "content.post-grid",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.media-kit",
+      "name": "Media Kit",
+      "purpose": "Media kit: hero only, footer follows.",
+      "routeCount": 1,
+      "routes": [
+        "/media-kit"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.media-kit",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.jumpstart",
+      "name": "Jumpstart",
+      "purpose": "Jumpstart 2026 offer: animated hero, logo strip, white offer block (no CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/jumpstart-2026"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.jumpstart",
+        "social-proof.logo-strip",
+        "content.jumpstart-offer",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.ships",
+      "name": "Ships",
+      "purpose": "Ships product updates (scoped legacy theme): header + release grid (no CTA).",
+      "routeCount": 1,
+      "routes": [
+        "/ships"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "ships-legacy",
+      "sections": [
+        "shell.navbar",
+        "hero.ships",
+        "content.ships-grid",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.fireside-replays",
+      "name": "Fireside Replays",
+      "purpose": "All fireside replays: breadcrumb, title block, replay rows, CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/fireside-replays"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "nav.breadcrumb",
+        "hero.blog-top",
+        "content.replay-list",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.post",
+      "name": "Post",
+      "purpose": "Blog post (184 entries): breadcrumb, title + excerpt, article with TOC/trial card, related carousel, author row, CTA.",
+      "routeCount": 182,
+      "routes": null,
+      "routePattern": "/post/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "nav.breadcrumb",
+        "hero.blog-top",
+        "content.article",
+        "content.related-carousel",
+        "content.author-row",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.expert",
+      "name": "Expert",
+      "purpose": "Expert profile (67): profile hero (breadcrumb inside) + more experts + CTA.",
+      "routeCount": 67,
+      "routes": null,
+      "routePattern": "/experts/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.expert-profile",
+        "content.expert-more",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.faq-item",
+      "name": "Faq Item",
+      "purpose": "Single FAQ (65): breadcrumb, question title + answer, CTA.",
+      "routeCount": 65,
+      "routes": null,
+      "routePattern": "/faqs/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "nav.breadcrumb",
+        "hero.blog-top",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.author",
+      "name": "Author",
+      "purpose": "Author profile (43): breadcrumb, profile title block, optional blog grid and replay rows (each rendered only when non-empty), CTA.",
+      "routeCount": 43,
+      "routes": null,
+      "routePattern": "/authors/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "nav.breadcrumb",
+        "hero.blog-top",
+        "content.post-grid",
+        "content.replay-list",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.event",
+      "name": "Event",
+      "purpose": "Fireside event replay (27): breadcrumb, title + meta, video/learn/transcript, more replays aside, CTA.",
+      "routeCount": 27,
+      "routes": null,
+      "routePattern": "/events/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "nav.breadcrumb",
+        "hero.blog-top",
+        "content.event-body",
+        "content.event-more",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.agency",
+      "name": "Agency",
+      "purpose": "Agency profile (26): breadcrumb, tilt profile card + stand-in sections + lead form, CTA (no hero section).",
+      "routeCount": 26,
+      "routes": null,
+      "routePattern": "/agencies/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "nav.breadcrumb",
+        "content.agency-profile",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.video",
+      "name": "Video",
+      "purpose": "Video page (16): demo hero with video placeholder, CTA.",
+      "routeCount": 16,
+      "routes": null,
+      "routePattern": "/videos/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.video",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.category",
+      "name": "Category",
+      "purpose": "Blog category (15): centred hero, topic chips + posts grid, CTA.",
+      "routeCount": 15,
+      "routes": null,
+      "routePattern": "/category/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.centered",
+        "content.post-grid",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.comparison",
+      "name": "Comparison",
+      "purpose": "Foreplay vs competitor (10): hero, reviews, 5-product tabs, pricing, table, features grid, custom CTA, PSA sticky overlay.",
+      "routeCount": 10,
+      "routes": null,
+      "routePattern": "/comparison/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.comparison",
+        "social-proof.comparison-reviews",
+        "interactive.product-tabs-5",
+        "pricing.comparison-pricing",
+        "content.comparison-table",
+        "content.security-grid",
+        "conversion.cta-final",
+        "overlay.psa-sticky",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.industry",
+      "name": "Industry",
+      "purpose": "Industry solution page (6): hero with logo marquee, testimonials, 5-product tabs, ad examples, custom CTA.",
+      "routeCount": 6,
+      "routes": null,
+      "routePattern": "/industries/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.industry",
+        "social-proof.industry-testimonials",
+        "interactive.product-tabs-5",
+        "content.industry-examples",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.legal-page",
+      "name": "Legal Page",
+      "purpose": "Legal page (5): title + full-bleed white rich text (no CTA).",
+      "routeCount": 5,
+      "routes": null,
+      "routePattern": "/page/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.legal-title",
+        "content.legal-richtext",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.career",
+      "name": "Career",
+      "purpose": "Job posting (3): breadcrumb, title, apply + description (no CTA).",
+      "routeCount": 3,
+      "routes": null,
+      "routePattern": "/careers/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "nav.breadcrumb",
+        "hero.blog-top",
+        "content.career-body",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.university-landing",
+      "name": "University Landing",
+      "purpose": "University classes landing (entry template 'landing'): hero with course cards, split sections, CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/university/classes"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.university",
+        "content.split-sections",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.university-course",
+      "name": "University Course",
+      "purpose": "University course (entry template 'course'): course hero, curriculum, split sections, CTA.",
+      "routeCount": 1,
+      "routes": [
+        "/university/psychology-in-advertising"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "hero.university",
+        "content.university-curriculum",
+        "content.split-sections",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.bounty",
+      "name": "Bounty",
+      "purpose": "Bounty detail (1): breadcrumb, title block with video/details, tabs + submit form, CTA.",
+      "routeCount": 1,
+      "routes": null,
+      "routePattern": "/bounties/{slug}",
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "nav.breadcrumb",
+        "hero.blog-top",
+        "content.bounty-detail",
+        "conversion.cta-final",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    },
+    {
+      "id": "template.not-found",
+      "name": "Not Found",
+      "purpose": "Not-found state: rendered for unknown CMS slugs, the two '404' stub posts and the * catch-all.",
+      "routeCount": 2,
+      "routes": [
+        "/post/ai-emotional-analysis-new-ad-details",
+        "/post/restaurant-facebook-ad-examples"
+      ],
+      "routePattern": null,
+      "chrome": "full",
+      "theme": "dark",
+      "sections": [
+        "shell.navbar",
+        "content.not-found",
+        "shell.footer",
+        "shell.exit-intent-modal"
+      ]
+    }
+  ]
+}

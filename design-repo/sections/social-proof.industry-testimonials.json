@@ -1,0 +1,136 @@
+{
+  "id": "social-proof.industry-testimonials",
+  "kind": "section",
+  "category": "social-proof",
+  "purpose": "Industry testimonials: SectionHead (testimonialsHead + stand-in) and 3 TestimonialCards (logo, stand-in quote of quoteLen, headshot, name, role, link).",
+  "measuredFrom": [
+    "src/components/misc/Industry.jsx:105"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 12,
+        "measuredFrom": [
+          "src/data/industries.json:21"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 59,
+        "measuredFrom": [
+          "src/data/industries.json:21"
+        ]
+      },
+      "paragraph": {
+        "type": "string",
+        "required": true,
+        "maxChars": 169,
+        "measuredFrom": [
+          "src/data/industries.json:21"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 169,
+          "upperBoundChars": 169
+        },
+        "standIn": true,
+        "note": "paraLen max 169"
+      },
+      "cards": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "quote": {
+              "type": "string",
+              "required": true,
+              "maxChars": 271,
+              "measuredFrom": [
+                "src/data/industries.json:26"
+              ],
+              "copyBudget": {
+                "generator": "standin",
+                "targetChars": 271,
+                "upperBoundChars": 271
+              },
+              "standIn": true,
+              "note": "stand-in of quoteLen (max 271)"
+            },
+            "name": {
+              "type": "string",
+              "required": true,
+              "maxChars": 16,
+              "measuredFrom": [
+                "src/data/industries.json:26"
+              ],
+              "personIdentity": true
+            },
+            "role": {
+              "type": "string",
+              "required": true,
+              "maxChars": 32,
+              "measuredFrom": [
+                "src/data/industries.json:26"
+              ],
+              "personIdentity": true
+            },
+            "headshot": {
+              "type": "assetRef",
+              "assetRole": "person-portrait",
+              "required": true,
+              "measuredFrom": [
+                "src/data/industries.json:26"
+              ]
+            },
+            "logo": {
+              "type": "assetRef",
+              "assetRole": "customer-logo",
+              "required": true,
+              "measuredFrom": [
+                "src/data/industries.json:26"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/data/industries.json:26"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "cards[].headshot",
+    "cards[].logo"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/misc/Industry.jsx:72"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "industry"
+  ],
+  "usedOnRoutes": [
+    "/industries/:slug"
+  ]
+}

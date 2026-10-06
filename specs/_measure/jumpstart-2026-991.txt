@@ -1,0 +1,142 @@
+URL https://www.foreplay.co/jumpstart-2026 W991 docH 4073 title="Jumpstart 2026 - Scale Your Paid Creative in the New Year" wfpage=696017a7d25b6d2fa41a3e99 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 991x4073] 
+  div.global [0,0 0x0] 
+  div.main [0,72 991x2897] 
+    section#product-hero-section.section.relative [0,72 991x505] 
+      div.container [0,72 991x505] p:0px 32px
+        div.product-hero [32,72 927x505] fx:column p:10px 0px 0px
+          div.jumpstart-circle [96,-223 800x800] 
+            img.jumpstart-circle-image [-66,-384 1123x1123] IMG 69601b8767a0b290f4e1c1f9_jumpstart-circicle-p-1080.webp nat991x991 alt="" lazy 
+            div.div-block-351 [96,-223 800x800] fx:column gap:5%
+              div.jumpstart-text-wrapper [293,149 405x254] fx:column
+                div [460,149 70x70]  @data-animation-type=lottie @data-src=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/ @data-loop=1 @data-direction=1 @data-autoplay=1 @data-is-ix2-target=0 @data-renderer=svg @data-default-duration=0 @data-duration=3.05 @data-loading=eager @wid=11b25f0d-f07b-0fe0-b89a-a748f881ab7f
+                  svg [460,149 70x70] SVG vb=0 0 64 64 fill=rgb(0, 0, 0) color=rgba(255, 255, 255, 0.36) 
+                h1.jumpstart-text [301,219 390x44]  {Inter 30px/44px w600 ls23px c:rgb(255, 255, 255) uppercase ta:center} "JUMPSTART" (1L)
+                h2._2026-text [293,263 405x140]  {Inter 140px/140px w700 ls10px c:rgb(255, 255, 255) ta:center} "2026" (1L)
+              div.jumpstart-countdown-wrapper [336,443 320x134] fx:column gap:24px p:24px 6px 6px r:16px
+                div.text-solid-900 [342,467 308x16] 
+                  div.text-overline [342,467 308x16]  {Inter 12px/16px w550 ls2px c:rgb(9, 10, 14) uppercase ta:center} "SPECIAL PRICING EXPIRES IN" (1L)
+                div.code-embed-2.w-embed.w-script [342,507 308x0] 
+                  div.elfsight-app-f56dee8a-9ff1-494a-a165-20071d344022 [342,507 308x0]  @data-elfsight-app-lazy= @data-miwrid=53a0cd42-1ffa-4888-8571-6424a00243bb
+                    div.es-embed-root [342,507 308x0] 
+                      span [0,0 0x0] gap: p: r:
+                a.button-dark.jumpstart-button-wide.w-inline-block [342,531 308x40] fx:row p:8px r:10px href=#2026-offer
+                  div.button-text-block [437,539 98x24] p:0px 6px
+                    div.text-heading-m [443,539 86x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255) ta:center} "Claim Offer" (1L)
+                  div.button-icon-block.icon-right [530,539 24x24] fx:row
+                    div.icon-medium [530,539 24x24] fx:row
+                      div.svg.w-embed [530,539 24x24] fx:row
+                        svg [530,539 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+    section.section [0,577 991x304] 
+      div.container [0,577 991x304] p:0px 32px
+        div.div-block-355 [32,577 927x304] p:60px 0px 0px
+          div.home-hero-bottom [32,637 927x244] fx:column gap:40px
+            div.text-alpha-100 [32,637 927x16] 
+              div.text-overline [32,637 927x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.68) uppercase ta:center} "POWERING +10,000 SOCIAL AD TEAMS & AGENCIES" (1L)
+            div.home-hero-logo-grid [32,693 927x188] gtc:172.594px 172.594px 172.609px 172.594px 172.609px gap:16px
+              div.home-hero-logo-wrapper [32,693 173x52] fx:column p:12px
+                div.home-hero-logo-image.w-embed [82,705 72x28] fx:row
+                  svg [82,707 72x24] SVG vb=0 0 72 24 fill=none color=rgba(255, 255, 255, 0.84) 
+              div.home-hero-logo-wrapper [221,693 173x52] fx:column p:12px
+                div.home-hero-logo-image.w-embed [275,705 63x28] fx:row
+                  svg [275,709 63x21] SVG vb=0 0 63 21 fill=none color=rgba(255, 255, 255, 0.84) 
+              … +12 more div.home-hero-logo-wrapper (repeat)
+    section.section [0,911 991x2058] 
+      div.section-padding [0,911 991x2058] p:8px
+        div.section-white-block [8,919 975x2042] r:36px
+          div.container.section-container [8,919 975x1994] p:0px 32px
+            div.lens-solution-graph [40,919 911x336] fx:column gap:36px p:80px 0px
+              div.section-head [136,999 720x176] fx:column gap:12px
+                div.section-head-wrapper [136,999 720x176] fx:column gap:12px
+                  div.section-head_subtitle [326,999 339x16] 
+                    div.text-overline.text-solid-400 [326,999 339x16]  {Inter 12px/16px w550 ls2px c:rgb(76, 80, 95) uppercase ta:center} "SCALE CREATIVE VELOCITY WITH FOREPLAY" (1L)
+                  div.section-head_title.title-dark [136,1027 720x88] 
+                    h2.text-display-h3 [136,1027 720x88]  {Inter Display 36px/44px w600 ls-0.26px c:rgb(23, 25, 32) ta:center} "Lock-in your creative workflow in a post-andromeda world" (2L)
+                  div.section-head_paragraph [240,1127 512x48] 
+                    div.text-solid-600 [240,1127 512x48] 
+                      p.text-body-m [240,1127 512x48]  {Inter 16px/24px w400 ls-0.18px c:rgb(36, 38, 46) ta:center} [TEXT 105ch 2L]
+            div.jumpstart-grid [40,1255 911x702] fx:column gap:20px p:0px 0px 48px @data-tabs-name=sharing & presenting @data-tabs=
+              div#w-node-_9c0df507-eba3-bc6c-a668-83d6edb14e94-a41a3e99.jumpstart-bullet-wrapper [40,1625 911x56] fx:column gap:8px
+                div.div-block-353 [40,1625 911x24] fx:row gap:4px
+                  div.icon-medium [40,1625 24x24] fx:row
+                    div.svg.w-embed [40,1625 24x24] fx:row
+                      svg [40,1625 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                  div.text-solid-700 [68,1625 127x24] 
+                    h3.text-label-m [68,1625 127x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "Analyze & Iterate" (1L)
+                div.jumpstart-buttlet-point [40,1657 911x24] fx:column gap:4px
+                  div.text-solid-500 [40,1657 911x24] 
+                    p.text-body-m [40,1657 911x24]  {Inter 16px/24px w400 ls-0.18px c:rgb(52, 54, 66)} [TEXT 79ch 1L]
+              div#w-node-_5e01905e-1f35-4f34-279c-f92c6c5dd943-a41a3e99.jumpstart-bullet-wrapper [40,1701 911x56] fx:column gap:8px
+                div.div-block-353 [40,1701 911x24] fx:row gap:4px
+                  div.icon-medium [40,1701 24x24] fx:row
+                    div.svg.w-embed [40,1701 24x24] fx:row
+                      svg [40,1701 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                  div.text-solid-700 [68,1701 192x24] 
+                    h3.text-label-m [68,1701 192x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "24/7 Competitor Tracking" (1L)
+                div.jumpstart-buttlet-point [40,1733 911x24] fx:column gap:4px
+                  div.text-solid-500 [40,1733 911x24] 
+                    p.text-body-m [40,1733 911x24]  {Inter 16px/24px w400 ls-0.18px c:rgb(52, 54, 66)} [TEXT 72ch 1L]
+              div#w-node-fc3f872b-455f-4129-8cad-a45458d97d3d-a41a3e99.jumpstart-bullet-wrapper [40,1777 911x56] fx:column gap:8px
+                div.div-block-353 [40,1777 911x24] fx:row gap:4px
+                  div.icon-medium [40,1777 24x24] fx:row
+                    div.svg.w-embed [40,1777 24x24] fx:row
+                      svg [40,1777 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                  div.text-solid-700 [68,1777 148x24] 
+                    h3.text-label-m [68,1777 148x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "Unlimited Ad Spend" (1L)
+                div.jumpstart-buttlet-point [40,1809 911x24] fx:column gap:4px
+                  div.text-solid-500 [40,1809 911x24] 
+                    p.text-body-m [40,1809 911x24]  {Inter 16px/24px w400 ls-0.18px c:rgb(52, 54, 66)} [TEXT 87ch 1L]
+              div#w-node-_15b8968c-fb85-698d-8fb8-18d1847ac37e-a41a3e99.jumpstart-bullet-wrapper [40,1853 911x56] fx:column gap:8px
+                div.div-block-353 [40,1853 911x24] fx:row gap:4px
+                  div.icon-medium [40,1853 24x24] fx:row
+                    div.svg.w-embed [40,1853 24x24] fx:row
+                      svg [40,1853 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                  div.text-solid-700 [68,1853 209x24] 
+                    h3.text-label-m [68,1853 209x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "+160M Winning ads dataset" (1L)
+                div.jumpstart-buttlet-point [40,1885 911x24] fx:column gap:4px
+                  div.text-solid-500 [40,1885 911x24] 
+                    p.text-body-m [40,1885 911x24]  {Inter 16px/24px w400 ls-0.18px c:rgb(52, 54, 66)} "Accelerate your creative ideation with unique concepts from 1,000+ industries." (1L)
+              div#w-node-_08c6ca76-58f5-cc58-4e68-b74bd895c49c-a41a3e99.div-block-354 [40,1255 911x350] r:15px
+                a.lightbox-link-13.w-inline-block.w-lightbox [40,1255 911x350]  href=#
+                  div.background-video-11.w-background-video.w-background-video-atom [40,1255 911x350] fx:row @data-poster-url=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4% @data-video-urls=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4% @data-autoplay=true @data-loop=true @data-wf-ignore=true
+                    video#30df5813-7d4b-88b6-4fed-86e0022e0fa0-video [40,1255 911x350] VIDEO src=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4%2F69612b690e2aeb02841afc4f_FOREPLAY_V6_mp4.mp4,https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4%2F69612b690e2aeb02841afc4f_FOREPLAY_V6_webm.webm poster= auto=true loop=true muted=true pinline=true 
+                    div.div-block-356 [471,1405 50x50] fx:row r:100px
+                      div.icon-20.w-embed [486,1420 20x20] 
+                        svg [486,1420 20x20] SVG vb=0 0 20 20 fill=none color=rgb(255, 255, 255) 
+            div#2026-offer.lens-solution-graph [40,1957 911x360] fx:column gap:36px p:80px 0px
+              div.section-head [136,2037 720x200] fx:column gap:12px
+                div.section-head-wrapper [136,2037 720x200] fx:column gap:12px
+                  div.section-head_subtitle [411,2037 168x16] 
+                    div.text-overline.text-solid-400 [411,2037 168x16]  {Inter 12px/16px w550 ls2px c:rgb(76, 80, 95) uppercase ta:center} "THE BEST PRICE EVER" (1L)
+                  div.section-head_title.title-dark [136,2065 720x88] 
+                    h2.text-display-h3 [136,2065 720x88]  {Inter Display 36px/44px w600 ls-0.26px c:rgb(23, 25, 32) ta:center} [TEXT 58ch 2L]
+                  div.section-head_paragraph [240,2165 512x72] 
+                    div.text-solid-600 [240,2165 512x72] 
+                      p.text-body-m [240,2165 512x72]  {Inter 16px/24px w400 ls-0.18px c:rgb(36, 38, 46) ta:center} [TEXT 155ch 3L]
+            div#offer-booking.jumpstart-savings-wrapper [40,2317 911x92] gtc:288.328px 288.328px 288.344px gap:16px p:6px r:15px
+              div.savings-block [47,2324 288x78] fx:column p:24px 6px 6px r:12px
+                div.text-white [143,2348 97x16] 
+                  div.text-overline [143,2348 97x16]  {Inter 12px/16px w550 ls2px c:rgb(255, 255, 255) uppercase} "FOR BRANDS" (1L)
+                div.div-block-358 [53,2364 276x32] fx:row p:8px 10px r:6px
+                  div.text-white [109,2372 165x16] 
+                    div.text-overline [109,2372 165x16]  {Inter 12px/16px w550 ls2px c:rgb(255, 255, 255) uppercase ta:center} "AVG. SAVINGS $1,500" (1L)
+              div.div-block-357 [351,2324 288x78] fx:column gap:6px p:24px 0px 12px
+                div.text-solid-900 [384,2348 222x16] 
+                  div.text-overline [384,2348 222x16]  {Inter 12px/16px w550 ls2px c:rgb(9, 10, 14) uppercase} "SPECIAL PRICING EXPIRES IN" (1L)
+                div.code-embed-2.w-embed.w-script [495,2370 0x0] 
+                  div.elfsight-app-f56dee8a-9ff1-494a-a165-20071d344022 [495,2370 0x0]  @data-elfsight-app-lazy= @data-miwrid=36ad2cc5-a8f3-4df6-90c8-0df78c522f8d
+                    div.es-embed-root [495,2370 0x0] 
+                      span [0,0 0x0] gap: p: r:
+              div.savings-block [656,2324 288x78] fx:column p:24px 6px 6px r:12px
+                div.text-white [744,2348 112x16] 
+                  div.text-overline [744,2348 112x16]  {Inter 12px/16px w550 ls2px c:rgb(255, 255, 255) uppercase} "FOR AGENCIES" (1L)
+                div.div-block-358 [662,2364 276x32] fx:row p:8px 10px r:6px
+                  div.text-white [716,2372 168x16] 
+                    div.text-overline [716,2372 168x16]  {Inter 12px/16px w550 ls2px c:rgb(255, 255, 255) uppercase ta:center} "AVG. SAVINGS $3,200" (1L)
+            div.div-block-359 [40,2433 911x480] 
+              div.demo-embed.w-embed.w-script [40,2433 911x480] 
+                div#my-cal-inline-foreplay-demo-action-plan.cal-inline-container [40,2433 911x480] 
+                  cal-inline.cal-element-embed-light [40,2433 911x480] fx:row @data-theme=light @data-layout=month_view
+                    iframe.cal-embed [40,2433 911x480] IFRAME https://app.cal.com/team/foreplay/foreplay-demo-action-plan/embed?layout=month_view&theme=light&embedType=inline&embed=foreplay-demo-action-plan minh:300px of:clip
+  div#__EAAPS_PORTAL.portal-nest-provider__ElfsightPortalNest-sc-428d64a-0.SSxQl.es-portal-root [0,4073 991x0] 
+  div#__EAAPS_PORTAL.portal-nest-provider__ElfsightPortalNest-sc-428d64a-0.SSxQl.es-portal-root [0,4073 991x0] 

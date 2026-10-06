@@ -1,0 +1,21 @@
+{
+  "id": "divider",
+  "kind": "primitive",
+  "purpose": "1px rule: BlogLine (in-column) or FullLine (full container width), neutral-700.",
+  "measuredFrom": [
+    "src/components/templates/Layout.jsx:27",
+    "src/components/templates/Layout.jsx:30"
+  ],
+  "props": {
+    "variant": {
+      "type": "enum",
+      "values": [
+        "blog",
+        "full"
+      ]
+    }
+  },
+  "tokensUsed": [
+    "semanticColor.border.dark"
+  ]
+}

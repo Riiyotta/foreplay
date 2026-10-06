@@ -1,0 +1,229 @@
+{
+  "version": "1.0.0",
+  "description": "Rhythm/position rules JSON Schema cannot express, enforced on PageSpec node sequences by schema/semantic_validate.py (enforcedBy.check names the real function; extraction/verify_all.py fails if a named check does not exist). Every real template must pass every error rule (proved by the adversarial suite's per-template controls). Overlay sections (overlay.*) are ignored for adjacency/position rules.",
+  "continuousMotionPatterns": [
+    "scroll-parallax-shrink",
+    "physics-logo-rain",
+    "marquee-autoscroll",
+    "css-marquee-loop",
+    "css-rotate-loop",
+    "gradient-glow-loop",
+    "svg-path-draw"
+  ],
+  "motionBudget": 3,
+  "rules": [
+    {
+      "id": "SHELL_NAV_FIRST",
+      "severity": "error",
+      "description": "shell.navbar is the first node of every page.",
+      "measuredFrom": [
+        "src/App.jsx:30"
+      ],
+      "exceptions": [],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_shell_order"
+      }
+    },
+    {
+      "id": "SHELL_TAIL_LAST",
+      "severity": "error",
+      "description": "shell.exit-intent-modal is the last node; shell.footer immediately precedes it on every template except paid-landing, which has no footer.",
+      "measuredFrom": [
+        "src/App.jsx:40-41"
+      ],
+      "exceptions": [
+        {
+          "template": "paid-landing",
+          "reason": "App.jsx hideFooterOn ['/2026-paid-lp']"
+        }
+      ],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_shell_order"
+      }
+    },
+    {
+      "id": "FOOTER_ONLY_ABSENT_ON_PAID_LANDING",
+      "severity": "error",
+      "description": "A page without shell.footer must use the paid-landing template.",
+      "measuredFrom": [
+        "src/App.jsx:19"
+      ],
+      "exceptions": [],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_shell_order"
+      }
+    },
+    {
+      "id": "ONE_HERO",
+      "severity": "error",
+      "description": "Exactly one hero.* section per page, except named hero-less templates (h1 lives in the first content/form section).",
+      "measuredFrom": [
+        "src/pages/ChromeExtension.jsx:85",
+        "src/components/community/ApplicationPage.jsx:8",
+        "src/pages/Pricing.jsx:196"
+      ],
+      "exceptions": [
+        {
+          "template": "chrome-extension",
+          "reason": "h1 inside the legacy install guide"
+        },
+        {
+          "template": "application-form",
+          "reason": "h1 inside form.embed-application"
+        },
+        {
+          "template": "work-with",
+          "reason": "h1 inside form.work-hero"
+        },
+        {
+          "template": "agency",
+          "reason": "h1 (agency name) inside content.agency-profile"
+        },
+        {
+          "template": "not-found",
+          "reason": "h1 inside content.not-found"
+        },
+        {
+          "template": "pricing",
+          "reason": "the PRICING h1 header lives inside pricing.plans (Pricing.jsx renders SectionHead titleAs=h1 inside the plans block)"
+        }
+      ],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_one_hero"
+      }
+    },
+    {
+      "id": "HERO_LEADS",
+      "severity": "error",
+      "description": "The hero (when present) is the first node after shell.navbar, or after nav.breadcrumb.",
+      "measuredFrom": [
+        "src/pages/templates/Post.jsx:71"
+      ],
+      "exceptions": [],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_hero_leads"
+      }
+    },
+    {
+      "id": "CTA_FINAL_BEFORE_FOOTER",
+      "severity": "error",
+      "description": "conversion.cta-final, when present, is the last non-overlay node before the shell tail.",
+      "measuredFrom": [
+        "src/pages/templates/Comparison.jsx:54"
+      ],
+      "exceptions": [
+        {
+          "template": "comparison",
+          "reason": "overlay.psa-sticky sits after the CTA; overlays are ignored for adjacency"
+        }
+      ],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_cta_final"
+      }
+    },
+    {
+      "id": "ONE_PER_PAGE",
+      "severity": "error",
+      "description": "Sections whose contract says onePerPage appear at most once; repeatable sections key on (section, variant).",
+      "measuredFrom": [
+        "src/pages/Home.jsx:14-15"
+      ],
+      "exceptions": [
+        {
+          "template": "home",
+          "reason": "content.product-showcase appears twice with distinct variants (research, analytics)"
+        }
+      ],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_one_per_page"
+      }
+    },
+    {
+      "id": "NO_ADJACENT_SAME_SECTION",
+      "severity": "error",
+      "description": "The same (section, variant) pair never appears twice in a row.",
+      "measuredFrom": [
+        "src/pages/Home.jsx:12-18"
+      ],
+      "exceptions": [],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_no_adjacent_same"
+      }
+    },
+    {
+      "id": "HOME_ROUTE_ONLY",
+      "severity": "error",
+      "description": "Sections marked homeRouteOnly appear only on route '/'.",
+      "measuredFrom": [
+        "src/routes.jsx:19"
+      ],
+      "exceptions": [],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_home_route_only"
+      }
+    },
+    {
+      "id": "THEME_SCOPED",
+      "severity": "error",
+      "description": "Contest/ships sections and surface.contest only appear on templates whose theme matches (contest, ships-legacy).",
+      "measuredFrom": [
+        "src/index.css:309",
+        "src/pages/Ships.jsx:1"
+      ],
+      "exceptions": [],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_theme_scope"
+      }
+    },
+    {
+      "id": "NO_OUTBOUND_SHELL_LINKS",
+      "severity": "error",
+      "description": "Navbar/footer items are internal links only and never include removed items (Sign in, Knowledge Base, Merch, API Docs, Feature Requests, Roadmap, Ask-AI, social icons).",
+      "measuredFrom": [
+        "src/components/Navbar.jsx:31",
+        "src/components/Footer.jsx:12"
+      ],
+      "exceptions": [],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_shell_links"
+      }
+    },
+    {
+      "id": "SHELL_CANONICAL",
+      "severity": "warn",
+      "description": "Navbar/footer items differ from the canonical set recorded from Navbar.jsx/Footer.jsx.",
+      "measuredFrom": [
+        "src/components/Navbar.jsx:165"
+      ],
+      "exceptions": [],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_shell_links"
+      }
+    },
+    {
+      "id": "CONTINUOUS_MOTION_BUDGET",
+      "severity": "warn",
+      "description": "At most 3 continuous/scroll-linked motion patterns per page (parallax, physics, marquees, loops, path draw).",
+      "measuredFrom": [
+        "CLONE_SPEC.md:610"
+      ],
+      "exceptions": [],
+      "enforcedBy": {
+        "file": "schema/semantic_validate.py",
+        "check": "check_motion_budget"
+      }
+    }
+  ]
+}

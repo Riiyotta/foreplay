@@ -1,0 +1,88 @@
+{
+  "id": "content.legal-richtext",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Full-bleed white block (no 8px inset) with plain legal rich text (misc-legal-rt) built by blocksFrom(structure, bodyLen) with 'see here' stand-in links.",
+  "measuredFrom": [
+    "src/pages/templates/LegalPage.jsx:45"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "blocks": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 400,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "block": {
+              "type": "enum",
+              "required": true,
+              "values": [
+                "p",
+                "h2",
+                "h3",
+                "h4",
+                "ul",
+                "ol"
+              ],
+              "measuredFrom": [
+                "src/pages/templates/LegalPage.jsx:14"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "required": false,
+              "maxChars": 1200,
+              "measuredFrom": [
+                "src/components/misc/copy.js:18"
+              ],
+              "standIn": true
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/data/page.json:7"
+        ]
+      },
+      "bodyChars": {
+        "type": "integer",
+        "required": true,
+        "minimum": 1,
+        "measuredFrom": [
+          "src/data/page.json:6"
+        ],
+        "maximum": 18583
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/LegalPage.jsx:41"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [
+    "component.richText.legal"
+  ],
+  "usedOnTemplates": [
+    "legal-page"
+  ],
+  "usedOnRoutes": [
+    "/page/:slug"
+  ]
+}

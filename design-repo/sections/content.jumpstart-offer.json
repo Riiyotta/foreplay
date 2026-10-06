@@ -1,0 +1,74 @@
+{
+  "id": "content.jumpstart-offer",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Jumpstart white offer block: velocity head, bullet list, video card, savings rows, offer head, countdown card.",
+  "measuredFrom": [
+    "src/components/misc/Jumpstart.jsx:142"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "velocityBody": {
+        "type": "string",
+        "required": true,
+        "maxChars": 105,
+        "measuredFrom": [
+          "src/components/misc/Jumpstart.jsx:148"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 105,
+          "upperBoundChars": 105
+        },
+        "standIn": true
+      },
+      "offerBody": {
+        "type": "string",
+        "required": true,
+        "maxChars": 155,
+        "measuredFrom": [
+          "src/components/misc/Jumpstart.jsx:161"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 155,
+          "upperBoundChars": 155
+        },
+        "standIn": true
+      },
+      "expiresLabel": {
+        "type": "string",
+        "required": true,
+        "maxChars": 28,
+        "measuredFrom": [
+          "src/components/misc/Jumpstart.jsx:26"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/misc/Jumpstart.jsx:142"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "jumpstart"
+  ],
+  "usedOnRoutes": [
+    "/jumpstart-2026"
+  ]
+}

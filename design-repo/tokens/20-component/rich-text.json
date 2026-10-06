@@ -1,0 +1,22 @@
+{
+  "$description": "Component-scoped values for richText.",
+  "category": "component",
+  "richText": {
+    "post": {
+      "value": ".tpl-rtb.is-post: p 0 0 16, h2 28/36 margin 40 0 16, underline links offset 3",
+      "measuredFrom": "src/index.css:233"
+    },
+    "base": {
+      "value": ".tpl-rtb: rgba(255,255,255,.84) 16/24, headings Inter Display 700",
+      "measuredFrom": "src/index.css:186-190"
+    },
+    "legal": {
+      "value": ".misc-legal-rt on white: #171920, h2 700 32/38.4",
+      "measuredFrom": "src/index.css:404"
+    },
+    "faq": {
+      "value": ".misc-faq-rt answer links #fff 500",
+      "measuredFrom": "src/index.css:415"
+    }
+  }
+}

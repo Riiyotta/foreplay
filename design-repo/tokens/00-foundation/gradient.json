@@ -1,0 +1,206 @@
+{
+  "$description": "Gradient and image-fill tokens: theme.extend.backgroundImage plus the text-clip / mask classes defined in src/index.css. Three entries (macbook-sync*, mobile-video-sm, mobile-thumb) embed page asset URLs and belong to /mobile-app only.",
+  "category": "gradient",
+  "gradient": {
+    "hero-title-gradient": {
+      "value": "radial-gradient(circle at 50% -100%, #fff, #ffffffe0)",
+      "type": "gradient",
+      "utility": "bg-hero-title-gradient",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:232"
+    },
+    "hero-overlay": {
+      "value": "linear-gradient(0deg, #020308 10%, #02030800)",
+      "type": "gradient",
+      "utility": "bg-hero-overlay",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:233"
+    },
+    "video-overlay": {
+      "value": "linear-gradient(0deg, #020308, #02030800)",
+      "type": "gradient",
+      "utility": "bg-video-overlay",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:234"
+    },
+    "ray": {
+      "value": "linear-gradient(270deg, #ffffff1f, #fff0)",
+      "type": "gradient",
+      "utility": "bg-ray",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:235"
+    },
+    "fader-light": {
+      "value": "linear-gradient(90deg, #fff, #fff0)",
+      "type": "gradient",
+      "utility": "bg-fader-light",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:236"
+    },
+    "glow-swipe": {
+      "value": "linear-gradient(#1f69ff00, #1f69ff 70%)",
+      "type": "gradient",
+      "utility": "bg-glow-swipe",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:237"
+    },
+    "glow-discovery": {
+      "value": "linear-gradient(#7540b700, #7540b7 70%)",
+      "type": "gradient",
+      "utility": "bg-glow-discovery",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:238"
+    },
+    "glow-spyder": {
+      "value": "linear-gradient(#ed615a00, #ed615a 70%)",
+      "type": "gradient",
+      "utility": "bg-glow-spyder",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:239"
+    },
+    "glow-briefs": {
+      "value": "linear-gradient(#00a87900, #00a879 70%)",
+      "type": "gradient",
+      "utility": "bg-glow-briefs",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:240"
+    },
+    "glow-lens": {
+      "value": "linear-gradient(#e77e6e00, #e77e6e4d 12%, #e9d46899 31%, #73d3c3bf 52%, #5d78e4 70%)",
+      "type": "gradient",
+      "utility": "bg-glow-lens",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:241"
+    },
+    "hero-underlay": {
+      "value": "linear-gradient(0deg, #020308 75%, #02030800)",
+      "type": "gradient",
+      "utility": "bg-hero-underlay",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:242"
+    },
+    "ray-dark": {
+      "value": "linear-gradient(270deg, #ffffff1f, #fff0)",
+      "type": "gradient",
+      "utility": "bg-ray-dark",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:243"
+    },
+    "fader-dark": {
+      "value": "linear-gradient(90deg, #020308, #02030800)",
+      "type": "gradient",
+      "utility": "bg-fader-dark",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:244"
+    },
+    "overlay-line": {
+      "value": "linear-gradient(#fff0, #ffffff3d 25%, #fff0 50%, #ffffff3d 75%, #fff0)",
+      "type": "gradient",
+      "utility": "bg-overlay-line",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:245"
+    },
+    "tooltip-ring": {
+      "value": "linear-gradient(#e77f6e, #ffc852 20%, #d2e382 40%, #7cddb5 60%, #5dbce5 80%, #5d8fe5)",
+      "type": "gradient",
+      "utility": "bg-tooltip-ring",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:246"
+    },
+    "rainbow-45": {
+      "value": "linear-gradient(45deg, #e77f6e, #ffc852 17%, #d2e382 36%, #7cddb5 59%, #5dbce5 87%, #5d78e5)",
+      "type": "gradient",
+      "utility": "bg-rainbow-45",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:247"
+    },
+    "rainbow-90": {
+      "value": "linear-gradient(90deg, #e77f6e, #ffc852 20%, #d2e382 43%, #7cddb5 64%, #5dbce5 84%, #5d78e5)",
+      "type": "gradient",
+      "utility": "bg-rainbow-90",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:248"
+    },
+    "graph-fade": {
+      "value": "linear-gradient(#21222680, #212226)",
+      "type": "gradient",
+      "utility": "bg-graph-fade",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:249"
+    },
+    "segment-fade": {
+      "value": "linear-gradient(#02030800, #020308cc)",
+      "type": "gradient",
+      "utility": "bg-segment-fade",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:250"
+    },
+    "macbook-sync": {
+      "value": "linear-gradient(#0000 29%, #000 87%), url(\"/assets/pages/mobile-app/652990f6bb35ac50f4d5d65f_MACBOOK-SYNC.avif\")",
+      "type": "gradient",
+      "utility": "bg-macbook-sync",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:251"
+    },
+    "macbook-sync-md": {
+      "value": "linear-gradient(#0000 15%, #000 52%), url(\"/assets/pages/mobile-app/652990f6bb35ac50f4d5d65f_MACBOOK-SYNC.avif\")",
+      "type": "gradient",
+      "utility": "bg-macbook-sync-md",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:252"
+    },
+    "macbook-sync-sm": {
+      "value": "linear-gradient(#0000 23%, #000 46%), url(\"/assets/pages/mobile-app/652990f6bb35ac50f4d5d65f_MACBOOK-SYNC.avif\")",
+      "type": "gradient",
+      "utility": "bg-macbook-sync-sm",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:253"
+    },
+    "mobile-video-sm": {
+      "value": "url(\"/assets/pages/mobile-app/64358e78515265dc29237a9e_After%20Foreplay%20graphic.webp\"), linear-gradient(#000, #000)",
+      "type": "gradient",
+      "utility": "bg-mobile-video-sm",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:254"
+    },
+    "mobile-thumb": {
+      "value": "url(\"/assets/pages/mobile-app/653fd278493eeb4f1702fd75_Mobile-App-Thumbnail-Website.avif\")",
+      "type": "gradient",
+      "utility": "bg-mobile-thumb",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:255"
+    }
+  },
+  "cssGradient": {
+    "hero-title-fill": {
+      "value": "radial-gradient(circle at 50% -100%, #fff, #ffffffe0) clipped to text",
+      "type": "gradient",
+      "cssClass": ".hero-title-fill",
+      "measuredFrom": "src/index.css:70-75"
+    },
+    "contest-gradient": {
+      "value": "linear-gradient(#fff, #b5d2ff) clipped to text, fallback #bed8ff",
+      "type": "gradient",
+      "cssClass": ".contest-gradient",
+      "measuredFrom": "src/index.css:315-321"
+    },
+    "ships-name": {
+      "value": "linear-gradient(#fff, rgba(255,255,255,.55)) clipped to text",
+      "type": "gradient",
+      "cssClass": ".misc-ships-name",
+      "measuredFrom": "src/index.css:364-369"
+    },
+    "ships-title": {
+      "value": "#fff linear-gradient(#fff 48%, rgba(0,0,0,.34)) clipped to text",
+      "type": "gradient",
+      "cssClass": ".misc-ships-title",
+      "measuredFrom": "src/index.css:370-375"
+    },
+    "dot-bg-mask": {
+      "value": "mask linear-gradient(#0000 0%, #000 20%, #000 75%, #0000 100%); <=767 30% instead of 20%",
+      "type": "mask",
+      "cssClass": ".dot-bg-mask",
+      "measuredFrom": "src/index.css:58-61"
+    }
+  }
+}

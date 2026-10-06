@@ -1,0 +1,128 @@
+{
+  "id": "content.experts-directory",
+  "kind": "section",
+  "category": "content",
+  "purpose": "C7 experts white block: 'Featured Experts' head + 3 board cards, 'More Experts' h2 + 2-col row cards (all 67 experts).",
+  "measuredFrom": [
+    "src/pages/Experts.jsx:55"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 16,
+        "measuredFrom": [
+          "src/pages/Experts.jsx:64"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 142,
+        "measuredFrom": [
+          "src/pages/Experts.jsx:65"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 130,
+          "upperBoundChars": 142
+        },
+        "standIn": true
+      },
+      "featured": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "name": {
+              "type": "string",
+              "required": true,
+              "maxChars": 21,
+              "measuredFrom": [
+                "src/data/experts.json:5"
+              ],
+              "personIdentity": true
+            },
+            "role": {
+              "type": "string",
+              "required": true,
+              "maxChars": 35,
+              "measuredFrom": [
+                "src/components/community/data.js:31"
+              ],
+              "personIdentity": true
+            },
+            "portrait": {
+              "type": "assetRef",
+              "assetRole": "person-portrait",
+              "required": true,
+              "measuredFrom": [
+                "src/data/experts.json:7"
+              ]
+            },
+            "board": {
+              "type": "assetRef",
+              "assetRole": "product-screenshot",
+              "required": true,
+              "measuredFrom": [
+                "src/data/experts.json:8"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/community/data.js:48"
+        ]
+      },
+      "moreTitle": {
+        "type": "string",
+        "required": true,
+        "maxChars": 12,
+        "measuredFrom": [
+          "src/pages/Experts.jsx:76"
+        ]
+      },
+      "moreCount": {
+        "type": "integer",
+        "required": true,
+        "minimum": 1,
+        "measuredFrom": [
+          "src/components/community/data.js:54"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "featured[].portrait",
+    "featured[].board"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/community/Experts.jsx:41"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "experts-index"
+  ],
+  "usedOnRoutes": [
+    "/experts"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "$description": "Recurring vertical rhythm values (all as implemented in shared layout components).",
+  "category": "layout",
+  "sectionRhythm": {
+    "productPagePaddingY": {
+      "value": {
+        "base": "108px",
+        "max-lg": "96px",
+        "max-md": "80px"
+      },
+      "measuredFrom": "src/components/shared/Layout.jsx:39"
+    },
+    "contentMain": {
+      "value": {
+        "base": "48px",
+        "max-sm": "40px"
+      },
+      "measuredFrom": "src/components/shared/Layout.jsx:48"
+    },
+    "negativeSpacingBottom": {
+      "value": "-80px",
+      "measuredFrom": "src/components/shared/Layout.jsx:56"
+    },
+    "ctaTop": {
+      "value": {
+        "base": "108px",
+        "max-sm": "80px"
+      },
+      "measuredFrom": "src/components/CTA.jsx:13"
+    },
+    "featuresY": {
+      "value": {
+        "base": "108px",
+        "max-sm": "80px"
+      },
+      "measuredFrom": "src/components/Features.jsx:42"
+    },
+    "whiteBlockSectionY": {
+      "value": {
+        "base": "80px",
+        "max-sm": "48px"
+      },
+      "measuredFrom": "src/components/BeforeAfter.jsx:37"
+    },
+    "productSectionTop": {
+      "value": "128px (pt-32), bottom 40px",
+      "measuredFrom": "src/components/ProductSections.jsx:227"
+    },
+    "demoHeroY": {
+      "value": {
+        "base": "120px",
+        "max-md": "80px",
+        "max-sm": "40px"
+      },
+      "measuredFrom": "src/pages/WatchDemo.jsx:11"
+    },
+    "blogFeedBottom": {
+      "value": "120px",
+      "measuredFrom": "src/pages/Blog.jsx:42"
+    },
+    "footerTop": {
+      "value": {
+        "base": "mt 40 + py 40",
+        "max-lg": "pt 120",
+        "max-md": "pt 96"
+      },
+      "measuredFrom": "src/components/Footer.jsx:152"
+    }
+  }
+}

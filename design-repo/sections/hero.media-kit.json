@@ -1,0 +1,120 @@
+{
+  "id": "hero.media-kit",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Media-kit hero only: 200px folder image + h1 + stand-in subline + 'Download all brand assets' (href #).",
+  "measuredFrom": [
+    "src/pages/MediaKit.jsx:8"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 9,
+        "measuredFrom": [
+          "src/pages/MediaKit.jsx:25"
+        ]
+      },
+      "subline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 84,
+        "measuredFrom": [
+          "src/pages/MediaKit.jsx:28"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 84,
+          "upperBoundChars": 84
+        },
+        "standIn": true
+      },
+      "cta": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 28,
+            "measuredFrom": [
+              "src/pages/MediaKit.jsx:33"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/pages/MediaKit.jsx:33"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/pages/MediaKit.jsx:33"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/pages/MediaKit.jsx:33"
+        ]
+      },
+      "image": {
+        "type": "assetRef",
+        "assetRole": "brand-mark",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/MediaKit.jsx:17"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "image"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/MediaKit.jsx:8"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "all",
+        "change": "header stays a row at every width (as measured live)",
+        "measuredFrom": [
+          "src/pages/MediaKit.jsx:14"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "media-kit"
+  ],
+  "usedOnRoutes": [
+    "/media-kit"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$description": "Icon box sizes, from the most-used Tailwind size-* utilities on icon elements (counts are utility occurrences in src/**/*.jsx).",
+  "category": "iconSize",
+  "iconSize": {
+    "5": {
+      "value": "20px",
+      "utility": "size-5",
+      "utilityUsage": 51,
+      "role": "icon-20: nav chevrons, menu icons, tags",
+      "measuredFrom": "src/components/Navbar.jsx:45"
+    },
+    "6": {
+      "value": "24px",
+      "utility": "size-6",
+      "utilityUsage": 49,
+      "role": "icon-24: button chevron box (.icon-medium), card head icons, FAQ ghost-button icons",
+      "measuredFrom": "src/components/shared.jsx:39"
+    },
+    "7": {
+      "value": "28px",
+      "utility": "size-7",
+      "utilityUsage": 15,
+      "role": "icon-28: social icons, bounty amount",
+      "measuredFrom": "src/pages/Bounties.jsx:36"
+    },
+    "10": {
+      "value": "40px",
+      "utility": "size-10",
+      "utilityUsage": 10,
+      "role": "40px brand/rating icons, comparison tab icons",
+      "measuredFrom": "src/pages/BookDemo.jsx:88"
+    },
+    "11": {
+      "value": "44px",
+      "utility": "size-11",
+      "utilityUsage": 6,
+      "role": "44px footer product sprites, api integrations",
+      "measuredFrom": "src/components/Footer.jsx:26"
+    },
+    "50px": {
+      "value": "50px",
+      "utility": "size-[50px]",
+      "utilityUsage": 11,
+      "role": "50px play bubble",
+      "measuredFrom": "src/components/Navbar.jsx:223"
+    }
+  }
+}

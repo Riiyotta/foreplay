@@ -1,0 +1,81 @@
+{
+  "id": "content.related-carousel",
+  "kind": "section",
+  "category": "content",
+  "purpose": "S5 related posts carousel (track transform .6s expo, snap-x) with BlogCarouselCards (up to 5 related posts).",
+  "measuredFrom": [
+    "src/components/templates/RelatedCarousel.jsx:62"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "posts": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 5,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 104,
+              "measuredFrom": [
+                "src/data/post.json:5"
+              ]
+            },
+            "cover": {
+              "type": "assetRef",
+              "assetRole": "editorial-image",
+              "required": true,
+              "measuredFrom": [
+                "src/data/post.json:10"
+              ]
+            },
+            "href": {
+              "type": "route",
+              "required": true,
+              "measuredFrom": [
+                "src/components/templates/RelatedCarousel.jsx:62"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/templates/data.js:29"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "posts[].cover"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "carousel-slide",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/templates/RelatedCarousel.jsx:102"
+    ],
+    "durationMs": 600,
+    "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "post"
+  ],
+  "usedOnRoutes": [
+    "/post/:slug"
+  ]
+}

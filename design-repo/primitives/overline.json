@@ -1,0 +1,18 @@
+{
+  "id": "overline",
+  "kind": "primitive",
+  "purpose": "Uppercase 12/16 label with 2px tracking above titles.",
+  "measuredFrom": [
+    "src/components/shared.jsx:229"
+  ],
+  "props": {
+    "children": {
+      "type": "string",
+      "maxChars": 48
+    }
+  },
+  "tokensUsed": [
+    "fontSize.overline",
+    "semanticColor.text.muted"
+  ]
+}

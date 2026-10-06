@@ -1,0 +1,17 @@
+{
+  "id": "credit-card",
+  "kind": "component",
+  "purpose": "API credit pricing card (credits + price).",
+  "measuredFrom": [
+    "src/components/shared/ApiPricing.jsx:16"
+  ],
+  "props": {
+    "credits": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    }
+  },
+  "tokensUsed": []
+}

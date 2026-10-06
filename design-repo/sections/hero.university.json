@@ -1,0 +1,135 @@
+{
+  "id": "hero.university",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "University hero: landing (/university/classes: logo, heroTitle, tilt course cards over a faded bg) or course (breadcrumb, wordmark, blurb, teacher, email capture form, branding art).",
+  "measuredFrom": [
+    "src/pages/templates/University.jsx:69",
+    "src/pages/templates/University.jsx:182"
+  ],
+  "variants": [
+    {
+      "name": "landing",
+      "description": "template field 'landing'",
+      "measuredFrom": [
+        "src/pages/templates/University.jsx:28"
+      ]
+    },
+    {
+      "name": "course",
+      "description": "template field 'course'",
+      "measuredFrom": [
+        "src/pages/templates/University.jsx:110"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 60,
+        "measuredFrom": [
+          "src/data/university.json:6"
+        ]
+      },
+      "blurb": {
+        "type": "string",
+        "required": false,
+        "maxChars": 301,
+        "measuredFrom": [
+          "src/pages/templates/University.jsx:200"
+        ],
+        "copyBudget": {
+          "generator": "paragraph",
+          "targetChars": 230,
+          "upperBoundChars": 301
+        },
+        "standIn": true
+      },
+      "courses": {
+        "type": "array",
+        "required": false,
+        "minItems": 1,
+        "maxItems": 5,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "href": {
+              "type": "route-or-url",
+              "required": false,
+              "measuredFrom": [
+                "src/data/university.json:8"
+              ]
+            },
+            "comingSoon": {
+              "type": "boolean",
+              "required": false,
+              "measuredFrom": [
+                "src/data/university.json:8"
+              ]
+            },
+            "wordmark": {
+              "type": "assetRef",
+              "assetRole": "brand-mark",
+              "required": false,
+              "measuredFrom": [
+                "src/data/university.json:8"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/data/university.json:8"
+        ],
+        "note": "landing only: 5 course tilt cards (href, comingSoon, wordmark); courses have no title field"
+      },
+      "teacher": {
+        "type": "string",
+        "required": false,
+        "maxChars": 30,
+        "measuredFrom": [
+          "src/pages/templates/University.jsx:205"
+        ],
+        "personIdentity": true
+      },
+      "emailForm": {
+        "type": "boolean",
+        "required": false,
+        "measuredFrom": [
+          "src/pages/templates/University.jsx:214"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "tilt-3d",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/templates/useTilt.js:32"
+    ],
+    "minViewportPx": 992,
+    "trigger": "hover"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "university-course",
+    "university-landing"
+  ],
+  "usedOnRoutes": [
+    "/university/classes",
+    "/university/psychology-in-advertising"
+  ]
+}

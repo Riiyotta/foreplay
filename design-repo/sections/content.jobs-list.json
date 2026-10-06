@@ -1,0 +1,84 @@
+{
+  "id": "content.jobs-list",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Careers white block: JobsList rows (title, type, location, link) in live page order.",
+  "measuredFrom": [
+    "src/components/misc/JobsList.jsx:5"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "jobs": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 10,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 31,
+              "measuredFrom": [
+                "src/data/careers.json:4"
+              ]
+            },
+            "type": {
+              "type": "string",
+              "required": true,
+              "maxChars": 9,
+              "measuredFrom": [
+                "src/data/careers.json:6"
+              ]
+            },
+            "location": {
+              "type": "string",
+              "required": true,
+              "maxChars": 6,
+              "measuredFrom": [
+                "src/data/careers.json:7"
+              ]
+            },
+            "href": {
+              "type": "route",
+              "required": true,
+              "measuredFrom": [
+                "src/components/misc/JobsList.jsx:5"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Careers.jsx:9"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/misc/JobsList.jsx:5"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "careers-index"
+  ],
+  "usedOnRoutes": [
+    "/careers"
+  ]
+}

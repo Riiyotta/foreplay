@@ -1,0 +1,23 @@
+{
+  "$description": "Component-scoped values for footer.",
+  "category": "component",
+  "footer": {
+    "containerMax": {
+      "value": "1216px",
+      "measuredFrom": "src/components/Footer.jsx:154"
+    },
+    "badgeText": {
+      "value": "{color.footer-badge}",
+      "measuredFrom": "src/components/Footer.jsx:23"
+    },
+    "linkColor": {
+      "value": "{color.neutral.100}",
+      "hover": "{color.neutral.0}",
+      "measuredFrom": "src/components/Footer.jsx:41"
+    },
+    "divider": {
+      "value": "{semanticColor.border.divider}",
+      "measuredFrom": "src/components/Footer.jsx:166"
+    }
+  }
+}

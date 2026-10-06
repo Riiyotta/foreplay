@@ -1,0 +1,20 @@
+URL https://www.foreplay.co/page/api-bounty-terms-of-service W1440 docH 2690 title="API Bounty Terms of Service | Foreplay" wfpage=647668309e49d3c3f7a7652e bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 1440x2690] minh:100% bg:rgb(2, 3, 8) of:clip visible
+  div.global [0,0 0x0] pos:fixed t0px r1440px b900px l0px of:clip
+  div.section.overflow-hidden [0,72 1440x204] of:hidden
+    div.container.section-container [48,72 1344x204] p:0px 40px m:0px 48px maxw:1344px
+      div.pages-title [88,72 1264x204] d:flex fx:column/normal/normal gap:80px p:75px 0px
+        div.section-head [360,147 720x54] d:flex fx:column/center/flex-start gap:12px m:0px 272px maxw:720px
+          div.section-head_title [441,147 558x54] 
+            h1.text-display-h2 [441,147 558x54]  {Inter Display 44px/53.76px w600 ls-0.33px c:rgb(255, 255, 255) ta:center} "API Bounty Terms of Service" (1L)
+  div.section-white-block [0,276 1440x1482] bg:rgb(255, 255, 255) r:36px pos:relative of:hidden z:2
+    div.container [0,276 1440x1482] p:0px 40px maxw:1440px
+      div.v-padding-50 [40,276 1360x50] p:25px 0px
+      div.rich-text.w-richtext [40,326 1360x1382] 
+        p [40,326 1360x24]  {Inter 16px/24px w400 ls-0.18px c:rgb(23, 25, 32)} "General:" (1L)
+        ol [40,350 1360x1324] p:0px 0px 0px 40px m:0px 0px 10px of:hidden @role=list
+          li [80,350 1320x24] d:list-item {Inter 16px/24px w400 ls-0.18px c:rgb(23, 25, 32)} [TEXT 104ch 1L]
+          li [80,374 1320x48] d:list-item {Inter 16px/24px w400 ls-0.18px c:rgb(23, 25, 32)} [TEXT 197ch 2L]
+          … +9 more li (repeat)
+        p [40,1684 1360x24]  {Inter 16px/24px w400 ls-0.18px c:rgb(23, 25, 32)} "‍" (1L)
+      div.v-padding-50 [40,1708 1360x50] p:25px 0px

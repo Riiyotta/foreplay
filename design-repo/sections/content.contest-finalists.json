@@ -1,0 +1,144 @@
+{
+  "id": "content.contest-finalists",
+  "kind": "section",
+  "category": "content",
+  "purpose": "'Watch the Finalist Submissions': prize groups (PrizeBlock) each with 3-col FinalistCards (video thumb + play, brand row, creator, LinkedIn) opening an embed lightbox placeholder.",
+  "measuredFrom": [
+    "src/pages/Contest.jsx:205"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 32,
+        "measuredFrom": [
+          "src/pages/Contest.jsx:210"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 165,
+        "measuredFrom": [
+          "src/pages/Contest.jsx:211"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 153,
+          "upperBoundChars": 165
+        },
+        "standIn": true
+      },
+      "groups": {
+        "type": "array",
+        "required": true,
+        "minItems": 6,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 36,
+              "measuredFrom": [
+                "src/pages/Contest.jsx:22"
+              ]
+            },
+            "amount": {
+              "type": "string",
+              "required": true,
+              "maxChars": 12,
+              "measuredFrom": [
+                "src/pages/Contest.jsx:22"
+              ]
+            },
+            "type": {
+              "type": "string",
+              "required": true,
+              "maxChars": 19,
+              "measuredFrom": [
+                "src/pages/Contest.jsx:96"
+              ]
+            },
+            "cards": {
+              "type": "array",
+              "required": true,
+              "minItems": 1,
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "required": true,
+                "fields": {
+                  "brand": {
+                    "type": "string",
+                    "required": true,
+                    "maxChars": 14,
+                    "measuredFrom": [
+                      "src/pages/Contest.jsx:113"
+                    ],
+                    "note": "brand names come from thumbnail file names; submitter names/roles are stand-ins"
+                  },
+                  "thumb": {
+                    "type": "assetRef",
+                    "assetRole": "editorial-image",
+                    "required": true,
+                    "measuredFrom": [
+                      "src/pages/Contest.jsx:113"
+                    ]
+                  },
+                  "avatar": {
+                    "type": "assetRef",
+                    "assetRole": "person-portrait",
+                    "required": true,
+                    "measuredFrom": [
+                      "src/pages/Contest.jsx:93"
+                    ]
+                  }
+                }
+              },
+              "measuredFrom": [
+                "src/pages/Contest.jsx:217"
+              ],
+              "note": "observed 6/3/3/6/3/1 finalists per group"
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Contest.jsx:20"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "groups[].cards[].thumb",
+    "groups[].cards[].avatar"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "theme": "contest"
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/Contest.jsx:205"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.contest",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "contest"
+  ],
+  "usedOnRoutes": [
+    "/contest"
+  ]
+}

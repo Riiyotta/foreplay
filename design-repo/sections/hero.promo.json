@@ -1,0 +1,152 @@
+{
+  "id": "hero.promo",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Pre-black-friday hero: animated gradient stand-in for the Unicorn Studio WebGL scene, Bounties announcement pill, h1, stand-in lead, Claim Offer / View Q4 Pricing.",
+  "measuredFrom": [
+    "src/pages/PreBlackFriday.jsx:40"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "announcement": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 10,
+            "measuredFrom": [
+              "src/pages/PreBlackFriday.jsx:32"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "required": true,
+            "maxChars": 36,
+            "measuredFrom": [
+              "src/pages/PreBlackFriday.jsx:34"
+            ]
+          },
+          "badge": {
+            "type": "string",
+            "required": true,
+            "maxChars": 12,
+            "measuredFrom": [
+              "src/pages/PreBlackFriday.jsx:35"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/pages/PreBlackFriday.jsx:27"
+            ]
+          }
+        }
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 44,
+        "measuredFrom": [
+          "src/pages/PreBlackFriday.jsx:53"
+        ]
+      },
+      "lead": {
+        "type": "string",
+        "required": true,
+        "maxChars": 213,
+        "measuredFrom": [
+          "src/pages/PreBlackFriday.jsx:56"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 213,
+          "upperBoundChars": 213
+        },
+        "standIn": true
+      },
+      "actions": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 16,
+              "measuredFrom": [
+                "src/pages/PreBlackFriday.jsx:60"
+              ]
+            },
+            "href": {
+              "type": "route-or-url",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/PreBlackFriday.jsx:60"
+              ]
+            },
+            "variant": {
+              "type": "enum",
+              "required": false,
+              "values": [
+                "dark-primary",
+                "dark-secondary",
+                "dark-ghost",
+                "light-primary",
+                "dark-stroke",
+                "dark-ghost-icon",
+                "light-stroke",
+                "light-secondary"
+              ],
+              "measuredFrom": [
+                "src/pages/PreBlackFriday.jsx:60"
+              ]
+            }
+          },
+          "measuredFrom": [
+            "src/pages/PreBlackFriday.jsx:60"
+          ]
+        },
+        "measuredFrom": [
+          "src/pages/PreBlackFriday.jsx:59"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "gradient-glow-loop",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": true,
+    "measuredFrom": [
+      "src/index.css:391",
+      "src/index.css:400"
+    ],
+    "durationMs": 12000,
+    "easing": "ease-in-out",
+    "note": "Stand-in for a third-party WebGL scene. The live a-71 parallax is a no-op on this page and is skipped."
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "pre-black-friday"
+  ],
+  "usedOnRoutes": [
+    "/pre-black-friday"
+  ]
+}

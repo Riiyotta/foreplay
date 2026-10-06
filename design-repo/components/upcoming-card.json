@@ -1,0 +1,14 @@
+{
+  "id": "upcoming-card",
+  "kind": "component",
+  "purpose": "Event card used in the event page aside (latest 3).",
+  "measuredFrom": [
+    "src/components/templates/EventRow.jsx:63"
+  ],
+  "props": {
+    "ev": {
+      "type": "eventRef"
+    }
+  },
+  "tokensUsed": []
+}

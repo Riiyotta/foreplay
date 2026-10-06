@@ -1,0 +1,264 @@
+URL https://www.foreplay.co/industries/agencies W991 docH 8334 title="Foreplay for Agencies - Acquire & Retain Clients" wfpage=690cd83fdff1536d935ce74f bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 991x8334] 
+  div.global [0,0 0x0] 
+  div.main [0,72 991x7158] 
+    div.section [0,72 991x595] 
+      div.container.section-container [0,72 991x595] p:0px 32px
+        div.section-head [136,72 720x442] fx:column gap:12px
+          div.section-head-wrapper [136,72 720x442] fx:column gap:12px
+            div.industries-icon [466,92 60x60] fx:row r:15px
+              div.icon-36.w-embed [478,104 36x36] fx:row
+                svg [480,106 32x32] SVG vb=0 0 32 32 fill=none color=rgba(255, 255, 255, 0.36) 
+            div.section-head_subtitle [398,184 195x16] 
+              h1.text-overline [398,184 195x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "FOREPLAY FOR AGENCIES" (1L)
+            div.section-head_title [136,212 720x104] 
+              h2.text-display-h2 [136,212 720x104]  {Inter Display 40px/52px w600 ls-0.3px c:rgb(255, 255, 255) ta:center} "Win more clients and keep them longer with Foreplay" (2L)
+            div.section-head_paragraph [240,328 512x112] 
+              div.text-alpha-100 [240,328 512x112] 
+                p.text-body-l [240,328 512x112]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 210ch 4L]
+            div.industru-buttons-padding [345,452 301x62] p:20px 0px 0px
+              div.main-cta-buttons [345,472 301x42] fx:row gap:12px
+                a.button-dark.button-primary.w-inline-block [345,473 159x40] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+                  div.button-text-block [353,481 123x24] p:0px 6px
+                    div.text-heading-m [359,481 111x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14) ta:center} "Start Free Trial" (1L)
+                  div.button-icon-block.icon-right.opacity-100 [472,481 24x24] fx:row
+                    div.icon-medium [472,481 24x24] fx:row
+                      div.svg.w-embed [472,481 24x24] fx:row
+                        svg [472,481 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+                a.button-dark.button-secondary.w-inline-block [516,472 129x42] fx:row p:8px r:10px href=/book-demo
+                  div.button-text-block [525,481 111x24] p:0px 6px
+                    div.text-heading-m [531,481 99x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255) ta:center} "Book a Demo" (1L)
+        div.industries-carousel-container [32,514 927x153] fx:row p:64px 0px 24px
+          div.industries-carousel-logos [-442,578 927x65] fx:row
+            div.industry-carousel-logo [-423,578 65x65] 
+              img.industry-carousel-image [-423,578 65x65] IMG 690e23aa132d5eafac070a3c_image (6).avif nat200x200 alt="" lazy 
+            div.industry-carousel-logo [-320,578 65x65] 
+              img.industry-carousel-image [-320,578 65x65] IMG 690e239f7828b83b8bfedaec_wallaroo_media_logo.avif nat200x200 alt="" lazy 
+            … +7 more div.industry-carousel-logo (repeat)
+          div.industries-carousel-logos [485,578 927x65] fx:row
+            div.industry-carousel-logo [504,578 65x65] 
+              img.industry-carousel-image [504,578 65x65] IMG 690e23aa132d5eafac070a3c_image (6).avif nat200x200 alt="" lazy 
+            div.industry-carousel-logo [607,578 65x65] 
+              img.industry-carousel-image [607,578 65x65] IMG 690e239f7828b83b8bfedaec_wallaroo_media_logo.avif nat200x200 alt="" lazy 
+            … +7 more div.industry-carousel-logo (repeat)
+          div.industries-carousel-fade [32,514 927x153] 
+    div.section [0,667 991x3321] 
+      div.product-page-padding-y [0,667 991x3321] fx:column p:96px 0px
+        div.container.section-container [0,763 991x3129] p:0px 32px
+          div.section-head [136,763 720x228] fx:column gap:12px
+            div.section-head-wrapper [136,763 720x228] fx:column gap:12px
+              div.section-head_subtitle [439,763 114x16] 
+                div.text-overline.text-white-68 [439,763 114x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "TESTIMONIALS" (1L)
+              div.section-head_title [136,791 720x104] 
+                h2.text-display-h2 [136,791 720x104]  {Inter Display 40px/52px w600 ls-0.3px c:rgb(255, 255, 255) ta:center} "Trusted by the world’s best performance agencies" (2L)
+              div.section-head_paragraph [240,907 512x84] 
+                div.text-alpha-100 [240,907 512x84] 
+                  p.text-body-l [240,907 512x84]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 156ch 3L]
+          div.industries-testimonial-wrapper [32,991 927x2901] fx:column gap:64px p:48px 0px 0px
+            div.industries-testimonial [32,1039 927x923] fx:column p:24px r:20px
+              div.industries-testimonial-content [57,1570 877x367] fx:column gap:48px p:24px 0px 0px
+                a.industries-testimonial-link.w-inline-block [57,1594 119x75]  @target=_blank href=https://thesocialsavannah.com/
+                  img.industries-testimonial-logo [57,1594 119x75] IMG 690e15d80c06e35f3ab82175_footer-logo03.avif nat500x315 alt="" lazy 
+                div.industries-testimonial-copy [57,1717 877x108] 
+                  div.text-white [57,1717 877x108] 
+                    blockquote.text-display-h4 [57,1717 877x108]  {Inter Display 28px/36px w600 ls-0.2px c:rgb(255, 255, 255)} [TEXT 190ch 3L]
+                div.industries-testimonial-bio [57,1873 877x64] fx:row gap:12px
+                  img.industires-testimonial-headshot [57,1873 64x64] IMG 690e15c87211e140e0273c47_1733772243879.avif nat200x200 alt="Savannah Sanchez headshot" lazy 
+                  div.industries-testimonial-bio-content [133,1883 181x44] fx:column
+                    div.text-white [133,1883 181x24] 
+                      div.text-label-m [133,1883 181x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Savannah Sanchez" (1L)
+                    div.text-alpha-100 [133,1907 181x20] 
+                      div.text-body-s [133,1907 181x20]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} "Founder @ Social Savannah" (1L)
+              div.industry-testimonial-image-holder [57,1064 877x506] r:15px
+                img.industry-testimonial-bg [58,1065 875x504] IMG 690e163896fa29d354f065b9_social-savanah-image-p-1080.webp nat991x570 alt="Savannah Sanchez on stage" lazy 
+                div.industry-testimonial-image-fade [33,1040 925x921] 
+            div.industries-testimonial [32,2026 927x881] fx:column p:24px r:20px
+              div.industries-testimonial-content [57,2557 877x325] fx:column gap:48px p:24px 0px 0px
+                a.industries-testimonial-link.w-inline-block [57,2581 125x33]  @target=_blank href=https://pearmill.com/
+                  img.industries-testimonial-logo [57,2581 125x33] IMG 690e166537748feee0b74868_63b59b7475377c988b04eb2e_Pearmill-logo-svg.svg nat133x35 alt="pearmill agency logo" lazy 
+                div.industries-testimonial-copy [57,2662 877x108] 
+                  div.text-white [57,2662 877x108] 
+                    blockquote.text-display-h4 [57,2662 877x108]  {Inter Display 28px/36px w600 ls-0.2px c:rgb(255, 255, 255)} [TEXT 164ch 3L]
+                div.industries-testimonial-bio [57,2818 877x64] fx:row gap:12px
+                  img.industires-testimonial-headshot [57,2818 64x64] IMG 690e15c8dad4e6da324d6fb4_1585368523538.avif nat271x271 alt="Donovan McKnight headshot" lazy 
+                  div.industries-testimonial-bio-content [133,2828 182x44] fx:column
+                    div.text-white [133,2828 182x24] 
+                      div.text-label-m [133,2828 182x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Donovan McKnight" (1L)
+                    div.text-alpha-100 [133,2852 182x20] 
+                      div.text-body-s [133,2852 182x20]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} "Head of Creative @ Pearmill" (1L)
+              div.industry-testimonial-image-holder [57,2051 877x506] r:15px
+                img.industry-testimonial-bg [58,2052 875x504] IMG 690e163857fb65d5f2648a37_pearmill-image-p-1080.webp nat991x570 alt="" lazy 
+                div.industry-testimonial-image-fade [33,2027 925x879] 
+            div.industries-testimonial [32,2971 927x921] fx:column p:24px r:20px
+              div.industries-testimonial-content [57,3502 877x366] fx:column gap:48px p:24px 0px 0px
+                a.industries-testimonial-link.w-inline-block [57,3526 125x38]  @target=_blank href=https://wallaroomedia.com/
+                  img.industries-testimonial-logo [57,3526 125x38] IMG 690e22ef3bbcdef088e45259_Wallaroo-Horizontal-Logo-2.svg nat190x57 alt="" lazy 
+                div.industries-testimonial-copy [57,3611 877x144] 
+                  div.text-white [57,3611 877x144] 
+                    blockquote.text-display-h4 [57,3611 877x144]  {Inter Display 28px/36px w600 ls-0.2px c:rgb(255, 255, 255)} [TEXT 252ch 4L]
+                div.industries-testimonial-bio [57,3803 877x64] fx:row gap:12px
+                  img.industires-testimonial-headshot [57,3803 64x64] IMG 690e15c8eabf90569ff11514_1554911405576.avif nat375x375 alt="" lazy 
+                  div.industries-testimonial-bio-content [133,3813 125x44] fx:column
+                    div.text-white [133,3813 125x24] 
+                      div.text-label-m [133,3813 125x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Eric Farmer" (1L)
+                    div.text-alpha-100 [133,3837 125x20] 
+                      div.text-body-s [133,3837 125x20]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} "Partner @ Wallaroo" (1L)
+              div.industry-testimonial-image-holder [57,2996 877x506] r:15px
+                img.industry-testimonial-bg [58,2997 875x504] IMG 690e1638f641be4453f94319_wallaroo-image-p-1080.webp nat991x570 alt="" lazy 
+                div.industry-testimonial-image-fade [33,2972 925x919] 
+    div.section [0,3988 991x1478] 
+      div.product-page-padding-y [0,3988 991x1478] fx:column p:96px 0px
+        div.container.section-container [0,4084 991x1286] p:0px 32px
+          div.section-head [136,4084 720x228] fx:column gap:12px
+            div.section-head-wrapper [136,4084 720x228] fx:column gap:12px
+              div.section-head_subtitle [439,4084 112x16] 
+                div.text-overline.text-white-68 [439,4084 112x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "5 APPS IN ONE" (1L)
+              div.section-head_title [136,4112 720x104] 
+                h2.text-display-h2 [136,4112 720x104]  {Inter Display 40px/52px w600 ls-0.3px c:rgb(255, 255, 255) ta:center} "The creative operating system built for agencies" (2L)
+              div.section-head_paragraph [240,4228 512x84] 
+                div.text-alpha-100 [240,4228 512x84] 
+                  p.text-body-l [240,4228 512x84]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 123ch 3L]
+          div.section-content-main [32,4312 927x1058] p:48px 0px 0px
+            div.product-page-tabs.w-tabs [32,4360 927x1010] fx:column @data-current=Lens @data-easing=ease @data-duration-in=300 @data-duration-out=100
+              div.comparison-tabs-menu.w-tab-menu [32,4360 927x116] gtc:298.328px 298.328px 298.344px gap:12px p:4px @role=tablist
+                a#w-tabs-0-data-w-tab-0.comparison-product-tab.w-inline-block.w-tab-link.w--current [36,4364 298x48] fx:row gap:8px p:8px r:15px @data-w-tab=Lens @role=tab href=#w-tabs-0-data-w-pane-0
+                  img.comparison-product-icon [45,4373 30x30] IMG 682f9f725170de3b3258d310_pi-lens-hq.webp nat256x256 alt="glass ball creative analytics logo" lazy 
+                  div.text-label-m [83,4376 36x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255) ta:center} "Lens" (1L)
+                a#w-tabs-0-data-w-tab-1.comparison-product-tab.w-inline-block.w-tab-link [346,4364 298x48] fx:row gap:8px p:8px r:15px @data-w-tab=Spyder @role=tab href=#w-tabs-0-data-w-pane-1
+                  img.comparison-product-icon [355,4373 30x30] IMG 682f8f898e2734095cb3d708_pi-spyder.webp nat144x144 alt="radar ad spy logo" lazy 
+                  div.text-label-m [393,4376 53x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255) ta:center} "Spyder" (1L)
+                a#w-tabs-0-data-w-tab-2.comparison-product-tab.w-inline-block.w-tab-link [657,4364 298x48] fx:row gap:8px p:8px r:15px @data-w-tab=Swipe File @role=tab href=#w-tabs-0-data-w-pane-2
+                  img.comparison-product-icon [666,4373 30x30] IMG 682f9f72df2782e8df1d1114_pi-swipefile-hq.webp nat256x256 alt="folder swipe file logo" lazy 
+                  div.text-label-m [704,4376 76x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255) ta:center} "Swipe File" (1L)
+                a#w-tabs-0-data-w-tab-3.comparison-product-tab.w-inline-block.w-tab-link [36,4424 298x48] fx:row gap:8px p:8px r:15px @data-w-tab=Discovery @role=tab href=#w-tabs-0-data-w-pane-3
+                  img.comparison-product-icon [45,4433 30x30] IMG 682f9f722b39359a238b0ff9_pi-discovery-hq.webp nat256x256 alt="magnifying glass discovery logo" lazy 
+                  div.text-label-m [83,4436 75x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255) ta:center} "Discovery" (1L)
+                a#w-tabs-0-data-w-tab-4.comparison-product-tab.w-inline-block.w-tab-link [346,4424 298x48] fx:row gap:8px p:8px r:15px @data-w-tab=Briefs @role=tab href=#w-tabs-0-data-w-pane-4
+                  img.comparison-product-icon [355,4433 30x30] IMG 682f9f72dc306ab5bf957aea_pi-briefs-hq.webp nat256x256 alt="pen briefs logo " lazy 
+                  div.text-label-m [393,4436 43x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255) ta:center} "Briefs" (1L)
+              div.product-page-tabs-content.w-tab-content [32,4476 927x894] 
+                div#w-tabs-0-data-w-pane-0.w-tab-pane.w--tab-active [32,4476 927x894]  @data-w-tab=Lens @role=tabpanel
+                  div.tabs-video-wrapper [32,4476 927x894] fx:column gap:20px p:20px 0px
+                    div.home-product-grid [32,4496 927x854] fx:column gap:16px @data-tabs-name=lens @data-tabs=
+                      div#w-node-f3609d9d-362c-46b2-2318-021560abfeff-935ce74f.home-product-content [32,4496 927x358] fx:column gap:32px p:32px r:24px
+                        div.home-research-sidebar-head [64,4528 490x68] fx:column gap:8px
+                          div.text-alpha-50 [64,4528 490x16] 
+                            div.text-overline [64,4528 490x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.84) uppercase} "LENS" (1L)
+                          div.text-white [64,4552 490x44] 
+                            h3.text-display-h3 [64,4552 490x44]  {Inter Display 36px/44px w600 ls-0.26px c:rgb(255, 255, 255)} "Creative Analytics & Reporting" (1L)
+                        div.main-cta-buttons [64,4628 310x42] fx:row gap:12px
+                          a.button-dark.button-secondary.w-inline-block [64,4628 151x42] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+                            div.button-text-block [73,4637 113x24] p:0px 6px
+                              div.text-heading-m [79,4637 101x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Get Free Trial" (1L)
+                            div.button-icon-block.icon-right [182,4637 24x24] fx:row
+                              div.icon-medium [182,4637 24x24] fx:row
+                                div.svg.w-embed [182,4637 24x24] fx:row
+                                  svg [182,4637 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+                          a.button-dark.button-ghost.w-inline-block [227,4629 147x40] fx:row p:8px r:10px href=/book-demo
+                            div.button-text-block [235,4637 111x24] p:0px 6px
+                              div.text-heading-m [241,4637 99x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Book a Demo" (1L)
+                            div.button-icon-block.icon-right [342,4637 24x24] fx:row
+                              div.icon-medium [342,4637 24x24] fx:row
+                                div.svg.w-embed [342,4637 24x24] fx:row
+                                  svg [342,4637 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+                        div.home-product-tabs-links [64,4702 250x120] fx:column gap:6px @data-tab-links= @role=tablist
+                          div#lens-tab-0.home-product-tab-link.is-active [64,4702 250x36] fx:row gap:6px p:6px 20px 6px 6px r:10px @data-tab-link= @role=button
+                            div.svg.w-embed [70,4710 20x20] fx:row
+                              svg [70,4710 20x20] SVG vb=0 0 20 20 fill=none color=rgb(255, 255, 255) 
+                            div.text-label-m [96,4708 166x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Creative Test Analysis" (1L)
+                          div#lens-tab-1.home-product-tab-link [64,4744 250x36] fx:row gap:6px p:6px 20px 6px 6px r:10px @data-tab-link= @role=button
+                            div.svg.w-embed [70,4752 20x20] fx:row
+                              svg [70,4752 20x20] SVG vb=0 0 20 20 fill=none color=rgba(255, 255, 255, 0.44) 
+                            div.text-label-m [96,4750 162x24]  {Inter 16px/24px w500 ls-0.18px c:rgba(255, 255, 255, 0.44)} "Build & Share Reports" (1L)
+                          div#lens-tab-2.home-product-tab-link [64,4786 250x36] fx:row gap:6px p:6px 20px 6px 6px r:10px @data-tab-link= @role=button
+                            div.svg.w-embed [70,4794 20x20] fx:row
+                              svg [70,4794 20x20] SVG vb=0 0 20 20 fill=none color=rgba(255, 255, 255, 0.44) 
+                            div.text-label-m [96,4792 198x24]  {Inter 16px/24px w500 ls-0.18px c:rgba(255, 255, 255, 0.44)} "Compare Winning Themes" (1L)
+                        div.home-product-animation [324,4444 927x300] fx:row
+                          img.product-isometric-image [638,4444 300x300] IMG 682f93b43a94db00dbc45367_iso-lens-p-500.webp nat300x300 alt="" lazy 
+                      div#w-node-f3609d9d-362c-46b2-2318-021560abff1c-935ce74f.home-product-figure [32,4870 927x480] fx:row r:24px
+                        div.home-product-tab-bg [32,4870 927x480] fx:row
+                          img [120,4790 752x640] IMG 6818f491db7df5646bba2c71_lens-product-bg-p-800.webp nat752x640 alt="" lazy 
+                        div.home-product-tab-panes [32,4870 927x480]  @data-tab-panes=
+                          div#lens-panel-0.home-product-tab-pane.is-active [32,4870 927x480] fx:row @data-tab-pane= @role=tabpanel
+                            img.home-product-tab-image [32,4870 927x480] IMG 6818f4ab1be4acb01b76b457_creative-test-analysis-p-800.webp nat752x640 alt="creative analytics software" lazy 
+    div.section [0,5466 991x882] 
+      div.product-page-padding-y [0,5466 991x882] fx:column p:96px 0px
+        div.container.section-container [0,5562 991x690] p:0px 32px
+          div.section-head [136,5562 720x92] fx:column gap:12px
+            div.section-head-wrapper [184,5562 623x92] fx:column gap:12px
+              div.section-head_subtitle [359,5562 274x16] 
+                div.text-overline.text-white-68 [359,5562 274x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "AGENCY ADVERTISING INSPIRATION" (1L)
+              div.section-head_title [184,5590 623x52] 
+                h2.text-display-h2 [184,5590 623x52]  {Inter Display 40px/52px w600 ls-0.3px c:rgb(255, 255, 255) ta:center} "Browse top performing agency ads" (1L)
+              div.section-head_paragraph [495,5654 0x0] 
+                div.text-alpha-100 [495,5654 0x0] 
+                  p.text-body-l [495,5654 0x0] 
+          div.section-content-main [32,5654 927x598] p:48px 0px 0px
+            div.industries-examples-grid [32,5702 927x567] gtc:302.328px 302.328px 302.344px gap:10px
+              div.industries-examples-card.card-1 [32,5702 302x567] r:12px
+                div.industries-examples-header [32,5702 302x40] fx:row gap:8px p:8px 8px 8px 9px
+                  img.industries-examples-avatar [41,5710 24x24] IMG 690e23e107631efa4a626cb0_image (8).avif nat200x200 alt="" lazy 
+                  div.industries-examples-header-text [73,5710 253x24] fx:row
+                    div.text-white [73,5710 88x24] 
+                      div.text-label-m.ad-card-text [73,5710 88x24]  {Inter 14.4px/24px w500 ls-0.162px c:rgb(255, 255, 255)} "Soar With Us" (1L)
+                    div.industries-examples-date [161,5712 46x20] fx:row gap:8px
+                      div.industreis-examples-active [161,5720 5x5] r:100px
+                      div.text-label-s.ad-card-date-text [174,5712 33x20]  {Inter 12.8px/20px w500 ls-0.0822857px c:rgba(255, 255, 255, 0.68)} "203D" (1L)
+                div.industries-examples-content [32,5742 302x527] p:0px 4px 4px
+                  img.industries-examples-image [36,5742 294x523] IMG 690e24ece6ebf2166939da9f_0-dco-O1pJqOOKXj7CHN2wGMe4-p-1080.avif nat991x1761 alt="" lazy 
+              div.industries-examples-card.card-2 [344,5702 302x567] r:12px
+                div.industries-examples-header [344,5702 302x40] fx:row gap:8px p:8px 8px 8px 9px
+                  img.industries-examples-avatar [353,5710 24x24] IMG 690e239f2c76d3f771b22c4e_common_thread_collective_logo.avif nat200x200 alt="" lazy 
+                  div.industries-examples-header-text [385,5710 253x24] fx:row
+                    div.text-white [385,5710 30x24] 
+                      div.text-label-m.ad-card-text [385,5710 30x24]  {Inter 14.4px/24px w500 ls-0.162px c:rgb(255, 255, 255)} "CTC" (1L)
+                    div.industries-examples-date [415,5712 29x20] fx:row gap:8px
+                      div.industreis-examples-active [415,5720 5x5] r:100px
+                      div.text-label-s.ad-card-date-text [428,5712 16x20]  {Inter 12.8px/20px w500 ls-0.0822857px c:rgba(255, 255, 255, 0.68)} "7D" (1L)
+                div.industries-examples-content [344,5742 302x527] p:0px 4px 4px
+                  img.industries-examples-image [348,5742 294x523] IMG 690e264393c08ce0a6662787_thumbnail-1xndDXw6LSzTTm87bObn.avif nat720x1280 alt="" lazy 
+              div.industries-examples-card.card-3 [657,5702 302x567] r:12px
+                div.industries-examples-header [657,5702 302x40] fx:row gap:8px p:8px 8px 8px 9px
+                  img.industries-examples-avatar [666,5710 24x24] IMG 690e26dd28b7bdef0706f483_71cbc6cb27f3364d05cc2178aed3d02d.webp nat60x60 alt="" lazy 
+                  div.industries-examples-header-text [698,5710 253x24] fx:row
+                    div.text-white [698,5710 99x24] 
+                      div.text-label-m.ad-card-text [698,5710 99x24]  {Inter 14.4px/24px w500 ls-0.162px c:rgb(255, 255, 255)} "Boomerangme" (1L)
+                    div.industries-examples-date [796,5712 44x20] fx:row gap:8px
+                      div.industreis-examples-active [796,5720 5x5] r:100px
+                      div.text-label-s.ad-card-date-text [809,5712 31x20]  {Inter 12.8px/20px w500 ls-0.0822857px c:rgba(255, 255, 255, 0.68)} "109D" (1L)
+                div.industries-examples-content [657,5742 302x527] p:0px 4px 4px
+                  img.industries-examples-image [661,5742 294x523] IMG 690e26ee431b3a6f757aca50_10b07bc6c8f471b210f613e0fb5c076f.avif nat991x1761 alt="" lazy 
+              div.industries-examples-fade [32,5702 927x567] 
+            div.industries-examples-cta [32,6194 927x58] fx:row p:8px 8px 8px 16px
+              div.text-white [48,6211 390x24] 
+                div.text-label-l [48,6211 390x24]  {Inter 18px/24px w500 ls-0.259999px c:rgb(255, 255, 255)} "See thousands of high performing agency ads." (1L)
+              a.button-dark.button-secondary.w-inline-block [438,6202 162x42] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+                div.button-text-block [447,6211 124x24] p:0px 6px
+                  div.text-heading-m [453,6211 112x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Start Browsing" (1L)
+                div.button-icon-block.icon-right [567,6211 24x24] fx:row
+                  div.icon-medium [567,6211 24x24] fx:row
+                    div.svg.w-embed [567,6211 24x24] fx:row
+                      svg [567,6211 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+    div.section.overflow-hidden [0,6348 991x882] 
+      div.container.section-container [0,6348 991x882] p:0px 32px
+        div.home-cta [32,6348 927x882] fx:column gap:36px p:108px 0px 0px
+          div.section-head.is-large [32,6456 927x172] fx:column gap:12px
+            div.section-head_title [32,6456 927x104] 
+              h2.text-display-h2 [32,6456 927x104]  {Inter Display 40px/52px w600 ls-0.3px c:rgb(255, 255, 255) ta:center} "Creative experience your clients expect, results they can’t ignore." (2L)
+            div.section-head_paragraph.is-large [176,6572 640x56] 
+              div.text-alpha-100 [176,6572 640x56] 
+                p.text-body-l [176,6572 640x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 145ch 2L]
+          div.main-cta-buttons [349,6664 294x42] fx:row gap:12px
+            a.button-dark.button-primary.w-inline-block [349,6665 153x40] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+              div.button-text-block [357,6673 117x24] p:0px 6px
+                div.text-heading-m [363,6673 105x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Start free trial" (1L)
+              div.button-icon-block.icon-right.opacity-100 [469,6673 24x24] fx:row
+                div.icon-medium [469,6673 24x24] fx:row
+                  div.svg.w-embed [469,6673 24x24] fx:row
+                    svg [469,6673 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+            a.button-dark.button-secondary.w-inline-block [513,6664 129x42] fx:row p:8px r:10px href=/book-demo
+              div.button-text-block [522,6673 111x24] p:0px 6px
+                div.text-heading-m [528,6673 99x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Book a Demo" (1L)
+          div.home-cta-image-wrapper [0,6668 991x636] 
+            img.home-cta-image [0,6668 991x636] IMG 680a4b467abdcf40d0d0fa8b_home-cta-p-1080.webp nat991x635 alt="Two people looking at laptop, Foreplay d" lazy 

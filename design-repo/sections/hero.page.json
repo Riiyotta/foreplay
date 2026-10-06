@@ -1,0 +1,215 @@
+{
+  "id": "hero.page",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "C1 community PageHero (fireside, bounties, affiliates): optional top media, overline, title (h1 gradient or h2), subtitle, dark-primary CTA, optional children (fireside tabs, bounty characters).",
+  "measuredFrom": [
+    "src/components/community/PageHero.jsx:10"
+  ],
+  "variants": [
+    {
+      "name": "affiliates",
+      "description": "h1 gradient, external getrewardful CTA",
+      "measuredFrom": [
+        "src/pages/Affiliates.jsx:26"
+      ]
+    },
+    {
+      "name": "fireside",
+      "description": "logo top, CTA '#', FiresideTabs children",
+      "measuredFrom": [
+        "src/pages/Fireside.jsx:93"
+      ]
+    },
+    {
+      "name": "bounties",
+      "description": "h2 title, glow + silver character video, 4 headshot characters",
+      "measuredFrom": [
+        "src/pages/Bounties.jsx:68"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": false,
+        "maxChars": 20,
+        "measuredFrom": [
+          "src/pages/Affiliates.jsx:27"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 48,
+        "measuredFrom": [
+          "src/pages/Fireside.jsx:94"
+        ]
+      },
+      "subtitle": {
+        "type": "string",
+        "required": true,
+        "maxChars": 140,
+        "measuredFrom": [
+          "src/pages/Affiliates.jsx:29"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 128,
+          "upperBoundChars": 140
+        },
+        "standIn": true
+      },
+      "cta": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 28,
+            "measuredFrom": [
+              "src/pages/Bounties.jsx:74"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/pages/Bounties.jsx:74"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/pages/Bounties.jsx:74"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Bounties.jsx:74"
+        ]
+      },
+      "topMedia": {
+        "type": "assetRef",
+        "assetRole": "brand-mark",
+        "required": false,
+        "measuredFrom": [
+          "src/pages/Fireside.jsx:100"
+        ]
+      },
+      "tabs": {
+        "type": "array",
+        "required": false,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 18,
+              "measuredFrom": [
+                "src/pages/Fireside.jsx:16"
+              ]
+            },
+            "icon": {
+              "type": "assetRef",
+              "assetRole": "ui-icon",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Fireside.jsx:14"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Fireside.jsx:13"
+        ],
+        "note": "fireside only: Upcoming Events (empty 'No items found.'), Watch Replays (replay list), Become a Speaker (card -> /fireside-application)"
+      },
+      "characters": {
+        "type": "array",
+        "required": false,
+        "minItems": 4,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "tag": {
+              "type": "string",
+              "required": true,
+              "maxChars": 20,
+              "measuredFrom": [
+                "src/pages/Bounties.jsx:13"
+              ]
+            },
+            "portrait": {
+              "type": "assetRef",
+              "assetRole": "person-portrait",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Bounties.jsx:13"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Bounties.jsx:10"
+        ],
+        "note": "bounties only; absolute >=992, row 768-991, hidden <=767"
+      }
+    }
+  },
+  "mediaFields": [
+    "topMedia",
+    "tabs[].icon",
+    "characters[].portrait"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "fade-tabs",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/Fireside.jsx:32"
+    ],
+    "durationMs": 300,
+    "easing": "ease",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "affiliates",
+    "bounties-index",
+    "fireside"
+  ],
+  "usedOnRoutes": [
+    "/affiliates",
+    "/bounties",
+    "/fireside"
+  ]
+}

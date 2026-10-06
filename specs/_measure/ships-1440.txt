@@ -1,0 +1,39 @@
+URL https://www.foreplay.co/ships W1440 docH 5603 title="Recent Product Updates & Releases | Foreplay Ships" wfpage=64c12fcf554be23d55a6d3c8 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 1440x5603] minh:100% bg:rgb(2, 3, 8) of:clip visible
+  div.global [0,0 0x0] pos:fixed t0px r1440px b900px l0px of:clip
+  div.section-2-0.ships-header [0,72 1440x511] p:150px 0px 120px bgi:url("https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/64c13144e58ab54051f601ef_ships-header.avif") bgs:80% auto bgp:100% 0px pos:relative of:hidden
+    div.container-2-0.w-container [120,222 1200x241] p:0px 50px m:0px 120px maxw:1200px pos:relative z:1
+      div.product-page-header-conent [170,222 1100x241] d:flex fx:row/center/flex-start gap:16px
+        div.product-page-header-text [170,222 550x241] d:flex fx:column/flex-start/normal
+          div.div-block-189 [170,222 177x33] d:flex fx:row/center/normal m:0px 0px 15px
+            img.space-helmet [170,224 25x30] IMG 64c1303544d31a8830884038_space-helmet.svg nat20x24 alt="swipe file app icon" m:0px 10px 0px 0px maxw:100% of:clip
+            h1.product-name-gradient.white [205,222 142x33] bgi:linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.55)) {Circular 22px/33px w400 ls-0.18px c:rgba(255, 255, 255, 0.36) CLIPTEXT} "Foreplay Ships" (1L)
+          h2.product-page-title [170,270 550x135] bg:rgb(255, 255, 255) bgi:linear-gradient(rgb(255, 255, 255) 48%, rgba(0, 0, 0, 0.34)) {Ebgaramond 54px/67.5px w500 ls-0.18px c:rgb(255, 255, 255) CLIPTEXT} "Recent Product Updates & Releases" (2L)
+          div.subtext-wrapper.left [170,410 550x53] m:5px 0px 0px maxw:650px
+            p.p-medium.grey [170,410 550x53]  {Inter 17.6px/26.4px w200 ls-0.18px c:rgb(116, 118, 122)} [TEXT 101ch 2L]
+  div.section-2-0.creative-process [0,583 1440x4089] p:100px 0px minh:650px bg:rgb(255, 255, 255) pos:relative of:hidden z:10
+    div.container-2-0.w-container [120,683 1200x3889] p:0px 50px m:0px 120px maxw:1200px pos:relative z:1
+      div.featured-blog-wrapper [170,683 1100x3889] 
+        div.w-dyn-list [170,683 1100x3889] 
+          div.ships-grid.w-dyn-items [170,683 1100x3889] d:grid gtc:540px 540px gtr:443.016px 443.016px 443.016px 449.812px 462.219px 423.812px 462.219px 481.422px gap:40px 20px @role=list
+            div.w-dyn-item [170,683 540x443]  @role=listitem
+              div.blog-grid-item [170,683 540x443] 
+                a.blog-thumbnail-limage-link.w-inline-block [170,683 540x300] d:inline-block maxw:100% tr:all 0.2s ease href=/post/api-launch
+                  img.ships-thumbnail [170,683 540x300] IMG 68bf2cc8f0c30675e16891ce_api-thumbnail-p-1080.png nat940x529 alt="blog thumbnail image" lazy maxw:100% r:10px of:clip cursor:pointer fit:cover
+                div.div-block-187 [170,989 540x137] p:10px 0px 0px
+                  div.thumbnail-author [170,999 540x19] d:flex fx:row/center/normal
+                    div.p-small.grey [170,999 83x19]  {Inter 12.8px/19.2px w400 ls-0.18px c:rgb(116, 118, 122)} "June 18, 2026" (1L)
+                  a.link-block-11.w-inline-block [170,1018 328x31] d:inline-block maxw:100% tr:all 0.2s ease href=/post/api-launch
+                    h2.blog-thumbnail-title [170,1018 328x26] m:0px 0px 5px cursor:pointer {Ebgaramond 20px/26px w500 ls-0.18px c:rgb(0, 0, 0)} "Introducing the Foreplay API: Win $5,000" (1L)
+                  p.p-small.blog-thumbnail [170,1049 540x77]  {Inter 12.8px/19.2px w200 ls-0.18px c:rgb(0, 0, 0)} [TEXT 315ch 4L]
+            div.w-dyn-item [730,683 540x443]  @role=listitem
+              div.blog-grid-item [730,683 540x424] 
+                a.blog-thumbnail-limage-link.w-inline-block [730,683 540x300] d:inline-block maxw:100% tr:all 0.2s ease href=/post/2025-pricing
+                  img.ships-thumbnail [730,683 540x300] IMG 68363d332a37349739c55707_Pricing-Update-p-1080.png nat940x493 alt="blog thumbnail image" lazy maxw:100% r:10px of:clip cursor:pointer fit:cover
+                div.div-block-187 [730,989 540x118] p:10px 0px 0px
+                  div.thumbnail-author [730,999 540x19] d:flex fx:row/center/normal
+                    div.p-small.grey [730,999 77x19]  {Inter 12.8px/19.2px w400 ls-0.18px c:rgb(116, 118, 122)} "June 9, 2025" (1L)
+                  a.link-block-11.w-inline-block [730,1018 453x31] d:inline-block maxw:100% tr:all 0.2s ease href=/post/2025-pricing
+                    h2.blog-thumbnail-title [730,1018 453x26] m:0px 0px 5px cursor:pointer {Ebgaramond 20px/26px w500 ls-0.18px c:rgb(0, 0, 0)} "We're Changing Our Pricing (And What It Means for You)" (1L)
+                  p.p-small.blog-thumbnail [730,1049 540x58]  {Inter 12.8px/19.2px w200 ls-0.18px c:rgb(0, 0, 0)} [TEXT 257ch 3L]
+            … +13 more div.w-dyn-item (repeat)

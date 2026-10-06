@@ -1,0 +1,14 @@
+{
+  "id": "sticky-toc",
+  "kind": "component",
+  "purpose": "Post table of contents generated from rich-text headings; sticky top 120, hidden <=991.",
+  "measuredFrom": [
+    "src/components/templates/StickyToc.jsx:4"
+  ],
+  "props": {
+    "items": {
+      "type": "tocItem[]"
+    }
+  },
+  "tokensUsed": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "agency-card",
+  "kind": "component",
+  "purpose": "Agency directory card (logo, name, verified badge, location, service/industry tags).",
+  "measuredFrom": [
+    "src/components/community/AgencyDirectory.jsx:52"
+  ],
+  "props": {
+    "a": {
+      "type": "agencyRef"
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "tag-pill"
+  ]
+}

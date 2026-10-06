@@ -1,0 +1,110 @@
+{
+  "id": "content.bounty-list",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Open bounties list: 'Open Bounties' tag, BountyCards (amount, due date, status, title, stand-in description, author) and a 'coming soon' placeholder card.",
+  "measuredFrom": [
+    "src/pages/Bounties.jsx:31"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "cards": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 10,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 52,
+              "measuredFrom": [
+                "src/data/bounties.json:4"
+              ]
+            },
+            "description": {
+              "type": "string",
+              "required": true,
+              "maxChars": 255,
+              "measuredFrom": [
+                "src/pages/Bounties.jsx:51"
+              ],
+              "copyBudget": {
+                "generator": "copy",
+                "targetChars": 243,
+                "upperBoundChars": 255
+              },
+              "standIn": true
+            },
+            "amount": {
+              "type": "string",
+              "required": true,
+              "maxChars": 10,
+              "measuredFrom": [
+                "src/data/bounties.json:5"
+              ]
+            },
+            "author": {
+              "type": "string",
+              "required": true,
+              "maxChars": 24,
+              "measuredFrom": [
+                "src/data/bounties.json:7"
+              ],
+              "personIdentity": true
+            },
+            "avatar": {
+              "type": "assetRef",
+              "assetRole": "person-portrait",
+              "required": true,
+              "measuredFrom": [
+                "src/data/bounties.json:9"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Bounties.jsx:109"
+        ]
+      },
+      "comingSoon": {
+        "type": "string",
+        "required": true,
+        "maxChars": 44,
+        "measuredFrom": [
+          "src/pages/Bounties.jsx:116"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "cards[].avatar"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/Bounties.jsx:33"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "bounties-index"
+  ],
+  "usedOnRoutes": [
+    "/bounties"
+  ]
+}

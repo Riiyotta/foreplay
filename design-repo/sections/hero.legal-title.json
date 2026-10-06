@@ -1,0 +1,47 @@
+{
+  "id": "hero.legal-title",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Legal page title: centred display-h2 h1, padding 75/0.",
+  "measuredFrom": [
+    "src/pages/templates/LegalPage.jsx:35"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 37,
+        "measuredFrom": [
+          "src/data/page.json:4"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/LegalPage.jsx:32"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "legal-page"
+  ],
+  "usedOnRoutes": [
+    "/page/:slug"
+  ]
+}

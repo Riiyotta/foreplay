@@ -1,0 +1,88 @@
+URL https://www.foreplay.co/creative-strategist-jobs W1440 docH 13052 title="Creative Strategist Jobs - Foreplay Marketing Job Board" wfpage=6483b075adc8b8653a99dc2d bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 1440x13052] minh:100% bg:rgb(2, 3, 8) of:clip visible
+  div.global [0,0 0x0] pos:fixed t0px r1440px b900px l0px of:clip
+  div.main [0,72 1440x11010] 
+    div.section.overflow-hidden [0,72 1440x418] of:hidden
+      div.container.section-container [48,72 1344x418] p:0px 40px m:0px 48px maxw:1344px
+        div.demo-hero [88,72 1264x418] d:flex fx:column/center/flex-start p:120px 0px
+          div.section-head [360,192 720x178] d:flex fx:column/center/flex-start gap:12px m:0px 272px maxw:720px
+            div.section-head-wrapper [431,192 579x178] d:flex fx:column/center/normal gap:12px
+              div.section-head_subtitle [618,192 204x16] 
+                h1.text-overline [618,192 204x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "CREATIVE STRATEGY JOBS" (1L)
+              div.section-head_title [431,220 579x54] 
+                h2.text-display-h2 [431,220 579x54]  {Inter Display 44px/53.76px w600 ls-0.33px c:rgb(255, 255, 255) ta:center} "Creative Strategist Job Board" (1L)
+              div.section-head_paragraph [464,286 512x84] maxw:512px
+                div.text-alpha-100 [464,286 512x84] flex:1 1 0%
+                  p.text-body-l [464,286 512x84]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 151ch 3L]
+    div.section [0,490 1440x10592] 
+      div.container.section-container [48,490 1344x10592] p:0px 40px m:0px 48px maxw:1344px
+        div.v-padding-50 [88,490 1264x50] p:25px 0px
+        div.section-head [360,540 720x150] d:flex fx:column/center/flex-start gap:12px m:0px 272px maxw:720px
+          div.section-head-wrapper [464,540 512x150] d:flex fx:column/center/normal gap:12px
+            div.section-head_subtitle [663,540 113x16] 
+              div.text-overline.text-white-68 [663,540 113x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "INTEGRATIONS" (1L)
+            div.section-head_title [468,568 505x54] 
+              h2.text-display-h2 [468,568 505x54]  {Inter Display 44px/53.76px w600 ls-0.33px c:rgb(255, 255, 255) ta:center} "Creative Strategy Articles" (1L)
+            div.section-head_paragraph [464,634 512x56] maxw:512px
+              div.text-alpha-100 [464,634 512x56] flex:1 1 0%
+                p.text-body-l [464,634 512x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 63ch 2L]
+        div.v-padding-50 [88,690 1264x50] p:25px 0px
+        div.blog-feed [88,740 1264x10343] d:flex fx:column/normal/normal gap:36px p:0px 0px 120px
+          div.blog-list-wrapper.w-dyn-list [88,740 1264x10187] 
+            div.blog-list.w-dyn-items [88,740 1264x10187] d:grid gtc:405.328px 405.328px 405.344px gtr:440.125px 440.109px 440.125px 440.125px 440.125px 440.125px 440.109px 440.125px 440.109px 440.125px 440.125px 440.109px 440.125px 440.125px 440.125px 440.125px 440.125px 440.125px 440.125px 440.125px 440.125px 440.109px gap:24px @role=list
+              div#w-node-_777a85b5-60dd-da5a-ea87-4df04ce90012-3a99dc2d.block-list-item.w-dyn-item [88,740 405x440]  @role=listitem
+                a.blog-list-card.w-inline-block [88,740 405x440] d:inline-block maxw:100% bg:rgb(2, 3, 8) r:20px sh:rgba(255, 255, 255, 0.1) 0px 0px 0px 1px of:hidden tr:all 0.2s ease href=/post/ad-library-mcp
+                  div.blog-carousel-card-cover [88,740 405x230] bgi:linear-gradient(rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.08)) cursor:pointer ar:465 / 264
+                    img.blog-carousel-card-image [88,740 405x230] IMG 6a341585b0dc1e82740a52f6_maxresdefault.jpg nat1440x810 alt="" lazy maxw:100% of:clip cursor:pointer fit:cover
+                  div.blog-carousel-card-content [88,970 405x204] d:flex fx:column/normal/normal gap:16px p:32px 24px 24px cursor:pointer
+                    div.blog-carousel-card-author [112,1002 357x28] d:flex fx:row/center/flex-start gap:12px cursor:pointer
+                      div.blog-carousel-card-author-avatar [112,1002 28x28] r:999px of:hidden cursor:pointer
+                        img [112,1002 28x28] IMG 64766a422ca53ffc07495f5a_zach.webp nat400x400 alt="" lazy maxw:100% of:clip cursor:pointer ar:auto 28 / 28
+                      div.text-white [152,1004 118x24] cursor:pointer
+                        div.text-label-m [152,1004 118x24] cursor:pointer {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Zachary Murray" (1L)
+                    div.blog-carousel-card-text [112,1046 357x104] d:flex fx:column/flex-start/flex-start gap:8px cursor:pointer
+                      div.text-white [112,1046 357x48] cursor:pointer
+                        div.text-label-l.line-clamp-2 [112,1046 357x48] d:flow-root of:hidden cursor:pointer {Inter 18px/24px w500 ls-0.259999px c:rgb(255, 255, 255)} [TEXT 76ch 2L]
+                      div.line-clamp-2 [112,1102 357x48] d:flow-root of:hidden cursor:pointer
+                        div.text-alpha-100 [112,1102 357x48] flex:1 1 0% cursor:pointer
+                          div.text-body-m [112,1102 357x48] cursor:pointer {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.68)} [TEXT 145ch 2L]
+              div#w-node-_777a85b5-60dd-da5a-ea87-4df04ce90012-3a99dc2d.block-list-item.w-dyn-item [517,740 405x440]  @role=listitem
+                a.blog-list-card.w-inline-block [517,740 405x440] d:inline-block maxw:100% bg:rgb(2, 3, 8) r:20px sh:rgba(255, 255, 255, 0.1) 0px 0px 0px 1px of:hidden tr:all 0.2s ease href=/post/the-2026-super-bowl-ads
+                  div.blog-carousel-card-cover [517,740 405x230] bgi:linear-gradient(rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.08)) cursor:pointer ar:465 / 264
+                    img.blog-carousel-card-image [517,740 405x230] IMG 699c79256759e8e5e5d30ffa_Blog-p-1600.png nat1440x839 alt="" lazy maxw:100% of:clip cursor:pointer fit:cover
+                  div.blog-carousel-card-content [517,970 405x180] d:flex fx:column/normal/normal gap:16px p:32px 24px 24px cursor:pointer
+                    div.blog-carousel-card-author [541,1002 357x28] d:flex fx:row/center/flex-start gap:12px cursor:pointer
+                      div.blog-carousel-card-author-avatar [541,1002 28x28] r:999px of:hidden cursor:pointer
+                        img [541,1002 28x28] IMG 679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512-p-500.png nat27x27 alt="" lazy maxw:100% of:clip cursor:pointer ar:auto 28 / 28
+                      div.text-white [581,1004 113x24] cursor:pointer
+                        div.text-label-m [581,1004 113x24] cursor:pointer {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Jack Kavanagh" (1L)
+                    div.blog-carousel-card-text [541,1046 357x80] d:flex fx:column/flex-start/flex-start gap:8px cursor:pointer
+                      div.text-white [541,1046 217x24] cursor:pointer
+                        div.text-label-l.line-clamp-2 [541,1046 217x24] d:flow-root of:hidden cursor:pointer {Inter 18px/24px w500 ls-0.259999px c:rgb(255, 255, 255)} "The 2026 Super Bowl Ads" (1L)
+                      div.line-clamp-2 [541,1078 357x48] d:flow-root of:hidden cursor:pointer
+                        div.text-alpha-100 [541,1078 357x48] flex:1 1 0% cursor:pointer
+                          div.text-body-m [541,1078 357x48] cursor:pointer {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.68)} [TEXT 286ch 2L]
+              … +64 more div#w-node-_777a85b5-60dd-da5a-ea87-4df04ce90012-3a99dc2d.block-list-item.w-dyn-item (repeat)
+          div.w-embed [88,10962 1264x0] 
+  div.section.overflow-hidden [0,11082 1440x1038] of:hidden
+    div.container.section-container [48,11082 1344x1038] p:0px 40px m:0px 48px maxw:1344px
+      div.home-cta [88,11082 1264x1038] d:flex fx:column/center/flex-start gap:36px p:108px 0px 0px
+        div.section-head.is-large [240,11190 960x94] d:flex fx:column/center/flex-start gap:12px m:0px 152px maxw:960px pos:relative z:2
+          div.section-head_title [398,11190 645x54] 
+            h2.text-display-h2 [398,11190 645x54]  {Inter Display 44px/53.76px w600 ls-0.33px c:rgb(255, 255, 255) ta:center} "Ready to ship more winning ads?" (1L)
+          div.section-head_paragraph.is-large [448,11256 544x28] maxw:640px
+            div.text-alpha-100 [448,11256 544x28] flex:1 1 0%
+              p.text-body-l [448,11256 544x28]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 67ch 1L]
+        div.main-cta-buttons [576,11320 289x42] d:flex fx:row/center/flex-start gap:12px pos:relative z:2
+          a.button-dark.button-primary.w-inline-block [576,11321 153x40] d:flex fx:row/center/center p:8px maxw:100% flex:1 1 0% bg:rgb(255, 255, 255) r:10px pos:relative z:5 tr:all 0.2s ease href=https://app.foreplay.co/sign-up
+            div.button-text-block [584,11329 117x24] p:0px 6px pos:relative z:2 cursor:pointer
+              div.text-heading-m [590,11329 105x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Start free trial" (1L)
+            div.button-icon-block.icon-right.opacity-100 [696,11329 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative z:2 cursor:pointer
+              div.icon-medium [696,11329 24x24] d:flex fx:row/center/center cursor:pointer
+                div.svg.w-embed [696,11329 24x24] d:flex fx:row/center/center cursor:pointer
+                  svg [696,11329 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) of:hidden cursor:pointer
+          a.button-dark.button-secondary.w-inline-block [740,11320 124x42] d:flex fx:row/center/center p:8px maxw:100% bg:rgb(9, 10, 14) r:10px b:1px solid rgb(36, 38, 46) pos:relative z:5 tr:all 0.2s ease href=/pricing
+            div.button-text-block [749,11329 106x24] p:0px 6px pos:relative z:2 cursor:pointer
+              div.text-heading-m [755,11329 94x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "View Pricing" (1L)
+        div.home-cta-image-wrapper [0,11297 1440x924] m:-101.109px -40px
+          img.home-cta-image [0,11297 1440x924] IMG 680a4b467abdcf40d0d0fa8b_home-cta-p-1600.webp nat1440x924 alt="Two people looking at laptop, Foreplay d" lazy of:clip ar:auto 1440 / 924

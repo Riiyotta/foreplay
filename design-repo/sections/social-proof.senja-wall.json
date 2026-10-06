@@ -1,0 +1,55 @@
+{
+  "id": "social-proof.senja-wall",
+  "kind": "section",
+  "category": "social-proof",
+  "purpose": "Reviews wall inside a white block: 64 locally generated stand-in testimonial cards (SenjaWall: generic first names + initials, stars, months) - no Senja request.",
+  "measuredFrom": [
+    "src/components/community/SenjaWall.jsx:49"
+  ],
+  "behaviour": [
+    {
+      "note": "Stand-in reviewer names come from a fixed generic list (Alex, Sam, ... + initial); they are not real people.",
+      "measuredFrom": [
+        "src/components/community/SenjaWall.jsx:8"
+      ]
+    }
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "count": {
+        "type": "integer",
+        "required": true,
+        "minimum": 1,
+        "measuredFrom": [
+          "src/pages/Reviews.jsx:22"
+        ],
+        "maximum": 64
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/community/SenjaWall.jsx:49"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "reviews"
+  ],
+  "usedOnRoutes": [
+    "/reviews"
+  ]
+}

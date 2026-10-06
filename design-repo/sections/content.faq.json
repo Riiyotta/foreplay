@@ -1,0 +1,140 @@
+{
+  "id": "content.faq",
+  "kind": "section",
+  "category": "content",
+  "purpose": "FAQ section (shared Faq.jsx): overline 'FAQ', title, body, accordion rows (max 752 wide) and the FaqButtons row (Contact support + Knowledge Base).",
+  "measuredFrom": [
+    "src/components/shared/Faq.jsx:111",
+    "src/components/shared/Faq.jsx:143"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": false,
+        "maxChars": 4,
+        "measuredFrom": [
+          "src/components/shared/Faq.jsx:112"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 40,
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:266"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 130,
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:269"
+        ]
+      },
+      "items": {
+        "type": "array",
+        "required": true,
+        "minItems": 4,
+        "maxItems": 11,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "q": {
+              "type": "string",
+              "required": true,
+              "maxChars": 64,
+              "measuredFrom": [
+                "src/pages/Briefs.jsx:14"
+              ],
+              "note": "Longest observed question 63 chars (briefs)."
+            },
+            "a": {
+              "type": "richtext-inline",
+              "required": true,
+              "maxChars": 510,
+              "measuredFrom": [
+                "src/pages/Mcp.jsx:110"
+              ],
+              "note": "Longest observed answer ~508 chars (mcp); stand-in or hand-written stand-in copy."
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/SwipeFile.jsx:23"
+        ],
+        "note": "Observed 4 (affiliates) to 11 (swipe-file, discovery)."
+      },
+      "buttons": {
+        "type": "boolean",
+        "required": false,
+        "measuredFrom": [
+          "src/components/shared/Faq.jsx:120"
+        ],
+        "note": "FaqButtons include an EXTERNAL Knowledge Base link (featurebase) - allowed here, never in navbar/footer."
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "accordion-height",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/Faq.jsx:61"
+    ],
+    "durationMs": 900,
+    "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-md",
+        "change": "padding 140 -> 80, gap 48 -> 40",
+        "measuredFrom": [
+          "src/components/shared/Faq.jsx:126"
+        ]
+      },
+      {
+        "at": "max-sm",
+        "change": "FaqButtons stack full width",
+        "measuredFrom": [
+          "specs/_shared-misc.md:25"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "component.faqRow.padding",
+    "semanticMotion.faqAccordion"
+  ],
+  "usedOnTemplates": [
+    "affiliates",
+    "developer-api",
+    "developer-mcp",
+    "pre-black-friday",
+    "pricing",
+    "product-feature",
+    "product-spyder"
+  ],
+  "usedOnRoutes": [
+    "/affiliates",
+    "/api",
+    "/briefs",
+    "/discovery",
+    "/mcp",
+    "/pre-black-friday",
+    "/pricing",
+    "/spyder-ad-spy",
+    "/swipe-file"
+  ]
+}

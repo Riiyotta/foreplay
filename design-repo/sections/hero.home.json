@@ -1,0 +1,141 @@
+{
+  "id": "hero.home",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Homepage hero: gradient h1, lead, Start Free Trial, the 14-logo strip and the full-width product video; the sticky block shrinks on scroll.",
+  "measuredFrom": [
+    "src/pages/Home.jsx:12",
+    "src/components/Hero.jsx:10"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 32,
+        "measuredFrom": [
+          "src/components/Hero.jsx:32"
+        ]
+      },
+      "lead": {
+        "type": "string",
+        "required": true,
+        "maxChars": 162,
+        "measuredFrom": [
+          "src/components/Hero.jsx:37-38"
+        ],
+        "note": "Homepage copy (user's saved copy): 162 chars."
+      },
+      "primary": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 16,
+            "measuredFrom": [
+              "src/components/Hero.jsx:43"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/components/Hero.jsx:43"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/components/Hero.jsx:43"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/components/Hero.jsx:43"
+        ]
+      },
+      "video": {
+        "type": "assetRef",
+        "assetRole": "product-video",
+        "required": true,
+        "measuredFrom": [
+          "src/components/Hero.jsx:54"
+        ]
+      },
+      "logoStrip": {
+        "type": "boolean",
+        "required": true,
+        "measuredFrom": [
+          "src/components/Hero.jsx:46"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "video"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "homeRouteOnly": true
+  },
+  "motion": {
+    "pattern": "scroll-parallax-shrink",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/useHeroParallax.js:56-59",
+      "src/components/useHeroParallax.js:14"
+    ],
+    "easing": "linear",
+    "trigger": "scroll",
+    "minViewportPx": 768,
+    "note": "translateY 0 -> -33%, scale 1 -> .75, opacity 1 -> 0 over p = scrollY / innerHeight. The clone deliberately does NOT honour prefers-reduced-motion (mirrors the original)."
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-md",
+        "change": "parallax off (<768); sticky becomes relative; hero overlay and video overlay hidden at narrower steps",
+        "measuredFrom": [
+          "src/components/Hero.jsx:27"
+        ]
+      },
+      {
+        "at": "max-sm",
+        "change": "title 38/48",
+        "measuredFrom": [
+          "src/components/Hero.jsx:31"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticTypography.display.hero",
+    "gradient.css.hero-title-fill",
+    "gradient.css.dot-bg-mask",
+    "gradient.hero-overlay",
+    "gradient.video-overlay"
+  ],
+  "usedOnTemplates": [
+    "home"
+  ],
+  "usedOnRoutes": [
+    "/"
+  ]
+}

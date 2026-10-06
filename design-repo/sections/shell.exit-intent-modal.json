@@ -1,0 +1,253 @@
+{
+  "id": "shell.exit-intent-modal",
+  "kind": "section",
+  "category": "shell",
+  "purpose": "Global exit-intent dialog: armed on desktop (>768) once per 7 days / cookie, opens when the pointer leaves the top edge (clientY <= 20).",
+  "measuredFrom": [
+    "src/App.jsx:41",
+    "src/components/ExitIntentModal.jsx:12"
+  ],
+  "behaviour": [
+    {
+      "note": "Armed only when innerWidth > 768 and not shown in the last 7 days (localStorage exitTimestamp) or dismissed (cookie).",
+      "measuredFrom": [
+        "src/components/ExitIntentModal.jsx:20"
+      ]
+    }
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 36,
+        "measuredFrom": [
+          "src/components/ExitIntentModal.jsx:55"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 70,
+        "measuredFrom": [
+          "src/components/ExitIntentModal.jsx:59"
+        ]
+      },
+      "primary": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 12,
+            "measuredFrom": [
+              "src/components/ExitIntentModal.jsx:66"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/components/ExitIntentModal.jsx:66"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/components/ExitIntentModal.jsx:66"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/components/ExitIntentModal.jsx:66"
+        ]
+      },
+      "secondary": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 14,
+            "measuredFrom": [
+              "src/components/ExitIntentModal.jsx:65"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/components/ExitIntentModal.jsx:65"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/components/ExitIntentModal.jsx:65"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/components/ExitIntentModal.jsx:65"
+        ],
+        "note": "Recorded as-is: this button links to https://app.foreplay.co/sign-up (external), unlike the navbar/footer."
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "global": true,
+    "overlay": true
+  },
+  "motion": {
+    "pattern": "exit-intent-modal",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/ExitIntentModal.jsx:25"
+    ],
+    "trigger": "pointer-leaves-top"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticColor.surface.overlayExit",
+    "blur.backdropBlur.10",
+    "semanticTypography.display.sub"
+  ],
+  "usedOnTemplates": [
+    "affiliates",
+    "agency",
+    "agency-directory",
+    "application-form",
+    "apps-extensions",
+    "author",
+    "blog-index",
+    "book-demo",
+    "bounties-index",
+    "bounty",
+    "career",
+    "careers-index",
+    "category",
+    "chrome-extension",
+    "comparison",
+    "contest",
+    "contest-submission",
+    "creative-strategist-jobs",
+    "developer-api",
+    "developer-mcp",
+    "event",
+    "expert",
+    "experts-index",
+    "faq-index",
+    "faq-item",
+    "fireside",
+    "fireside-replays",
+    "home",
+    "industry",
+    "jumpstart",
+    "legal-page",
+    "media-kit",
+    "mobile-app",
+    "not-found",
+    "paid-landing",
+    "post",
+    "pre-black-friday",
+    "pricing",
+    "product-feature",
+    "product-lens",
+    "product-spyder",
+    "reviews",
+    "ships",
+    "university-course",
+    "university-landing",
+    "video",
+    "watch-demo",
+    "work-with"
+  ],
+  "usedOnRoutes": [
+    "*",
+    "/",
+    "/2026-paid-lp",
+    "/affiliates",
+    "/agencies/:slug",
+    "/agency-directory",
+    "/api",
+    "/apps-extensions",
+    "/authors/:slug",
+    "/blog",
+    "/book-demo",
+    "/bounties",
+    "/bounties/:slug",
+    "/briefs",
+    "/careers",
+    "/careers/:slug",
+    "/category/:slug",
+    "/chrome-extension",
+    "/comparison/:slug",
+    "/contest",
+    "/contest-submission",
+    "/creative-strategist-jobs",
+    "/discovery",
+    "/events/:slug",
+    "/experts",
+    "/experts-application",
+    "/experts/:slug",
+    "/faq",
+    "/faqs/:slug",
+    "/fireside",
+    "/fireside-application",
+    "/fireside-replays",
+    "/industries/:slug",
+    "/jumpstart-2026",
+    "/lens-creative-analytics",
+    "/mcp",
+    "/media-kit",
+    "/mobile-app",
+    "/page/:slug",
+    "/post/:slug",
+    "/post/ai-emotional-analysis-new-ad-details",
+    "/post/restaurant-facebook-ad-examples",
+    "/pre-black-friday",
+    "/pricing",
+    "/reviews",
+    "/ships",
+    "/spyder-ad-spy",
+    "/swipe-file",
+    "/university/classes",
+    "/university/psychology-in-advertising",
+    "/videos/:slug",
+    "/watch-demo",
+    "/work-with-brands",
+    "/work-with-marketers"
+  ]
+}

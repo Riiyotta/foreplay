@@ -1,0 +1,53 @@
+{
+  "id": "overlay.psa-sticky",
+  "kind": "section",
+  "category": "overlay",
+  "purpose": "Comparison PSA sticky card (stand-in text, psaTextLen); its close button hides it (display:none).",
+  "measuredFrom": [
+    "src/components/misc/Comparison.jsx:331"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "text": {
+        "type": "string",
+        "required": true,
+        "maxChars": 204,
+        "measuredFrom": [
+          "src/data/comparison.json:314"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 204,
+          "upperBoundChars": 204
+        },
+        "standIn": true
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "overlay": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/misc/Comparison.jsx:331"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "comparison"
+  ],
+  "usedOnRoutes": [
+    "/comparison/:slug"
+  ]
+}

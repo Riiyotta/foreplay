@@ -1,0 +1,136 @@
+{
+  "id": "content.contest-submission-grid",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Contest submission hub grid (blocks A-E): submission options with eligible awards, bonus entries (X post embed placeholder), judges, resources.",
+  "measuredFrom": [
+    "src/pages/ContestSubmission.jsx:162"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "options": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 23,
+              "measuredFrom": [
+                "src/pages/ContestSubmission.jsx:15"
+              ]
+            },
+            "awards": {
+              "type": "array",
+              "required": true,
+              "minItems": 1,
+              "maxItems": 6,
+              "items": {
+                "type": "string",
+                "required": true,
+                "maxChars": 32,
+                "measuredFrom": [
+                  "src/pages/ContestSubmission.jsx:63"
+                ]
+              },
+              "measuredFrom": [
+                "src/pages/ContestSubmission.jsx:63"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/ContestSubmission.jsx:15"
+        ]
+      },
+      "bonusBody": {
+        "type": "string",
+        "required": true,
+        "maxChars": 135,
+        "measuredFrom": [
+          "src/pages/ContestSubmission.jsx:199"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 123,
+          "upperBoundChars": 135
+        },
+        "standIn": true
+      },
+      "judges": {
+        "type": "array",
+        "required": true,
+        "minItems": 6,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "name": {
+              "type": "string",
+              "required": true,
+              "maxChars": 24,
+              "measuredFrom": [
+                "src/pages/ContestSubmission.jsx:30"
+              ],
+              "personIdentity": true
+            },
+            "portrait": {
+              "type": "assetRef",
+              "assetRole": "person-portrait",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/ContestSubmission.jsx:30"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/ContestSubmission.jsx:30"
+        ]
+      },
+      "embed": {
+        "type": "assetRef",
+        "assetRole": "third-party-embed",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/ContestSubmission.jsx:114"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "judges[].portrait",
+    "embed"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "theme": "contest"
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/ContestSubmission.jsx:11"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.contest",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "contest-submission"
+  ],
+  "usedOnRoutes": [
+    "/contest-submission"
+  ]
+}

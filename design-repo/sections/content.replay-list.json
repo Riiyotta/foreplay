@@ -1,0 +1,128 @@
+{
+  "id": "content.replay-list",
+  "kind": "section",
+  "category": "content",
+  "purpose": "C4/S6 Fireside replay rows (flex col gap 24): fireside-replays page (all 27 events newest first) and author pages (events by speaker).",
+  "measuredFrom": [
+    "src/components/community/ReplayRow.jsx:45",
+    "src/components/templates/EventRow.jsx:40"
+  ],
+  "variants": [
+    {
+      "name": "replays-page",
+      "description": "all replays",
+      "measuredFrom": [
+        "src/pages/FiresideReplays.jsx:34"
+      ]
+    },
+    {
+      "name": "author-feed",
+      "description": "events by speaker, rendered only when non-empty",
+      "measuredFrom": [
+        "src/pages/templates/Author.jsx:91"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": false,
+        "maxChars": 20,
+        "measuredFrom": [
+          "src/pages/templates/Author.jsx:92"
+        ]
+      },
+      "rows": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 27,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 107,
+              "measuredFrom": [
+                "src/data/events.json:4"
+              ]
+            },
+            "speaker": {
+              "type": "string",
+              "required": true,
+              "maxChars": 27,
+              "measuredFrom": [
+                "src/data/events.json:5"
+              ],
+              "personIdentity": true
+            },
+            "thumbnail": {
+              "type": "assetRef",
+              "assetRole": "editorial-image",
+              "required": true,
+              "measuredFrom": [
+                "src/data/events.json:10"
+              ]
+            },
+            "href": {
+              "type": "route",
+              "required": true,
+              "measuredFrom": [
+                "src/components/community/ReplayRow.jsx:8"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/community/data.js:29"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "rows[].thumbnail"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/community/ReplayRow.jsx:8"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-md",
+        "change": "row becomes a 2-col grid, padding 16",
+        "measuredFrom": [
+          "specs/_shared-templates.md:67"
+        ]
+      },
+      {
+        "at": "max-sm",
+        "change": "single column, full-width thumbnail",
+        "measuredFrom": [
+          "specs/_shared-templates.md:67"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "author",
+    "fireside-replays"
+  ],
+  "usedOnRoutes": [
+    "/authors/:slug",
+    "/fireside-replays"
+  ]
+}

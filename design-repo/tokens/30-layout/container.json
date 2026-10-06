@@ -1,0 +1,55 @@
+{
+  "$description": "Container widths and gutters as implemented.",
+  "category": "layout",
+  "container": {
+    "container": {
+      "maxWidth": "1440px",
+      "paddingX": {
+        "base": "40px",
+        "max-lg": "32px",
+        "max-md": "24px"
+      },
+      "measuredFrom": "src/components/shared/Layout.jsx:8"
+    },
+    "sectionContainer": {
+      "maxWidth": "84rem (1344px)",
+      "paddingX": {
+        "base": "40px",
+        "max-lg": "32px",
+        "max-md": "24px"
+      },
+      "measuredFrom": "src/components/shared/Layout.jsx:16"
+    },
+    "blogContainer": {
+      "maxWidth": "800px (2xl: 832px)",
+      "paddingX": {
+        "base": "40px",
+        "max-lg": "32px",
+        "max-md": "24px"
+      },
+      "measuredFrom": "src/components/templates/Layout.jsx:14"
+    },
+    "footerContainer": {
+      "maxWidth": "1216px",
+      "paddingX": {
+        "base": "40px",
+        "max-lg": "32px",
+        "max-md": "24px"
+      },
+      "measuredFrom": "src/components/Footer.jsx:154"
+    },
+    "legacy1200": {
+      "maxWidth": "1200px",
+      "paddingX": {
+        "base": "50px",
+        "max-sm": "4%"
+      },
+      "note": "ships + chrome-extension legacy 2.0 container",
+      "measuredFrom": "src/pages/Ships.jsx:10"
+    },
+    "contest1200": {
+      "maxWidth": "1200px",
+      "measuredFrom": "src/components/community/contest.jsx:18-21"
+    }
+  }
+}

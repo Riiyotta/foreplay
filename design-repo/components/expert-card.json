@@ -1,0 +1,28 @@
+{
+  "id": "expert-card",
+  "kind": "component",
+  "purpose": "Expert swipe-file card: fake browser window over the board image with an 'Unlock Swipe File'/'Coming Soon' pill, then avatar + name + role.",
+  "measuredFrom": [
+    "src/components/community/Experts.jsx:41",
+    "src/components/community/Experts.jsx:71",
+    "src/pages/templates/Expert.jsx:15"
+  ],
+  "props": {
+    "expert": {
+      "type": "expertRef"
+    },
+    "variant": {
+      "type": "enum",
+      "values": [
+        "board",
+        "row",
+        "board-window"
+      ]
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "avatar",
+    "lottie"
+  ]
+}

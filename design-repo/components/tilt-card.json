@@ -1,0 +1,27 @@
+{
+  "id": "tilt-card",
+  "kind": "component",
+  "purpose": "3D tilt + shine card (>=992 only, matchMedia) used for agency profile and university course cards.",
+  "measuredFrom": [
+    "src/components/templates/TiltCard.jsx:9",
+    "src/components/templates/useTilt.js:32"
+  ],
+  "props": {
+    "tilt": {
+      "type": "object"
+    },
+    "href": {
+      "type": "route-or-url"
+    }
+  },
+  "tokensUsed": [],
+  "motion": {
+    "pattern": "tilt-3d",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/templates/useTilt.js:32"
+    ],
+    "minViewportPx": 992
+  }
+}

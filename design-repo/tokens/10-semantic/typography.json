@@ -1,0 +1,95 @@
+{
+  "$description": "Semantic type roles -> foundation fontSize tokens (with their responsive steps as applied by max-* variants in JSX).",
+  "category": "semanticTypography",
+  "semanticTypography": {
+    "display.hero": {
+      "value": "{fontSize.display-h1}",
+      "measuredFrom": "src/components/Hero.jsx:31",
+      "responsive": {
+        "max-md": "{fontSize.display-h1-md}",
+        "max-sm": "{fontSize.display-h1-sm}"
+      },
+      "family": "{fontFamily.display}"
+    },
+    "display.section": {
+      "value": "{fontSize.display-h2}",
+      "measuredFrom": "src/components/CTA.jsx:16",
+      "responsive": {
+        "max-lg": "{fontSize.display-h2-lg}",
+        "max-sm": "{fontSize.display-h2-sm}"
+      },
+      "family": "{fontFamily.display}"
+    },
+    "display.card": {
+      "value": "{fontSize.display-h3}",
+      "measuredFrom": "src/components/ProductSections.jsx:138",
+      "family": "{fontFamily.display}"
+    },
+    "display.sub": {
+      "value": "{fontSize.display-h4}",
+      "measuredFrom": "src/components/ExitIntentModal.jsx:55",
+      "family": "{fontFamily.display}"
+    },
+    "display.small": {
+      "value": "{fontSize.display-h5}",
+      "measuredFrom": "src/components/Footer.jsx:231",
+      "family": "{fontFamily.display}"
+    },
+    "body.lead": {
+      "value": "{fontSize.body-l}",
+      "measuredFrom": "src/components/CTA.jsx:22"
+    },
+    "body.default": {
+      "value": "{fontSize.body-m}",
+      "measuredFrom": "src/components/BeforeAfter.jsx:45"
+    },
+    "body.small": {
+      "value": "{fontSize.body-s}",
+      "measuredFrom": "src/components/Footer.jsx:47"
+    },
+    "body.caption": {
+      "value": "{fontSize.body-xs}",
+      "measuredFrom": "tailwind.config.js:171"
+    },
+    "label.large": {
+      "value": "{fontSize.label-l}",
+      "measuredFrom": "src/components/BeforeAfter.jsx:16",
+      "responsive": {
+        "max-md": "{fontSize.label-l-md}"
+      }
+    },
+    "label.default": {
+      "value": "{fontSize.label-m}",
+      "measuredFrom": "src/components/ProductSections.jsx:157"
+    },
+    "label.small": {
+      "value": "{fontSize.label-s}",
+      "measuredFrom": "src/components/Navbar.jsx:77"
+    },
+    "button": {
+      "value": "{fontSize.heading-m}",
+      "measuredFrom": "src/components/shared.jsx:70",
+      "note": "All Button labels."
+    },
+    "overline": {
+      "value": "{fontSize.overline}",
+      "measuredFrom": "tailwind.config.js:177",
+      "note": "Uppercase, 2px tracking."
+    },
+    "nav.link": {
+      "value": "{fontSize.navlink}",
+      "measuredFrom": "src/components/Navbar.jsx:311",
+      "responsive": {
+        "max-lg": "{fontSize.navlink-mobile}"
+      }
+    },
+    "quote": {
+      "value": "{fontSize.quote}",
+      "measuredFrom": "tailwind.config.js:181",
+      "responsive": {
+        "max-lg": "{fontSize.quote-md}",
+        "max-sm": "{fontSize.quote-sm}"
+      }
+    }
+  }
+}

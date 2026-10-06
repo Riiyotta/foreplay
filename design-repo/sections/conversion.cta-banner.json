@@ -1,0 +1,82 @@
+{
+  "id": "conversion.cta-banner",
+  "kind": "section",
+  "category": "conversion",
+  "purpose": "Product-page trial banner 'Get a 7-Day free trial today' with body, product video and isometric icon.",
+  "measuredFrom": [
+    "src/components/product/CtaBanner.jsx:8"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 32,
+        "measuredFrom": [
+          "src/components/product/CtaBanner.jsx:8"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 152,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:275"
+        ],
+        "note": "Hand-written stand-in body per page; max 152 (observed max over the product/lens/api/mcp pages' props, measured at build time)"
+      },
+      "video": {
+        "type": "assetRef",
+        "assetRole": "product-video",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:276"
+        ]
+      },
+      "icon": {
+        "type": "assetRef",
+        "assetRole": "product-icon",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:277"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "video",
+    "icon"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "background-video-loop",
+    "reducedMotionFallback": "first-frame",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/product/CtaBanner.jsx:8"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticTypography.display.section"
+  ],
+  "usedOnTemplates": [
+    "product-feature",
+    "product-lens",
+    "product-spyder"
+  ],
+  "usedOnRoutes": [
+    "/briefs",
+    "/discovery",
+    "/lens-creative-analytics",
+    "/spyder-ad-spy",
+    "/swipe-file"
+  ]
+}

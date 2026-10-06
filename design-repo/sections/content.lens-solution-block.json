@@ -1,0 +1,208 @@
+{
+  "id": "content.lens-solution-block",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Lens white block S2: 4 solution icons, 'Axe the ad spend tax.' two graph cards with scroll-drawn SVG lines, and the white-label reporting carousel (two testimonial panes with report mockups).",
+  "measuredFrom": [
+    "src/pages/Lens.jsx:111",
+    "src/components/lens/LensGraphCard.jsx:39",
+    "src/components/lens/LensReporting.jsx:24"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "icons": {
+        "type": "array",
+        "required": true,
+        "minItems": 4,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 21,
+              "measuredFrom": [
+                "src/pages/Lens.jsx:19"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "required": true,
+              "maxChars": 68,
+              "measuredFrom": [
+                "src/pages/Lens.jsx:19"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Lens.jsx:19"
+        ]
+      },
+      "graphTitle": {
+        "type": "string",
+        "required": true,
+        "maxChars": 21,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:128"
+        ]
+      },
+      "graphs": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 24,
+              "measuredFrom": [
+                "src/pages/Lens.jsx:131"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "required": true,
+              "maxChars": 72,
+              "measuredFrom": [
+                "src/pages/Lens.jsx:142"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Lens.jsx:130"
+        ]
+      },
+      "reporting": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "overline": {
+            "type": "string",
+            "required": true,
+            "maxChars": 20,
+            "measuredFrom": [
+              "src/pages/Lens.jsx:161"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "required": true,
+            "maxChars": 48,
+            "measuredFrom": [
+              "src/pages/Lens.jsx:162"
+            ]
+          },
+          "body": {
+            "type": "string",
+            "required": true,
+            "maxChars": 130,
+            "measuredFrom": [
+              "src/pages/Lens.jsx:163"
+            ]
+          },
+          "panes": {
+            "type": "array",
+            "required": true,
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "object",
+              "required": true,
+              "fields": {
+                "quote": {
+                  "type": "string",
+                  "required": true,
+                  "maxChars": 338,
+                  "measuredFrom": [
+                    "src/pages/Lens.jsx:168"
+                  ],
+                  "standIn": true,
+                  "note": "max 338 (observed max over the product/lens/api/mcp pages' props, measured at build time)"
+                },
+                "name": {
+                  "type": "string",
+                  "required": true,
+                  "maxChars": 17,
+                  "measuredFrom": [
+                    "src/pages/Lens.jsx:170"
+                  ],
+                  "personIdentity": true
+                },
+                "role": {
+                  "type": "string",
+                  "required": true,
+                  "maxChars": 32,
+                  "measuredFrom": [
+                    "src/pages/Lens.jsx:171"
+                  ],
+                  "personIdentity": true
+                },
+                "avatar": {
+                  "type": "assetRef",
+                  "assetRole": "person-portrait",
+                  "required": true,
+                  "measuredFrom": [
+                    "src/pages/Lens.jsx:167"
+                  ]
+                },
+                "mockup": {
+                  "type": "assetRef",
+                  "assetRole": "product-screenshot",
+                  "required": true,
+                  "measuredFrom": [
+                    "src/pages/Lens.jsx:173"
+                  ]
+                }
+              }
+            },
+            "measuredFrom": [
+              "src/pages/Lens.jsx:164"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "mediaFields": [
+    "reporting.panes[].avatar",
+    "reporting.panes[].mockup"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "svg-path-draw",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/lens/LensGraphCard.jsx:43",
+      "src/index.css:167"
+    ],
+    "trigger": "scroll",
+    "note": "paths draw as the card crosses 70% -> 30% of the viewport"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [
+    "gradient.rainbow-45",
+    "semanticColor.surface.whiteBlock"
+  ],
+  "usedOnTemplates": [
+    "product-lens"
+  ],
+  "usedOnRoutes": [
+    "/lens-creative-analytics"
+  ]
+}

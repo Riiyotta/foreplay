@@ -1,0 +1,87 @@
+{
+  "$description": "How generators may use tokens. Category names under rawValueRestrictions are exactly the keys of token-catalog.json (checked by verify_all.py).",
+  "policyVersion": "1.0.0",
+  "catalog": "tokens/llm/token-catalog.json",
+  "rawValueRestrictions": {
+    "color": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    },
+    "fontSize": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    },
+    "fontWeight": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    },
+    "fontFamily": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    },
+    "borderRadius": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    },
+    "elevation": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    },
+    "gradient": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    },
+    "spacing": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    },
+    "duration": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    },
+    "easing": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    },
+    "iconSize": {
+      "policy": "reference-only",
+      "note": "Raw literal values are not allowed in generated output; reference a catalog name."
+    }
+  },
+  "pageSpecTokenFields": {
+    "node.surface": {
+      "allowed": [
+        "surface.cardDark",
+        "surface.contest",
+        "surface.hover",
+        "surface.nav",
+        "surface.navMobile",
+        "surface.overlayExit",
+        "surface.overlayLightbox",
+        "surface.page",
+        "surface.raised",
+        "surface.subtleLight",
+        "surface.whiteBlock"
+      ],
+      "catalogKey": "semanticColor",
+      "note": "The ONLY per-instance token field in a PageSpec: the surface a node sits on. Styling otherwise belongs to the section contracts; there is no free-form token override field. Unknown surfaces are rejected by the schema enum and by semantic_validate.py TOKEN_UNKNOWN."
+    }
+  },
+  "themes": {
+    "default": "dark",
+    "scoped": {
+      "contest": {
+        "templates": [
+          "contest",
+          "contest-submission"
+        ],
+        "surface": "surface.contest"
+      },
+      "ships-legacy": {
+        "templates": [
+          "ships"
+        ]
+      }
+    }
+  }
+}

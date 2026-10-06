@@ -1,0 +1,147 @@
+{
+  "id": "content.article",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Post body: 3-column grid (sticky TOC | article | sticky TrialCard): optional cover (showCover), author row with external socials + 'More Articles', optional '30 Second Summary', stand-in rich-text body with heading anchors.",
+  "measuredFrom": [
+    "src/pages/templates/Post.jsx:91"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "cover": {
+        "type": "assetRef",
+        "assetRole": "editorial-image",
+        "required": false,
+        "measuredFrom": [
+          "src/data/post.json:10"
+        ]
+      },
+      "author": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "name": {
+            "type": "string",
+            "required": true,
+            "maxChars": 15,
+            "measuredFrom": [
+              "src/data/post.json:7"
+            ],
+            "personIdentity": true
+          },
+          "role": {
+            "type": "string",
+            "required": false,
+            "maxChars": 46,
+            "measuredFrom": [
+              "src/data/post.json:8"
+            ],
+            "personIdentity": true
+          },
+          "avatar": {
+            "type": "assetRef",
+            "assetRole": "person-portrait",
+            "required": true,
+            "measuredFrom": [
+              "src/data/post.json:9"
+            ]
+          }
+        }
+      },
+      "summary": {
+        "type": "richtext-inline",
+        "required": false,
+        "maxChars": 1015,
+        "measuredFrom": [
+          "src/components/templates/standin.js:130"
+        ],
+        "note": "max 1015 (measured: max over every CMS entry by executing the clone's own generator at build time; see measured-values.json generatorMeasurements)"
+      },
+      "body": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 328,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "block": {
+              "type": "enum",
+              "required": true,
+              "values": [
+                "p",
+                "h2",
+                "h3",
+                "h4",
+                "ul",
+                "ol",
+                "blockquote",
+                "table",
+                "code",
+                "video",
+                "figure"
+              ],
+              "measuredFrom": [
+                "src/components/templates/RichText.jsx:27"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "required": false,
+              "maxChars": 520,
+              "measuredFrom": [
+                "src/components/templates/standin.js:84"
+              ],
+              "standIn": true,
+              "note": "longest block 520 (measured: max over every CMS entry by executing the clone's own generator at build time; see measured-values.json generatorMeasurements)"
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/templates/standin.js:84"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "cover",
+    "author.avatar"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/Post.jsx:92"
+    ],
+    "note": "The live post reading-progress bar is a no-op and is intentionally not built."
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-lg",
+        "change": "single column; TOC hidden; trial card static",
+        "measuredFrom": [
+          "src/pages/templates/Post.jsx:92",
+          "src/pages/templates/Post.jsx:124"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "component.richText.post"
+  ],
+  "usedOnTemplates": [
+    "post"
+  ],
+  "usedOnRoutes": [
+    "/post/:slug"
+  ]
+}

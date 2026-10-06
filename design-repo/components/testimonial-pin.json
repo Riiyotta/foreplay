@@ -1,0 +1,36 @@
+{
+  "id": "testimonial-pin",
+  "kind": "component",
+  "purpose": "Collaboration-section avatar pin with hover/focus tooltip (quote, name, role): opacity 0 -> 1, translateY 24 + scale .8 -> 0, 300ms cubic-out.",
+  "measuredFrom": [
+    "src/components/Collaboration.jsx:77"
+  ],
+  "props": {
+    "quote": {
+      "type": "string"
+    },
+    "img": {
+      "type": "assetRef",
+      "assetRole": "person-portrait"
+    },
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    }
+  },
+  "tokensUsed": [
+    "semanticMotion.tooltip"
+  ],
+  "motion": {
+    "pattern": "tooltip-pop",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/Collaboration.jsx:77"
+    ],
+    "durationMs": 300,
+    "easing": "cubic-bezier(0.33, 1, 0.68, 1)"
+  }
+}

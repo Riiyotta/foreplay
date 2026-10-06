@@ -1,0 +1,45 @@
+{
+  "$description": "Semantic radius roles.",
+  "category": "semanticRadius",
+  "semanticRadius": {
+    "control": {
+      "value": "{borderRadius.10}",
+      "measuredFrom": "src/components/shared.jsx:7",
+      "note": "Buttons, nav links, tabs."
+    },
+    "input": {
+      "value": "{borderRadius.8}",
+      "measuredFrom": "src/components/community/WorkWith.jsx:44"
+    },
+    "card": {
+      "value": "{borderRadius.20}",
+      "measuredFrom": "src/pages/Bounties.jsx:29"
+    },
+    "productPanel": {
+      "value": "{borderRadius.24}",
+      "measuredFrom": "src/components/ProductSections.jsx:132",
+      "responsive": {
+        "max-sm": "{borderRadius.16}"
+      }
+    },
+    "dropdown": {
+      "value": "{borderRadius.28}",
+      "measuredFrom": "src/components/Navbar.jsx:329"
+    },
+    "whiteBlock": {
+      "value": "{borderRadius.36}",
+      "measuredFrom": "src/components/shared/Layout.jsx:27",
+      "responsive": {
+        "max-sm": "{borderRadius.16}"
+      }
+    },
+    "pill": {
+      "value": "{borderRadius.pill}",
+      "measuredFrom": "src/components/Collaboration.jsx:102"
+    },
+    "avatar": {
+      "value": "{borderRadius.circle}",
+      "measuredFrom": "src/components/CalendarPopup.jsx:11"
+    }
+  }
+}

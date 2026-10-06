@@ -1,0 +1,503 @@
+URL https://www.foreplay.co/comparison/motion W390 docH 11510 title="An Affordable Motion Analytics Alternative - Foreplay.co" wfpage=683f7a18fd08ccdb09db3c90 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 390x11510] 
+  div.global [0,0 0x0] 
+  div.main [0,72 390x9651] 
+    section#product-hero-section.section.relative [0,72 390x1119] 
+      div.container [0,72 390x1119] p:0px 24px
+        div.w-layout-grid.comparison-hero [24,72 342x1119] gtc:163px 163px gap:16px p:24px 0px
+          div#w-node-_116b8fa3-3a95-fa1b-a6e3-d93605cb8097-09db3c90 [24,96 342x556] 
+            div.comparison-hero-text [24,96 342x556] fx:column gap:20px
+              div.comparison-hero-headings [24,96 342x230] fx:column gap:10px
+                h1.text-overline [24,96 342x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "MOTION ANALYTICS ALTERNATIVES" (1L)
+                div.text-white [24,122 342x204] 
+                  h2.text-display-h1 [24,122 342x204]  {Inter Display 60px/68px w600 ls-0.45px c:rgb(255, 255, 255) ta:center} "Foreplay is Motion on Steroids" (3L)
+              div.text-alpha-100 [24,346 342x168] 
+                p.text-body-l [24,346 342x168]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 219ch 6L]
+              div.experts-ca-buttons [24,558 342x94] 
+                div.main-cta-buttons [24,558 342x94] gtc:342px gap:12px
+                  a.button-dark.button-primary.w-inline-block [24,558 342x40] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+                    div.button-text-block [123,566 123x24] p:0px 6px
+                      div.text-heading-m [129,566 111x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14) ta:center} "Start Free Trial" (1L)
+                    div.button-icon-block.icon-right.opacity-100 [243,566 24x24] fx:row
+                      div.icon-medium [243,566 24x24] fx:row
+                        div.svg.w-embed [243,566 24x24] fx:row
+                          svg [243,566 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+                  a.button-dark.button-secondary.w-inline-block [24,610 342x42] fx:row p:8px r:10px href=/book-demo
+                    div.button-text-block [139,619 111x24] p:0px 6px
+                      div.text-heading-m [145,619 99x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255) ta:center} "Book a Demo" (1L)
+          div#w-node-_433a7c9a-9a47-b6c8-bc5b-b666a30a947a-09db3c90.comparison-video-wrapper [24,668 342x175] 
+            div.comparison-hero-video.w-background-video.w-background-video-atom [24,693 342x178]  @data-poster-url=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4% @data-video-urls=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4% @data-autoplay=true @data-loop=true @data-wf-ignore=true
+              video#e1b7b09e-3b6f-d2c7-6c06-90a6918c0eb9-video [24,693 342x178] VIDEO src=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4%2F6833876c700d2cc61b273644_home-video-transcode.mp4,https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4%2F6833876c700d2cc61b273644_home-video-transcode.webm poster= auto=true loop=true muted=true pinline=true 
+              div.comparison-video-fade [24,693 342x178] 
+          div#w-node-_223c5828-00df-af2d-7d60-1d36a4dd31ba-09db3c90.comparison-logo-grid-wrapper [24,859 342x308] 
+            div.home-hero-bottom [24,859 342x308] fx:column gap:40px
+              div.text-alpha-100 [24,859 342x32] 
+                div.text-overline [24,859 342x32]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.68) uppercase ta:center} "POWERING +10,000 SOCIAL AD TEAMS & AGENCIES" (2L)
+              div.home-hero-logo-grid [24,931 342x236] gtc:130px 106px 106px gap:24px 0px
+                div.home-hero-logo-wrapper [53,931 72x28] fx:column p:8px 0px
+                  div.home-hero-logo-image.w-embed [62,941 54x9] fx:row
+                    svg [62,936 54x18] SVG vb=0 0 72 24 fill=none color=rgba(255, 255, 255, 0.84) 
+                div.home-hero-logo-wrapper [176,931 63x28] fx:column p:8px 0px
+                  div.home-hero-logo-image.w-embed [183,941 47x9] fx:row
+                    svg [183,937 47x16] SVG vb=0 0 63 21 fill=none color=rgba(255, 255, 255, 0.84) 
+                … +12 more div.home-hero-logo-wrapper (repeat)
+    section.section [0,1191 390x1391] 
+      div.section-padding [0,1191 390x1391] p:8px
+        div.section-white-block [8,1199 374x1375] r:16px
+          div.container.section-container [8,1199 374x1375] p:0px 24px
+            div.product-page-solution [32,1199 326x1375] fx:column gap:32px p:48px 0px 32px
+              div.section-head [32,1247 326x244] fx:column gap:12px
+                div.section-head-wrapper [32,1247 326x244] fx:column gap:12px
+                  div.section-head_subtitle [73,1247 243x16] 
+                    div.text-overline.text-solid-400 [73,1247 243x16]  {Inter 12px/16px w550 ls2px c:rgb(76, 80, 95) uppercase ta:center} "MOTION VS FOREPLAY REVIEWS" (1L)
+                  div.section-head_title.title-dark [32,1275 326x132] 
+                    h2.text-display-h3 [32,1275 326x132]  {Inter Display 36px/44px w600 ls-0.26px c:rgb(23, 25, 32) ta:center} "Let’s cut to the chase... Marketers prefer Foreplay" (3L)
+                  div.section-head_paragraph [32,1419 326x72] 
+                    div.text-solid-600 [32,1419 326x72] 
+                      p.text-body-m [32,1419 326x72]  {Inter 16px/24px w400 ls-0.18px c:rgb(36, 38, 46) ta:center} [TEXT 103ch 3L]
+              div.comparison-block-grid [32,1523 326x959] gtc:326px gap:16px
+                div.comparison-reviews-card.solution-after [32,1523 326x474] fx:column gap:20px r:20px
+                  div.comparison-reviews-text [32,1523 326x137] p:25px 25px 0px
+                    div.comparison-reviews-card-text [57,1548 276x112] fx:column gap:10px
+                      div.comparison-logo-holder [57,1548 276x30] fx:row
+                        img.comparison-logo [144,1548 103x30] IMG 683f8e06ec330518c3133d0b_foreplay-logo.svg nat96x28 alt="foreplay.co logo svg" lazy 
+                      div.flex-col-gap-1.align-start [57,1588 276x72] fx:column gap:4px
+                        div.text-alpha-100 [57,1588 276x72] 
+                          div [57,1588 276x72]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 90ch 3L]
+                  div.w-layout-grid.comparison-reviews-grid [32,1680 326x216] gtc:145px 145px gap:12px p:0px 12px
+                    div.comparison-reviews-item [44,1680 145x216] p:4px r:16px
+                      div.comparison-social-proof-content [48,1684 137x76] fx:column p:4px 0px 8px
+                        div.demo-socialproof-icon-2.w-embed [97,1688 40x40] 
+                          svg [97,1688 40x40] SVG vb=0 0 40 40 fill=none color=rgba(255, 255, 255, 0.68) 
+                        div.comparison-social-proof-rating [81,1728 70x24] fx:row gap:2px
+                          div.social-proof-icon [81,1730 20x20] 
+                            div.svg.w-embed [81,1730 20x20] fx:row
+                              svg [81,1730 20x20] SVG vb=0 0 20 20 fill=none color=rgb(255, 255, 255) 
+                          div.font-semibold [103,1728 48x24]  {Inter 19.2px/24px w600 ls-0.18px c:rgb(255, 255, 255) ta:center} "4.8/5" (1L)
+                      div.comparison-social-proof-bar-section [48,1760 137x104] fx:column gap:12px p:16px r:8px
+                        div.comparison-social-proof-bar-bg [64,1776 105x4] r:100px
+                          div.comparison-social-proof-bar._90 [64,1776 95x4] r:100px
+                        div.demo-social-proof-reviews-ratings [64,1792 105x56] fx:row gap:5px p:4px 8px r:100px
+                          div.icon-20.w-embed [72,1796 20x20] 
+                            svg [72,1796 20x20] SVG vb=0 0 20 20 fill=none color=rgb(158, 225, 212) 
+                          div.text-label-m [97,1796 64x48]  {Inter 16px/24px w500 ls-0.18px c:rgb(158, 225, 212) ta:center} "188 Reviews" (2L)
+                      div.comparison-social-proof-name [48,1864 137x28] p:6px 8px r:8px
+                        div.text-overline [56,1870 121x16]  {Inter 12px/16px w550 ls2px c:rgb(255, 255, 255) uppercase ta:center} "CHROME STORE" (1L)
+                    div.comparison-reviews-item [201,1680 145x216] p:4px r:16px
+                      div.comparison-social-proof-content [205,1684 137x76] fx:column p:4px 0px 8px
+                        div.demo-socialproof-icon-2.w-embed [254,1688 40x40] 
+                          svg [254,1688 40x40] SVG vb=0 0 40 40 fill=none color=rgba(255, 255, 255, 0.68) 
+                        div.comparison-social-proof-rating [238,1728 71x24] fx:row gap:2px
+                          div.social-proof-icon [238,1730 20x20] 
+                            div.svg.w-embed [238,1730 20x20] fx:row
+                              svg [238,1730 20x20] SVG vb=0 0 20 20 fill=none color=rgb(255, 255, 255) 
+                          div.font-semibold [260,1728 49x24]  {Inter 19.2px/24px w600 ls-0.18px c:rgb(255, 255, 255) ta:center} "4.9/5" (1L)
+                      div.comparison-social-proof-bar-section [205,1760 137x104] fx:column gap:12px p:16px r:8px
+                        div.comparison-social-proof-bar-bg [221,1776 105x4] r:100px
+                          div.comparison-social-proof-bar._90 [221,1776 95x4] r:100px
+                        div.demo-social-proof-reviews-ratings [221,1792 105x56] fx:row gap:5px p:4px 8px r:100px
+                          div.icon-20.w-embed [229,1796 20x20] 
+                            svg [229,1796 20x20] SVG vb=0 0 20 20 fill=none color=rgb(158, 225, 212) 
+                          div.text-label-m [254,1796 64x48]  {Inter 16px/24px w500 ls-0.18px c:rgb(158, 225, 212) ta:center} "91 Reviews" (2L)
+                      div.comparison-social-proof-name [205,1864 137x28] p:6px 8px r:8px
+                        div.text-overline [213,1870 121x16]  {Inter 12px/16px w550 ls2px c:rgb(255, 255, 255) uppercase ta:center} "G2 REVIEWS" (1L)
+                  div.comparison-review-holder [32,1916 326x81] p:0px 12px 12px
+                    img [44,1916 302x69] IMG 683f8ccf8c4365b4bb600135_foreplay-review-p-500.webp nat390x88 alt="foreplay.co review" lazy 
+                div.comparison-reviews-card [32,2013 326x469] fx:column gap:20px r:20px
+                  div.comparison-reviews-text [32,2013 326x132] p:25px 25px 0px
+                    div.comparison-reviews-card-text [57,2038 276x107] fx:column gap:10px
+                      div.comparison-logo-holder [57,2038 276x25] fx:row
+                        img.comparison-logo.motion [141,2038 109x25] IMG 683f8d557ddfcfa8f0ba0798_motion-logo.svg nat100x23 alt="motion logo svg" lazy 
+                      div.flex-col-gap-1.align-start [57,2073 276x72] fx:column gap:4px
+                        div.text-solid-400 [57,2073 276x72] 
+                          div [57,2073 276x72]  {Inter 16px/24px w400 ls-0.18px c:rgb(76, 80, 95) ta:center} [TEXT 89ch 3L]
+                  div.w-layout-grid.comparison-reviews-grid [32,2165 326x216] gtc:145px 145px gap:12px p:0px 12px
+                    div.comparison-reviews-item.competitor [44,2165 145x216] p:4px r:16px
+                      div.comparison-social-proof-content [48,2169 137x76] fx:column p:4px 0px 8px
+                        div.demo-socialproof-icon-2.w-embed [97,2173 40x40] 
+                          svg [97,2173 40x40] SVG vb=0 0 40 40 fill=none color=rgb(52, 54, 66) 
+                        div.comparison-social-proof-rating.competitor [82,2213 69x24] fx:row gap:2px
+                          div.social-proof-icon [82,2215 20x20] 
+                            div.svg.w-embed [82,2215 20x20] fx:row
+                              svg [82,2215 20x20] SVG vb=0 0 20 20 fill=none color=rgb(23, 25, 32) 
+                          div.font-semibold [104,2213 47x24]  {Inter 19.2px/24px w600 ls-0.18px c:rgb(23, 25, 32) ta:center} "3.7/5" (1L)
+                      div.comparison-social-proof-bar-section.competitor [48,2245 137x104] fx:column gap:12px p:16px r:8px
+                        div.comparison-social-proof-bar-bg.competitor [64,2261 105x4] r:100px
+                          div.comparison-social-proof-bar._60.red [64,2261 63x4] r:100px
+                        div.demo-social-proof-reviews-ratings.red [64,2277 105x56] fx:row gap:5px p:4px 8px r:100px
+                          div.icon-20.flip.w-embed [72,2281 20x20] 
+                            svg [72,2281 20x20] SVG vb=0 0 20 20 fill=none color=rgb(150, 19, 44) 
+                          div.text-label-m [97,2281 64x48]  {Inter 16px/24px w500 ls-0.18px c:rgb(150, 19, 44) ta:center} "3 Reviews" (2L)
+                      div.comparison-social-proof-name.dark [48,2349 137x28] p:6px 8px r:8px
+                        div.text-overline [56,2355 121x16]  {Inter 12px/16px w550 ls2px c:rgb(9, 10, 14) uppercase ta:center} "CHROME STORE" (1L)
+                    div.comparison-reviews-item.competitor [201,2165 145x216] p:4px r:16px
+                      div.comparison-social-proof-content [205,2169 137x76] fx:column p:4px 0px 8px
+                        div.demo-socialproof-icon-2.w-embed [254,2173 40x40] 
+                          svg [254,2173 40x40] SVG vb=0 0 40 40 fill=none color=rgb(52, 54, 66) 
+                        div.comparison-social-proof-rating.competitor [238,2213 71x24] fx:row gap:2px
+                          div.social-proof-icon [238,2215 20x20] 
+                            div.svg.w-embed [238,2215 20x20] fx:row
+                              svg [238,2215 20x20] SVG vb=0 0 20 20 fill=none color=rgb(23, 25, 32) 
+                          div.font-semibold [260,2213 49x24]  {Inter 19.2px/24px w600 ls-0.18px c:rgb(23, 25, 32) ta:center} "4.0/5" (1L)
+                      div.comparison-social-proof-bar-section.competitor [205,2245 137x104] fx:column gap:12px p:16px r:8px
+                        div.comparison-social-proof-bar-bg.competitor [221,2261 105x4] r:100px
+                          div.comparison-social-proof-bar._70.yellow [221,2261 74x4] r:100px
+                        div.demo-social-proof-reviews-ratings.yellow [221,2277 105x56] fx:row gap:5px p:4px 8px r:100px
+                          div.icon-20.flip.w-embed [229,2281 20x20] 
+                            svg [229,2281 20x20] SVG vb=0 0 20 20 fill=none color=rgb(155, 99, 39) 
+                          div.text-label-m [254,2281 64x48]  {Inter 16px/24px w500 ls-0.18px c:rgb(155, 99, 39) ta:center} "11 Reviews" (2L)
+                      div.comparison-social-proof-name.dark [205,2349 137x28] p:6px 8px r:8px
+                        div.text-overline [213,2355 121x16]  {Inter 12px/16px w550 ls2px c:rgb(9, 10, 14) uppercase ta:center} "G2 REVIEWS" (1L)
+                  div.comparison-review-holder [32,2401 326x81] p:0px 12px 12px
+                    img [44,2401 302x69] IMG 683f8ccfd518a0ece5009c49_motion-review-p-500.webp nat390x88 alt="competitor review" lazy 
+                  div.comparison-review-callout [215,2294 187x219] p:4px r:16px
+                    div.comaprison-review-callout [244,2298 153x89] p:10px
+                      div.text-white [253,2307 136x71] 
+                        div.text-heading-s [253,2307 136x71]  {Inter 14px/20px w550 ls-0.09px c:rgb(255, 255, 255) ta:center} "The only 5-star review works for the company 🤔" (4L)
+                    div.comparison-review-callout-img-wrap [218,2356 167x153] p:10px r:12px
+                      img.comparison-review-callout-img [227,2365 146x135] IMG 684051ba90dd14a0aa86c99d_motion-employee.webp nat168x148 alt="screenshot of motion employee" lazy 
+              div.comparison-last-updated [32,2514 326x28] fx:row
+                div.updated-tag [96,2514 198x28] fx:row p:4px 10px r:100px
+                  div.text-body-s [106,2518 178x20]  {Inter 14px/20px w400 ls-0.09px c:rgb(76, 80, 95) ta:center} "Last Updated June 4, 2025" (1L)
+    div.section [0,2582 390x1697] 
+      div.product-page-padding-y [0,2582 390x1697] fx:column p:80px 0px
+        div.container.section-container [0,2662 390x1537] p:0px 24px
+          div.section-head [24,2662 342x248] fx:column gap:12px
+            div.section-head-wrapper [24,2662 342x248] fx:column gap:12px
+              div.section-head_subtitle [136,2662 117x16] 
+                div.text-overline.text-white-68 [136,2662 117x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "ALL-INCLUSIVE" (1L)
+              div.section-head_title [24,2690 342x96] 
+                h2.text-display-h2 [24,2690 342x96]  {Inter Display 36px/48px w600 ls-0.27px c:rgb(255, 255, 255) ta:center} "Get 5 Products in 1 with Foreplay" (2L)
+              div.section-head_paragraph [24,2798 342x112] 
+                div.text-alpha-100 [24,2798 342x112] 
+                  p.text-body-l [24,2798 342x112]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 127ch 4L]
+          div.section-content-main [24,2910 342x1289] p:40px 0px 0px
+            div.product-page-tabs.w-tabs [24,2950 342x1249] fx:column @data-current=Lens @data-easing=ease @data-duration-in=300 @data-duration-out=100
+              div.comparison-tabs-menu.w-tab-menu [24,2950 342x456] gtc:334px gap:12px p:4px r:10px @role=tablist
+                a#w-tabs-0-data-w-tab-0.comparison-product-tab.w-inline-block.w-tab-link.w--current [28,2954 334x80] fx:column gap:8px p:8px r:8px @data-w-tab=Lens @role=tab href=#w-tabs-0-data-w-pane-0
+                  img.comparison-product-icon [180,2963 30x30] IMG 682f9f725170de3b3258d310_pi-lens-hq.webp nat256x256 alt="glass ball creative analytics logo" lazy 
+                  div.text-label-m [177,3001 36x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255) ta:center} "Lens" (1L)
+                a#w-tabs-0-data-w-tab-1.comparison-product-tab.w-inline-block.w-tab-link [28,3046 334x80] fx:column gap:8px p:8px r:8px @data-w-tab=Swipe File @role=tab href=#w-tabs-0-data-w-pane-1
+                  img.comparison-product-icon [180,3055 30x30] IMG 682f9f72df2782e8df1d1114_pi-swipefile-hq.webp nat256x256 alt="folder swipe file logo" lazy 
+                  div.text-label-m [157,3093 76x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255) ta:center} "Swipe File" (1L)
+                a#w-tabs-0-data-w-tab-2.comparison-product-tab.w-inline-block.w-tab-link [28,3138 334x80] fx:column gap:8px p:8px r:8px @data-w-tab=Discovery @role=tab href=#w-tabs-0-data-w-pane-2
+                  img.comparison-product-icon [180,3147 30x30] IMG 682f9f722b39359a238b0ff9_pi-discovery-hq.webp nat256x256 alt="magnifying glass discovery logo" lazy 
+                  div.text-label-m [158,3185 75x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255) ta:center} "Discovery" (1L)
+                a#w-tabs-0-data-w-tab-3.comparison-product-tab.w-inline-block.w-tab-link [28,3230 334x80] fx:column gap:8px p:8px r:8px @data-w-tab=Spyder @role=tab href=#w-tabs-0-data-w-pane-3
+                  img.comparison-product-icon [180,3239 30x30] IMG 682f8f898e2734095cb3d708_pi-spyder.webp nat144x144 alt="radar ad spy logo" lazy 
+                  div.text-label-m [168,3277 53x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255) ta:center} "Spyder" (1L)
+                a#w-tabs-0-data-w-tab-4.comparison-product-tab.w-inline-block.w-tab-link [28,3322 334x80] fx:column gap:8px p:8px r:8px @data-w-tab=Briefs @role=tab href=#w-tabs-0-data-w-pane-4
+                  img.comparison-product-icon [180,3331 30x30] IMG 682f9f72dc306ab5bf957aea_pi-briefs-hq.webp nat256x256 alt="pen briefs logo " lazy 
+                  div.text-label-m [173,3369 43x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255) ta:center} "Briefs" (1L)
+              div.product-page-tabs-content.w-tab-content [24,3406 342x793] 
+                div#w-tabs-0-data-w-pane-0.w-tab-pane.w--tab-active [24,3406 342x793]  @data-w-tab=Lens @role=tabpanel
+                  div.tabs-video-wrapper [24,3406 342x793] fx:column gap:20px p:20px 0px
+                    div.home-product-grid [24,3426 342x753] fx:column gap:16px @data-tabs-name=lens @data-tabs=
+                      div#w-node-e85f38bb-a0cc-7746-efec-c78384fd1d03-09db3c90.home-product-content [24,3426 342x438] fx:column gap:24px p:32px 24px r:16px
+                        div.home-research-sidebar-head [48,3458 294x112] fx:column gap:8px
+                          div.text-alpha-50 [48,3458 294x16] 
+                            div.text-overline [48,3458 294x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.84) uppercase} "LENS" (1L)
+                          div.text-white [48,3482 294x88] 
+                            h3.text-display-h3 [48,3482 294x88]  {Inter Display 36px/44px w600 ls-0.26px c:rgb(255, 255, 255)} "Creative Analytics & Reporting" (2L)
+                        div.main-cta-buttons [48,3594 294x94] gtc:294px gap:12px
+                          a.button-dark.button-secondary.w-inline-block [48,3594 294x42] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+                            div.button-text-block [129,3603 113x24] p:0px 6px
+                              div.text-heading-m [135,3603 101x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Get Free Trial" (1L)
+                            div.button-icon-block.icon-right [237,3603 24x24] fx:row
+                              div.icon-medium [237,3603 24x24] fx:row
+                                div.svg.w-embed [237,3603 24x24] fx:row
+                                  svg [237,3603 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+                          a.button-dark.button-ghost.w-inline-block [48,3648 294x40] fx:row p:8px r:10px href=/book-demo
+                            div.button-text-block [129,3656 111x24] p:0px 6px
+                              div.text-heading-m [135,3656 99x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Book a Demo" (1L)
+                            div.button-icon-block.icon-right [237,3656 24x24] fx:row
+                              div.icon-medium [237,3656 24x24] fx:row
+                                div.svg.w-embed [237,3656 24x24] fx:row
+                                  svg [237,3656 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+                        div.home-product-tabs-links [48,3712 294x120] fx:column gap:6px @data-tab-links= @role=tablist
+                          div#lens-tab-0.home-product-tab-link.is-active [48,3712 294x36] fx:row gap:6px p:6px 20px 6px 6px r:10px @data-tab-link= @role=button
+                            div.svg.w-embed [54,3720 20x20] fx:row
+                              svg [54,3720 20x20] SVG vb=0 0 20 20 fill=none color=rgb(255, 255, 255) 
+                            div.text-label-m [80,3718 166x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Creative Test Analysis" (1L)
+                          div#lens-tab-1.home-product-tab-link [48,3754 294x36] fx:row gap:6px p:6px 20px 6px 6px r:10px @data-tab-link= @role=button
+                            div.svg.w-embed [54,3762 20x20] fx:row
+                              svg [54,3762 20x20] SVG vb=0 0 20 20 fill=none color=rgba(255, 255, 255, 0.44) 
+                            div.text-label-m [80,3760 162x24]  {Inter 16px/24px w500 ls-0.18px c:rgba(255, 255, 255, 0.44)} "Build & Share Reports" (1L)
+                          div#lens-tab-2.home-product-tab-link [48,3796 294x36] fx:row gap:6px p:6px 20px 6px 6px r:10px @data-tab-link= @role=button
+                            div.svg.w-embed [54,3804 20x20] fx:row
+                              svg [54,3804 20x20] SVG vb=0 0 20 20 fill=none color=rgba(255, 255, 255, 0.44) 
+                            div.text-label-m [80,3802 198x24]  {Inter 16px/24px w500 ls-0.18px c:rgba(255, 255, 255, 0.44)} "Compare Winning Themes" (1L)
+                        div.home-product-animation [82,3410 342x175] fx:row
+                          img.product-isometric-image [249,3410 175x175] IMG 682f93b43a94db00dbc45367_iso-lens-p-500.webp nat390x390 alt="" lazy 
+                      div#w-node-e85f38bb-a0cc-7746-efec-c78384fd1d20-09db3c90.home-product-figure [24,3880 342x299] fx:row r:16px
+                        div.home-product-tab-bg [24,3880 342x299] fx:row
+                          img [24,3709 342x640] IMG 6818f491db7df5646bba2c71_lens-product-bg-p-500.webp nat390x332 alt="" lazy 
+                        div.home-product-tab-panes [24,3880 342x299]  @data-tab-panes=
+                          div#lens-panel-0.home-product-tab-pane.is-active [24,3880 342x299] fx:row @data-tab-pane= @role=tabpanel
+                            img.home-product-tab-image [24,3880 342x299] IMG 6818f4ab1be4acb01b76b457_creative-test-analysis-p-500.webp nat390x332 alt="creative analytics software" lazy 
+    div.section [0,4279 390x1478] 
+      div.product-page-padding-y [0,4279 390x1478] fx:column p:80px 0px
+        div.container.section-container [0,4359 390x1318] p:0px 24px
+          div.section-head [24,4359 342x212] fx:column gap:12px
+            div.section-head-wrapper [24,4359 342x212] fx:column gap:12px
+              div.section-head_title [24,4359 342x144] 
+                h2.text-display-h2 [24,4359 342x144]  {Inter Display 36px/48px w600 ls-0.27px c:rgb(255, 255, 255) ta:center} "This is why 10,000+ marketers made the right choice." (3L)
+              div.section-head_paragraph [24,4515 342x56] 
+                div.text-alpha-100 [24,4515 342x56] 
+                  p.text-body-l [24,4515 342x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 73ch 2L]
+          div.section-content-main [24,4571 342x1106] p:40px 0px 0px
+            div [24,4611 342x1066] 
+              div.product-page-solution [24,4611 342x1066] fx:column gap:32px p:48px 0px 32px
+                div.comparison-block-grid [24,4659 342x986] gtc:342px gap:16px
+                  div.comparison-pricing [24,4659 342x504] fx:column gap:20px r:28px
+                    div.comparison-pricing-top [24,4659 342x113] p:25px 25px 0px
+                      div.comparison-pricing-top-contnet [49,4684 292x88] fx:column gap:10px
+                        div.comparison-logo-holder.left [49,4684 292x30] fx:row
+                          img.comparison-logo [49,4684 103x30] IMG 683f8e06ec330518c3133d0b_foreplay-logo.svg nat96x28 alt="foreplay.co logo svg" lazy 
+                        div.comparison-pricing-starts [49,4724 292x48] fx:row gap:10px p:10px 0px
+                          div.starts-from [49,4736 131x24] fx:row p:4px 12px r:100px
+                            div.text-overline [61,4740 107x16] 
+                              div [61,4740 107x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase} "STARTS FROM" (1L)
+                          div.comparison-pricing-price [190,4734 75x28] fx:row gap:2px
+                            div.text-white [190,4734 37x28] 
+                              div.text-display-h6 [190,4734 37x28]  {Inter Display 20px/28px w600 ls-0.11px c:rgb(255, 255, 255)} "$49" (1L)
+                            div.text-display-h6 [229,4734 35x28]  {Inter Display 20px/28px w600 ls-0.11px c:rgba(255, 255, 255, 0.36)} "/mo" (1L)
+                    div.comparison-pricing-list-wrapper [24,4792 342x286] p:0px 25px
+                      ul.comparison-pricing-list.w-list-unstyled [49,4792 292x276] fx:column gap:12px @role=list
+                        li.comparison-pricing-list-item [49,4792 292x48] fx:row gap:5px
+                          div.icon-medium.w-embed [49,4792 24x24] fx:row
+                            svg [49,4791 24x25] SVG vb=0 0 24 25 fill=none color=rgba(255, 255, 255, 0.36) 
+                          div.text-white [78,4792 263x48] 
+                            div.text-label-m [78,4792 263x48]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "The original swipe file and ad research tool." (2L)
+                        li.comparison-pricing-list-item [49,4852 292x24] fx:row gap:5px
+                          div.icon-medium.w-embed [49,4852 24x24] fx:row
+                            svg [49,4851 24x25] SVG vb=0 0 24 25 fill=none color=rgba(255, 255, 255, 0.36) 
+                          div.text-white [78,4852 182x24] 
+                            div.text-label-m [78,4852 182x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Self-serve public pricing" (1L)
+                        … +4 more li.comparison-pricing-list-item (repeat)
+                    div.comparison-pricing-button [24,5098 342x65] p:0px 25px 25px
+                      a.button-dark.button-primary.w-inline-block [49,5098 292x40] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+                        div.button-text-block [123,5106 123x24] p:0px 6px
+                          div.text-heading-m [129,5106 111x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14) ta:center} "Start Free Trial" (1L)
+                        div.button-icon-block.icon-right.opacity-100 [243,5106 24x24] fx:row
+                          div.icon-medium [243,5106 24x24] fx:row
+                            div.svg.w-embed [243,5106 24x24] fx:row
+                              svg [243,5106 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+                  div.comparison-pricing.competitor [24,5179 342x466] fx:column gap:20px r:28px
+                    div.comparison-pricing-top [25,5180 340x113] p:25px 25px 0px
+                      div.comparison-pricing-top-contnet [50,5205 290x88] fx:column gap:10px
+                        div.comparison-logo-holder.left [50,5205 290x30] fx:row
+                          img.comparison-logo.motion [50,5207 103x25] IMG 683fad1023064be7eb5d0f68_motion-logo-light.svg nat99x24 alt="foreplay.co logo svg" lazy 
+                        div.comparison-pricing-starts [50,5245 290x48] fx:row gap:10px p:10px 0px
+                          div.starts-from [50,5257 131x24] fx:row p:4px 12px r:100px
+                            div.text-overline [62,5261 107x16] 
+                              div [62,5261 107x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase} "STARTS FROM" (1L)
+                          div.comparison-pricing-price [191,5255 87x28] fx:row gap:2px
+                            div.text-white [191,5255 49x28] 
+                              div.text-display-h6 [191,5255 49x28]  {Inter Display 20px/28px w600 ls-0.11px c:rgb(255, 255, 255)} "$350" (1L)
+                            div.text-display-h6 [242,5255 35x28]  {Inter Display 20px/28px w600 ls-0.11px c:rgba(255, 255, 255, 0.36)} "/mo" (1L)
+                    div.comparison-pricing-list-wrapper [25,5313 340x214] p:0px 25px
+                      ul.comparison-pricing-list.w-list-unstyled [50,5313 290x204] fx:column gap:12px @role=list
+                        li.comparison-pricing-list-item [50,5313 290x24] fx:row gap:5px
+                          div.icon-medium.w-embed [50,5313 24x24] fx:row
+                            svg [50,5312 24x25] SVG vb=0 0 24 25 fill=none color=rgba(255, 255, 255, 0.36) 
+                          div.text-white [79,5313 244x24] 
+                            div.text-label-m [79,5313 244x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Requires sales call to get started" (1L)
+                        li.comparison-pricing-list-item [50,5349 290x24] fx:row gap:5px
+                          div.icon-medium.w-embed [50,5349 24x24] fx:row
+                            svg [50,5348 24x25] SVG vb=0 0 24 25 fill=none color=rgba(255, 255, 255, 0.36) 
+                          div.text-white [79,5349 156x24] 
+                            div.text-label-m [79,5349 156x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "No self-serve pricing" (1L)
+                        … +4 more li.comparison-pricing-list-item (repeat)
+                    div.comparison-pricing-button [25,5547 340x97] p:0px 25px 25px
+                      div.competitor-pricing-details [50,5547 290x72] 
+                        div [50,5547 290x72]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.36) ta:center} [TEXT 81ch 3L]
+    section.section [0,5757 390x1679] 
+      div.section-padding [0,5757 390x1679] p:8px
+        div.section-white-block [8,5765 374x1663] r:16px
+          div.container.section-container [8,5765 374x1663] p:0px 24px
+            div.comparison [32,5765 326x1663] fx:column gap:32px p:64px 0px
+              div.comparison-head [32,5829 326x304] fx:column gap:32px p:0px 0px 16px
+                div.section-head [32,5829 326x288] fx:column gap:12px
+                  div.section-head-wrapper [32,5829 326x288] fx:column gap:12px
+                    div.section-head_subtitle [84,5829 222x16] 
+                      div.text-overline.text-solid-400 [84,5829 222x16]  {Inter 12px/16px w550 ls2px c:rgb(76, 80, 95) uppercase ta:center} "COMPARE MOTION FEATURES" (1L)
+                    div.section-head_title.title-dark [32,5857 326x176] 
+                      h2.text-display-h3 [32,5857 326x176]  {Inter Display 36px/44px w600 ls-0.26px c:rgb(23, 25, 32) ta:center} "Whats the difference between Foreplay.co and Motion?" (4L)
+                    div.section-head_paragraph [32,6045 326x72] 
+                      div.text-solid-600 [32,6045 326x72] 
+                        p.text-body-m [32,6045 326x72]  {Inter 16px/24px w400 ls-0.18px c:rgb(36, 38, 46) ta:center} [TEXT 92ch 3L]
+              div.comparison-grid-scroll [8,6165 374x1035] p:0px 24px 0px 40px
+                div.comparison-competitor-grid [48,6165 480x1035] r:16px 16px 0px 0px
+                  div.comparison-competitor [49,6166 478x39] gtc:159.328px 159.328px 159.328px r:16px 16px 0px 0px
+                    div.comparison-tr-title [49,6166 159x38] fx:column gap:4px p:8px
+                    div.comparison-tr-cell.start-trial-cell [208,6166 159x38] fx:column gap:12px p:4px
+                      img.comparison-cell-logo [237,6170 103x30] IMG 68403ae8d722073e25efd4e5_foreplay-logo-dark.svg nat96x28 alt="foreplay.co logo" lazy 
+                    div.comparison-tr-cell.start-trial-cell [368,6166 159x38] fx:column gap:12px p:4px
+                      img.comparison-cell-logo.motion [398,6173 100x23] IMG 683f8d557ddfcfa8f0ba0798_motion-logo.svg nat100x23 alt="motion app logo svg" lazy 
+                  div.comparison-category-rows [9,6205 558x98] p:0px 40px
+                    div.comparison-competitor-tr [49,6205 478x98] gtc:159.328px 159.328px 159.328px
+                      div.comparison-tr-title [49,6205 159x97] fx:column gap:4px p:8px
+                        div.text-label-m [57,6213 143x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "Pricing Model" (1L)
+                      div.comparison-competitor-cell.pricing-model [208,6205 159x97] fx:column gap:5px p:4px
+                        div.text-label-m [213,6209 102x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "From $49/mo" (1L)
+                        div.text-solid-400 [213,6238 150x60] 
+                          div.text-body-s [213,6238 150x60]  {Inter 14px/20px w400 ls-0.09px c:rgb(76, 80, 95)} "Flat rate pricing per product, no ad spend tax." (3L)
+                      div.comparison-competitor-cell.pricing-model [368,6205 159x97] fx:column gap:5px p:4px
+                        div.text-label-m [373,6209 111x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "From $350/mo" (1L)
+                        div.text-solid-400 [373,6238 150x60] 
+                          div.text-body-s [373,6238 150x60]  {Inter 14px/20px w400 ls-0.09px c:rgb(76, 80, 95)} "Pricing increases as you increase ad spend :(" (3L)
+                  div.comparison-category [49,6303 478x424]  @data-open=true
+                    div.comparison-competitor-section-row [49,6303 478x41] fx:row p:8px
+                      div.flex-1 [57,6311 462x24] 
+                        h3.text-heading-l [57,6311 462x24]  {Inter 18px/24px w550 ls-0.259999px c:rgb(23, 25, 32)} "Competitor Research & Inspiration" (1L)
+                    div.comparison-category-rows [9,6344 558x65] p:0px 40px
+                      div.comparison-competitor-tr [49,6344 478x65] gtc:159.328px 159.328px 159.328px
+                        div.comparison-tr-title [49,6344 159x64] fx:column gap:4px p:8px
+                          div.text-label-m [57,6352 143x48]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "Ad Saving / Swiping" (2L)
+                        div.comparison-competitor-cell [208,6344 159x64] fx:row gap:5px p:4px
+                          div.icon-medium.w-embed [213,6364 24x24] fx:row
+                            svg [213,6364 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                          div.text-label-m [242,6364 86x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ta:center} "6 Platforms" (1L)
+                        div.comparison-competitor-cell [368,6344 159x64] fx:row gap:5px p:4px
+                          div.icon-medium.w-embed [373,6364 24x24] fx:row
+                            svg [373,6364 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                          div.text-label-m [402,6364 85x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ta:center} "2 Platforms" (1L)
+                    div.comparison-category-rows [9,6409 558x65] p:0px 40px
+                      div.comparison-competitor-tr [49,6409 478x65] gtc:159.328px 159.328px 159.328px
+                        div.comparison-tr-title [49,6409 159x64] fx:column gap:4px p:8px
+                          div.text-label-m [57,6417 143x48]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "Save Ads from Mobile" (2L)
+                        div.comparison-competitor-cell [208,6409 159x64] fx:row gap:5px p:4px
+                          div.icon-medium.w-embed [213,6429 24x24] fx:row
+                            svg [213,6429 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                          div.text-label-m [242,6429 27x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ta:center} "Yes" (1L)
+                        div.comparison-competitor-cell [368,6409 159x64] fx:row gap:5px p:4px
+                          div.icon-medium.w-embed [373,6429 24x24] fx:row
+                            svg [373,6429 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                          div.text-label-m [402,6429 21x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ta:center} "No" (1L)
+                    … +4 more div.comparison-category-rows (repeat)
+                  div.comparison-category [49,6727 478x472]  @data-open=true
+                    div.comparison-competitor-section-row [49,6727 478x41] fx:row p:8px
+                      div.flex-1 [57,6735 462x24] 
+                        h3.text-heading-l [57,6735 462x24]  {Inter 18px/24px w550 ls-0.259999px c:rgb(23, 25, 32)} "Creative Analytics & Reporting" (1L)
+                    div.comparison-category-rows [9,6768 558x65] p:0px 40px
+                      div.comparison-competitor-tr [49,6768 478x65] gtc:159.328px 159.328px 159.328px
+                        div.comparison-tr-title [49,6768 159x64] fx:column gap:4px p:8px
+                          div.text-label-m [57,6776 143x48]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "Unlimited Ad Spend" (2L)
+                        div.comparison-competitor-cell [208,6768 159x64] fx:row gap:5px p:4px
+                          div.icon-medium.w-embed [213,6788 24x24] fx:row
+                            svg [213,6788 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                          div.text-label-m [242,6788 27x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ta:center} "Yes" (1L)
+                        div.comparison-competitor-cell [368,6768 159x64] fx:row gap:5px p:4px
+                          div.icon-medium.w-embed [373,6788 24x24] fx:row
+                            svg [373,6788 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                          div.text-label-m [402,6788 21x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ta:center} "No" (1L)
+                    div.comparison-category-rows [9,6833 558x41] p:0px 40px
+                      div.comparison-competitor-tr [49,6833 478x41] gtc:159.328px 159.328px 159.328px
+                        div.comparison-tr-title [49,6833 159x40] fx:column gap:4px p:8px
+                          div.text-label-m [57,6841 143x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32)} "Meta Ad Analytics" (1L)
+                        div.comparison-competitor-cell [208,6833 159x40] fx:row gap:5px p:4px
+                          div.icon-medium.w-embed [213,6841 24x24] fx:row
+                            svg [213,6841 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                          div.text-label-m [242,6841 27x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ta:center} "Yes" (1L)
+                        div.comparison-competitor-cell [368,6833 159x40] fx:row gap:5px p:4px
+                          div.icon-medium.w-embed [373,6841 24x24] fx:row
+                            svg [373,6841 24x24] SVG vb=0 0 24 24 fill=none color=rgb(23, 25, 32) 
+                          div.text-label-m [402,6841 27x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ta:center} "Yes" (1L)
+                    … +4 more div.comparison-category-rows (repeat)
+              div.comparison-grid-cta-mobile [32,7192 326x172] fx:column gap:16px p:40px 0px
+                div.text-solid-900 [34,7232 322x36] 
+                  h3.text-display-h4 [34,7232 322x36]  {Inter Display 28px/36px w600 ls-0.2px c:rgb(9, 10, 14) ta:center} "Need something custom?" (1L)
+                div.comparison-footer-button [82,7284 227x40] 
+                  a.new-button.new-button-secondary.w-inline-block [82,7284 227x40] fx:row p:8px r:10px href=/book-demo
+                    div.button-text-block [139,7292 111x24] p:0px 6px
+                      div.text-heading-m [145,7292 99x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(19, 21, 26) ta:center} "Book a Demo" (1L)
+    section.section [0,7436 390x1520] 
+      div.lens-enrichment_security [0,7436 390x1520] fx:column gap:40px p:80px 0px
+        div.container [0,7516 390x1360] p:0px 24px
+          div.lens-security [24,7516 342x1360] fx:column gap:48px
+            div.section-head [24,7516 342x276] fx:column gap:12px
+              div.section-head-wrapper [24,7516 342x276] fx:column gap:12px
+                div.section-head_subtitle [146,7516 99x16] 
+                  div.text-overline.text-white-68 [146,7516 99x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "MOST LOVED" (1L)
+                div.section-head_title [24,7544 342x96] 
+                  h2.text-display-h2 [24,7544 342x96]  {Inter Display 36px/48px w600 ls-0.27px c:rgb(255, 255, 255) ta:center} "Exclusive Foreplay Features" (2L)
+                div.section-head_paragraph [24,7652 342x140] 
+                  div.text-alpha-100 [24,7652 342x140] 
+                    p.text-body-l [24,7652 342x140]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 158ch 5L]
+            div.lens-security-grid [24,7840 342x1036] gtc:340px r:28px
+              div.lens-security-card [25,7841 340x351] fx:column p:24px
+                div.lens-security-card-head [49,7865 292x24] fx:row gap:8px
+                  div.icon-medium [49,7865 24x24] fx:row
+                    div.svg.w-embed [49,7865 24x24] fx:row
+                      svg [49,7865 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) 
+                  h3.text-label-m [81,7865 138x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Expert Swipe Files" (1L)
+                div.lens-security-card-body.home-card-body [25,7850 340x255] 
+                  img.lens-security-card-illustration [25,7850 340x255] IMG 681947a3da1e34aa66fcdccb_expert-boards-img-p-500.webp nat390x292 alt="expert swipe files" lazy 
+                div.lens-security-card-footer [49,8105 292x63] 
+                  div.card-button-holder [49,8105 292x63] fx:column gap:15px p:15px 0px 0px
+                    div.text-alpha-50 [49,8120 292x48] 
+                      div.text-body-m [49,8120 292x48]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 79ch 2L]
+              div.lens-security-card.is-middle [25,8192 340x353] fx:column p:24px
+                div.lens-security-card-head [49,8217 292x24] fx:row gap:8px
+                  div.icon-medium [49,8217 24x24] fx:row
+                    div.svg.w-embed [49,8217 24x24] fx:row
+                      svg [49,8217 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) 
+                  h3.text-label-m [81,8217 85x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "Mobile App" (1L)
+                div.lens-security-card-body.home-card-body [25,8202 340x255] 
+                  img.lens-security-card-illustration [25,8202 340x255] IMG 681947a2d93fde0a00822fcf_mobile-app-block-p-500.webp nat390x292 alt="foreplay mobile app screenshot" lazy 
+                div.card-button-holder [49,8457 292x63] fx:column gap:15px p:15px 0px 0px
+                  div.text-alpha-50 [49,8472 292x48] 
+                    div.text-body-m [49,8472 292x48]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 65ch 2L]
+              div.lens-security-card [25,8545 340x330] fx:column p:24px
+                div.lens-security-card-head [49,8569 292x24] fx:row gap:8px
+                  div.icon-medium [49,8569 24x24] fx:row
+                    div.svg.w-embed [49,8569 24x24] fx:row
+                      svg [49,8569 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) 
+                  h3.text-label-m [81,8569 25x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(255, 255, 255)} "API" (1L)
+                div.lens-security-card-body.home-card-body [25,8554 340x234] 
+                  img.lens-security-card-illustration [25,8554 340x234] IMG 68194b5e0cead2d7bd121660_Frame 1171276106.webp nat768x528 alt="competitor ad api " lazy 
+                div.card-button-holder [49,8788 292x63] fx:column gap:15px p:15px 0px 0px
+                  div.text-alpha-50 [49,8803 292x48] 
+                    div.text-body-m [49,8803 292x48]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} "Enriched competitor advertising data in an agent agnostic API." (2L)
+    div.section.overflow-hidden [0,8956 390x767] 
+      div.container.section-container [0,8956 390x767] p:0px 24px
+        div.home-cta [24,8956 342x767] fx:column gap:36px p:80px 0px 0px
+          div.section-head.is-large [24,9036 342x288] fx:column gap:12px
+            div.section-head_title [24,9036 342x192] 
+              h2.text-display-h2 [24,9036 342x192]  {Inter Display 36px/48px w600 ls-0.27px c:rgb(255, 255, 255) ta:center} "Convinced? Let's find, launch and scale your next winning ad" (4L)
+            div.section-head_paragraph.is-large [24,9240 342x84] 
+              div.text-alpha-100 [24,9240 342x84] 
+                p.text-body-l [24,9240 342x84]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 111ch 3L]
+          div.main-cta-buttons [24,9360 342x94] gtc:342px gap:12px
+            a.button-dark.button-primary.w-inline-block [24,9360 342x40] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+              div.button-text-block [127,9368 117x24] p:0px 6px
+                div.text-heading-m [133,9368 105x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Start free trial" (1L)
+              div.button-icon-block.icon-right.opacity-100 [239,9368 24x24] fx:row
+                div.icon-medium [239,9368 24x24] fx:row
+                  div.svg.w-embed [239,9368 24x24] fx:row
+                    svg [239,9368 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+            a.button-dark.button-secondary.w-inline-block [24,9412 342x42] fx:row p:8px r:10px href=/book-demo
+              div.button-text-block [139,9421 111x24] p:0px 6px
+                div.text-heading-m [145,9421 99x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Book a Demo" (1L)
+          div.home-cta-image-wrapper [-40,9490 470x302] 
+            img.home-cta-image [-40,9490 470x302] IMG 680a4b467abdcf40d0d0fa8b_home-cta-p-500.webp nat390x250 alt="Two people looking at laptop, Foreplay d" lazy 
+  div.comparison-psa-sticky [0,534 390x310] fx:row p:20px 20px 0px
+    div.comparison-psa [20,554 350x290] p:4px r:16px 16px 0px 0px
+      div.comparison-psa-header [24,558 342x54] fx:row p:12px
+        div.text-white [36,570 49x30] 
+          div.text-label-s [36,570 49x20]  {Inter 14px/20px w500 ls-0.09px c:rgb(255, 255, 255)} "🚨 PSA" (1L)
+        div.close-button [85,570 24x30] 
+          div.icon-medium.w-embed [85,576 24x24] fx:row
+            svg [85,576 24x25] SVG vb=0 0 24 25 fill=none color=rgba(255, 255, 255, 0.36) 
+      div.comparison-psa-text [24,612 342x164] p:12px r:12px
+        div.text-alpha-100 [36,624 318x140] 
+          div.text-body-s [36,624 318x140]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} [TEXT 204ch 7L]
+      div.comparison-psa-header [24,776 342x64] fx:row p:12px
+        div.text-white [36,788 180x40] 
+          div.comparison-psa-bio [36,788 180x40] fx:row gap:10px
+            img.image-166 [36,788 40x40] IMG 6840562ba89ce1d885e92f6f_zach-murray-headshot-p-500.webp nat390x390 alt="zach murray headshot" lazy 
+            div.comparison-psa-bio-text [86,788 130x40] 
+              div.text-label-s [86,788 130x20]  {Inter 14px/20px w500 ls-0.09px c:rgb(255, 255, 255)} "Zach Murray" (1L)
+              div.text-alpha-100 [86,808 130x20] 
+                div.text-body-s [86,808 130x20]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} "Founder @ Foreplay" (1L)

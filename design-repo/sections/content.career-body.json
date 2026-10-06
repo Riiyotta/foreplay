@@ -1,0 +1,83 @@
+{
+  "id": "content.career-body",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Career entry body: 'Apply Now' action row (job.applyUrl, external) + 'Job Description' stand-in rich text (blocksFrom, bodyLen up to 3244).",
+  "measuredFrom": [
+    "src/pages/templates/Career.jsx:15"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "applyHref": {
+        "type": "route-or-url",
+        "required": true,
+        "measuredFrom": [
+          "src/data/careers.json:8"
+        ]
+      },
+      "description": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 120,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "block": {
+              "type": "enum",
+              "required": true,
+              "values": [
+                "p",
+                "h2",
+                "h3",
+                "ul",
+                "ol"
+              ],
+              "measuredFrom": [
+                "src/data/careers.json:10"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "required": false,
+              "maxChars": 900,
+              "measuredFrom": [
+                "src/components/misc/copy.js:18"
+              ],
+              "standIn": true
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/data/careers.json:10"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/Career.jsx:15"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "career"
+  ],
+  "usedOnRoutes": [
+    "/careers/:slug"
+  ]
+}

@@ -1,0 +1,22 @@
+URL https://www.foreplay.co/media-kit W1440 docH 1444 title="Foreplay - Media Kit" wfpage=69724832f31dbc4a5a3231ec bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 1440x1444] minh:100% bg:rgb(2, 3, 8) of:clip visible
+  div.global [0,0 0x0] pos:fixed t0px r1440px b900px l0px of:clip
+  div.section.overflow-hidden [0,72 1440x440] of:hidden
+    div.container.section-container [48,72 1344x440] p:0px 40px m:0px 48px maxw:1344px
+      div.demo-hero [88,72 1264x440] d:flex fx:column/center/flex-start p:120px 0px
+        div.media-kit-header [352,192 737x200] d:flex fx:row/center/flex-start gap:25px
+          img.image-169 [352,192 200x200] IMG 6972490d55ff501309a8bec6_foreplay-folder-gray.webp nat432x432 alt="" lazy maxw:100% of:clip
+          div.section-head.is-align-left [577,204 512x176] d:flex fx:column/flex-start/flex-start gap:12px maxw:720px
+            div.section-head_title [577,204 185x54] 
+              h1.text-display-h2 [577,204 185x54]  {Inter Display 44px/53.76px w600 ls-0.33px c:rgb(255, 255, 255)} "Media Kit" (1L)
+            div.section-head-wrapper [577,270 512x56] d:flex fx:column/center/normal gap:12px
+              div.section-head_paragraph [577,270 512x56] maxw:512px
+                div.text-alpha-100 [577,270 512x56] flex:1 1 0%
+                  p.text-body-l [577,270 512x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68)} [TEXT 82ch 2L]
+            a.button-dark.button-secondary.w-inline-block [577,338 249x42] d:flex fx:row/center/center p:8px maxw:100% bg:rgb(9, 10, 14) r:10px b:1px solid rgb(36, 38, 46) pos:relative z:5 tr:all 0.2s ease href=#
+              div.button-text-block [586,347 211x24] p:0px 6px pos:relative z:2 cursor:pointer
+                div.text-heading-m [592,347 199x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Download all brand assets" (1L)
+              div.button-icon-block.icon-right [792,347 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative op:0.68 z:2 cursor:pointer
+                div.icon-medium [792,347 24x24] d:flex fx:row/center/center cursor:pointer
+                  div.svg.w-embed [795,350 18x18] d:flex fx:row/center/center cursor:pointer
+                    svg [795,350 18x18] SVG vb=0 0 18 18 fill=none color=rgb(255, 255, 255) of:hidden cursor:pointer

@@ -1,0 +1,69 @@
+{
+  "id": "hero.directory",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Agency directory hero (WorkHeroGrid): icon + overline h1, h2 title, lead, empty decorative panel (0 tall <=991).",
+  "measuredFrom": [
+    "src/pages/AgencyDirectory.jsx:14"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 16,
+        "measuredFrom": [
+          "src/pages/AgencyDirectory.jsx:20"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 56,
+        "measuredFrom": [
+          "src/pages/AgencyDirectory.jsx:24"
+        ]
+      },
+      "lead": {
+        "type": "string",
+        "required": true,
+        "maxChars": 117,
+        "measuredFrom": [
+          "src/pages/AgencyDirectory.jsx:27"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 105,
+          "upperBoundChars": 117
+        },
+        "standIn": true
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/AgencyDirectory.jsx:14"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "agency-directory"
+  ],
+  "usedOnRoutes": [
+    "/agency-directory"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "content.event-body",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Event body: 800px framed video placeholder (Luma signup only for upcoming), 'Never miss an event' row (lu.ma external), 'What you'll learn' stand-in list and optional transcript dropdown (INTENTIONAL FIX: transparent bg instead of live #ddd).",
+  "measuredFrom": [
+    "src/pages/templates/Event.jsx:113"
+  ],
+  "behaviour": [
+    {
+      "note": "Transcript list background fixed to transparent + 16px padding (live Webflow #ddd is unreadable).",
+      "measuredFrom": [
+        "src/pages/templates/Event.jsx:65"
+      ]
+    }
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "video": {
+        "type": "assetRef",
+        "assetRole": "third-party-embed",
+        "required": true,
+        "measuredFrom": [
+          "src/data/events.json:11"
+        ]
+      },
+      "learn": {
+        "type": "richtext-inline",
+        "required": true,
+        "maxChars": 2448,
+        "measuredFrom": [
+          "src/components/templates/standin.js:153"
+        ],
+        "note": "max 2448 (measured: max over every CMS entry by executing the clone's own generator at build time; see measured-values.json generatorMeasurements)"
+      },
+      "transcript": {
+        "type": "boolean",
+        "required": false,
+        "measuredFrom": [
+          "src/data/events.json:14"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "video"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/Event.jsx:44"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "event"
+  ],
+  "usedOnRoutes": [
+    "/events/:slug"
+  ]
+}

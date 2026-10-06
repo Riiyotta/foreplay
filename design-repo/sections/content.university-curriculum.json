@@ -1,0 +1,82 @@
+{
+  "id": "content.university-curriculum",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Course curriculum: module tab list (instant tabs + 300ms tpl-fade-in pane) with trailer VideoBox placeholder and coming-soon module posters.",
+  "measuredFrom": [
+    "src/pages/templates/University.jsx:121"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "modules": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 12,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 16,
+              "measuredFrom": [
+                "src/pages/templates/University.jsx:139"
+              ]
+            },
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 48,
+              "measuredFrom": [
+                "src/pages/templates/University.jsx:140"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/templates/University.jsx:128"
+        ]
+      },
+      "trailer": {
+        "type": "assetRef",
+        "assetRole": "third-party-embed",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/templates/University.jsx:149"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "trailer"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "fade-tabs",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/index.css:280"
+    ],
+    "durationMs": 300,
+    "easing": "ease",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "university-course"
+  ],
+  "usedOnRoutes": [
+    "/university/psychology-in-advertising"
+  ]
+}

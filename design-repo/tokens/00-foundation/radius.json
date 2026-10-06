@@ -1,0 +1,125 @@
+{
+  "$description": "Border-radius scale (theme.extend.borderRadius). Arbitrary radii also occur in JSX (rounded-[15px] x14, rounded-[4px] x9, rounded-[5px], rounded-[7px], rounded-[3px]); they are recorded in extraction/measured-values.json, not promoted.",
+  "category": "borderRadius",
+  "borderRadius": {
+    "2": {
+      "value": "2px",
+      "type": "borderRadius",
+      "utility": "rounded-2",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:188"
+    },
+    "6": {
+      "value": "6px",
+      "type": "borderRadius",
+      "utility": "rounded-6",
+      "utilityUsage": 8,
+      "measuredFrom": "tailwind.config.js:189"
+    },
+    "8": {
+      "value": "8px",
+      "type": "borderRadius",
+      "utility": "rounded-8",
+      "utilityUsage": 39,
+      "measuredFrom": "tailwind.config.js:190"
+    },
+    "9": {
+      "value": "9px",
+      "type": "borderRadius",
+      "utility": "rounded-9",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:191"
+    },
+    "10": {
+      "value": "10px",
+      "type": "borderRadius",
+      "utility": "rounded-10",
+      "utilityUsage": 49,
+      "measuredFrom": "tailwind.config.js:192"
+    },
+    "12": {
+      "value": "12px",
+      "type": "borderRadius",
+      "utility": "rounded-12",
+      "utilityUsage": 33,
+      "measuredFrom": "tailwind.config.js:193"
+    },
+    "16": {
+      "value": "16px",
+      "type": "borderRadius",
+      "utility": "rounded-16",
+      "utilityUsage": 27,
+      "measuredFrom": "tailwind.config.js:194"
+    },
+    "18": {
+      "value": "18px",
+      "type": "borderRadius",
+      "utility": "rounded-18",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:195"
+    },
+    "20": {
+      "value": "20px",
+      "type": "borderRadius",
+      "utility": "rounded-20",
+      "utilityUsage": 30,
+      "measuredFrom": "tailwind.config.js:196"
+    },
+    "24": {
+      "value": "24px",
+      "type": "borderRadius",
+      "utility": "rounded-24",
+      "utilityUsage": 6,
+      "measuredFrom": "tailwind.config.js:197"
+    },
+    "28": {
+      "value": "28px",
+      "type": "borderRadius",
+      "utility": "rounded-28",
+      "utilityUsage": 8,
+      "measuredFrom": "tailwind.config.js:198"
+    },
+    "32": {
+      "value": "32px",
+      "type": "borderRadius",
+      "utility": "rounded-32",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:199"
+    },
+    "36": {
+      "value": "36px",
+      "type": "borderRadius",
+      "utility": "rounded-36",
+      "utilityUsage": 7,
+      "measuredFrom": "tailwind.config.js:200"
+    },
+    "pill": {
+      "value": "99px",
+      "type": "borderRadius",
+      "utility": "rounded-pill",
+      "utilityUsage": 8,
+      "measuredFrom": "tailwind.config.js:201"
+    },
+    "circle": {
+      "value": "100px",
+      "type": "borderRadius",
+      "utility": "rounded-circle",
+      "utilityUsage": 40,
+      "measuredFrom": "tailwind.config.js:202"
+    },
+    "glow": {
+      "value": "16%",
+      "type": "borderRadius",
+      "utility": "rounded-glow",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:203"
+    },
+    "ray": {
+      "value": "999px",
+      "type": "borderRadius",
+      "utility": "rounded-ray",
+      "utilityUsage": 7,
+      "measuredFrom": "tailwind.config.js:204"
+    }
+  }
+}

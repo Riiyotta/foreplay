@@ -1,0 +1,31 @@
+{
+  "id": "marquee",
+  "kind": "primitive",
+  "purpose": "Auto-scrolling list (AutoScrollCarousel port): speed px/frame, gap, rtl; clones items x2 each side, pauses on hover and hidden tab, runs only when items overflow.",
+  "measuredFrom": [
+    "src/components/shared/Marquee.jsx:8"
+  ],
+  "props": {
+    "speed": {
+      "type": "number",
+      "default": 1
+    },
+    "gap": {
+      "type": "integer",
+      "default": 16
+    },
+    "rtl": {
+      "type": "boolean"
+    }
+  },
+  "tokensUsed": [],
+  "motion": {
+    "pattern": "marquee-autoscroll",
+    "reducedMotionFallback": "pause",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/Marquee.jsx:8"
+    ],
+    "speedPxPerFrame": 1
+  }
+}

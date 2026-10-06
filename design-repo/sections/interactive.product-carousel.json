@@ -1,0 +1,112 @@
+{
+  "id": "interactive.product-carousel",
+  "kind": "section",
+  "category": "interactive",
+  "purpose": "'USE CASES' slider: section head + slide cards (image, title, text) moved by prev/next arrows (translateX, .8s expo).",
+  "measuredFrom": [
+    "src/components/product/ProductCarousel.jsx:87"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 12,
+        "measuredFrom": [
+          "src/components/product/ProductCarousel.jsx:87"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 33,
+        "measuredFrom": [
+          "src/pages/SwipeFile.jsx:102"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 136,
+        "measuredFrom": [
+          "src/pages/SwipeFile.jsx:102"
+        ],
+        "note": "max 136 (observed max over the product/lens/api/mcp pages' props, measured at build time)"
+      },
+      "slides": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 8,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 33,
+              "measuredFrom": [
+                "src/pages/SwipeFile.jsx:102"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "required": true,
+              "maxChars": 115,
+              "measuredFrom": [
+                "src/pages/SwipeFile.jsx:102"
+              ]
+            },
+            "image": {
+              "type": "assetRef",
+              "assetRole": "product-screenshot",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/SwipeFile.jsx:102"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/product/ProductCarousel.jsx:87"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "slides[].image"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "carousel-slide",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/product/ProductCarousel.jsx:103"
+    ],
+    "durationMs": 800,
+    "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "easing.expo",
+    "duration.800"
+  ],
+  "usedOnTemplates": [
+    "product-feature"
+  ],
+  "usedOnRoutes": [
+    "/briefs",
+    "/discovery",
+    "/swipe-file"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "$description": "tailwind.config.js does not override theme.spacing, so spacing utilities use Tailwind's default 4px-step scale. Listed: every default step used >=5 times in src/**/*.jsx (padding/margin/gap utilities), with usage counts. Arbitrary px spacing (py-[108px], pt-[72px], gap-[72px] ...) is common and is recorded under arbitraryPx; the recurring section paddings are tokenised in 30-layout/section-rhythm.json.",
+  "category": "spacing",
+  "scaleSource": "tailwind.config.js:157",
+  "spacing": {
+    "0": {
+      "value": "0px",
+      "utilityUsage": 109,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "0.5": {
+      "value": "2px",
+      "utilityUsage": 6,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "1": {
+      "value": "4px",
+      "utilityUsage": 112,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "1.5": {
+      "value": "6px",
+      "utilityUsage": 45,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "2": {
+      "value": "8px",
+      "utilityUsage": 193,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "2.5": {
+      "value": "10px",
+      "utilityUsage": 108,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "3": {
+      "value": "12px",
+      "utilityUsage": 187,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "3.5": {
+      "value": "14px",
+      "utilityUsage": 6,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "4": {
+      "value": "16px",
+      "utilityUsage": 156,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "5": {
+      "value": "20px",
+      "utilityUsage": 104,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "6": {
+      "value": "24px",
+      "utilityUsage": 168,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "7": {
+      "value": "28px",
+      "utilityUsage": 9,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "8": {
+      "value": "32px",
+      "utilityUsage": 62,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "9": {
+      "value": "36px",
+      "utilityUsage": 18,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "10": {
+      "value": "40px",
+      "utilityUsage": 116,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "12": {
+      "value": "48px",
+      "utilityUsage": 45,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "16": {
+      "value": "64px",
+      "utilityUsage": 32,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "20": {
+      "value": "80px",
+      "utilityUsage": 72,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "24": {
+      "value": "96px",
+      "utilityUsage": 10,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    },
+    "32": {
+      "value": "128px",
+      "utilityUsage": 6,
+      "source": "Tailwind default spacing scale (theme.spacing not overridden)",
+      "measuredFrom": "tailwind.config.js:157"
+    }
+  },
+  "arbitraryPx": {
+    "5px": 42,
+    "25px": 33,
+    "15px": 27,
+    "50px": 23,
+    "120px": 20,
+    "108px": 19,
+    "100px": 17,
+    "72px": 16,
+    "30px": 15,
+    "75px": 10,
+    "9px": 10,
+    "7px": 8,
+    "3px": 5,
+    "60px": 5,
+    "42px": 4
+  }
+}

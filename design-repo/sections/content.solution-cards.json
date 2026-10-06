@@ -1,0 +1,122 @@
+{
+  "id": "content.solution-cards",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Before/after solution block on product pages: head + two cards (dark 'before', light 'after') with images.",
+  "measuredFrom": [
+    "src/components/product/SolutionCards.jsx:22"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 36,
+        "measuredFrom": [
+          "src/pages/SwipeFile.jsx:96"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 190,
+        "measuredFrom": [
+          "src/pages/SwipeFile.jsx:96"
+        ],
+        "note": "max 190 (observed max over the product/lens/api/mcp pages' props, measured at build time)"
+      },
+      "before": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "type": "string",
+            "required": false,
+            "maxChars": 36,
+            "measuredFrom": [
+              "src/components/product/SolutionCards.jsx:7"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "required": true,
+            "maxChars": 57,
+            "measuredFrom": [
+              "src/components/product/SolutionCards.jsx:7"
+            ]
+          },
+          "image": {
+            "type": "assetRef",
+            "assetRole": "product-screenshot",
+            "required": true,
+            "measuredFrom": [
+              "src/components/product/SolutionCards.jsx:22"
+            ]
+          }
+        }
+      },
+      "after": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "type": "string",
+            "required": false,
+            "maxChars": 36,
+            "measuredFrom": [
+              "src/components/product/SolutionCards.jsx:7"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "required": true,
+            "maxChars": 57,
+            "measuredFrom": [
+              "src/components/product/SolutionCards.jsx:7"
+            ]
+          },
+          "image": {
+            "type": "assetRef",
+            "assetRole": "product-screenshot",
+            "required": true,
+            "measuredFrom": [
+              "src/components/product/SolutionCards.jsx:22"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "mediaFields": [
+    "before.image",
+    "after.image"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/product/SolutionCards.jsx:22"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "product-feature",
+    "product-spyder"
+  ],
+  "usedOnRoutes": [
+    "/briefs",
+    "/discovery",
+    "/spyder-ad-spy",
+    "/swipe-file"
+  ]
+}

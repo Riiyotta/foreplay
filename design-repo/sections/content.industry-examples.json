@@ -1,0 +1,118 @@
+{
+  "id": "content.industry-examples",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Industry ad examples: examplesHead + 3 example ad cards (avatar, brand, days running, ad image) + CTA row (stand-in examplesCta, Start Browsing -> sign-up).",
+  "measuredFrom": [
+    "src/components/misc/Industry.jsx:130"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 34,
+        "measuredFrom": [
+          "src/data/industries.json:68"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 43,
+        "measuredFrom": [
+          "src/data/industries.json:68"
+        ]
+      },
+      "examples": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "brand": {
+              "type": "string",
+              "required": true,
+              "maxChars": 14,
+              "measuredFrom": [
+                "src/data/industries.json:72"
+              ]
+            },
+            "days": {
+              "type": "string",
+              "required": true,
+              "maxChars": 4,
+              "measuredFrom": [
+                "src/data/industries.json:72"
+              ]
+            },
+            "image": {
+              "type": "assetRef",
+              "assetRole": "editorial-image",
+              "required": true,
+              "measuredFrom": [
+                "src/data/industries.json:72"
+              ]
+            },
+            "avatar": {
+              "type": "assetRef",
+              "assetRole": "customer-logo",
+              "required": true,
+              "measuredFrom": [
+                "src/data/industries.json:72"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/data/industries.json:72"
+        ]
+      },
+      "ctaText": {
+        "type": "string",
+        "required": true,
+        "maxChars": 61,
+        "measuredFrom": [
+          "src/data/industries.json:93"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 61,
+          "upperBoundChars": 61
+        },
+        "standIn": true
+      }
+    }
+  },
+  "mediaFields": [
+    "examples[].image",
+    "examples[].avatar"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/misc/Industry.jsx:130"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "industry"
+  ],
+  "usedOnRoutes": [
+    "/industries/:slug"
+  ]
+}

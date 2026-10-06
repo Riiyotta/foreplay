@@ -1,0 +1,3203 @@
+[
+ {
+  "slug": "motion",
+  "title": "Motion",
+  "metaTitle": "An Affordable Motion Analytics Alternative - Foreplay.co",
+  "overline": "MOTION ANALYTICS ALTERNATIVES",
+  "h": "Foreplay is Motion on Steroids",
+  "introLen": 219,
+  "heroVideo": [
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.mp4",
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.webm"
+  ],
+  "heroPoster": "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-poster-00001.jpg",
+  "reviewsOverline": "MOTION VS FOREPLAY REVIEWS",
+  "reviewsTitle": "Let’s cut to the chase... Marketers prefer Foreplay",
+  "reviewsParaLen": 103,
+  "reviewCards": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "summaryLen": 90,
+    "reviewImg": "/assets/templates/comparison/683f8ccf8c4365b4bb600135_foreplay-review.webp",
+    "stores": [
+     {
+      "rating": "4.8/5",
+      "reviews": "188 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90"
+     },
+     {
+      "rating": "4.9/5",
+      "reviews": "91 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_90"
+     }
+    ],
+    "callout": null
+   },
+   {
+    "logo": "/assets/templates/comparison/683f8d557ddfcfa8f0ba0798_motion-logo.svg",
+    "summaryLen": 89,
+    "reviewImg": "/assets/templates/comparison/683f8ccfd518a0ece5009c49_motion-review.webp",
+    "stores": [
+     {
+      "rating": "3.7/5",
+      "reviews": "3 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_60 red"
+     },
+     {
+      "rating": "4.0/5",
+      "reviews": "11 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_70 yellow"
+     }
+    ],
+    "callout": {
+     "text": "The only 5-star review works for the company 🤔",
+     "img": "/assets/templates/comparison/684051ba90dd14a0aa86c99d_motion-employee.webp"
+    }
+   }
+  ],
+  "lastUpdated": "Last Updated June 4, 2025",
+  "tabsDefault": "Lens",
+  "tabOrder": [
+   "Lens",
+   "Swipe File",
+   "Discovery",
+   "Spyder",
+   "Briefs"
+  ],
+  "pricing": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "price": "$49 /mo",
+    "bullets": [
+     "The original swipe file and ad research tool.",
+     "Self-serve public pricing",
+     "No contracts",
+     "Priced simply, for more features",
+     "Used by the fastest growing brands",
+     "One-on-one onboarding and training"
+    ],
+    "noteLen": null
+   },
+   {
+    "logo": "/assets/templates/comparison/683fad1023064be7eb5d0f68_motion-logo-light.svg",
+    "logoH": 25,
+    "price": "$350 /mo",
+    "bullets": [
+     "Requires sales call to get started",
+     "No self-serve pricing",
+     "Long Contracts",
+     "Limited research tools",
+     "Slow data processing and preview",
+     "Legacy UI & no white labeling"
+    ],
+    "noteLen": 81
+   }
+  ],
+  "tableOverline": "COMPARE MOTION FEATURES",
+  "tableTitle": "Whats the difference between Foreplay.co and Motion?",
+  "tableParaLen": 92,
+  "tableLogos": [
+   "/assets/templates/comparison/68403ae8d722073e25efd4e5_foreplay-logo-dark.svg",
+   "/assets/templates/comparison/683f8d557ddfcfa8f0ba0798_motion-logo.svg"
+  ],
+  "tableRows": [
+   {
+    "row": "Pricing Model",
+    "cells": [
+     {
+      "v": "From $49/mo",
+      "noteLen": 47
+     },
+     {
+      "v": "From $350/mo",
+      "note": "Pricing increases as you increase ad spend :("
+     }
+    ]
+   },
+   {
+    "cat": "Competitor Research & Inspiration",
+    "rows": [
+     {
+      "label": "Ad Saving / Swiping",
+      "cells": [
+       {
+        "v": "6 Platforms",
+        "icon": "check"
+       },
+       {
+        "v": "2 Platforms",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Save Ads from Mobile",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Ad Spying with Enriched Data",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Searchable Ad Library",
+      "cells": [
+       {
+        "v": "+100m Ads",
+        "icon": "check"
+       },
+       {
+        "v": "<5M Ads",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Historical Data",
+      "cells": [
+       {
+        "v": "3 Years",
+        "icon": "check"
+       },
+       {
+        "v": "6 Months",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "Creative Analytics & Reporting",
+    "rows": [
+     {
+      "label": "Unlimited Ad Spend",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Meta Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "TikTok Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "YouTube Ad Analytics",
+      "cells": [
+       {
+        "v": "Coming Soon",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Creative Testing Dashboard",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "White Labeled Reports",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Password Protected Links",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "psaTextLen": 204,
+  "ctaTitle": "Convinced? Let's find, launch and scale your next winning ad",
+  "ctaParaLen": 111
+ },
+ {
+  "slug": "atria",
+  "title": "Atria",
+  "metaTitle": "The Best Atria Alternative - Foreplay.co",
+  "overline": "ATRIA ALTERNATIVE",
+  "h": "Foreplay is Atria for Professionals",
+  "introLen": 199,
+  "heroVideo": [
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.mp4",
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.webm"
+  ],
+  "heroPoster": "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-poster-00001.jpg",
+  "reviewsOverline": "ATRIA VS FOREPLAY REVIEWS",
+  "reviewsTitle": "Let’s cut to the chase... Marketers prefer Foreplay",
+  "reviewsParaLen": 102,
+  "reviewCards": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "summaryLen": 90,
+    "reviewImg": "/assets/templates/comparison/683f8ccf8c4365b4bb600135_foreplay-review.webp",
+    "stores": [
+     {
+      "rating": "4.8/5",
+      "reviews": "188 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90"
+     },
+     {
+      "rating": "4.9/5",
+      "reviews": "91 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_90"
+     }
+    ],
+    "callout": null
+   },
+   {
+    "logo": "/assets/templates/comparison/684068207281e17dbccf30e1_atria-logo-black.svg",
+    "summaryLen": 74,
+    "reviewImg": null,
+    "stores": [
+     {
+      "rating": "4.0/5",
+      "reviews": "8 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_60 yellow"
+     },
+     {
+      "rating": "??/5",
+      "reviews": "0 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_20 red"
+     }
+    ],
+    "callout": null
+   }
+  ],
+  "lastUpdated": "Last Updated June 4, 2025",
+  "tabsDefault": "Swipe File",
+  "tabOrder": [
+   "Swipe File",
+   "Lens",
+   "Discovery",
+   "Spyder",
+   "Briefs"
+  ],
+  "pricing": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "price": "$49 /mo",
+    "bullets": [
+     "The original swipe file and ad research tool.",
+     "Self-serve public pricing",
+     "No contracts",
+     "Priced simply, for more features",
+     "Used by the fastest growing brands",
+     "One-on-one onboarding and training"
+    ],
+    "noteLen": null
+   },
+   {
+    "logo": "/assets/templates/comparison/684068201b15fa21731f210c_atria-logo-white.svg",
+    "price": "$139 /mo",
+    "bullets": [
+     "Ad spend limitations on analytics",
+     "Half-built features",
+     "Only 3,000 chrome extension users (limited data)",
+     "Limited research tools",
+     "Slow data processing and preview",
+     "Legacy UI & no white labeling"
+    ],
+    "noteLen": 0
+   }
+  ],
+  "tableOverline": "COMPARE ATRIA FEATURES",
+  "tableTitle": "Whats the difference between Foreplay.co and Atria?",
+  "tableParaLen": 92,
+  "tableLogos": [
+   "/assets/templates/comparison/68403ae8d722073e25efd4e5_foreplay-logo-dark.svg",
+   "/assets/templates/comparison/684068207281e17dbccf30e1_atria-logo-black.svg"
+  ],
+  "tableRows": [
+   {
+    "row": "Pricing Model",
+    "cells": [
+     {
+      "v": "From $49/mo",
+      "noteLen": 47
+     },
+     {
+      "v": "From $350/mo",
+      "note": "Pricing increases as you increase ad spend :("
+     }
+    ]
+   },
+   {
+    "cat": "Competitor Research & Inspiration",
+    "rows": [
+     {
+      "label": "Ad Saving / Swiping",
+      "cells": [
+       {
+        "v": "6 Platforms",
+        "icon": "check"
+       },
+       {
+        "v": "2 Platforms",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Save Ads from Mobile",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Ad Spying with Enriched Data",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Searchable Ad Library",
+      "cells": [
+       {
+        "v": "+100m Ads",
+        "icon": "check"
+       },
+       {
+        "v": "<10M Ads",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Historical Data",
+      "cells": [
+       {
+        "v": "3 Years",
+        "icon": "check"
+       },
+       {
+        "v": "1 Year",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Video Transcription",
+      "cells": [
+       {
+        "v": "Unlimited",
+        "icon": "check"
+       },
+       {
+        "v": "Pay for More",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "API Access",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "Creative Analytics & Reporting",
+    "rows": [
+     {
+      "label": "Unlimited Ad Spend",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Capped",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Meta Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "TikTok Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "YouTube Ad Analytics",
+      "cells": [
+       {
+        "v": "Coming Soon",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Creative Testing Dashboard",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "White Labeled Reports",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Password Protected Links",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "psaTextLen": 204,
+  "ctaTitle": "Convinced? Let's find, launch and scale your next winning ad",
+  "ctaParaLen": 111
+ },
+ {
+  "slug": "superads",
+  "title": "Superads",
+  "metaTitle": "A Better Super Ads Alternative with Creative Research - Foreplay.co",
+  "overline": "SUPERADS ALTERNATIVE",
+  "h": "Get more with creative reporting & research",
+  "introLen": 185,
+  "heroVideo": [
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.mp4",
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.webm"
+  ],
+  "heroPoster": "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-poster-00001.jpg",
+  "reviewsOverline": "SUPERADS VS FOREPLAY REVIEWS",
+  "reviewsTitle": "Let’s cut to the chase... Marketers prefer Foreplay",
+  "reviewsParaLen": 107,
+  "reviewCards": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "summaryLen": 90,
+    "reviewImg": "/assets/templates/comparison/683f8ccf8c4365b4bb600135_foreplay-review.webp",
+    "stores": [
+     {
+      "rating": "4.8/5",
+      "reviews": "188 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90"
+     },
+     {
+      "rating": "4.9/5",
+      "reviews": "91 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_90"
+     }
+    ],
+    "callout": null
+   },
+   {
+    "logo": null,
+    "summaryLen": 74,
+    "reviewImg": "/assets/templates/comparison/6840716617e88f25543eb596_Screenshot-2025-06-04-at-12.16.16 PM.avif",
+    "stores": [
+     {
+      "rating": "??/5",
+      "reviews": "0 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_60 yellow"
+     },
+     {
+      "rating": "4.7/5",
+      "reviews": "6 Reviews",
+      "store": "PRODUCT HUNT",
+      "bar": "_70"
+     }
+    ],
+    "callout": null
+   }
+  ],
+  "lastUpdated": "Last Updated June 4, 2025",
+  "tabsDefault": "Lens",
+  "tabOrder": [
+   "Lens",
+   "Spyder",
+   "Swipe File",
+   "Discovery",
+   "Briefs"
+  ],
+  "pricing": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "price": "$49 /mo",
+    "bullets": [
+     "Unlimited ad spend on all accounts",
+     "Self-serve public pricing",
+     "No contracts",
+     "Priced simply, for more features",
+     "Used by the fastest growing brands",
+     "One-on-one onboarding and training"
+    ],
+    "noteLen": null
+   },
+   {
+    "logo": null,
+    "price": "$49 /mo",
+    "bullets": [
+     "Charges more based on ad spend",
+     "No research features",
+     "No Chrome Extension",
+     "No video transcription",
+     "Slow data processing and preview",
+     "Legacy UI & no white labeling"
+    ],
+    "noteLen": 62
+   }
+  ],
+  "tableOverline": "COMPARE SUPERADS FEATURES",
+  "tableTitle": "Whats the difference between Foreplay.co and Superads?",
+  "tableParaLen": 106,
+  "tableLogos": [
+   "/assets/templates/comparison/68403ae8d722073e25efd4e5_foreplay-logo-dark.svg"
+  ],
+  "tableRows": [
+   {
+    "row": "Pricing Model",
+    "cells": [
+     {
+      "v": "From $49/mo",
+      "noteLen": 47
+     },
+     {
+      "v": "From $49+/mo",
+      "note": "Pricing increases as you increase ad spend :("
+     }
+    ]
+   },
+   {
+    "cat": "Competitor Research & Inspiration",
+    "rows": [
+     {
+      "label": "Ad Saving / Swiping",
+      "cells": [
+       {
+        "v": "6 Platforms",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Save Ads from Mobile",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Ad Spying with Enriched Data",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Searchable Ad Library",
+      "cells": [
+       {
+        "v": "+100m Ads",
+        "icon": "check"
+       },
+       {
+        "v": "0 Ads",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Historical Data",
+      "cells": [
+       {
+        "v": "3 Years",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Video Transcription",
+      "cells": [
+       {
+        "v": "Unlimited",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "API Access",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "Creative Analytics & Reporting",
+    "rows": [
+     {
+      "label": "Unlimited Ad Spend",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Price Increases",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Meta Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "TikTok Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "YouTube Ad Analytics",
+      "cells": [
+       {
+        "v": "Coming Soon",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Creative Testing Dashboard",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "White Labeled Reports",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Password Protected Links",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "psaTextLen": 204,
+  "ctaTitle": "Convinced? Let's find, launch and scale your next winning ad",
+  "ctaParaLen": 111
+ },
+ {
+  "slug": "magic-brief",
+  "title": "Magic Brief",
+  "metaTitle": "Magic Brief vs Foreplay - Choose Foreplay",
+  "overline": "MAGIC BRIEF ALTERNATIVE",
+  "h": "Choose Foreplay over Magic Brief",
+  "introLen": 173,
+  "heroVideo": [
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.mp4",
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.webm"
+  ],
+  "heroPoster": "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-poster-00001.jpg",
+  "reviewsOverline": "MAGIC BRIEF VS FOREPLAY REVIEWS",
+  "reviewsTitle": "Let’s cut to the chase... Marketers prefer Foreplay",
+  "reviewsParaLen": 108,
+  "reviewCards": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "summaryLen": 90,
+    "reviewImg": "/assets/templates/comparison/683f8ccf8c4365b4bb600135_foreplay-review.webp",
+    "stores": [
+     {
+      "rating": "4.8/5",
+      "reviews": "188 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90"
+     },
+     {
+      "rating": "4.9/5",
+      "reviews": "91 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_90"
+     }
+    ],
+    "callout": null
+   },
+   {
+    "logo": "/assets/templates/comparison/6840749df80f36704e6adf8a_663f6536b99ef9ab02e1fe1c_logo-1.avif",
+    "summaryLen": 73,
+    "reviewImg": "/assets/templates/comparison/68407664093eb0805853b397_Screenshot-2025-06-04-at-12.37.45 PM.avif",
+    "stores": [
+     {
+      "rating": "2.2/5",
+      "reviews": "17 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_30 red"
+     },
+     {
+      "rating": "4.0/5",
+      "reviews": "1 Review",
+      "store": "G2 REVIEWS",
+      "bar": "_70 yellow"
+     }
+    ],
+    "callout": null
+   }
+  ],
+  "lastUpdated": "Last Updated June 4, 2025",
+  "tabsDefault": "Swipe File",
+  "tabOrder": [
+   "Swipe File",
+   "Lens",
+   "Discovery",
+   "Spyder",
+   "Briefs"
+  ],
+  "pricing": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "price": "$49 /mo",
+    "bullets": [
+     "The original swipe file and ad research tool.",
+     "Self-serve public pricing",
+     "No contracts",
+     "Priced simply, for more features",
+     "Used by the fastest growing brands",
+     "One-on-one onboarding and training"
+    ],
+    "noteLen": null
+   },
+   {
+    "logo": "/assets/templates/comparison/684077915e0d55a52d9004ef_magicbreif-logo-whtie.avif",
+    "price": "$250 /mo",
+    "bullets": [
+     "Requires sales call to get real pricing",
+     "Limited research capabilities",
+     "Contracts",
+     "Only 3,000 Chrome users (limited data)",
+     "Slow data processing and preview",
+     "No white labeling"
+    ],
+    "noteLen": 86
+   }
+  ],
+  "tableOverline": "COMPARE MAGIC BRIEF FEATURES",
+  "tableTitle": "Whats the difference between Foreplay.co and Magic Brief?",
+  "tableParaLen": 92,
+  "tableLogos": [
+   "/assets/templates/comparison/68403ae8d722073e25efd4e5_foreplay-logo-dark.svg",
+   "/assets/templates/comparison/6840749df80f36704e6adf8a_663f6536b99ef9ab02e1fe1c_logo-1.avif"
+  ],
+  "tableRows": [
+   {
+    "row": "Pricing Model",
+    "cells": [
+     {
+      "v": "From $49/mo",
+      "noteLen": 47
+     },
+     {
+      "v": "From $250/mo",
+      "note": "Pricing increases as you increase ad spend :("
+     }
+    ]
+   },
+   {
+    "cat": "Competitor Research & Inspiration",
+    "rows": [
+     {
+      "label": "Ad Saving / Swiping",
+      "cells": [
+       {
+        "v": "6 Platforms",
+        "icon": "check"
+       },
+       {
+        "v": "2 Platforms",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Save Ads from Mobile",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Ad Spying with Enriched Data",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Searchable Ad Library",
+      "cells": [
+       {
+        "v": "+100m Ads",
+        "icon": "check"
+       },
+       {
+        "v": "<10M Ads",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Historical Data",
+      "cells": [
+       {
+        "v": "3 Years",
+        "icon": "check"
+       },
+       {
+        "v": "1 Year",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "API Access",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "Creative Analytics & Reporting",
+    "rows": [
+     {
+      "label": "Unlimited Ad Spend",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Meta Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "TikTok Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "YouTube Ad Analytics",
+      "cells": [
+       {
+        "v": "Coming Soon",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Creative Testing Dashboard",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "White Labeled Reports",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Password Protected Links",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "psaTextLen": 204,
+  "ctaTitle": "Convinced? Let's find, launch and scale your next winning ad",
+  "ctaParaLen": 111
+ },
+ {
+  "slug": "ad-nova",
+  "title": "Ad Nova",
+  "metaTitle": "Ad Nova Alternative - Foreplay.co is better & cheaper",
+  "overline": "ADNOVA ALTERNATIVE",
+  "h": "Marketers choose Foreplay over Adnova",
+  "introLen": 135,
+  "heroVideo": [
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.mp4",
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.webm"
+  ],
+  "heroPoster": "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-poster-00001.jpg",
+  "reviewsOverline": "ADNOVA VS FOREPLAY REVIEWS",
+  "reviewsTitle": "Let’s cut to the chase... Marketers prefer Foreplay",
+  "reviewsParaLen": 103,
+  "reviewCards": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "summaryLen": 90,
+    "reviewImg": "/assets/templates/comparison/683f8ccf8c4365b4bb600135_foreplay-review.webp",
+    "stores": [
+     {
+      "rating": "4.8/5",
+      "reviews": "188 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90"
+     },
+     {
+      "rating": "4.9/5",
+      "reviews": "91 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_90"
+     }
+    ],
+    "callout": null
+   },
+   {
+    "logo": "/assets/templates/comparison/68407fa93baaf71011888f8f_adnova-green.svg",
+    "summaryLen": 88,
+    "reviewImg": "/assets/templates/comparison/6840806e16047a427f352b9d_Screenshot-2025-06-04-at-1.20.31 PM.avif",
+    "stores": [
+     {
+      "rating": "3.9/5",
+      "reviews": "23 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_50 red"
+     },
+     {
+      "rating": "??/5",
+      "reviews": "0 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": null
+     }
+    ],
+    "callout": null
+   }
+  ],
+  "lastUpdated": "Last Updated June 4, 2025",
+  "tabsDefault": "Swipe File",
+  "tabOrder": [
+   "Swipe File",
+   "Spyder",
+   "Discovery",
+   "Lens",
+   "Briefs"
+  ],
+  "pricing": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "price": "$49 /mo",
+    "bullets": [
+     "Unlimited ad spend on all accounts",
+     "Self-serve public pricing",
+     "No contracts",
+     "Priced simply, for more features",
+     "Used by the fastest growing brands",
+     "One-on-one onboarding and training"
+    ],
+    "noteLen": null
+   },
+   {
+    "logo": "/assets/templates/comparison/68407fa97581cfba92771a5b_adnova-white.svg",
+    "price": "$150 /mo",
+    "bullets": [
+     "Charges more based on ad spend",
+     "Limited Video Transcription",
+     "Only track 30 brands",
+     "No video transcription",
+     "Slow data processing and preview",
+     "Legacy UI"
+    ],
+    "noteLen": 78
+   }
+  ],
+  "tableOverline": "COMPARE ADNOVA FEATURES",
+  "tableTitle": "Whats the difference between Foreplay.co and Adnova?",
+  "tableParaLen": 106,
+  "tableLogos": [
+   "/assets/templates/comparison/68403ae8d722073e25efd4e5_foreplay-logo-dark.svg",
+   "/assets/templates/comparison/68407fa93baaf71011888f8f_adnova-green.svg"
+  ],
+  "tableRows": [
+   {
+    "row": "Pricing Model",
+    "cells": [
+     {
+      "v": "From $49/mo",
+      "noteLen": 47
+     },
+     {
+      "v": "From $150+/mo",
+      "note": "Pricing increases as you increase ad spend :("
+     }
+    ]
+   },
+   {
+    "cat": "Competitor Research & Inspiration",
+    "rows": [
+     {
+      "label": "Ad Saving / Swiping",
+      "cells": [
+       {
+        "v": "6 Platforms",
+        "icon": "check"
+       },
+       {
+        "v": "2 Platforms",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Save Ads from Mobile",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Ad Spying with Enriched Data",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Searchable Ad Library",
+      "cells": [
+       {
+        "v": "+100m Ads",
+        "icon": "check"
+       },
+       {
+        "v": "Limited Ads",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Historical Data",
+      "cells": [
+       {
+        "v": "3 Years",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Video Transcription",
+      "cells": [
+       {
+        "v": "Unlimited",
+        "icon": "check"
+       },
+       {
+        "v": "Limited to 500/mo",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "API Access",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "Creative Analytics & Reporting",
+    "rows": [
+     {
+      "label": "Unlimited Ad Spend",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Price Increases",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Meta Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "TikTok Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "YouTube Ad Analytics",
+      "cells": [
+       {
+        "v": "Coming Soon",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Creative Testing Dashboard",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "White Labeled Reports",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Password Protected Links",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "psaTextLen": 204,
+  "ctaTitle": "Convinced? Let's find, launch and scale your next winning ad",
+  "ctaParaLen": 111
+ },
+ {
+  "slug": "gethookd",
+  "title": "Gethookd",
+  "metaTitle": "Gethookd",
+  "overline": "GETHOOKD ALTERNATIVE",
+  "h": "Marketers choose Foreplay over Gethookd",
+  "introLen": 137,
+  "heroVideo": [
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.mp4",
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.webm"
+  ],
+  "heroPoster": "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-poster-00001.jpg",
+  "reviewsOverline": "GETHOOKD VS FOREPLAY REVIEWS",
+  "reviewsTitle": "Let’s cut to the chase... Marketers prefer Foreplay",
+  "reviewsParaLen": 105,
+  "reviewCards": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "summaryLen": 90,
+    "reviewImg": "/assets/templates/comparison/683f8ccf8c4365b4bb600135_foreplay-review.webp",
+    "stores": [
+     {
+      "rating": "4.8/5",
+      "reviews": "188 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90"
+     },
+     {
+      "rating": "4.9/5",
+      "reviews": "91 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_90"
+     }
+    ],
+    "callout": null
+   },
+   {
+    "logo": "/assets/templates/comparison/68408450e5a4542deb7c3f56_gethookd-dark.svg",
+    "summaryLen": 88,
+    "reviewImg": null,
+    "stores": [
+     {
+      "rating": "4.6/5",
+      "reviews": "17 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90 yellow"
+     },
+     {
+      "rating": "??/5",
+      "reviews": "0 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": null
+     }
+    ],
+    "callout": null
+   }
+  ],
+  "lastUpdated": "Last Updated June 4, 2025",
+  "tabsDefault": "Swipe File",
+  "tabOrder": [
+   "Swipe File",
+   "Spyder",
+   "Discovery",
+   "Lens",
+   "Briefs"
+  ],
+  "pricing": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "price": "$49 /mo",
+    "bullets": [
+     "Over 80m ads to browse",
+     "Self-serve public pricing",
+     "Track unlimited brands",
+     "Research, ad spy and creative analytics in one",
+     "Used by the fastest growing brands",
+     "One-on-one onboarding and training"
+    ],
+    "noteLen": null
+   },
+   {
+    "logo": "/assets/templates/comparison/6840845097e7a1dc5dfae4f3_gethookd-white.svg",
+    "price": "$47-$247 /mo",
+    "bullets": [
+     "Limited ad library",
+     "Limited Video Transcription",
+     "Only track 5 brands per mo",
+     "No creative analytics",
+     "Slow data processing & preview",
+     "No white labeled support"
+    ],
+    "noteLen": 0
+   }
+  ],
+  "tableOverline": "COMPARE GETHOOKD FEATURES",
+  "tableTitle": "Whats the difference between Foreplay.co and Gethookd?",
+  "tableParaLen": 106,
+  "tableLogos": [
+   "/assets/templates/comparison/68403ae8d722073e25efd4e5_foreplay-logo-dark.svg",
+   "/assets/templates/comparison/68408450e5a4542deb7c3f56_gethookd-dark.svg"
+  ],
+  "tableRows": [
+   {
+    "row": "Pricing Model",
+    "cells": [
+     {
+      "v": "From $49/mo",
+      "noteLen": 47
+     },
+     {
+      "v": "From $47+/mo",
+      "note": "No creative analytics or reporting features."
+     }
+    ]
+   },
+   {
+    "cat": "Competitor Research & Inspiration",
+    "rows": [
+     {
+      "label": "Ad Saving / Swiping",
+      "cells": [
+       {
+        "v": "6 Platforms",
+        "icon": "check"
+       },
+       {
+        "v": "2 Platforms",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Save Ads from Mobile",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Ad Spying with Enriched Data",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Searchable Ad Library",
+      "cells": [
+       {
+        "v": "+100m Ads",
+        "icon": "check"
+       },
+       {
+        "v": "Limited Ads",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Historical Data",
+      "cells": [
+       {
+        "v": "3 Years",
+        "icon": "check"
+       },
+       {
+        "v": "Limited",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Video Transcription",
+      "cells": [
+       {
+        "v": "Unlimited",
+        "icon": "check"
+       },
+       {
+        "v": "Limited",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "API Access",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "Creative Analytics & Reporting",
+    "rows": [
+     {
+      "label": "Unlimited Ad Spend",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No creative analytics",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Meta Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "TikTok Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "YouTube Ad Analytics",
+      "cells": [
+       {
+        "v": "Coming Soon",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Creative Testing Dashboard",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "White Labeled Reports",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Password Protected Links",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "psaTextLen": 204,
+  "ctaTitle": "Convinced? Let's find, launch and scale your next winning ad",
+  "ctaParaLen": 111
+ },
+ {
+  "slug": "ad-library-ai",
+  "title": "Ad Library Ai",
+  "metaTitle": "The Best AdLibrary.ai Alternative - Foreplay.co",
+  "overline": "ADSLIBRARY.AI ALTERNATIVE",
+  "h": "Marketers choose Foreplay over AdsLibrary.ai",
+  "introLen": 136,
+  "heroVideo": [
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.mp4",
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.webm"
+  ],
+  "heroPoster": "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-poster-00001.jpg",
+  "reviewsOverline": "ADSLIBRARY VS FOREPLAY REVIEWS",
+  "reviewsTitle": "Let’s cut to the chase... Marketers prefer Foreplay",
+  "reviewsParaLen": 109,
+  "reviewCards": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "summaryLen": 90,
+    "reviewImg": "/assets/templates/comparison/683f8ccf8c4365b4bb600135_foreplay-review.webp",
+    "stores": [
+     {
+      "rating": "4.8/5",
+      "reviews": "188 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90"
+     },
+     {
+      "rating": "4.9/5",
+      "reviews": "91 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_90"
+     }
+    ],
+    "callout": null
+   },
+   {
+    "logo": "/assets/templates/comparison/6840891814c54f5ca9ae12b5_adslibrary-logo-dark.avif",
+    "summaryLen": 62,
+    "reviewImg": "/assets/templates/comparison/684089b5738491f4858f3cda_Screenshot-2025-06-04-at-2.00.00 PM.avif",
+    "stores": [
+     {
+      "rating": "3.9/5",
+      "reviews": "18 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_70 yellow"
+     },
+     {
+      "rating": "??/5",
+      "reviews": "0 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": null
+     }
+    ],
+    "callout": null
+   }
+  ],
+  "lastUpdated": "Last Updated June 4, 2025",
+  "tabsDefault": "Swipe File",
+  "tabOrder": [
+   "Swipe File",
+   "Spyder",
+   "Lens",
+   "Discovery",
+   "Briefs"
+  ],
+  "pricing": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "price": "$49 /mo",
+    "bullets": [
+     "Over 80m ads to browse",
+     "Self-serve public pricing",
+     "Track unlimited brands",
+     "Research, ad spy and creative analytics in one",
+     "Used by the fastest growing brands",
+     "One-on-one onboarding and training"
+    ],
+    "noteLen": null
+   },
+   {
+    "logo": "/assets/templates/comparison/68408918f9de5cb911695dc0_adslibrary-logo-white.avif",
+    "price": "$19-$150 /mo",
+    "bullets": [
+     "Limited ad library",
+     "Limited Video Transcription",
+     "Only track 20 brands per mo",
+     "No creative analytics",
+     "Slow data processing & preview",
+     "No white labeled support"
+    ],
+    "noteLen": 0
+   }
+  ],
+  "tableOverline": "COMPARE ADLIBRARY.AI FEATURES",
+  "tableTitle": "Whats the difference between Foreplay.co and AdLibrary.ai?",
+  "tableParaLen": 106,
+  "tableLogos": [
+   "/assets/templates/comparison/68403ae8d722073e25efd4e5_foreplay-logo-dark.svg",
+   "/assets/templates/comparison/6840891814c54f5ca9ae12b5_adslibrary-logo-dark.avif"
+  ],
+  "tableRows": [
+   {
+    "row": "Pricing Model",
+    "cells": [
+     {
+      "v": "From $49/mo",
+      "noteLen": 47
+     },
+     {
+      "v": "From $19-$150+/mo",
+      "note": "No creative analytics or reporting features."
+     }
+    ]
+   },
+   {
+    "cat": "Competitor Research & Inspiration",
+    "rows": [
+     {
+      "label": "Ad Saving / Swiping",
+      "cells": [
+       {
+        "v": "6 Platforms",
+        "icon": "check"
+       },
+       {
+        "v": "2 Platforms",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Save Ads from Mobile",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Ad Spying with Enriched Data",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Searchable Ad Library",
+      "cells": [
+       {
+        "v": "+100m Ads",
+        "icon": "check"
+       },
+       {
+        "v": "Limited Ads",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Historical Data",
+      "cells": [
+       {
+        "v": "3 Years",
+        "icon": "check"
+       },
+       {
+        "v": "Limited",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Video Transcription",
+      "cells": [
+       {
+        "v": "Unlimited",
+        "icon": "check"
+       },
+       {
+        "v": "Limited",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "Creative Analytics & Reporting",
+    "rows": [
+     {
+      "label": "Unlimited Ad Spend",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No creative analytics",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Meta Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "TikTok Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "YouTube Ad Analytics",
+      "cells": [
+       {
+        "v": "Coming Soon",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Creative Testing Dashboard",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "White Labeled Reports",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Password Protected Links",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "psaTextLen": 204,
+  "ctaTitle": "Convinced? Let's find, launch and scale your next winning ad",
+  "ctaParaLen": 111
+ },
+ {
+  "slug": "adscan",
+  "title": "Adscan",
+  "metaTitle": "The Best Adscan Alternative - Foreplay.co",
+  "overline": "ADSCAN.AI ALTERNATIVE",
+  "h": "Marketers choose Foreplay over Adscan",
+  "introLen": 132,
+  "heroVideo": [
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.mp4",
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.webm"
+  ],
+  "heroPoster": "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-poster-00001.jpg",
+  "reviewsOverline": "ADSCAN VS FOREPLAY REVIEWS",
+  "reviewsTitle": "Let’s cut to the chase... Marketers prefer Foreplay",
+  "reviewsParaLen": 103,
+  "reviewCards": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "summaryLen": 90,
+    "reviewImg": "/assets/templates/comparison/683f8ccf8c4365b4bb600135_foreplay-review.webp",
+    "stores": [
+     {
+      "rating": "4.8/5",
+      "reviews": "188 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90"
+     },
+     {
+      "rating": "4.9/5",
+      "reviews": "91 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_90"
+     }
+    ],
+    "callout": null
+   },
+   {
+    "logo": "/assets/templates/comparison/68408cb45beccee40a80198e_adscan.avif",
+    "summaryLen": 78,
+    "reviewImg": "/assets/templates/comparison/68408d0a74560a184ab44742_Screenshot-2025-06-04-at-2.14.20 PM.avif",
+    "stores": [
+     {
+      "rating": "3.6/5",
+      "reviews": "18 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_70 yellow"
+     },
+     {
+      "rating": "??/5",
+      "reviews": "0 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": null
+     }
+    ],
+    "callout": null
+   }
+  ],
+  "lastUpdated": "Last Updated June 4, 2025",
+  "tabsDefault": "Swipe File",
+  "tabOrder": [
+   "Swipe File",
+   "Spyder",
+   "Discovery",
+   "Lens",
+   "Briefs"
+  ],
+  "pricing": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "price": "$49 /mo",
+    "bullets": [
+     "Over 80m ads to browse",
+     "Self-serve public pricing",
+     "Track unlimited brands",
+     "Research, ad spy and creative analytics in one",
+     "Used by the fastest growing brands",
+     "One-on-one onboarding and training"
+    ],
+    "noteLen": null
+   },
+   {
+    "logo": "/assets/templates/comparison/68408cb45beccee40a80198e_adscan.avif",
+    "price": "$40 /mo",
+    "bullets": [
+     "No brand tracking or spying",
+     "No creative analytics",
+     "Limited discovery library",
+     "No brief writing",
+     "Slow data processing & preview",
+     "No white labeled support"
+    ],
+    "noteLen": 0
+   }
+  ],
+  "tableOverline": "COMPARE ADSCAN FEATURES",
+  "tableTitle": "Whats the difference between Foreplay.co and Adscan?",
+  "tableParaLen": 106,
+  "tableLogos": [
+   "/assets/templates/comparison/68403ae8d722073e25efd4e5_foreplay-logo-dark.svg",
+   "/assets/templates/comparison/68408cb45beccee40a80198e_adscan.avif"
+  ],
+  "tableRows": [
+   {
+    "row": "Pricing Model",
+    "cells": [
+     {
+      "v": "From $49/mo",
+      "noteLen": 47
+     },
+     {
+      "v": "From $40/mo",
+      "note": "No creative analytics or reporting features."
+     }
+    ]
+   },
+   {
+    "cat": "Competitor Research & Inspiration",
+    "rows": [
+     {
+      "label": "Ad Saving / Swiping",
+      "cells": [
+       {
+        "v": "6 Platforms",
+        "icon": "check"
+       },
+       {
+        "v": "2 Platforms",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Save Ads from Mobile",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Ad Spying with Enriched Data",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Searchable Ad Library",
+      "cells": [
+       {
+        "v": "+100m Ads",
+        "icon": "check"
+       },
+       {
+        "v": "Limited Ads",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Historical Data",
+      "cells": [
+       {
+        "v": "3 Years",
+        "icon": "check"
+       },
+       {
+        "v": "Limited",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Video Transcription",
+      "cells": [
+       {
+        "v": "Unlimited",
+        "icon": "check"
+       },
+       {
+        "v": "Limited",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "Creative Analytics & Reporting",
+    "rows": [
+     {
+      "label": "Unlimited Ad Spend",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No creative analytics",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Meta Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "TikTok Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "YouTube Ad Analytics",
+      "cells": [
+       {
+        "v": "Coming Soon",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Creative Testing Dashboard",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "White Labeled Reports",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Password Protected Links",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "psaTextLen": 204,
+  "ctaTitle": "Convinced? Let's find, launch and scale your next winning ad",
+  "ctaParaLen": 111
+ },
+ {
+  "slug": "swipekit",
+  "title": "Swipekit",
+  "metaTitle": "Suffering with Swipekit? Use Foreplay Instead",
+  "overline": "SWIPEKIT ALTERNATIVE",
+  "h": "Professionals use Foreplay not Swipekit",
+  "introLen": 106,
+  "heroVideo": [
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.mp4",
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.webm"
+  ],
+  "heroPoster": "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-poster-00001.jpg",
+  "reviewsOverline": "SWIPEKIT VS FOREPLAY REVIEWS",
+  "reviewsTitle": "Let’s cut to the chase... Marketers prefer Foreplay",
+  "reviewsParaLen": 105,
+  "reviewCards": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "summaryLen": 90,
+    "reviewImg": "/assets/templates/comparison/683f8ccf8c4365b4bb600135_foreplay-review.webp",
+    "stores": [
+     {
+      "rating": "4.8/5",
+      "reviews": "188 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90"
+     },
+     {
+      "rating": "4.9/5",
+      "reviews": "91 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_90"
+     }
+    ],
+    "callout": null
+   },
+   {
+    "logo": "/assets/templates/comparison/6840a23596eefcb44c4fefe8_logo.webp",
+    "summaryLen": 80,
+    "reviewImg": "/assets/templates/comparison/6840a2eb89d8fd1793232b8a_Screenshot-2025-06-04-at-3.47.28 PM.avif",
+    "stores": [
+     {
+      "rating": "4.6/5",
+      "reviews": "58 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_80"
+     },
+     {
+      "rating": "??/5",
+      "reviews": "0 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": null
+     }
+    ],
+    "callout": null
+   }
+  ],
+  "lastUpdated": "Last Updated June 4, 2025",
+  "tabsDefault": "Swipe File",
+  "tabOrder": [
+   "Swipe File",
+   "Spyder",
+   "Discovery",
+   "Lens",
+   "Briefs"
+  ],
+  "pricing": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "price": "$49 /mo",
+    "bullets": [
+     "Over 80m ads to browse",
+     "Self-serve public pricing",
+     "Track unlimited brands",
+     "Research, ad spy and creative analytics in one",
+     "Used by the fastest growing brands",
+     "One-on-one onboarding and training"
+    ],
+    "noteLen": null
+   },
+   {
+    "logo": "/assets/templates/comparison/6840a3657d29fd56e711864b_swipekit-logo-white.avif",
+    "price": "$69 /mo",
+    "bullets": [
+     "Only 50k ads",
+     "No creative analytics",
+     "Limited discovery library",
+     "No brief writing",
+     "Slow data processing & preview",
+     "No white labeled support"
+    ],
+    "noteLen": 0
+   }
+  ],
+  "tableOverline": "COMPARE SWIPEKIT FEATURES",
+  "tableTitle": "Whats the difference between Foreplay.co and Swipekit?",
+  "tableParaLen": 106,
+  "tableLogos": [
+   "/assets/templates/comparison/68403ae8d722073e25efd4e5_foreplay-logo-dark.svg",
+   "/assets/templates/comparison/6840a23596eefcb44c4fefe8_logo.webp"
+  ],
+  "tableRows": [
+   {
+    "row": "Pricing Model",
+    "cells": [
+     {
+      "v": "From $49/mo",
+      "noteLen": 47
+     },
+     {
+      "v": "From $69/mo",
+      "note": "No creative analytics or reporting features."
+     }
+    ]
+   },
+   {
+    "cat": "Competitor Research & Inspiration",
+    "rows": [
+     {
+      "label": "Ad Saving / Swiping",
+      "cells": [
+       {
+        "v": "6 Platforms",
+        "icon": "check"
+       },
+       {
+        "v": "2 Platforms",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Save Ads from Mobile",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Ad Spying with Enriched Data",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Searchable Ad Library",
+      "cells": [
+       {
+        "v": "+100m Ads",
+        "icon": "check"
+       },
+       {
+        "v": "Limited Ads",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Historical Data",
+      "cells": [
+       {
+        "v": "3 Years",
+        "icon": "check"
+       },
+       {
+        "v": "Limited",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Video Transcription",
+      "cells": [
+       {
+        "v": "Unlimited",
+        "icon": "check"
+       },
+       {
+        "v": "Limited",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "API Access",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "Creative Analytics & Reporting",
+    "rows": [
+     {
+      "label": "Unlimited Ad Spend",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No creative analytics",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Meta Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "TikTok Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "YouTube Ad Analytics",
+      "cells": [
+       {
+        "v": "Coming Soon",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Creative Testing Dashboard",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "White Labeled Reports",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Password Protected Links",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "psaTextLen": 204,
+  "ctaTitle": "Convinced? Let's find, launch and scale your next winning ad",
+  "ctaParaLen": 111
+ },
+ {
+  "slug": "trend-track",
+  "title": "Trend Track",
+  "metaTitle": "Trend Track",
+  "overline": "TRENDTRACK ALTERNATIVE",
+  "h": "Professionals use Foreplay not Swipekit",
+  "introLen": 106,
+  "heroVideo": [
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.mp4",
+   "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-transcode.webm"
+  ],
+  "heroPoster": "/assets/templates/comparison/6833876c700d2cc61b273644_home-video-poster-00001.jpg",
+  "reviewsOverline": "SWIPEKIT VS FOREPLAY REVIEWS",
+  "reviewsTitle": "Let’s cut to the chase... Marketers prefer Foreplay",
+  "reviewsParaLen": 105,
+  "reviewCards": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "summaryLen": 90,
+    "reviewImg": "/assets/templates/comparison/683f8ccf8c4365b4bb600135_foreplay-review.webp",
+    "stores": [
+     {
+      "rating": "4.8/5",
+      "reviews": "188 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_90"
+     },
+     {
+      "rating": "4.9/5",
+      "reviews": "91 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": "_90"
+     }
+    ],
+    "callout": null
+   },
+   {
+    "logo": "/assets/templates/comparison/6840a23596eefcb44c4fefe8_logo.webp",
+    "summaryLen": 80,
+    "reviewImg": "/assets/templates/comparison/6840a2eb89d8fd1793232b8a_Screenshot-2025-06-04-at-3.47.28 PM.avif",
+    "stores": [
+     {
+      "rating": "4.6/5",
+      "reviews": "58 Reviews",
+      "store": "CHROME STORE",
+      "bar": "_80"
+     },
+     {
+      "rating": "??/5",
+      "reviews": "0 Reviews",
+      "store": "G2 REVIEWS",
+      "bar": null
+     }
+    ],
+    "callout": null
+   }
+  ],
+  "lastUpdated": "Last Updated June 4, 2025",
+  "tabsDefault": "Swipe File",
+  "tabOrder": [
+   "Swipe File",
+   "Spyder",
+   "Discovery",
+   "Lens",
+   "Briefs"
+  ],
+  "pricing": [
+   {
+    "logo": "/assets/templates/comparison/683f8e06ec330518c3133d0b_foreplay-logo.svg",
+    "price": "$49 /mo",
+    "bullets": [
+     "Over 80m ads to browse",
+     "Self-serve public pricing",
+     "Track unlimited brands",
+     "Research, ad spy and creative analytics in one",
+     "Used by the fastest growing brands",
+     "One-on-one onboarding and training"
+    ],
+    "noteLen": null
+   },
+   {
+    "logo": "/assets/templates/comparison/6840a3657d29fd56e711864b_swipekit-logo-white.avif",
+    "price": "$69 /mo",
+    "bullets": [
+     "Only 50k ads",
+     "No creative analytics",
+     "Limited discovery library",
+     "No brief writing",
+     "Slow data processing & preview",
+     "No white labeled support"
+    ],
+    "noteLen": 0
+   }
+  ],
+  "tableOverline": "COMPARE SWIPEKIT FEATURES",
+  "tableTitle": "Whats the difference between Foreplay.co and Swipekit?",
+  "tableParaLen": 106,
+  "tableLogos": [
+   "/assets/templates/comparison/68403ae8d722073e25efd4e5_foreplay-logo-dark.svg",
+   "/assets/templates/comparison/6840a23596eefcb44c4fefe8_logo.webp"
+  ],
+  "tableRows": [
+   {
+    "row": "Pricing Model",
+    "cells": [
+     {
+      "v": "From $49/mo",
+      "noteLen": 47
+     },
+     {
+      "v": "From $69/mo",
+      "note": "No creative analytics or reporting features."
+     }
+    ]
+   },
+   {
+    "cat": "Competitor Research & Inspiration",
+    "rows": [
+     {
+      "label": "Ad Saving / Swiping",
+      "cells": [
+       {
+        "v": "6 Platforms",
+        "icon": "check"
+       },
+       {
+        "v": "2 Platforms",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Save Ads from Mobile",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Ad Spying with Enriched Data",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "Yes",
+        "icon": "check"
+       }
+      ]
+     },
+     {
+      "label": "Searchable Ad Library",
+      "cells": [
+       {
+        "v": "+100m Ads",
+        "icon": "check"
+       },
+       {
+        "v": "Limited Ads",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Historical Data",
+      "cells": [
+       {
+        "v": "3 Years",
+        "icon": "check"
+       },
+       {
+        "v": "Limited",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Mobile App",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Video Transcription",
+      "cells": [
+       {
+        "v": "Unlimited",
+        "icon": "check"
+       },
+       {
+        "v": "Limited",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "API Access",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "cat": "Creative Analytics & Reporting",
+    "rows": [
+     {
+      "label": "Unlimited Ad Spend",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No creative analytics",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Meta Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "TikTok Ad Analytics",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "YouTube Ad Analytics",
+      "cells": [
+       {
+        "v": "Coming Soon",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Creative Testing Dashboard",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "White Labeled Reports",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     },
+     {
+      "label": "Password Protected Links",
+      "cells": [
+       {
+        "v": "Yes",
+        "icon": "check"
+       },
+       {
+        "v": "No",
+        "icon": "x"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "psaTextLen": 204,
+  "ctaTitle": "Convinced? Let's find, launch and scale your next winning ad",
+  "ctaParaLen": 111
+ }
+]

@@ -1,0 +1,31 @@
+{
+  "id": "rich-text",
+  "kind": "primitive",
+  "purpose": "Block renderer for stand-in rich text (p/h2-h6/ul/ol/blockquote/code/table/figure) with variants post / base / agency / plain; legal and FAQ pages add misc-legal-rt / misc-faq-rt.",
+  "measuredFrom": [
+    "src/components/templates/RichText.jsx:27",
+    "src/index.css:186"
+  ],
+  "props": {
+    "blocks": {
+      "type": "block[]"
+    },
+    "variant": {
+      "type": "enum",
+      "values": [
+        "post",
+        "base",
+        "agency",
+        "plain"
+      ]
+    },
+    "anchors": {
+      "type": "boolean"
+    }
+  },
+  "tokensUsed": [
+    "component.richText.post",
+    "component.richText.base",
+    "component.richText.legal"
+  ]
+}

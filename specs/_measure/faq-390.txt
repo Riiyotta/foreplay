@@ -1,0 +1,82 @@
+URL https://www.foreplay.co/faq W390 docH 7563 title="Frequently Asked Questions (FAQs) - Foreplay" wfpage=647668309e49d3c3f7a76548 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 390x7563] 
+  div.global [0,0 0x0] 
+  div.main [0,72 390x5061] 
+    section#product-hero-section.section.relative [0,72 390x5061] 
+      div.container [0,72 390x5061] p:0px 24px
+        div.fireside-hero [24,72 342x356] fx:column p:40px 0px
+          div.product-hero-content [24,112 342x276] fx:column gap:24px p:0px 0px 24px
+            div.hero-text [24,112 342x252] fx:column gap:12px
+              h1.text-overline [180,112 30x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "FAQ" (1L)
+              h2.text-display-h1.hero-title [24,140 342x96]  {Inter Display 38px/48px w600 ls-0.285px c:rgba(255, 255, 255, 0.88) ta:center CLIPTEXT} "Questions about Foreplay" (2L)
+              div.faq-buttons [105,248 179x116] fx:column gap:12px p:12px 0px
+                a#intercomButton.button-dark.ghost-icon-button.w-inline-block [105,260 179x40] fx:row gap:5px p:8px r:10px href=#
+                  div.button-icon-block.icon-left [114,268 24x24] fx:row
+                    div.icon-medium [114,268 24x24] fx:row
+                      div.svg.w-embed [116,270 20x20] fx:row
+                        svg [116,270 20x20] SVG vb=0 0 20 20 fill=none color=rgb(255, 255, 255) 
+                  div.button-text-block [139,268 136x24] p:0px 6px
+                    div.text-heading-m [145,268 124x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255) ta:center} "Contact support" (1L)
+                a.button-dark.ghost-icon-button.w-inline-block [105,312 179x40] fx:row gap:5px p:8px r:10px @target=_blank href=https://foreplay.featurebase.app/help
+                  div.button-icon-block.icon-left [113,320 24x24] fx:row
+                    div.icon-medium [113,320 24x24] fx:row
+                      div.svg.w-embed [113,320 24x24] fx:row
+                        svg [113,320 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) 
+                  div.button-text-block [138,320 138x24] p:0px 6px
+                    div.text-heading-m [144,320 126x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255) ta:center} "Knowledge Base" (1L)
+        div.faq-block-container [24,428 342x4705]  @data-accordion-container=
+          div.w-dyn-list [24,428 342x4705] 
+            div.w-dyn-items [24,428 342x4705]  @role=list
+              div.w-dyn-item [24,428 342x61]  @role=listitem
+                div.faq-block [24,428 342x61] fx:row gap:44px p:20px 0px 12px @role=button @data-accordion-item= @data-expanded=false @aria-expanded=false
+                  div.faq-block_content [24,448 270x24] fx:column
+                    div.faq-block_head [24,448 270x24] fx:row gap:44px
+                      h4.text-label-l [24,448 182x24]  {Inter 16px/24px w500 ls-0.23111px c:rgba(255, 255, 255, 0.68)} "How current is the data?" (1L)
+                    div.faq-block_body [24,472 270x0] 
+                      div.faq-block_answer [24,472 270x116] p:8px 0px
+                        div.faq-rtb [24,480 270x100] 
+                          div.text-alpha-100 [24,480 270x100] 
+                            div.text-body-s.w-richtext [24,480 270x100] 
+                              p [24,480 270x100]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} [TEXT 185ch 5L]
+                  div.faq-block_icon [338,448 28x28] fx:row
+                    div.icon-medium [340,450 24x24] fx:row
+                      div.svg.w-embed [340,450 24x24] fx:row
+                        svg [340,450 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgba(255, 255, 255, 0.68) 
+              div.w-dyn-item [24,489 342x81]  @role=listitem
+                div.faq-block [24,489 342x81] fx:row gap:44px p:20px 0px 12px @role=button @data-accordion-item= @data-expanded=false @aria-expanded=false
+                  div.faq-block_content [24,509 270x48] fx:column
+                    div.faq-block_head [24,509 270x48] fx:row gap:44px
+                      h4.text-label-l [24,509 270x48]  {Inter 16px/24px w500 ls-0.23111px c:rgba(255, 255, 255, 0.68)} "Will this use extra credits or cost more?" (2L)
+                    div.faq-block_body [24,557 270x0] 
+                      div.faq-block_answer [24,557 270x136] p:8px 0px
+                        div.faq-rtb [24,565 270x120] 
+                          div.text-alpha-100 [24,565 270x120] 
+                            div.text-body-s.w-richtext [24,565 270x120] 
+                              p [24,565 270x120]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} [TEXT 221ch 6L]
+                  div.faq-block_icon [338,509 28x28] fx:row
+                    div.icon-medium [340,511 24x24] fx:row
+                      div.svg.w-embed [340,511 24x24] fx:row
+                        svg [340,511 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgba(255, 255, 255, 0.68) 
+              … +63 more div.w-dyn-item (repeat)
+  div.section.overflow-hidden [0,5133 390x643] 
+    div.container.section-container [0,5133 390x643] p:0px 24px
+      div.home-cta [24,5133 342x643] fx:column gap:36px p:80px 0px 0px
+        div.section-head.is-large [24,5213 342x164] fx:column gap:12px
+          div.section-head_title [24,5213 342x96] 
+            h2.text-display-h2 [24,5213 342x96]  {Inter Display 36px/48px w600 ls-0.27px c:rgb(255, 255, 255) ta:center} "Ready to ship more winning ads?" (2L)
+          div.section-head_paragraph.is-large [24,5321 342x56] 
+            div.text-alpha-100 [24,5321 342x56] 
+              p.text-body-l [24,5321 342x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 67ch 2L]
+        div.main-cta-buttons [24,5413 342x94] gtc:342px gap:12px
+          a.button-dark.button-primary.w-inline-block [24,5413 342x40] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+            div.button-text-block [127,5421 117x24] p:0px 6px
+              div.text-heading-m [133,5421 105x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Start free trial" (1L)
+            div.button-icon-block.icon-right.opacity-100 [239,5421 24x24] fx:row
+              div.icon-medium [239,5421 24x24] fx:row
+                div.svg.w-embed [239,5421 24x24] fx:row
+                  svg [239,5421 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+          a.button-dark.button-secondary.w-inline-block [24,5465 342x42] fx:row p:8px r:10px href=/pricing
+            div.button-text-block [142,5474 106x24] p:0px 6px
+              div.text-heading-m [148,5474 94x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "View Pricing" (1L)
+        div.home-cta-image-wrapper [-40,5543 470x302] 
+          img.home-cta-image [-40,5543 470x302] IMG 680a4b467abdcf40d0d0fa8b_home-cta-p-500.webp nat390x250 alt="Two people looking at laptop, Foreplay d" lazy 

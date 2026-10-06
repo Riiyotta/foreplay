@@ -1,0 +1,73 @@
+{
+  "id": "content.faq-list",
+  "kind": "section",
+  "category": "content",
+  "purpose": "/faq: the 65 CMS FAQ rows (sorted by order) as bare accordion rows (max 752) with plain rich-text stand-in answers.",
+  "measuredFrom": [
+    "src/pages/Faq.jsx:11"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "items": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 65,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "q": {
+              "type": "string",
+              "required": true,
+              "maxChars": 73,
+              "measuredFrom": [
+                "src/data/faqs.json:5"
+              ]
+            },
+            "a": {
+              "type": "richtext-inline",
+              "required": true,
+              "maxChars": 629,
+              "measuredFrom": [
+                "src/components/templates/standin.js:136"
+              ],
+              "note": "max 629 (measured: max over every CMS entry by executing the clone's own generator at build time; see measured-values.json generatorMeasurements)"
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Faq.jsx:21"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "accordion-height",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/Faq.jsx:61"
+    ],
+    "durationMs": 900,
+    "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "faq-index"
+  ],
+  "usedOnRoutes": [
+    "/faq"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "hero.split-video",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Experts index hero: left overline/title/lead + Browse Experts / Become a Expert, right framed background video.",
+  "measuredFrom": [
+    "src/pages/Experts.jsx:14"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 7,
+        "measuredFrom": [
+          "src/pages/Experts.jsx:22"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 48,
+        "measuredFrom": [
+          "src/pages/Experts.jsx:27"
+        ]
+      },
+      "lead": {
+        "type": "string",
+        "required": true,
+        "maxChars": 90,
+        "measuredFrom": [
+          "src/pages/Experts.jsx:31"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 78,
+          "upperBoundChars": 90
+        },
+        "standIn": true
+      },
+      "actions": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 16,
+              "measuredFrom": [
+                "src/pages/Experts.jsx:36"
+              ]
+            },
+            "href": {
+              "type": "route-or-url",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Experts.jsx:36"
+              ]
+            },
+            "variant": {
+              "type": "enum",
+              "required": false,
+              "values": [
+                "dark-primary",
+                "dark-secondary",
+                "dark-ghost",
+                "light-primary",
+                "dark-stroke",
+                "dark-ghost-icon",
+                "light-stroke",
+                "light-secondary"
+              ],
+              "measuredFrom": [
+                "src/pages/Experts.jsx:36"
+              ]
+            }
+          },
+          "measuredFrom": [
+            "src/pages/Experts.jsx:36"
+          ]
+        },
+        "measuredFrom": [
+          "src/pages/Experts.jsx:35"
+        ]
+      },
+      "video": {
+        "type": "assetRef",
+        "assetRole": "product-video",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/Experts.jsx:45"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "video"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "background-video-loop",
+    "reducedMotionFallback": "first-frame",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/Experts.jsx:41"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-lg",
+        "change": "stacks; video panel 3/4 width square",
+        "measuredFrom": [
+          "src/pages/Experts.jsx:18"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "experts-index"
+  ],
+  "usedOnRoutes": [
+    "/experts"
+  ]
+}

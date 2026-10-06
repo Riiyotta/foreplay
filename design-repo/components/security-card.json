@@ -1,0 +1,36 @@
+{
+  "id": "security-card",
+  "kind": "component",
+  "purpose": "One of three '.lens-security-grid' cards: head icon + title, full-width image body, footer text + optional ghost button.",
+  "measuredFrom": [
+    "src/components/shared/SecurityGrid.jsx:24",
+    "src/components/shared/SecurityGrid.jsx:9"
+  ],
+  "props": {
+    "icon": {
+      "type": "node"
+    },
+    "title": {
+      "type": "string",
+      "maxChars": 24
+    },
+    "img": {
+      "type": "assetRef"
+    },
+    "text": {
+      "type": "string",
+      "maxChars": 120
+    },
+    "cta": {
+      "type": "string"
+    },
+    "href": {
+      "type": "route-or-url"
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "button",
+    "icon"
+  ]
+}

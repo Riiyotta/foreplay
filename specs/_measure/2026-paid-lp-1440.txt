@@ -1,0 +1,76 @@
+URL https://www.foreplay.co/2026-paid-lp W1440 docH 2716 title="2026 Paid LP" wfpage=6aa9a8b1507dedae6dcd8bf6 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 1440x2716] minh:100% bg:rgb(2, 3, 8) of:clip visible
+  div.global [0,0 0x0] pos:fixed t0px r1440px b900px l0px of:clip
+  div.main [0,72 1440x2644] 
+    section#product-hero-section.section [0,72 1440x340] 
+      div.container [0,72 1440x340] p:0px 40px maxw:1440px
+        div.product-hero [40,72 1360x340] d:flex fx:column/center/flex-start p:10px 0px 0px
+          div.product-hero [270,82 900x290] d:flex fx:column/center/flex-start p:10px 0px 0px
+            div.product-hero-content [270,92 900x280] d:flex fx:column/center/flex-start gap:28px
+              h1.text-overline.text-white-68 [674,92 93x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "MOBILE APP" (1L)
+              div.hero-text [270,136 900x236] d:flex fx:column/center/flex-start gap:16px maxw:900px
+                h2.text-display-h1.hero-title [270,136 900x136] bgi:radial-gradient(circle at 50% -100%, rgb(255, 255, 255), rgba(255, 255, 255, 0.88)) {Inter Display 60px/68px w600 ls-0.45px c:rgba(255, 255, 255, 0.88) ta:center CLIPTEXT} "Stop Guessing What Ads to Make Next" (2L)
+                div.max-w-lg [464,288 512x84] maxw:512px
+                  div.text-alpha-100 [464,288 512x84] flex:1 1 0%
+                    p.text-body-l.text-white-84 [464,288 512x84]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 148ch 3L]
+          div [640,372 159x40] 
+            a.button-dark.button-primary.w-inline-block [640,372 159x40] d:flex fx:row/center/center p:8px maxw:100% flex:1 1 0% bg:rgb(255, 255, 255) r:10px pos:relative z:5 tr:all 0.2s ease href=https://app.foreplay.co/sign-up
+              div.button-text-block [648,380 123x24] p:0px 6px pos:relative z:2 cursor:pointer
+                div.text-heading-m [654,380 111x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14) ta:center} "Start Free Trial" (1L)
+              div.button-icon-block.icon-right.opacity-100 [768,380 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative z:2 cursor:pointer
+                div.icon-medium [768,380 24x24] d:flex fx:row/center/center cursor:pointer
+                  div.svg.w-embed [768,380 24x24] d:flex fx:row/center/center cursor:pointer
+                    svg [768,380 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) of:hidden cursor:pointer
+            div [640,412 159x0] 
+    div.section [0,412 1440x2304] 
+      div.product-page-padding-y [0,412 1440x2304] d:flex fx:column/normal/normal p:108px 0px of:hidden
+        div.container.section-container [48,520 1344x2088] p:0px 40px maxw:1344px
+          div.mobile-app-main-features [270,520 900x2088] d:flex fx:column/normal/normal gap:64px maxw:900px
+            div.feature-block.mobile-app-video [270,520 900x500] d:flex fx:column/stretch/space-between bg:rgba(255, 255, 255, 0.05) r:10px b:1px solid rgba(122, 123, 127, 0.25) pos:relative of:hidden z:1 tr:background-color 0.2s ease-in-out
+              a.lightbox-link-9.w-inline-block.w-lightbox [271,521 898x498] maxw:100% pos:absolute t0px r0px b0px l0px href=#
+                div.mobile-app-thumbnail [271,521 898x498] d:flex fx:row/center/center bgi:url("https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653fd278493eeb4f1702fd75_Mobile-App-Thumbnail-Website.avif") bgs:cover bgp:50% 50% cursor:pointer
+                  div.play-button-1 [670,720 100x100] d:flex fx:row/center/center p:15px bg:rgba(0, 0, 0, 0.24) r:10000px b:1px solid rgba(0, 0, 0, 0) sh:rgba(0, 0, 0, 0.17) 0px 2px 7px 1px bf:blur(5px) tr:all 0.2s ease cursor:pointer
+                    div.play-button-2 [686,736 68x68] d:flex fx:row/center/center bg:rgba(0, 0, 0, 0.22) r:100px b:1px solid rgba(0, 0, 0, 0.01) bf:blur(3px) cursor:pointer
+                      img.play-button3 [712,759 20x23] IMG 64502d8b633f4d3ee4584b7a_play-small.svg nat8x9 alt="" lazy m:0px 0px 0px 3px maxw:100% of:clip cursor:pointer
+            div.macbook-sync-block-copy [270,1084 900x596] d:flex fx:column/stretch/space-between bg:rgba(255, 255, 255, 0.05) r:10px b:1px solid rgba(122, 123, 127, 0.25) pos:relative of:hidden z:1 tr:background-color 0.2s ease
+              div.div-block-254 [271,1085 898x442] p:25px 0px 25px 25px
+                img.image-101 [296,1110 192x392] IMG 652990b64da0f365aef91633_iphone-sync.avif nat366x748 alt="" lazy maxw:100% pos:relative of:clip z:1
+              div.text-white [271,1527 898x152] 
+                div.mobile-app-feature-content [271,1527 898x152] d:flex fx:column/normal/normal gap:10px p:25px pos:relative z:1
+                  h3.text-display-h4 [296,1552 848x36]  {Inter Display 28px/36px w600 ls-0.2px c:rgb(255, 255, 255)} "Save content to Foreplay from your Phone" (1L)
+                  div.max-w-lg [296,1598 512x56] maxw:512px
+                    div.text-alpha-100 [296,1598 512x56] flex:1 1 0%
+                      p.text-body-l [296,1598 512x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68)} [TEXT 112ch 2L]
+              div.macbook-sync-holder [271,1085 898x594] bgi:linear-gradient(rgba(0, 0, 0, 0) 29%, rgb(0, 0, 0) 87%), url("https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/652990f6bb35ac50f4d5d65f_MACBOOK-SYNC.avif") bgs:auto, cover bgp:0px 0px, 100% 100% pos:absolute t0px r0px b0px l0px of:hidden
+            div.left-right-section [270,1744 900x400] d:flex fx:row/center/normal gap:24px
+              div#w-node-a00644b0-3649-9e29-64e8-3b912e554036-6dcd8bf6.mobile-app-video-holder [270,1744 524x400] d:flex fx:row/center/flex-start
+                div.video-feature-block.w-background-video.w-background-video-atom [270,1744 524x400] r:10px b:1px solid rgba(122, 123, 127, 0.25) pos:relative of:hidden @data-poster-url=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/ @data-video-urls=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/ @data-autoplay=true @data-loop=true @data-wf-ignore=true
+                  video#a00644b0-3649-9e29-64e8-3b912e554037-video [271,1745 522x398] VIDEO src=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653030fda3d7bc4941a03672_Swipe-File-Pic-transcode.mp4,https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653030fda3d7bc4941a03672_Swipe-File-Pic-transcode.webm poster= auto=true loop=true muted=true pinline=true m:398px 522px bgi:url("https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653030fda3d7bc4941a03672_Swipe-File-Pic-poster-00001.jpg") bgs:cover bgp:50% 50% pos:absolute t-398px r-522px b-398px l-522px of:clip z:-100 fit:cover
+              div#w-node-a00644b0-3649-9e29-64e8-3b912e554038-6dcd8bf6.left-right-section-content [818,1836 352x216] d:flex fx:column/flex-start/center gap:32px
+                div.section-head.is-align-left [818,1836 352x216] d:flex fx:column/flex-start/flex-start gap:12px maxw:720px
+                  div.app-icon-wrapper [818,1836 120x40] d:flex fx:row/normal/normal gap:10px m:0px 0px 8px
+                    img.app-logo [818,1836 40x40] IMG 652ff16b9b6781c56e020aa0_ios-camera-icon.avif nat121x121 alt="" lazy maxw:100% of:clip
+                    img.app-to-app-arrows [868,1836 20x40] IMG 652ff16b558d6fef7811591a_ap-to-app-arrow.svg nat17x7 alt="" lazy maxw:100% of:clip
+                    img.app-logo [898,1836 40x40] IMG 67b10c2cd2812e66e1c2af76_product-swipe-file.webp nat252x252 alt="" lazy maxw:100% of:clip
+                  div.section-head_title [818,1896 352x88] 
+                    div.text-white [818,1896 352x88] 
+                      h2.text-display-h3.mobile-landscape-text-display-h4 [818,1896 352x88]  {Inter Display 36px/44px w600 ls-0.26px c:rgb(255, 255, 255)} "Snap a Photo and save it to Swipe File" (2L)
+                  div.section-head_paragraph [818,1996 352x56] maxw:512px
+                    div.text-alpha-100 [818,1996 352x56] flex:1 1 0%
+                      p.text-body-l [818,1996 352x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68)} [TEXT 68ch 2L]
+            div.left-right-section [270,2208 900x400] d:flex fx:row/center/normal gap:24px
+              div#w-node-e90ee398-3443-4b87-135f-fdeb750dcea7-6dcd8bf6.left-right-section-content [270,2286 318x244] d:flex fx:column/flex-start/center gap:32px
+                div.section-head.is-align-left [270,2286 318x244] d:flex fx:column/flex-start/flex-start gap:12px maxw:720px
+                  div.app-icon-wrapper [270,2286 40x40] d:flex fx:row/normal/normal gap:10px m:0px 0px 8px
+                    img.app-logo [270,2286 40x40] IMG 67b10c250778c8023e8536e9_product-discovery.webp nat252x252 alt="" lazy maxw:100% of:clip
+                  div.section-head_title [270,2346 318x88] 
+                    div.text-white [270,2346 318x88] 
+                      h2.text-display-h3.mobile-landscape-text-display-h4 [270,2346 318x88]  {Inter Display 36px/44px w600 ls-0.26px c:rgb(255, 255, 255)} "Browse millions of ads" (2L)
+                  div.section-head_paragraph [270,2446 318x84] maxw:512px
+                    div.text-alpha-100 [270,2446 318x84] flex:1 1 0%
+                      p.text-body-l [270,2446 318x84]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68)} [TEXT 87ch 3L]
+              div#w-node-e90ee398-3443-4b87-135f-fdeb750dcea5-6dcd8bf6.mobile-app-video-holder [612,2208 558x400] d:flex fx:row/center/flex-start
+                div#w-node-c8c7e875-08a1-3550-a650-4e72fda0d69a-6dcd8bf6.video-feature-block.w-background-video.w-background-video-atom [612,2208 558x400] r:10px b:1px solid rgba(122, 123, 127, 0.25) pos:relative of:hidden @data-poster-url=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/ @data-video-urls=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/ @data-autoplay=true @data-loop=true @data-wf-ignore=true
+                  video#c8c7e875-08a1-3550-a650-4e72fda0d69a-video [613,2209 556x398] VIDEO src=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653009a60733cf5f9aa796e7_discovery-test-render-transcode.mp4,https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653009a60733cf5f9aa796e7_discovery-test-render-transcode.webm poster= auto=true loop=true muted=true pinline=true m:398px 556.359px bgi:url("https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653009a60733cf5f9aa796e7_discovery-test-render-poster-00001.jpg") bgs:cover bgp:50% 50% pos:absolute t-398px r-556.359px b-398px l-556.359px of:clip z:-100 fit:cover
+        div.container.section-container [48,2608 1344x0] p:0px 40px m:0px 48px maxw:1344px
+    div.negative-spacing-bottom [0,2716 1440x0] m:0px 0px -80px

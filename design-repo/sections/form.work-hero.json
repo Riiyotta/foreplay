@@ -1,0 +1,114 @@
+{
+  "id": "form.work-hero",
+  "kind": "section",
+  "category": "form",
+  "purpose": "C5 WorkHero: left overline/title/lead + 3x3 logo grid, right DemoForm (brands/marketers field sets, never submits).",
+  "measuredFrom": [
+    "src/components/community/WorkWith.jsx:137"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 48,
+        "measuredFrom": [
+          "src/components/community/WorkWith.jsx:252"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 20,
+        "measuredFrom": [
+          "src/pages/WorkWithMarketers.jsx:6"
+        ]
+      },
+      "lead": {
+        "type": "string",
+        "required": true,
+        "maxChars": 240,
+        "measuredFrom": [
+          "src/pages/WorkWithMarketers.jsx:6"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 228,
+          "upperBoundChars": 240
+        },
+        "standIn": true
+      },
+      "formVariant": {
+        "type": "enum",
+        "required": true,
+        "values": [
+          "brands",
+          "marketers"
+        ],
+        "measuredFrom": [
+          "src/components/community/WorkWith.jsx:77"
+        ]
+      },
+      "terms": {
+        "type": "string",
+        "required": true,
+        "maxChars": 97,
+        "measuredFrom": [
+          "src/components/community/WorkWith.jsx:129"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 85,
+          "upperBoundChars": 97
+        },
+        "standIn": true
+      },
+      "logos": {
+        "type": "array",
+        "required": true,
+        "minItems": 9,
+        "maxItems": 9,
+        "items": {
+          "type": "assetRef",
+          "assetRole": "customer-logo",
+          "required": true,
+          "measuredFrom": [
+            "src/components/community/WorkWith.jsx:8"
+          ]
+        },
+        "measuredFrom": [
+          "src/components/community/WorkWith.jsx:32"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "logos[]"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/community/WorkWith.jsx:137"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "work-with"
+  ],
+  "usedOnRoutes": [
+    "/work-with-brands",
+    "/work-with-marketers"
+  ]
+}

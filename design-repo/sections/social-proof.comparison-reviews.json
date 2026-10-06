@@ -1,0 +1,102 @@
+{
+  "id": "social-proof.comparison-reviews",
+  "kind": "section",
+  "category": "social-proof",
+  "purpose": "Comparison reviews: head (reviewsOverline/Title + stand-in paragraph) and 2 ReviewCards (Foreplay vs competitor: logo, store ratings, review image, callout).",
+  "measuredFrom": [
+    "src/components/misc/Comparison.jsx:122"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 32,
+        "measuredFrom": [
+          "src/data/comparison.json:14"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 51,
+        "measuredFrom": [
+          "src/data/comparison.json:15"
+        ]
+      },
+      "paragraph": {
+        "type": "string",
+        "required": true,
+        "maxChars": 109,
+        "measuredFrom": [
+          "src/data/comparison.json:16"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 109,
+          "upperBoundChars": 109
+        },
+        "standIn": true
+      },
+      "cards": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "logo": {
+              "type": "assetRef",
+              "assetRole": "third-party-mark",
+              "required": true,
+              "measuredFrom": [
+                "src/data/comparison.json:17"
+              ]
+            },
+            "reviewImage": {
+              "type": "assetRef",
+              "assetRole": "editorial-image",
+              "required": true,
+              "measuredFrom": [
+                "src/data/comparison.json:17"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/data/comparison.json:17"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "cards[].logo",
+    "cards[].reviewImage"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/misc/Comparison.jsx:122"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "comparison"
+  ],
+  "usedOnRoutes": [
+    "/comparison/:slug"
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "pricing.compare-table",
+  "kind": "section",
+  "category": "pricing",
+  "purpose": "Sticky plan comparison grid: 4 plan columns (Basic, Workflow, Agency -> sign-up; Enterprise -> /book-demo), collapsible categories (instant height, chevron 600ms expo) and tooltips.",
+  "measuredFrom": [
+    "src/components/pricing/Comparison.jsx:155"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 72,
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:254"
+        ]
+      },
+      "plans": {
+        "type": "array",
+        "required": true,
+        "minItems": 4,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "name": {
+              "type": "string",
+              "required": true,
+              "maxChars": 10,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:259"
+              ]
+            },
+            "cta": {
+              "type": "string",
+              "required": true,
+              "maxChars": 12,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:259"
+              ]
+            },
+            "href": {
+              "type": "route-or-url",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:256"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:255"
+        ]
+      },
+      "categories": {
+        "type": "array",
+        "required": true,
+        "minItems": 4,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 25,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:97"
+              ]
+            },
+            "rows": {
+              "type": "array",
+              "required": true,
+              "minItems": 7,
+              "maxItems": 38,
+              "items": {
+                "type": "object",
+                "required": true,
+                "fields": {
+                  "title": {
+                    "type": "string",
+                    "required": true,
+                    "maxChars": 37,
+                    "measuredFrom": [
+                      "src/pages/Pricing.jsx:60"
+                    ]
+                  },
+                  "sub": {
+                    "type": "string",
+                    "required": false,
+                    "maxChars": 24,
+                    "measuredFrom": [
+                      "src/pages/Pricing.jsx:64"
+                    ]
+                  },
+                  "subhead": {
+                    "type": "boolean",
+                    "required": false,
+                    "measuredFrom": [
+                      "src/pages/Pricing.jsx:67"
+                    ]
+                  },
+                  "cells": {
+                    "type": "array",
+                    "required": false,
+                    "minItems": 4,
+                    "maxItems": 4,
+                    "items": {
+                      "type": "string",
+                      "required": true,
+                      "maxChars": 11,
+                      "measuredFrom": [
+                        "src/pages/Pricing.jsx:64"
+                      ]
+                    },
+                    "measuredFrom": [
+                      "src/components/pricing/Comparison.jsx:31"
+                    ]
+                  }
+                }
+              },
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:60"
+              ],
+              "note": "observed 7 / 17 / 38 / 9 rows per category"
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:261"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "accordion-height",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/pricing/Comparison.jsx:97",
+      "src/components/pricing/Comparison.jsx:21"
+    ],
+    "durationMs": 600,
+    "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "pricing"
+  ],
+  "usedOnRoutes": [
+    "/pricing"
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "pageSpecVersion": "1.0.0",
+  "route": "/",
+  "template": "home",
+  "title": "Foreplay | The Complete Winning Ad Workflow",
+  "nodes": [
+    {
+      "section": "shell.navbar",
+      "content": {
+        "items": [
+          {
+            "group": "Product",
+            "label": "Swipe File",
+            "href": "/swipe-file"
+          },
+          {
+            "group": "Product",
+            "label": "Discovery",
+            "href": "/discovery"
+          },
+          {
+            "group": "Product",
+            "label": "Spyder",
+            "href": "/spyder-ad-spy"
+          },
+          {
+            "group": "Product",
+            "label": "Lens",
+            "href": "/lens-creative-analytics"
+          },
+          {
+            "group": "Product",
+            "label": "Briefs",
+            "href": "/briefs"
+          },
+          {
+            "group": "Product",
+            "label": "Chrome Extension",
+            "href": "/chrome-extension"
+          },
+          {
+            "group": "Product",
+            "label": "MCP",
+            "href": "/mcp"
+          },
+          {
+            "group": "Product",
+            "label": "Mobile App",
+            "href": "/mobile-app"
+          },
+          {
+            "group": "Product",
+            "label": "API",
+            "href": "/api"
+          },
+          {
+            "group": "Solutions",
+            "label": "E-Commerce & Retail",
+            "href": "/industries/ecommerce"
+          },
+          {
+            "group": "Solutions",
+            "label": "Agencies",
+            "href": "/industries/agencies"
+          },
+          {
+            "group": "Solutions",
+            "label": "Mobile Apps & Gaming",
+            "href": "/industries/mobile-apps"
+          },
+          {
+            "group": "Solutions",
+            "label": "B2B & SaaS",
+            "href": "/industries/b2b-saas"
+          },
+          {
+            "group": "Solutions",
+            "label": "Info, Education & Community",
+            "href": "/industries/info-education-community"
+          },
+          {
+            "group": "Solutions",
+            "label": "Freelancers & Creators",
+            "href": "/industries/freelancers-creators"
+          },
+          {
+            "group": "Resources",
+            "label": "University",
+            "href": "/university"
+          },
+          {
+            "group": "Resources",
+            "label": "Events & Webinars",
+            "href": "/fireside"
+          },
+          {
+            "group": "Resources",
+            "label": "Experts",
+            "href": "/experts"
+          },
+          {
+            "group": "Resources",
+            "label": "Blog",
+            "href": "/blog"
+          },
+          {
+            "group": "Resources",
+            "label": "Affiliate Program",
+            "href": "/affiliates"
+          },
+          {
+            "group": "Resources",
+            "label": "Work with Brands",
+            "href": "/work-with-brands"
+          },
+          {
+            "group": "Resources",
+            "label": "Agency Directory",
+            "href": "/agency-directory"
+          },
+          {
+            "group": "Top",
+            "label": "Pricing",
+            "href": "/pricing"
+          },
+          {
+            "group": "Top",
+            "label": "Book a Demo",
+            "href": "/book-demo"
+          },
+          {
+            "group": "CTA",
+            "label": "Start free trial",
+            "href": "/pricing"
+          },
+          {
+            "group": "Brand",
+            "label": "home",
+            "href": "/"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "dropdown-scale-fade",
+        "reducedMotionFallback": "instant",
+        "durationMs": 500,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+        "trigger": "click"
+      }
+    },
+    {
+      "section": "hero.home",
+      "content": {
+        "title": "The Complete Winning Ad Workflow",
+        "lead": "Everything you need to predictably make ads that convert, from the first spark of inspiration saving ads from facebook ad library to the final performance report.",
+        "primary": {
+          "label": "Start Free Trial",
+          "href": "https://app.foreplay.co/sign-up",
+          "variant": "dark-primary"
+        },
+        "video": {
+          "assetRole": "product-video",
+          "ref": "placeholder:product-video/home-hero"
+        },
+        "logoStrip": true
+      },
+      "motion": {
+        "pattern": "scroll-parallax-shrink",
+        "reducedMotionFallback": "static",
+        "easing": "linear",
+        "trigger": "scroll",
+        "minViewportPx": 768
+      }
+    },
+    {
+      "section": "content.before-after",
+      "surface": "surface.whiteBlock",
+      "content": {
+        "title": "Your new secret weapon for ads",
+        "body": "Stop launching ads that don't work. Trade guesswork for the creative process used by the world’s fastest growing brands and marketing agencies.",
+        "before": {
+          "title": "Before ...",
+          "body": "Group chats, expired links and fragmented reports."
+        },
+        "after": {
+          "title": "After Foreplay",
+          "body": "End-to-end feedback loop for winning ad creative.",
+          "video": {
+            "assetRole": "product-video",
+            "ref": "placeholder:product-video/home-loader"
+          }
+        },
+        "rainLogos": {
+          "assetRole": "customer-logo",
+          "ref": "placeholder:customer-logo/logo-rain-set"
+        }
+      },
+      "motion": {
+        "pattern": "physics-logo-rain",
+        "reducedMotionFallback": "static",
+        "cadenceMs": 300,
+        "trigger": "in-view-once"
+      }
+    },
+    {
+      "section": "content.product-showcase",
+      "variant": "research",
+      "content": {
+        "overline": "Research & Inspiration",
+        "title": "Spark creative genius and crush competitors.",
+        "body": "Ad creative research is your shortcut to success. Reverse engineer ads that are already crushing and identify trends.",
+        "products": [
+          "swipe",
+          "spyder",
+          "discovery"
+        ],
+        "chromeExtensionCard": true
+      },
+      "motion": {
+        "pattern": "instant-tabs",
+        "reducedMotionFallback": "none-needed",
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+        "trigger": "click"
+      }
+    },
+    {
+      "section": "content.product-showcase",
+      "variant": "analytics",
+      "content": {
+        "overline": "Creative Analytics & Production",
+        "title": "Identify winning patterns and replicate success.",
+        "body": "Instantly turn insights into action. Uncover what’s working across your ads and translate those learnings into crystal clear creative direction.",
+        "products": [
+          "lens",
+          "briefs"
+        ],
+        "chromeExtensionCard": false
+      },
+      "motion": {
+        "pattern": "instant-tabs",
+        "reducedMotionFallback": "none-needed",
+        "durationMs": 400,
+        "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+        "trigger": "click"
+      }
+    },
+    {
+      "section": "content.collaboration",
+      "surface": "surface.whiteBlock",
+      "content": {
+        "overline": "Collaboration",
+        "title": "Bringing performance & creative teams together.",
+        "body": "Magic happens when strategy, creative, and data speak the same language. Foreplay bridges the gap between media buyers, creatives, and agencies.",
+        "testimonials": [
+          {
+            "quote": "A shared board keeps track of the next round of concepts across every channel. The weekly review clarifies what the data is really saying.",
+            "name": "‹customer name 1›",
+            "role": "‹role @ company›",
+            "portrait": {
+              "assetRole": "person-portrait",
+              "ref": "placeholder:person-portrait/testimonial-1"
+            }
+          },
+          {
+            "quote": "A shared board keeps track of the next round of concepts across every channel. The weekly review clarifies what the data is really saying.",
+            "name": "‹customer name 2›",
+            "role": "‹role @ company›",
+            "portrait": {
+              "assetRole": "person-portrait",
+              "ref": "placeholder:person-portrait/testimonial-2"
+            }
+          },
+          {
+            "quote": "A shared board keeps track of the next round of concepts across every channel. The weekly review clarifies what the data is really saying.",
+            "name": "‹customer name 3›",
+            "role": "‹role @ company›",
+            "portrait": {
+              "assetRole": "person-portrait",
+              "ref": "placeholder:person-portrait/testimonial-3"
+            }
+          },
+          {
+            "quote": "A shared board keeps track of the next round of concepts across every channel. The weekly review clarifies what the data is really saying.",
+            "name": "‹customer name 4›",
+            "role": "‹role @ company›",
+            "portrait": {
+              "assetRole": "person-portrait",
+              "ref": "placeholder:person-portrait/testimonial-4"
+            }
+          },
+          {
+            "quote": "A shared board keeps track of the next round of concepts across every channel. The weekly review clarifies what the data is really saying.",
+            "name": "‹customer name 5›",
+            "role": "‹role @ company›",
+            "portrait": {
+              "assetRole": "person-portrait",
+              "ref": "placeholder:person-portrait/testimonial-5"
+            }
+          },
+          {
+            "quote": "A shared board keeps track of the next round of concepts across every channel. The weekly review clarifies what the data is really saying.",
+            "name": "‹customer name 6›",
+            "role": "‹role @ company›",
+            "portrait": {
+              "assetRole": "person-portrait",
+              "ref": "placeholder:person-portrait/testimonial-6"
+            }
+          },
+          {
+            "quote": "A shared board keeps track of the next round of concepts across every channel. The weekly review clarifies what the data is really saying.",
+            "name": "‹customer name 7›",
+            "role": "‹role @ company›",
+            "portrait": {
+              "assetRole": "person-portrait",
+              "ref": "placeholder:person-portrait/testimonial-7"
+            }
+          }
+        ],
+        "sharing": {
+          "title": "Beautifully present wins and opportunities",
+          "body": "Impress your clients or wow your co-workers. Foreplay makes it seamless to share inspiration, performance reports and briefs with anyone, anywhere.",
+          "tabs": [
+            {
+              "label": "Inspiration & Moodboards",
+              "title": "Curate & collaborate on creative genius",
+              "body": "Like Pinterest for ad inspiration, Foreplay lets you create mood boards to communicate internally or show off externally.",
+              "cta": {
+                "label": "Start For Free",
+                "href": "https://app.foreplay.co/sign-up",
+                "variant": "light-primary"
+              },
+              "image": {
+                "assetRole": "product-screenshot",
+                "ref": "placeholder:product-screenshot/sharing-moodboards"
+              }
+            },
+            {
+              "label": "Performance Reports",
+              "title": "Highlight trends. Back it with proof.",
+              "body": "Turn creative data into deck-worthy insights. Share visual reports that break down what’s driving performance — and what’s just taking up space.",
+              "cta": {
+                "label": "Start For Free",
+                "href": "https://app.foreplay.co/sign-up",
+                "variant": "light-primary"
+              },
+              "image": {
+                "assetRole": "product-screenshot",
+                "ref": "placeholder:product-screenshot/sharing-reports"
+              }
+            },
+            {
+              "label": "Briefs & Asset Collection",
+              "title": "Brief once. Collect everything.",
+              "body": "Send one brief to multiple creators and gather all their work in one clean, organized place. No more chasing links, files, or context across multiple platforms.",
+              "cta": {
+                "label": "Start For Free",
+                "href": "https://app.foreplay.co/sign-up",
+                "variant": "light-primary"
+              },
+              "image": {
+                "assetRole": "product-screenshot",
+                "ref": "placeholder:product-screenshot/sharing-briefs"
+              }
+            }
+          ]
+        }
+      },
+      "motion": {
+        "pattern": "tooltip-pop",
+        "reducedMotionFallback": "instant",
+        "durationMs": 300,
+        "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+        "trigger": "hover"
+      }
+    },
+    {
+      "section": "content.security-grid",
+      "variant": "home-features",
+      "content": {
+        "overline": "Features",
+        "title": "Miles beyond the status quo",
+        "body": "Say goodbye to juggling half-baked tools. Foreplay offers enterprise grade functionality with beginner friendly ease of use.",
+        "cards": [
+          {
+            "title": "Expert Swipe Files",
+            "text": "Unlock the private swipe files behind the world's best ad creative specialists.",
+            "icon": {
+              "assetRole": "ui-icon",
+              "ref": "placeholder:ui-icon/expert-swipe-files"
+            },
+            "image": {
+              "assetRole": "product-screenshot",
+              "ref": "placeholder:product-screenshot/expert-boards"
+            },
+            "cta": {
+              "label": "Browse Experts",
+              "href": "/experts",
+              "variant": "dark-ghost"
+            }
+          },
+          {
+            "title": "Mobile App",
+            "text": "Take your creative workflow on the go and save ads from anywhere.",
+            "icon": {
+              "assetRole": "ui-icon",
+              "ref": "placeholder:ui-icon/mobile-app"
+            },
+            "image": {
+              "assetRole": "product-screenshot",
+              "ref": "placeholder:product-screenshot/mobile-app-block"
+            },
+            "cta": {
+              "label": "Download App",
+              "href": "/mobile-app",
+              "variant": "dark-ghost"
+            }
+          },
+          {
+            "title": "API",
+            "text": "Enriched competitor advertising data in an agent agnostic API.",
+            "icon": {
+              "assetRole": "ui-icon",
+              "ref": "placeholder:ui-icon/api"
+            },
+            "image": {
+              "assetRole": "product-screenshot",
+              "ref": "placeholder:product-screenshot/api-frame"
+            },
+            "cta": {
+              "label": "Learn More",
+              "href": "/api",
+              "variant": "dark-ghost"
+            }
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "hover-transition",
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "section": "conversion.cta-final",
+      "content": {
+        "title": "Ready to ship more winning ads?",
+        "paragraph": "Unlock the power of Foreplay with an unrestricted 7 day free trial.",
+        "primary": {
+          "label": "Start free trial",
+          "href": "https://app.foreplay.co/sign-up",
+          "variant": "dark-primary"
+        },
+        "secondary": {
+          "label": "View Pricing",
+          "href": "/pricing",
+          "variant": "dark-secondary"
+        },
+        "image": {
+          "assetRole": "product-screenshot",
+          "ref": "placeholder:product-screenshot/home-cta"
+        }
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "none-needed"
+      }
+    },
+    {
+      "section": "shell.footer",
+      "content": {
+        "items": [
+          {
+            "group": "Badges",
+            "label": "SwipeFile",
+            "href": "/swipe-file"
+          },
+          {
+            "group": "Badges",
+            "label": "Discovery",
+            "href": "/discovery"
+          },
+          {
+            "group": "Badges",
+            "label": "Spyder",
+            "href": "/spyder-ad-spy"
+          },
+          {
+            "group": "Badges",
+            "label": "Lens",
+            "href": "/lens-creative-analytics"
+          },
+          {
+            "group": "Badges",
+            "label": "Briefs",
+            "href": "/briefs"
+          },
+          {
+            "group": "Reviews",
+            "label": "Chrome review badge",
+            "href": "/chrome-extension"
+          },
+          {
+            "group": "Reviews",
+            "label": "G2 review badge",
+            "href": "/reviews"
+          },
+          {
+            "group": "Columns",
+            "label": "Swipe File",
+            "href": "/swipe-file"
+          },
+          {
+            "group": "Columns",
+            "label": "Discovery",
+            "href": "/discovery"
+          },
+          {
+            "group": "Columns",
+            "label": "Spyder",
+            "href": "/spyder-ad-spy"
+          },
+          {
+            "group": "Columns",
+            "label": "Lens",
+            "href": "/lens-creative-analytics"
+          },
+          {
+            "group": "Columns",
+            "label": "Briefs",
+            "href": "/briefs"
+          },
+          {
+            "group": "Columns",
+            "label": "Chrome Extension",
+            "href": "/chrome-extension"
+          },
+          {
+            "group": "Columns",
+            "label": "Mobile App",
+            "href": "/mobile-app"
+          },
+          {
+            "group": "Columns",
+            "label": "API",
+            "href": "/api"
+          },
+          {
+            "group": "Columns",
+            "label": "MCP",
+            "href": "/mcp"
+          },
+          {
+            "group": "Columns",
+            "label": "University",
+            "href": "/university"
+          },
+          {
+            "group": "Columns",
+            "label": "Blog",
+            "href": "/blog"
+          },
+          {
+            "group": "Columns",
+            "label": "Bounties",
+            "href": "/bounties"
+          },
+          {
+            "group": "Columns",
+            "label": "Events & Webinars",
+            "href": "/fireside"
+          },
+          {
+            "group": "Columns",
+            "label": "Agency Directory",
+            "href": "/agency-directory"
+          },
+          {
+            "group": "Columns",
+            "label": "Experts",
+            "href": "/experts"
+          },
+          {
+            "group": "Columns",
+            "label": "E-Commerce & Retail",
+            "href": "/industries/ecommerce"
+          },
+          {
+            "group": "Columns",
+            "label": "Agencies",
+            "href": "/industries/agencies"
+          },
+          {
+            "group": "Columns",
+            "label": "Mobile Apps & Gaming",
+            "href": "/industries/mobile-apps"
+          },
+          {
+            "group": "Columns",
+            "label": "B2B & SaaS",
+            "href": "/industries/b2b-saas"
+          },
+          {
+            "group": "Columns",
+            "label": "Info, Education & Community",
+            "href": "/industries/info-education-community"
+          },
+          {
+            "group": "Columns",
+            "label": "Freelancers & Creators",
+            "href": "/industries/freelancers-creators"
+          },
+          {
+            "group": "Columns",
+            "label": "Pricing",
+            "href": "/pricing"
+          },
+          {
+            "group": "Columns",
+            "label": "Book a Demo",
+            "href": "/book-demo"
+          },
+          {
+            "group": "Columns",
+            "label": "Careers",
+            "href": "/careers"
+          },
+          {
+            "group": "Columns",
+            "label": "Affiliate Program",
+            "href": "/affiliates"
+          },
+          {
+            "group": "Columns",
+            "label": "Wall of Love",
+            "href": "/reviews"
+          },
+          {
+            "group": "Compare",
+            "label": "Motion",
+            "href": "/comparison/motion"
+          },
+          {
+            "group": "Compare",
+            "label": "Atria",
+            "href": "/comparison/atria"
+          },
+          {
+            "group": "Compare",
+            "label": "Superads",
+            "href": "/comparison/superads"
+          },
+          {
+            "group": "Compare",
+            "label": "Magic Brief",
+            "href": "/comparison/magic-brief"
+          },
+          {
+            "group": "Compare",
+            "label": "Adnova",
+            "href": "/comparison/ad-nova"
+          },
+          {
+            "group": "Compare",
+            "label": "Gethookd",
+            "href": "/comparison/gethookd"
+          },
+          {
+            "group": "Compare",
+            "label": "AdsLibrary.ai",
+            "href": "/comparison/ad-library-ai"
+          },
+          {
+            "group": "Compare",
+            "label": "Adscan",
+            "href": "/comparison/adscan"
+          },
+          {
+            "group": "Compare",
+            "label": "SwipeKit",
+            "href": "/comparison/swipekit"
+          },
+          {
+            "group": "Legal",
+            "label": "Privacy Policy",
+            "href": "/page/privacy-policy"
+          },
+          {
+            "group": "Legal",
+            "label": "Terms & Conditions",
+            "href": "/page/terms-of-service"
+          },
+          {
+            "group": "Brand",
+            "label": "home",
+            "href": "/"
+          }
+        ],
+        "adCount": {
+          "total": "264,864,773",
+          "live": "9,543,253",
+          "historical": "255,321,520"
+        },
+        "copyright": "© 2026 Foreplay, Inc. All rights reserved."
+      },
+      "motion": {
+        "pattern": "hover-transition",
+        "reducedMotionFallback": "none-needed",
+        "durationMs": 200,
+        "easing": "ease"
+      }
+    },
+    {
+      "section": "shell.exit-intent-modal",
+      "content": {
+        "title": "Can’t find what you’re looking for?",
+        "body": "Speak with the Foreplay team to accelerate your paid marketing goals.",
+        "primary": {
+          "label": "Book a Demo",
+          "href": "/book-demo",
+          "variant": "dark-primary"
+        },
+        "secondary": {
+          "label": "Start a Trial",
+          "href": "https://app.foreplay.co/sign-up",
+          "variant": "dark-secondary"
+        }
+      },
+      "motion": {
+        "pattern": "exit-intent-modal",
+        "reducedMotionFallback": "none-needed",
+        "trigger": "pointer-leaves-top"
+      }
+    }
+  ]
+}

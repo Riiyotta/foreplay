@@ -1,0 +1,93 @@
+{
+  "id": "content.mobile-app-features",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Mobile-app S2 feature stack: video feature card with YouTube lightbox trigger, 'Save content from your Phone' card and two video rows.",
+  "measuredFrom": [
+    "src/components/shared/MobileAppFeatures.jsx:51"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "rows": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 48,
+              "measuredFrom": [
+                "src/components/shared/MobileAppFeatures.jsx:27"
+              ]
+            },
+            "body": {
+              "type": "string",
+              "required": true,
+              "maxChars": 160,
+              "measuredFrom": [
+                "src/components/shared/MobileAppFeatures.jsx:27"
+              ]
+            },
+            "video": {
+              "type": "assetRef",
+              "assetRole": "product-video",
+              "required": true,
+              "measuredFrom": [
+                "src/components/shared/MobileAppFeatures.jsx:15"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/shared/MobileAppFeatures.jsx:51"
+        ]
+      },
+      "lightboxVideo": {
+        "type": "assetRef",
+        "assetRole": "third-party-embed",
+        "required": true,
+        "measuredFrom": [
+          "src/components/shared/MobileAppFeatures.jsx:107"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "rows[].video",
+    "lightboxVideo"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "background-video-loop",
+    "reducedMotionFallback": "first-frame",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/MobileAppFeatures.jsx:15"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "gradient.macbook-sync",
+    "gradient.mobile-thumb"
+  ],
+  "usedOnTemplates": [
+    "mobile-app",
+    "paid-landing"
+  ],
+  "usedOnRoutes": [
+    "/2026-paid-lp",
+    "/mobile-app"
+  ]
+}

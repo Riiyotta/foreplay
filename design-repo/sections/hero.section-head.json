@@ -1,0 +1,69 @@
+{
+  "id": "hero.section-head",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Plain section-head page header (reviews: 'WALL OF LOVE').",
+  "measuredFrom": [
+    "src/pages/Reviews.jsx:14"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 12,
+        "measuredFrom": [
+          "src/pages/Reviews.jsx:14"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 26,
+        "measuredFrom": [
+          "src/pages/Reviews.jsx:14"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 96,
+        "measuredFrom": [
+          "src/pages/Reviews.jsx:14"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 84,
+          "upperBoundChars": 96
+        },
+        "standIn": true
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/Reviews.jsx:13"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "reviews"
+  ],
+  "usedOnRoutes": [
+    "/reviews"
+  ]
+}

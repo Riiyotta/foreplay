@@ -1,0 +1,124 @@
+{
+  "$description": "Motion primitives as implemented: easing curves (Tailwind theme.extend.transitionTimingFunction + keywords + the two JS easing functions) and every duration that appears in code. Durations not in Tailwind's default set (400/600/800) are added by the config; 900ms is an arbitrary value (FAQ). Patterns that combine these live in 10-semantic/motion.json.",
+  "category": "motion",
+  "easing": {
+    "expo": {
+      "value": "cubic-bezier(0.19, 1, 0.22, 1)",
+      "type": "cubicBezier",
+      "utility": "ease-expo",
+      "utilityUsage": 18,
+      "measuredFrom": "tailwind.config.js:258"
+    },
+    "expo-alt": {
+      "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+      "type": "cubicBezier",
+      "utility": "ease-expo-alt",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:259"
+    },
+    "cubic-out": {
+      "value": "cubic-bezier(0.33, 1, 0.68, 1)",
+      "type": "cubicBezier",
+      "utility": "ease-cubic-out",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:260"
+    },
+    "in-quad-ish": {
+      "value": "cubic-bezier(0.55, 0.085, 0.68, 0.53)",
+      "type": "cubicBezier",
+      "utility": "ease-in-quad-ish",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:261"
+    },
+    "ease": {
+      "value": "ease",
+      "type": "keyword",
+      "utility": "ease-[ease]",
+      "utilityUsage": 0,
+      "measuredFrom": "src/components/shared.jsx:12"
+    },
+    "linear": {
+      "value": "linear",
+      "type": "keyword",
+      "measuredFrom": "src/index.css:379"
+    },
+    "in-out-cubic": {
+      "value": "t < .5 ? 4t^3 : 1 - (-2t + 2)^3 / 2 (JS)",
+      "type": "function",
+      "note": "translate easing of the product-page hero parallax (IX2 a-71)",
+      "measuredFrom": "src/components/useHeroParallax.js:30"
+    },
+    "ease-out-quad": {
+      "value": "1 - (1 - t)^2 (JS)",
+      "type": "function",
+      "note": "nav/footer sprite frame stepping",
+      "measuredFrom": "src/components/shared.jsx:211"
+    }
+  },
+  "duration": {
+    "100": {
+      "value": "100ms",
+      "measuredFrom": "src/components/shared/useFadeTabs.js:8"
+    },
+    "150": {
+      "value": "150ms",
+      "measuredFrom": "src/components/shared.jsx:21",
+      "utilityUsage": 5
+    },
+    "200": {
+      "value": "200ms",
+      "measuredFrom": "src/components/shared.jsx:12",
+      "utilityUsage": 81
+    },
+    "260": {
+      "value": "260ms",
+      "measuredFrom": "src/index.css:123"
+    },
+    "300": {
+      "value": "300ms",
+      "measuredFrom": "src/components/shared/useFadeTabs.js:8",
+      "utilityUsage": 6
+    },
+    "380": {
+      "value": "380ms",
+      "measuredFrom": "src/index.css:122"
+    },
+    "400": {
+      "value": "400ms",
+      "measuredFrom": "tailwind.config.js:263",
+      "utilityUsage": 4
+    },
+    "500": {
+      "value": "500ms",
+      "measuredFrom": "src/components/Navbar.jsx:305",
+      "utilityUsage": 5
+    },
+    "600": {
+      "value": "600ms",
+      "measuredFrom": "tailwind.config.js:263",
+      "utilityUsage": 6
+    },
+    "800": {
+      "value": "800ms",
+      "measuredFrom": "tailwind.config.js:263",
+      "utilityUsage": 2
+    },
+    "900": {
+      "value": "900ms",
+      "measuredFrom": "src/components/shared/Faq.jsx:61",
+      "utilityUsage": 0
+    },
+    "12000": {
+      "value": "12000ms",
+      "measuredFrom": "src/index.css:396"
+    },
+    "20000": {
+      "value": "20000ms",
+      "measuredFrom": "src/index.css:383"
+    },
+    "60000": {
+      "value": "60000ms",
+      "measuredFrom": "src/index.css:379"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "id": "hero.centered",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "S9 centred hero (.demo-hero / .fireside-hero + .section-head): overline, h1 (display-h2), stand-in paragraph. careers, creative-strategist-jobs, category.",
+  "measuredFrom": [
+    "src/components/templates/CenteredHero.jsx:5",
+    "src/components/templates/CenteredHero.jsx:36",
+    "src/components/templates/CenteredHero.jsx:26"
+  ],
+  "variants": [
+    {
+      "name": "demo",
+      "description": "DemoHero padding 120/80/40 (careers, csj)",
+      "measuredFrom": [
+        "src/components/templates/CenteredHero.jsx:36"
+      ]
+    },
+    {
+      "name": "fireside",
+      "description": "FiresideHero padding 80/40 (category)",
+      "measuredFrom": [
+        "src/pages/templates/Category.jsx:20"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 24,
+        "measuredFrom": [
+          "src/pages/CreativeStrategistJobs.jsx:21"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 32,
+        "measuredFrom": [
+          "src/pages/CreativeStrategistJobs.jsx:22"
+        ]
+      },
+      "paragraph": {
+        "type": "string",
+        "required": true,
+        "maxChars": 177,
+        "measuredFrom": [
+          "src/pages/Careers.jsx:18"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 177,
+          "upperBoundChars": 177
+        },
+        "standIn": true,
+        "note": "careers 177, csj 151 (standin), category paragraph(150)"
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/templates/CenteredHero.jsx:36"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticTypography.display.section",
+    "layout.sectionRhythm.demoHeroY"
+  ],
+  "usedOnTemplates": [
+    "careers-index",
+    "category",
+    "creative-strategist-jobs"
+  ],
+  "usedOnRoutes": [
+    "/careers",
+    "/category/:slug",
+    "/creative-strategist-jobs"
+  ]
+}

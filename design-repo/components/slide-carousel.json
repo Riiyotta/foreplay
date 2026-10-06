@@ -1,0 +1,25 @@
+{
+  "id": "slide-carousel",
+  "kind": "component",
+  "purpose": "[data-carousel] product slider: track translateX(-index*stride), .8s expo, prev/next 36px arrows, clicks locked during the move.",
+  "measuredFrom": [
+    "src/components/product/ProductCarousel.jsx:87",
+    "src/components/product/ProductCarousel.jsx:103"
+  ],
+  "props": {
+    "slides": {
+      "type": "slide[]"
+    }
+  },
+  "tokensUsed": [],
+  "motion": {
+    "pattern": "carousel-slide",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/product/ProductCarousel.jsx:103"
+    ],
+    "durationMs": 800,
+    "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+  }
+}

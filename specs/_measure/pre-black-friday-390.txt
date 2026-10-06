@@ -1,0 +1,231 @@
+URL https://www.foreplay.co/pre-black-friday W390 docH 5296 title="Pre Black Friday" wfpage=68fa767a9d4ca73055d22b29 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 390x5296] 
+  div.global [0,0 0x0] 
+  div.main [0,72 390x3437] 
+    section#product-hero-section.section.relative [0,72 390x622] 
+      div.container [0,72 390x622] p:0px 24px
+        div.product-hero [24,72 342x48] fx:column p:24px 0px
+          div.product-hero-animation-trigger [0,0 390x844]  @wid=ada86b34-fc44-2717-f2b7-e0a48ca54738
+        div.us-container [24,120 342x574] p:50px 0px
+          div.us-bg [24,120 342x574] 
+            div.us-canvas.w-embed [24,120 342x574] 
+              div.us-canvas [24,120 342x574]  @data-us-project=aTrCmTNQlX5iRJ0vlnVR @data-us-initialized=true @data-scene-id=id-haeu71xij2ehwdrsxn8lz
+                canvas [24,120 342x574]  @role=img
+                a [100,629 190x35] fx:row p:10px r:6px @target=_blank href=https://unicorn.studio?utm_source=public-url
+                  img [110,639 170x15] IMG made_in_us_small_web.svg nat466x40 alt="Made with unicorn.studio" 
+          div.us-content [24,170 342x474] fx:row
+            div.hero-text [24,170 342x474] fx:column gap:12px
+              a.home-hero-announcement.bounties.w-inline-block [49,170 291x32] fx:row p:8px 12px 8px 10px r:10px @target=_blank href=/bounties/build-share-a-workflow-using-the-foreplay-api
+                div.home-hero-announcement-text [59,178 269x16] fx:row gap:8px
+                  div.text-label-s.mobile-xs [59,178 50x16]  {Inter 12px/16px w500 ls-0.0771428px c:rgb(255, 255, 255)} "Bounties" (1L)
+                  div.announcement-seperator [117,180 1x12] r:2px
+                  div.text-label-s.mobile-xs [126,178 203x16]  {Inter 12px/16px w500 ls-0.0771428px c:rgb(255, 255, 255)} "Win $5,000 by Building with the API" (1L)
+              div.text-white [24,214 342x144] 
+                h1.text-display-h2 [24,214 342x144]  {Inter Display 36px/48px w600 ls-0.27px c:rgb(255, 255, 255) ta:center} "Capture the Q4 Demand with winning creative" (3L)
+              div.max-w-lg [24,370 342x168] 
+                div.text-alpha-100 [24,370 342x168] 
+                  p.text-body-l.text-white-84 [24,370 342x168]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 213ch 6L]
+              div.main-cta-buttons [24,550 342x94] gtc:342px gap:12px
+                a.button-dark.button-primary.w-inline-block [24,550 342x40] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+                  div.button-text-block [136,558 98x24] p:0px 6px
+                    div.text-heading-m [142,558 86x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14) ta:center} "Claim Offer" (1L)
+                  div.button-icon-block.icon-right.opacity-100 [230,558 24x24] fx:row
+                    div.icon-medium [230,558 24x24] fx:row
+                      div.svg.w-embed [230,558 24x24] fx:row
+                        svg [230,558 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+                a.button-dark.button-secondary.w-inline-block [24,602 342x42] fx:row p:8px r:10px href=#api-pricing
+                  div.button-text-block [119,611 133x24] p:0px 6px
+                    div.text-heading-m [125,611 121x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255) ta:center} "View Q4 Pricing" (1L)
+                  div.button-icon-block.icon-right [247,611 24x24] fx:row
+                    div.icon-medium [247,611 24x24] fx:row
+                      div.svg.w-embed [247,611 24x24] fx:row
+                        svg [247,611 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+    section#lens-hero-section.section.relative [0,694 390x0] 
+    section.section [0,694 390x0] 
+    div#api-pricing.section [0,694 390x1978] 
+      div.container.section-container [0,694 390x1978] p:0px 24px
+        div.pricing [24,694 342x1978] fx:column p:40px 0px 80px
+          div.api-pricing-wrapper [24,734 342x1858] fx:column gap:25px
+            div.section-head [24,734 342x228] fx:column gap:12px
+              div.section-head_title [24,734 342x132] 
+                h2.text-display-h3 [24,734 342x132]  {Inter Display 36px/44px w600 ls-0.26px c:rgb(255, 255, 255) ta:center} "Why getting into Foreplay before the holiday is crucial" (3L)
+              div.max-w-lg [24,878 342x84] 
+                div.text-alpha-100 [24,878 342x84] 
+                  p.text-body-l.text-white-84 [24,878 342x84]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 108ch 3L]
+            div.pricing-content [24,987 342x1605] fx:column
+              div.api-pricing-grid [24,1035 342x1557] gtc:342px gap:20px
+                div.api-pricing-card-container [24,1035 342x255] r:20px
+                  div.pricing-card [24,1035 342x255] fx:column gap:20px p:24px
+                    div.pricing-card-head [48,1059 294x36] fx:column gap:8px
+                      div.text-balance [110,1059 169x36] 
+                        div.api-credis-pricing-title [110,1059 169x36] fx:row gap:10px p:4px 8px 4px 4px r:100px
+                          div.icon-large.w-embed [114,1063 28x28] 
+                            svg [114,1063 28x30] SVG vb=0 0 28 30 fill=none color=rgba(255, 255, 255, 0.36) 
+                          div.text-white [152,1065 119x24] 
+                            div.text-label-l [152,1065 119x24]  {Inter 16px/24px w500 ls-0.23111px c:rgb(255, 255, 255) ta:center} "100,000 Credits" (1L)
+                    div.horizontal_divider [48,1115 294x1] 
+                    div.pricing-card-cta [48,1136 294x130] fx:column gap:20px
+                      div.flex-col-gap-2 [48,1136 294x32] fx:column gap:8px
+                        div.flex-baseline [148,1136 95x32] fx:row gap:4px
+                          div.text-white [148,1136 44x32] 
+                            div.text-display-h5 [148,1136 44x32]  {Inter Display 24px/32px w600 ls-0.16px c:rgb(255, 255, 255)} "$99" (1L)
+                          div.text-alpha-100 [196,1145 47x20] 
+                            div.text-body-s [196,1145 47x20]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} "/month" (1L)
+                      div.flex-col-gap-2 [48,1188 294x78] fx:column gap:8px
+                        div.div-block-335 [48,1188 294x78] fx:column
+                          a.button-dark.button-primary.w-inline-block [48,1188 294x40] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+                            div.button-text-block [123,1196 123x24] p:0px 6px
+                              div.text-heading-m [129,1196 111x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Start Free Trial" (1L)
+                            div.button-icon-block.icon-right.opacity-100 [243,1196 24x24] fx:row
+                              div.icon-medium [243,1196 24x24] fx:row
+                                div.svg.w-embed [243,1196 24x24] fx:row
+                                  svg [243,1196 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+                          div.free-credit-pricing [48,1238 294x28] fx:row p:4px 8px r:4px
+                            div.text-label-s [77,1242 235x20]  {Inter 14px/20px w500 ls-0.09px c:rgba(255, 255, 255, 0.36) ta:center} "10,000 Free credits during your trial" (1L)
+                div.api-pricing-card-container [24,1310 342x255] r:20px
+                  div.pricing-card [24,1310 342x255] fx:column gap:20px p:24px
+                    div.pricing-card-head [48,1334 294x36] fx:column gap:8px
+                      div.text-balance [110,1334 171x36] 
+                        div.api-credis-pricing-title [110,1334 171x36] fx:row gap:10px p:4px 8px 4px 4px r:100px
+                          div.icon-large.w-embed [114,1338 28x28] 
+                            svg [114,1338 28x30] SVG vb=0 0 28 30 fill=none color=rgba(255, 255, 255, 0.36) 
+                          div.text-white [152,1340 121x24] 
+                            div.text-label-l [152,1340 121x24]  {Inter 16px/24px w500 ls-0.23111px c:rgb(255, 255, 255) ta:center} "250,000 Credits" (1L)
+                    div.horizontal_divider [48,1390 294x1] 
+                    div.pricing-card-cta [48,1411 294x130] fx:column gap:20px
+                      div.flex-col-gap-2 [48,1411 294x32] fx:column gap:8px
+                        div.flex-baseline [143,1411 104x32] fx:row gap:4px
+                          div.text-white [143,1411 53x32] 
+                            div.text-display-h5 [143,1411 53x32]  {Inter Display 24px/32px w600 ls-0.16px c:rgb(255, 255, 255)} "$189" (1L)
+                          div.text-alpha-100 [200,1420 47x20] 
+                            div.text-body-s [200,1420 47x20]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} "/month" (1L)
+                      div.flex-col-gap-2 [48,1463 294x78] fx:column gap:8px
+                        div.div-block-335 [48,1463 294x78] fx:column
+                          a.button-dark.button-primary.w-inline-block [48,1463 294x40] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+                            div.button-text-block [123,1471 123x24] p:0px 6px
+                              div.text-heading-m [129,1471 111x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Start Free Trial" (1L)
+                            div.button-icon-block.icon-right.opacity-100 [243,1471 24x24] fx:row
+                              div.icon-medium [243,1471 24x24] fx:row
+                                div.svg.w-embed [243,1471 24x24] fx:row
+                                  svg [243,1471 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+                          div.free-credit-pricing [48,1513 294x28] fx:row p:4px 8px r:4px
+                            div.text-label-s [77,1517 235x20]  {Inter 14px/20px w500 ls-0.09px c:rgba(255, 255, 255, 0.36) ta:center} "10,000 Free credits during your trial" (1L)
+                … +1 more div.api-pricing-card-container (repeat)
+                div#w-node-a1e63b10-a410-ef9c-0c96-923e20146dad-55d22b29.pricing-footer [24,1860 342x732] fx:column r:20px
+                  div.pricing-footer-enterprise [25,1861 340x300] fx:column gap:20px p:20px 24px 24px
+                    div.pricing-footer-head [49,1881 292x72] fx:column gap:8px p:8px 0px 0px
+                      div.text-alpha-0 [49,1889 292x16] 
+                        div.text-overline [49,1889 292x16]  {Inter 12px/16px w550 ls2px c:rgb(255, 255, 255) uppercase} "ENTERPRISE" (1L)
+                      div.text-alpha-100 [49,1913 292x40] 
+                        div.text-body-s [49,1913 292x40]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} "For custom API use cases and large credit usage." (2L)
+                    div.horizontal_divider [49,1973 292x1] 
+                    div.pricing-footer-custom [49,1994 292x60] fx:column gap:8px
+                      div.text-white [49,1994 292x32] 
+                        h4.text-display-h5 [49,1994 292x32]  {Inter Display 24px/32px w600 ls-0.16px c:rgb(255, 255, 255)} "Custom" (1L)
+                      div.flex-gap-1 [49,2034 292x20] fx:row gap:4px
+                        div.icon-20 [49,2034 20x20] 
+                          div.svg.w-embed [49,2034 20x20] fx:row
+                            svg [49,2034 20x20] SVG vb=null fill=none color=rgba(255, 255, 255, 0.36) 
+                        div.text-white [73,2034 105x20] 
+                          div.text-label-s [73,2034 105x20]  {Inter 14px/20px w500 ls-0.09px c:rgb(255, 255, 255)} "Save up-to 80%" (1L)
+                    div.horizontal_divider [49,2074 292x1] 
+                    a.button-dark.button-secondary.w-inline-block [49,2095 292x42] fx:row p:8px r:10px href=/book-demo
+                      div.button-text-block [107,2104 156x24] p:0px 6px
+                        div.text-heading-m [113,2104 144x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Talk with an Expert" (1L)
+                      div.button-icon-block.icon-right [259,2104 24x24] fx:row
+                        div.icon-medium [259,2104 24x24] fx:row
+                          div.svg.w-embed [259,2104 24x24] fx:row
+                            svg [259,2104 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+                  div.pricing-footer-vertical_divider [25,2161 1x0] 
+                  div.pricing-footer-extra [25,2161 340x430] fx:column gap:40px p:32px 24px
+                    div.pricing-footer-extra-content [49,2193 292x156] fx:column gap:12px
+                      div.text-alpha-100 [49,2193 292x40] 
+                        div.text-label-s [49,2193 292x40]  {Inter 14px/20px w500 ls-0.09px c:rgba(255, 255, 255, 0.68)} "Let's discuss a tailored solution that covers unique needs." (2L)
+                      ul.pricing-footer-extra-list.w-list-unstyled [49,2245 292x104] fx:column gap:12px @role=list
+                        li.pricing-footer-extra-list-item [49,2245 292x20] fx:row gap:8px
+                          div.text-white [49,2245 20x20] 
+                            div.icon-20 [49,2245 20x20] 
+                              div.svg.w-embed [49,2245 20x20] fx:row
+                                svg [49,2245 20x20] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+                          div.text-white [77,2245 192x20] 
+                            div.text-body-s [77,2245 192x20]  {Inter 14px/20px w400 ls-0.09px c:rgb(255, 255, 255)} "Highly discounted API credits" (1L)
+                        li.pricing-footer-extra-list-item [49,2277 292x20] fx:row gap:8px
+                          div.text-white [49,2277 20x20] 
+                            div.icon-20 [49,2277 20x20] 
+                              div.svg.w-embed [49,2277 20x20] fx:row
+                                svg [49,2277 20x20] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+                          div.text-white [77,2277 204x20] 
+                            div.text-body-s [77,2277 204x20]  {Inter 14px/20px w400 ls-0.09px c:rgb(255, 255, 255)} "Priority in-app or Slack support" (1L)
+                        … +1 more li.pricing-footer-extra-list-item (repeat)
+                    div.div-block-332 [49,2389 292x170] fx:column gap:16px
+                      div.text-alpha-100 [49,2389 292x40] 
+                        div.text-label-s [49,2389 292x40]  {Inter 14px/20px w500 ls-0.09px c:rgba(255, 255, 255, 0.68)} "Trusted by over 10,000 growth teams and agencies" (2L)
+                      div.pricing-enterprise-logo-wrapper [49,2445 292x114] fx:row gap:15px
+                        div.pricing-grid-logo-wrapper [49,2445 88x28] fx:column p:8px
+                          div.home-hero-logo-image.w-embed [66,2455 54x9] fx:row
+                            svg [66,2450 54x18] SVG vb=0 0 72 24 fill=none color=rgba(255, 255, 255, 0.84) 
+                        div.pricing-grid-logo-wrapper [195,2445 146x28] fx:column p:8px
+                          div.home-hero-logo-image.w-embed [219,2455 98x9] fx:row
+                            svg [219,2452 98x14] SVG vb=0 0 130 19 fill=none color=rgba(255, 255, 255, 0.84) 
+                        … +3 more div.pricing-grid-logo-wrapper (repeat)
+    div.section [0,2672 390x837] 
+      div.container [0,2672 390x837] p:0px 24px
+        div.faq [24,2672 342x837] fx:column gap:40px p:64px 0px 80px
+          div.section-head [24,2736 342x192] fx:column gap:12px
+            div.section-head-wrapper [24,2736 342x192] fx:column gap:12px
+              div.section-head_subtitle [180,2736 30x16] 
+                div.text-overline.text-white-68 [180,2736 30x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "FAQ" (1L)
+              div.section-head_title [24,2764 342x96] 
+                h3.text-display-h2 [24,2764 342x96]  {Inter Display 36px/48px w600 ls-0.27px c:rgb(255, 255, 255) ta:center} "Questions about the API?" (2L)
+              div.section-head_paragraph [24,2872 342x56] 
+                div.text-alpha-100 [24,2872 342x56] 
+                  p.text-body-l [24,2872 342x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} "Most common questions about the Foreplay API pricing and features." (2L)
+          div.faq-block-container [24,2968 342x305]  @data-accordion-container=
+            div.w-dyn-list [24,2968 342x305] 
+              div.w-dyn-items [24,2968 342x305]  @role=list
+                div.w-dyn-item [24,2968 342x61]  @role=listitem
+                  div.faq-block [24,2968 342x61] fx:row gap:44px p:20px 0px 12px @role=button @data-accordion-item= @data-expanded=false @aria-expanded=false
+                    div.faq-block_content [24,2988 270x24] fx:column
+                      div.faq-block_head [24,2988 270x24] fx:row gap:44px
+                        h4.text-label-l [24,2988 163x24]  {Inter 16px/24px w500 ls-0.23111px c:rgba(255, 255, 255, 0.68)} "Do credits carry over?" (1L)
+                      div.faq-block_body [24,3012 270x0] 
+                        div.faq-block_answer [24,3012 270x76] p:8px 0px
+                          div.faq-rtb [24,3020 270x60] 
+                            div.text-alpha-100 [24,3020 270x60] 
+                              div.text-body-s.w-richtext [24,3020 270x60] 
+                                p [24,3020 270x60]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} [TEXT 118ch 3L]
+                    div.faq-block_icon [338,2988 28x28] fx:row
+                      div.icon-medium [340,2990 24x24] fx:row
+                        div.svg.w-embed [340,2990 24x24] fx:row
+                          svg [340,2990 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgba(255, 255, 255, 0.68) 
+                div.w-dyn-item [24,3029 342x61]  @role=listitem
+                  div.faq-block [24,3029 342x61] fx:row gap:44px p:20px 0px 12px @role=button @data-accordion-item= @data-expanded=false @aria-expanded=false
+                    div.faq-block_content [24,3049 270x24] fx:column
+                      div.faq-block_head [24,3049 270x24] fx:row gap:44px
+                        h4.text-label-l [24,3049 246x24]  {Inter 16px/24px w500 ls-0.23111px c:rgba(255, 255, 255, 0.68)} "How does pro-rated billing work?" (1L)
+                      div.faq-block_body [24,3073 270x0] 
+                        div.faq-block_answer [24,3073 270x96] p:8px 0px
+                          div.faq-rtb [24,3081 270x80] 
+                            div.text-alpha-100 [24,3081 270x80] 
+                              div.text-body-s.w-richtext [24,3081 270x80] 
+                                p [24,3081 270x80]  {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} [TEXT 135ch 4L]
+                    div.faq-block_icon [338,3049 28x28] fx:row
+                      div.icon-medium [340,3051 24x24] fx:row
+                        div.svg.w-embed [340,3051 24x24] fx:row
+                          svg [340,3051 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgba(255, 255, 255, 0.68) 
+                … +3 more div.w-dyn-item (repeat)
+          div.faq-buttons [24,3313 342x116] fx:column gap:12px p:12px 0px
+            a#intercomButton.button-dark.ghost-icon-button.w-inline-block [24,3325 342x40] fx:row gap:5px p:8px r:10px href=#
+              div.button-icon-block.icon-left [114,3333 24x24] fx:row
+                div.icon-medium [114,3333 24x24] fx:row
+                  div.svg.w-embed [116,3335 20x20] fx:row
+                    svg [116,3335 20x20] SVG vb=0 0 20 20 fill=none color=rgb(255, 255, 255) 
+              div.button-text-block [139,3333 136x24] p:0px 6px
+                div.text-heading-m [145,3333 124x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Contact support" (1L)
+            a.button-dark.ghost-icon-button.w-inline-block [24,3377 342x40] fx:row gap:5px p:8px r:10px @target=_blank href=https://foreplay.featurebase.app/help
+              div.button-icon-block.icon-left [113,3385 24x24] fx:row
+                div.icon-medium [113,3385 24x24] fx:row
+                  div.svg.w-embed [113,3385 24x24] fx:row
+                    svg [113,3385 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) 
+              div.button-text-block [138,3385 138x24] p:0px 6px
+                div.text-heading-m [144,3385 126x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Knowledge Base" (1L)

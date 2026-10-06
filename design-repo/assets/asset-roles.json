@@ -1,0 +1,180 @@
+{
+  "$description": "Closed asset-role registry built from real usage sites in src/ and public/. A generator may not invent a role. The source is a real, live company (Foreplay, foreplay.co): brand, product imagery, customer logos and people's photos belong to Foreplay or third parties.",
+  "rolesEnumClosed": true,
+  "generationPolicyEnum": [
+    "may-generate-new",
+    "must-reuse-exact",
+    "must-not-fabricate",
+    "must-not-reuse-live-endpoint"
+  ],
+  "generationPolicyMeaning": {
+    "may-generate-new": "New non-identifying decorative assets may be generated.",
+    "must-reuse-exact": "Only the exact existing file may be referenced; no redraws.",
+    "must-not-fabricate": "Never generate, alter or invent; generated pages use placeholder refs.",
+    "must-not-reuse-live-endpoint": "Never copy a live third-party URL/token; render a placeholder."
+  },
+  "generatedInstanceRefEnum": {
+    "placeholder-only": "ref must match ^placeholder:[a-z0-9-]+(/[a-z0-9-]+)*$",
+    "file-or-placeholder": "ref may be placeholder:... or file:/<existing public path>",
+    "any": "placeholder:..., file:/... or generated:<slug>"
+  },
+  "globalProhibitions": [
+    "Do not reproduce real logos (Foreplay's, customers', partners', sponsors', competitors', stores', AI vendors') by redrawing, tracing or generating them.",
+    "Do not generate, edit or substitute photos of real people, and do not fabricate names, titles or quotes attributed to real people.",
+    "Do not reproduce Foreplay's proprietary content (product UI, footage, blog covers, copy) as newly generated material presented as real.",
+    "Do not copy live third-party endpoints, widget ids or tokens; the clone makes no third-party requests.",
+    "Do not publish generated pages: this repository is for local/internal use only."
+  ],
+  "pinnedRoles": {
+    "$note": "Compliance-critical roles and the exact policy each must carry; verify_all.py and semantic_validate.py check these pinned values, not just enum membership.",
+    "person-portrait": {
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only"
+    },
+    "customer-logo": {
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only"
+    },
+    "third-party-mark": {
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only"
+    },
+    "product-screenshot": {
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only"
+    },
+    "product-video": {
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only"
+    },
+    "editorial-image": {
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only"
+    },
+    "brand-mark": {
+      "generationPolicy": "must-reuse-exact",
+      "generatedInstanceRef": "file-or-placeholder"
+    },
+    "third-party-embed": {
+      "generationPolicy": "must-not-reuse-live-endpoint",
+      "generatedInstanceRef": "placeholder-only"
+    }
+  },
+  "roles": {
+    "brand-mark": {
+      "description": "Foreplay's own logos/wordmarks (navbar/footer logo, fireside + university logos, media-kit folder, agency wordmark).",
+      "generationPolicy": "must-reuse-exact",
+      "generatedInstanceRef": "file-or-placeholder",
+      "licensingGuidance": "Foreplay trademark (a real, live company). Reference the existing file only; never redraw, recolour, re-proportion or generate a look-alike.",
+      "usedBy": [
+        "src/components/svgs.jsx:73",
+        "src/pages/Fireside.jsx:100"
+      ]
+    },
+    "product-icon": {
+      "description": "Foreplay product icons: isometric product renders, animated icon videos, pi-*-hq sprites/webps.",
+      "generationPolicy": "must-reuse-exact",
+      "generatedInstanceRef": "file-or-placeholder",
+      "licensingGuidance": "Proprietary product identity; reuse the exact file, never generate new product icons.",
+      "usedBy": [
+        "src/components/ProductSections.jsx:37",
+        "src/index.css:94"
+      ]
+    },
+    "product-screenshot": {
+      "description": "Real Foreplay UI captures, mockups, report screens, board images.",
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only",
+      "licensingGuidance": "Real proprietary product UI. Generated pages must use a placeholder ref; never generate fake UI presented as the real product.",
+      "usedBy": [
+        "src/components/ProductSections.jsx:39"
+      ]
+    },
+    "product-video": {
+      "description": "Product demo/loop videos (hero video, product previews, cta-*.mov/webm).",
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only",
+      "licensingGuidance": "Real proprietary footage; placeholder only in generated pages.",
+      "usedBy": [
+        "src/components/Hero.jsx:54"
+      ]
+    },
+    "customer-logo": {
+      "description": "Real customer/partner/sponsor brand marks: logo strip, logo rain bodies, work-with logo grid, industry carousels, contest sponsors, testimonial company logos.",
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only",
+      "licensingGuidance": "Third-party trademarks. Never reproduce, trace, redraw or generate real logos; generated pages use neutral placeholder refs only.",
+      "usedBy": [
+        "src/components/shared/LogoStrip.jsx:19",
+        "src/components/logoRain.js:30"
+      ]
+    },
+    "third-party-mark": {
+      "description": "Other companies' marks used factually: Chrome, G2, Capterra, App Store/Google Play badges, AI-vendor and integration icons, competitor logos on comparison pages.",
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only",
+      "licensingGuidance": "Third-party trademarks; placeholder refs only in generated pages.",
+      "usedBy": [
+        "src/pages/BookDemo.jsx:11",
+        "src/pages/MobileApp.jsx:49"
+      ]
+    },
+    "person-portrait": {
+      "description": "Photos of real people: testimonial headshots, expert/author/speaker avatars, calendar host, bounty and contest headshots.",
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only",
+      "licensingGuidance": "Real people's likeness. Never generate, edit or substitute photos of real people, and never pair a real name/quote with a generated face. Generated pages use placeholder refs and placeholder names (personIdentity fields).",
+      "usedBy": [
+        "src/components/Collaboration.jsx:22",
+        "src/components/CalendarPopup.jsx:11"
+      ]
+    },
+    "editorial-image": {
+      "description": "Blog covers, card images, event thumbnails, contest thumbs, affiliate/fireside step images.",
+      "generationPolicy": "must-not-fabricate",
+      "generatedInstanceRef": "placeholder-only",
+      "licensingGuidance": "Proprietary editorial content of a real company; placeholder only.",
+      "usedBy": [
+        "src/data/post.json:10",
+        "src/pages/Affiliates.jsx:10"
+      ]
+    },
+    "decorative-media": {
+      "description": "Non-identifying decoration: dot grid, glows, rays, abstract illustrations, background loops.",
+      "generationPolicy": "may-generate-new",
+      "generatedInstanceRef": "any",
+      "licensingGuidance": "May be newly generated if it contains no logo, person, product UI or text.",
+      "usedBy": [
+        "src/components/Hero.jsx:17"
+      ]
+    },
+    "ui-icon": {
+      "description": "Generic interface glyphs (chevrons, calendar, check/x, play, card head icons).",
+      "generationPolicy": "may-generate-new",
+      "generatedInstanceRef": "any",
+      "licensingGuidance": "Generic, non-brand glyphs only.",
+      "usedBy": [
+        "src/components/svgs.jsx:300"
+      ]
+    },
+    "lottie-animation": {
+      "description": "Lottie JSON animations (feature cards, chrome-extension pin, loaders).",
+      "generationPolicy": "must-reuse-exact",
+      "generatedInstanceRef": "file-or-placeholder",
+      "licensingGuidance": "Reuse the existing JSON only.",
+      "usedBy": [
+        "src/components/shared/LottieHover.jsx:23"
+      ]
+    },
+    "third-party-embed": {
+      "description": "Third-party embeds rendered as same-size placeholders: YouTube, Wistia, Cal.com, Senja, NoteForms, X, Luma, reCAPTCHA/Turnstile, Elfsight, Unicorn Studio.",
+      "generationPolicy": "must-not-reuse-live-endpoint",
+      "generatedInstanceRef": "placeholder-only",
+      "licensingGuidance": "No third-party request may be made. Never copy live embed URLs, widget ids or tokens; use EmbedPlaceholder with a placeholder ref.",
+      "usedBy": [
+        "src/components/shared/EmbedPlaceholder.jsx:4",
+        "src/components/templates/VideoBox.jsx:14"
+      ]
+    }
+  }
+}

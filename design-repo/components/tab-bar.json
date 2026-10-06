@@ -1,0 +1,35 @@
+{
+  "id": "tab-bar",
+  "kind": "component",
+  "purpose": "Tab list driving useFadeTabs (100ms out / 300ms in, ease) or useTabs (instant, arrow keys).",
+  "measuredFrom": [
+    "src/components/shared/useFadeTabs.js:8",
+    "src/components/shared.jsx:107"
+  ],
+  "props": {
+    "tabs": {
+      "type": "tab[]"
+    },
+    "mode": {
+      "type": "enum",
+      "values": [
+        "fade",
+        "instant"
+      ]
+    }
+  },
+  "tokensUsed": [
+    "semanticMotion.fadeTabs",
+    "semanticMotion.instantTabs"
+  ],
+  "motion": {
+    "pattern": "fade-tabs",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/useFadeTabs.js:8"
+    ],
+    "durationMs": 300,
+    "easing": "ease"
+  }
+}

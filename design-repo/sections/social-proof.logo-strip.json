@@ -1,0 +1,65 @@
+{
+  "id": "social-proof.logo-strip",
+  "kind": "section",
+  "category": "social-proof",
+  "purpose": "Stand-alone logo strip section (jumpstart), hidden <=479.",
+  "measuredFrom": [
+    "src/pages/Jumpstart2026.jsx:11"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "logos": {
+        "type": "array",
+        "required": true,
+        "minItems": 14,
+        "maxItems": 14,
+        "items": {
+          "type": "assetRef",
+          "assetRole": "customer-logo",
+          "required": true,
+          "measuredFrom": [
+            "src/components/shared/LogoStrip.jsx:19"
+          ]
+        },
+        "measuredFrom": [
+          "src/components/shared/LogoStrip.jsx:19"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "logos[]"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/LogoStrip.jsx:38"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-sm",
+        "change": "hidden",
+        "measuredFrom": [
+          "src/pages/Jumpstart2026.jsx:11"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "jumpstart"
+  ],
+  "usedOnRoutes": [
+    "/jumpstart-2026"
+  ]
+}

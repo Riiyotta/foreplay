@@ -1,0 +1,123 @@
+{
+  "id": "content.agency-profile",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Agency entry: tilt profile card (logo, name, verified, Visit Website/Contact/LinkedIn, location, service + industry pills) beside 4 stand-in sections (About, What sets them apart, Core Services & Offer, Contact + lead form). INTENTIONAL DEVIATION: stacks <=767.",
+  "measuredFrom": [
+    "src/pages/templates/Agency.jsx:62"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "name": {
+        "type": "string",
+        "required": true,
+        "maxChars": 18,
+        "measuredFrom": [
+          "src/data/agencies.json:5"
+        ]
+      },
+      "logo": {
+        "type": "assetRef",
+        "assetRole": "customer-logo",
+        "required": true,
+        "measuredFrom": [
+          "src/data/agencies.json:6"
+        ]
+      },
+      "location": {
+        "type": "string",
+        "required": true,
+        "maxChars": 20,
+        "measuredFrom": [
+          "src/data/agencies.json:8"
+        ]
+      },
+      "services": {
+        "type": "array",
+        "required": true,
+        "minItems": 0,
+        "maxItems": 12,
+        "items": {
+          "type": "string",
+          "required": true,
+          "maxChars": 40,
+          "measuredFrom": [
+            "src/data/agencies.json:10"
+          ]
+        },
+        "measuredFrom": [
+          "src/data/agencies.json:10"
+        ]
+      },
+      "sections": {
+        "type": "array",
+        "required": true,
+        "minItems": 4,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "heading": {
+              "type": "string",
+              "required": true,
+              "maxChars": 28,
+              "measuredFrom": [
+                "src/pages/templates/Agency.jsx:69"
+              ]
+            },
+            "body": {
+              "type": "richtext-inline",
+              "required": true,
+              "maxChars": 1969,
+              "measuredFrom": [
+                "src/components/templates/standin.js:181"
+              ],
+              "note": "max 1969 (measured: max over every CMS entry by executing the clone's own generator at build time; see measured-values.json generatorMeasurements)"
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/templates/Agency.jsx:66"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "logo"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "tilt-3d",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/templates/useTilt.js:32"
+    ],
+    "minViewportPx": 992,
+    "trigger": "hover"
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-md",
+        "change": "profile card stacks above the article (intentional fix; live pushes the article off-canvas at 390)",
+        "measuredFrom": [
+          "src/pages/templates/Agency.jsx:83"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "agency"
+  ],
+  "usedOnRoutes": [
+    "/agencies/:slug"
+  ]
+}

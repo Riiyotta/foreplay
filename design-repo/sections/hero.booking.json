@@ -1,0 +1,143 @@
+{
+  "id": "hero.booking",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Book-demo hero: overline + h1 + lead, APAC 'Request Call' bar (-> /apac-demo, which redirects to /book-demo), Cal.com scheduler placeholder (480 / 1019 tall) and the logo strip.",
+  "measuredFrom": [
+    "src/pages/BookDemo.jsx:17"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 11,
+        "measuredFrom": [
+          "src/pages/BookDemo.jsx:27"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 28,
+        "measuredFrom": [
+          "src/pages/BookDemo.jsx:30"
+        ]
+      },
+      "lead": {
+        "type": "string",
+        "required": true,
+        "maxChars": 170,
+        "measuredFrom": [
+          "src/pages/BookDemo.jsx:34-35"
+        ]
+      },
+      "apacBar": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "type": "string",
+            "required": true,
+            "maxChars": 26,
+            "measuredFrom": [
+              "src/pages/BookDemo.jsx:41"
+            ]
+          },
+          "text": {
+            "type": "string",
+            "required": true,
+            "maxChars": 32,
+            "measuredFrom": [
+              "src/pages/BookDemo.jsx:42"
+            ]
+          },
+          "cta": {
+            "type": "object",
+            "required": true,
+            "fields": {
+              "label": {
+                "type": "string",
+                "required": true,
+                "maxChars": 14,
+                "measuredFrom": [
+                  "src/pages/BookDemo.jsx:44"
+                ]
+              },
+              "href": {
+                "type": "route-or-url",
+                "required": true,
+                "measuredFrom": [
+                  "src/pages/BookDemo.jsx:44"
+                ]
+              },
+              "variant": {
+                "type": "enum",
+                "required": false,
+                "values": [
+                  "dark-primary",
+                  "dark-secondary",
+                  "dark-ghost",
+                  "light-primary",
+                  "dark-stroke",
+                  "dark-ghost-icon",
+                  "light-stroke",
+                  "light-secondary"
+                ],
+                "measuredFrom": [
+                  "src/pages/BookDemo.jsx:44"
+                ]
+              }
+            },
+            "measuredFrom": [
+              "src/pages/BookDemo.jsx:44"
+            ]
+          }
+        }
+      },
+      "scheduler": {
+        "type": "assetRef",
+        "assetRole": "third-party-embed",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/BookDemo.jsx:55"
+        ]
+      },
+      "logoStrip": {
+        "type": "boolean",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/BookDemo.jsx:62"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "scheduler"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/BookDemo.jsx:17"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "book-demo"
+  ],
+  "usedOnRoutes": [
+    "/book-demo"
+  ]
+}

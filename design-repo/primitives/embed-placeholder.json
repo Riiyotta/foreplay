@@ -1,0 +1,32 @@
+{
+  "id": "embed-placeholder",
+  "kind": "primitive",
+  "purpose": "Same-size stand-in frame for any third-party embed (Cal.com, Senja, Wistia, NoteForms, X, Luma, Turnstile); shows a label and an optional link out. No third-party request is made.",
+  "measuredFrom": [
+    "src/components/shared/EmbedPlaceholder.jsx:4"
+  ],
+  "props": {
+    "label": {
+      "type": "string",
+      "maxChars": 60
+    },
+    "href": {
+      "type": "route-or-url"
+    },
+    "linkLabel": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "enum",
+      "values": [
+        "dark",
+        "light"
+      ]
+    }
+  },
+  "tokensUsed": [
+    "color.solid.900",
+    "elevation.ring-neutral-600-inset",
+    "elevation.ring-card-inset"
+  ]
+}

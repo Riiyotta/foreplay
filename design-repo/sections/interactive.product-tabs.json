@@ -1,0 +1,135 @@
+{
+  "id": "interactive.product-tabs",
+  "kind": "section",
+  "category": "interactive",
+  "purpose": "'CORE FEATURES' fade tabs (100ms out / 300ms in) each showing a feature screenshot, plus the optional Chrome-extension card.",
+  "measuredFrom": [
+    "src/components/product/ProductTabs.jsx:10"
+  ],
+  "variants": [
+    {
+      "name": "default",
+      "description": "swipe-file, discovery, briefs",
+      "measuredFrom": [
+        "src/components/product/ProductTabs.jsx:10"
+      ]
+    },
+    {
+      "name": "spyder",
+      "description": "spyder layout",
+      "measuredFrom": [
+        "src/pages/Spyder.jsx:112"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 16,
+        "measuredFrom": [
+          "src/components/product/ProductTabs.jsx:10"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 30,
+        "measuredFrom": [
+          "src/pages/SwipeFile.jsx:126"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 143,
+        "measuredFrom": [
+          "src/pages/SwipeFile.jsx:126"
+        ],
+        "note": "max 143 (observed max over the product/lens/api/mcp pages' props, measured at build time)"
+      },
+      "tabs": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 21,
+              "measuredFrom": [
+                "src/pages/Briefs.jsx:73"
+              ]
+            },
+            "image": {
+              "type": "assetRef",
+              "assetRole": "product-screenshot",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Briefs.jsx:73"
+              ]
+            },
+            "description": {
+              "type": "string",
+              "required": false,
+              "maxChars": 116,
+              "measuredFrom": [
+                "src/components/product/ProductTabs.jsx:10"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/product/ProductTabs.jsx:10"
+        ]
+      },
+      "extension": {
+        "type": "boolean",
+        "required": false,
+        "measuredFrom": [
+          "src/components/product/ProductTabs.jsx:10"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "tabs[].image"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "fade-tabs",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/product/ProductTabs.jsx:11"
+    ],
+    "durationMs": 300,
+    "easing": "ease",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticMotion.fadeTabs"
+  ],
+  "usedOnTemplates": [
+    "product-feature",
+    "product-spyder"
+  ],
+  "usedOnRoutes": [
+    "/briefs",
+    "/discovery",
+    "/spyder-ad-spy",
+    "/swipe-file"
+  ]
+}

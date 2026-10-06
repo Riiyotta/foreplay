@@ -1,0 +1,241 @@
+{
+  "id": "hero.blog-top",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "S2 title block (.blog-top): h1 display-h4 (28/36 at all widths) + optional body + line. Variants by template: post (excerpt), faq (answer rich text), event (EventMeta), career, bounty (desc, video, detail card, Submit), replays (lead), author (headshot, role, website, bio, socials).",
+  "measuredFrom": [
+    "src/components/templates/TitleBlock.jsx:4",
+    "specs/_shared-templates.md:33"
+  ],
+  "variants": [
+    {
+      "name": "post",
+      "description": "post title + excerpt + line",
+      "measuredFrom": [
+        "src/pages/templates/Post.jsx:78"
+      ]
+    },
+    {
+      "name": "faq",
+      "description": "question + plain rich-text answer",
+      "measuredFrom": [
+        "src/pages/templates/FaqItem.jsx:28"
+      ]
+    },
+    {
+      "name": "event",
+      "description": "title + EventMeta",
+      "measuredFrom": [
+        "src/pages/templates/Event.jsx:105"
+      ]
+    },
+    {
+      "name": "career",
+      "description": "title only",
+      "measuredFrom": [
+        "src/pages/templates/Career.jsx:46"
+      ]
+    },
+    {
+      "name": "bounty",
+      "description": "title, desc, video, detail rows, Submit",
+      "measuredFrom": [
+        "src/pages/templates/Bounty.jsx:117"
+      ]
+    },
+    {
+      "name": "replays",
+      "description": "fireside-replays page head",
+      "measuredFrom": [
+        "src/pages/FiresideReplays.jsx:22"
+      ]
+    },
+    {
+      "name": "author",
+      "description": "author profile head",
+      "measuredFrom": [
+        "src/pages/templates/Author.jsx:52"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 107,
+        "measuredFrom": [
+          "src/data/events.json:4"
+        ],
+        "note": "max observed: events 107, post 104, faqs 73, bounty 52, career 31"
+      },
+      "body": {
+        "type": "string",
+        "required": false,
+        "maxChars": 629,
+        "measuredFrom": [
+          "src/data/post.json:4",
+          "src/components/templates/standin.js:136"
+        ],
+        "standIn": true,
+        "note": "post excerpt max 283, faq answer max 629, bounty desc paragraph(230) (measured: max over every CMS entry by executing the clone's own generator at build time; see measured-values.json generatorMeasurements)"
+      },
+      "meta": {
+        "type": "object",
+        "required": false,
+        "fields": {
+          "speaker": {
+            "type": "string",
+            "required": true,
+            "maxChars": 27,
+            "measuredFrom": [
+              "src/data/events.json:5"
+            ],
+            "personIdentity": true
+          },
+          "date": {
+            "type": "string",
+            "required": true,
+            "maxChars": 20,
+            "measuredFrom": [
+              "src/data/events.json:8"
+            ]
+          },
+          "headshot": {
+            "type": "assetRef",
+            "assetRole": "person-portrait",
+            "required": true,
+            "measuredFrom": [
+              "src/data/events.json:7"
+            ]
+          }
+        },
+        "note": "event variant"
+      },
+      "profile": {
+        "type": "object",
+        "required": false,
+        "fields": {
+          "name": {
+            "type": "string",
+            "required": true,
+            "maxChars": 27,
+            "measuredFrom": [
+              "src/data/authors.json:5"
+            ],
+            "personIdentity": true
+          },
+          "role": {
+            "type": "string",
+            "required": false,
+            "maxChars": 46,
+            "measuredFrom": [
+              "src/data/authors.json:6"
+            ],
+            "personIdentity": true
+          },
+          "headshot": {
+            "type": "assetRef",
+            "assetRole": "person-portrait",
+            "required": true,
+            "measuredFrom": [
+              "src/data/authors.json:8"
+            ]
+          },
+          "bio": {
+            "type": "richtext-inline",
+            "required": false,
+            "maxChars": 1018,
+            "measuredFrom": [
+              "src/components/templates/standin.js:147"
+            ],
+            "note": "author bio max 1018 chars (measured: max over every CMS entry by executing the clone's own generator at build time; see measured-values.json generatorMeasurements)"
+          }
+        },
+        "note": "author variant"
+      },
+      "bounty": {
+        "type": "object",
+        "required": false,
+        "fields": {
+          "video": {
+            "type": "assetRef",
+            "assetRole": "third-party-embed",
+            "required": true,
+            "measuredFrom": [
+              "src/data/bounties.json:12"
+            ]
+          },
+          "amount": {
+            "type": "string",
+            "required": true,
+            "maxChars": 10,
+            "measuredFrom": [
+              "src/data/bounties.json:5"
+            ]
+          },
+          "dueDate": {
+            "type": "string",
+            "required": true,
+            "maxChars": 20,
+            "measuredFrom": [
+              "src/data/bounties.json:10"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "required": true,
+            "maxChars": 12,
+            "measuredFrom": [
+              "src/data/bounties.json:11"
+            ]
+          }
+        },
+        "note": "bounty variant"
+      }
+    }
+  },
+  "mediaFields": [
+    "meta.headshot",
+    "profile.headshot",
+    "bounty.video"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "specs/_shared-templates.md:33"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticTypography.display.sub",
+    "layout.container.blogContainer"
+  ],
+  "usedOnTemplates": [
+    "author",
+    "bounty",
+    "career",
+    "event",
+    "faq-item",
+    "fireside-replays",
+    "post"
+  ],
+  "usedOnRoutes": [
+    "/authors/:slug",
+    "/bounties/:slug",
+    "/careers/:slug",
+    "/events/:slug",
+    "/faqs/:slug",
+    "/fireside-replays",
+    "/post/:slug"
+  ]
+}

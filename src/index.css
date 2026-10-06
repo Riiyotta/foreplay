@@ -1,0 +1,419 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- Fonts (CLONE_SPEC §0.6) ---------- */
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/Inter-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter Display';
+  src: url('/fonts/InterDisplay-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Page shell (§0.2) ---------- */
+@layer base {
+  :root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    @apply bg-background font-sans text-neutral-300;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: -0.01125em;
+    overflow-x: clip;
+  }
+  /* Webflow base: unstyled anchors keep #3a6ffb unless overridden (§0.2) */
+  a {
+    @apply text-link no-underline;
+  }
+}
+
+/* ---------- Things Tailwind can't express cleanly ---------- */
+
+/* Hero dot grid mask (§2.1) */
+.dot-bg-mask {
+  -webkit-mask-image: linear-gradient(#0000 0%, #000 20%, #000 75%, #0000 100%);
+  mask-image: linear-gradient(#0000 0%, #000 20%, #000 75%, #0000 100%);
+}
+@media (max-width: 767px) {
+  .dot-bg-mask {
+    -webkit-mask-image: linear-gradient(#0000 0%, #000 30%, #000 75%, #0000 100%);
+    mask-image: linear-gradient(#0000 0%, #000 30%, #000 75%, #0000 100%);
+  }
+}
+
+/* Hero h1 gradient text (§0.6) */
+.hero-title-fill {
+  background-image: radial-gradient(circle at 50% -100%, #fff, #ffffffe0);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Dropdown chevrons rotate when the toggle is expanded (saved.html code-global embed) */
+.chevron-icon {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: center;
+}
+[aria-expanded='true'] .chevron-icon {
+  transform: rotate(180deg);
+}
+
+/* Sprite icons (§10, saved.html code-global embed). ≥992: 160px-frame sheets stepped by JS.
+   ≤991: static product icons. */
+@media screen and (min-width: 992px) {
+  .sprite-image {
+    background-position: 0px 0px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+  }
+  .sprite-image.sprite-library { background-image: url('/sprites/library.png'); }
+  .sprite-image.sprite-discovery { background-image: url('/sprites/discovery.png'); }
+  .sprite-image.sprite-spyder { background-image: url('/sprites/spyder.png'); }
+  .sprite-image.sprite-briefs { background-image: url('/sprites/briefs.png'); }
+  .sprite-image.sprite-lens { background-image: url('/sprites/lens.png'); }
+}
+@media screen and (max-width: 991px) {
+  .sprite-image {
+    background-position: 50% !important;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+  }
+  .sprite-image.sprite-library { background-image: url('/assets/pi-swipefile-hq.webp'); }
+  .sprite-image.sprite-discovery { background-image: url('/assets/pi-discovery-hq.webp'); }
+  .sprite-image.sprite-spyder { background-image: url('/assets/pi-spyder-hq.webp'); }
+  .sprite-image.sprite-lens { background-image: url('/assets/pi-lens-hq.webp'); }
+  .sprite-image.sprite-briefs { background-image: url('/assets/pi-briefs-hq.webp'); }
+}
+
+/* Calendar pop-up keyframes (§9.1, saved.html calendar-pop-up-interaction embed) */
+@keyframes modalIn {
+  0% { opacity: 0; transform: translateY(10px) scale(0.97); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes modalOut {
+  0% { opacity: 1; transform: translateY(0) scale(1); }
+  100% { opacity: 0; transform: translateY(6px) scale(0.97); }
+}
+.modal-animate-in { animation: modalIn 380ms cubic-bezier(0.16, 1, 0.3, 1) both; }
+.modal-animate-out { animation: modalOut 260ms cubic-bezier(0.16, 1, 0.3, 1) both; }
+@media (prefers-reduced-motion: reduce) {
+  .modal-animate-in,
+  .modal-animate-out { animation: none !important; }
+}
+
+/* ---------- Extra fonts used by the product / marketing pages ---------- */
+/* lens-creative-analytics: <strong> in the reporting overline */
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/pages/lens-creative-analytics/62a4ee4863aafab209e40961_Inter-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* book-demo loads Inter 500 italic (no measured visible use) */
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/pages/book-demo/62a4ee4910ae3435c66edb56_Inter-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+/* chrome-extension: .ce-h2 uses Circular 300 (CircularXX-Regular served as weight 300) */
+@font-face {
+  font-family: 'Circular';
+  src: url('/assets/pages/contest/fonts/64220781c8751ee2fb742f5e_CircularXX-Regular.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Product pages: things Tailwind can't express cleanly ---------- */
+/* FAQ chevron (page <style> embed: all 900ms cubic-bezier(0.19,1,0.22,1)) */
+.faq-chevron {
+  transition: all 900ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+[data-expanded='true'] .faq-chevron {
+  transform: rotate(180deg);
+}
+[data-expanded='true'] .faq-block-head {
+  color: white;
+}
+/* SVG path draw (lens/api/mcp page <style> embed) */
+.svg-animate-path {
+  transition: stroke-dashoffset 0.2s linear;
+}
+.svg-animate-clip {
+  transition: clip-path 0.2s linear;
+}
+/* Cal.com container hides its scrollbar (book-demo embed CSS) */
+.cal-inline-container::-webkit-scrollbar {
+  display: none;
+}
+.cal-inline-container {
+  scrollbar-width: none;
+}
+
+/* =====================================================================================
+   CMS TEMPLATES (src/components/templates/*, specs/_shared-templates.md S3 + template-post.md §3)
+   Inter 700 is provided by the @font-face above (lens Inter-Bold.otf).
+   ===================================================================================== */
+/* S3 base: .blog-rtb .w-richtext */
+.tpl-rtb {
+  color: rgba(255, 255, 255, 0.84);
+  font: 400 16px/24px Inter, sans-serif;
+  letter-spacing: -0.18px;
+}
+.tpl-rtb h1, .tpl-rtb h2, .tpl-rtb h3, .tpl-rtb h4, .tpl-rtb h5, .tpl-rtb h6 {
+  font-family: 'Inter Display', Inter, system-ui, sans-serif;
+  font-weight: 700;
+  color: inherit;
+}
+.tpl-rtb h1 { font-family: Inter, sans-serif; font-size: 38px; line-height: 44px; margin: 20px 0 10px; }
+.tpl-rtb h2 { font-size: 28px; line-height: 36px; margin: 24px 0 16px; }
+.tpl-rtb h3 { font-size: 24px; line-height: 32px; margin: 16px 0 12px; }
+.tpl-rtb h4 { font-size: 20px; line-height: 32px; font-weight: 400; margin: 12px 0 8px; }
+.tpl-rtb h4 strong { font-weight: 700; }
+.tpl-rtb h5 { font-size: 18px; line-height: 24px; margin: 8px 0 4px; }
+.tpl-rtb h6 { font-size: 16px; line-height: 24px; margin: 10px 0; }
+.tpl-rtb p { margin: 0; }
+.tpl-rtb strong { font-weight: 700; }
+.tpl-rtb em { font-style: italic; }
+.tpl-rtb ul, .tpl-rtb ol {
+  display: flex; flex-direction: column; gap: 12px; margin: 16px 0; padding-left: 24px;
+}
+.tpl-rtb ul { list-style: disc; }
+.tpl-rtb ol { list-style: decimal; }
+.tpl-rtb a { font-weight: 500; color: #fff; }
+.tpl-rtb a:hover { text-decoration: underline; }
+.tpl-rtb blockquote {
+  position: relative; margin: 16px 0; padding: 10px 20px; border-left: none;
+  font-size: 18px; line-height: 22px; color: #cacace;
+}
+.tpl-rtb blockquote::before {
+  content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: #fff;
+}
+.tpl-rtb hr { margin: 48px 0; border: 0; border-top: 1px solid rgba(255, 255, 255, 0.1); }
+.tpl-rtb img { border-radius: 20px; margin: 32px 0; width: 100%; }
+.tpl-rtb figure { display: block; width: 100%; max-width: 100%; margin: 24px 0; text-align: center; }
+.tpl-rtb figure > div { display: inline-block; width: 100%; }
+.tpl-rtb figcaption { margin-top: 5px; text-align: center; }
+.tpl-rtb code { font-family: monospace; }
+
+/* S3 agencies: .ad-rich-text */
+.tpl-rtb.is-agency p { margin-bottom: 16px; }
+
+/* Post-only style block (template-post.md §3) */
+.tpl-rtb.is-post > :first-child { margin-top: 0; }
+.tpl-rtb.is-post > :last-child { margin-bottom: 0; }
+.tpl-rtb.is-post p { margin: 0 0 16px; }
+.tpl-rtb.is-post li + li { margin-top: 6px; }
+.tpl-rtb.is-post h2 { margin: 40px 0 16px; letter-spacing: -0.18px; }
+.tpl-rtb.is-post h3 { margin: 28px 0 12px; }
+.tpl-rtb.is-post ul, .tpl-rtb.is-post ol { overflow: hidden; }
+.tpl-rtb.is-post a:not(.w-inline-block) {
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.4);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s ease;
+}
+.tpl-rtb.is-post a:not(.w-inline-block):hover { text-decoration-color: #fff; }
+.tpl-rtb.is-post .tpl-video {
+  margin: 32px 0; border-radius: 20px; overflow: hidden;
+  background: rgba(255, 255, 255, 0.04); box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+.tpl-rtb.is-post pre {
+  margin: 0; padding: 8px; white-space: pre; overflow-x: auto;
+  background: #2b2b2b; color: #f8f8f2; font-family: monospace; font-size: 16px; line-height: 24px;
+}
+.tpl-rtb.is-post pre code { display: block; padding: 8px; white-space: pre-wrap; }
+.tpl-rtb.is-post pre code span { display: block; }
+.tpl-rtb .fp-table-wrap {
+  margin: 24px 0; overflow-x: auto; border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 12px;
+}
+.tpl-rtb table { width: 100%; border-collapse: collapse; font-size: 14px; line-height: 20px; }
+.tpl-rtb th, .tpl-rtb td {
+  padding: 12px 16px; text-align: left; vertical-align: top; border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.tpl-rtb thead th { font-weight: 600; color: #fff; background: rgba(255, 255, 255, 0.06); white-space: nowrap; }
+.tpl-rtb tbody td:first-child { font-weight: 500; color: #fff; }
+.tpl-rtb tbody tr:last-child td { border-bottom: 0; }
+@media (max-width: 767px) {
+  .tpl-rtb.is-post h2 { margin-top: 32px; }
+  .tpl-rtb.is-post .tpl-video { border-radius: 12px; }
+  .tpl-rtb th, .tpl-rtb td { padding: 10px 12px; }
+}
+
+/* FAQ answers / author bios: plain .w-richtext (no .blog-rtb), Webflow defaults */
+.tpl-plain-rt p { margin: 0; }
+.tpl-plain-rt a { color: #3a6ffb; text-decoration: none; }
+.tpl-plain-rt strong { font-weight: 700; }
+.tpl-plain-rt ul { list-style: disc; padding-left: 40px; }
+
+/* Webflow tab pane fade-in (university course tabs; Webflow default duration-in 300ms ease) */
+@keyframes tplFadeIn { from { opacity: 0; } to { opacity: 1; } }
+.tpl-fade-in { animation: tplFadeIn 300ms ease both; }
+/* ============================ end CMS TEMPLATES ============================ */
+
+/* =====================================================================================
+   COMMUNITY pages (specs/_shared-community.md). Additive only.
+   ===================================================================================== */
+/* C6 contest theme: Circular weights (300 is declared above for chrome-extension) */
+@font-face {
+  font-family: 'Circular';
+  src: url('/assets/pages/contest/fonts/64220781c31d0f872ead65a9_CircularXX-Light.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Circular';
+  src: url('/assets/pages/contest/fonts/64220781532814b7bb396241_CircularXX-Book.otf') format('opentype');
+  font-weight: 400 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Circular';
+  src: url('/assets/pages/contest/fonts/642207818d4c8069d3fd2ccd_CircularXX-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* body.contest equivalent, scoped to the page wrapper */
+.contest {
+  background-color: #000211;
+  color: #bed8ff;
+  font-family: Circular, sans-serif;
+}
+/* contest headings: linear-gradient(#fff, #b5d2ff) clipped to text, fallback #bed8ff */
+.contest-gradient {
+  color: #bed8ff;
+  background-image: linear-gradient(#fff, #b5d2ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* contest header bg: radial fade only ≥1280 */
+.contest-header-bg {
+  background-image: url('/assets/pages/contest/6635324791824bb2d4f4f6aa_contest-header-bg.webp');
+  background-size: cover;
+  background-position: 50% 100%;
+}
+@media (min-width: 1280px) {
+  .contest-header-bg {
+    background-image: radial-gradient(circle farthest-corner at 50% 100%, #00021100 61%, #000211),
+      url('/assets/pages/contest/6635324791824bb2d4f4f6aa_contest-header-bg.webp');
+  }
+}
+/* C5 DemoForm select chevron + textarea (site-wide code-global embed) */
+select.demo-hero-form-input {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 10L11.4697 13.4697C11.7626 13.7626 12.2374 13.7626 12.5303 13.4697L16 10' stroke='white' stroke-opacity='0.68' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 24px 24px;
+}
+select.demo-hero-form-input option { color: #090a0e; }
+textarea.demo-hero-form-input {
+  min-height: 80px;
+  resize: vertical;
+}
+/* ============================== end COMMUNITY ============================== */
+
+/* =====================================================================================
+   MISC pages + comparison / industries / page / careers templates (specs/_shared-misc.md)
+   Circular 400 (Book) and Inter 700 are already declared above; only EB Garamond is new.
+   ===================================================================================== */
+@font-face {
+  font-family: 'Ebgaramond';
+  src: url('/assets/pages/ships/fonts/642207d78dff642e8360756d_EBGaramond-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ships.md §1: legacy gradient-filled headings */
+.misc-ships-name {
+  background-image: linear-gradient(#fff, rgba(255, 255, 255, 0.55));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.misc-ships-title {
+  background: #fff linear-gradient(#fff 48%, rgba(0, 0, 0, 0.34));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* jumpstart-2026.md Motion: IX2 a-82, rotateZ 0→360deg over 60000ms, linear, loop */
+@keyframes miscSpin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+.misc-spin-60 { animation: miscSpin 60s linear infinite; }
+
+/* template-industries.md §1: IX2 a-78, translateX 0 → -100% over 20000ms, linear, loop */
+@keyframes miscMarquee { from { transform: translateX(0%); } to { transform: translateX(-100%); } }
+.misc-marquee-20 { animation: miscMarquee 20s linear infinite; }
+
+/* pre-black-friday.md §1: stand-in for the Unicorn Studio WebGL scene (not measurable) */
+@keyframes miscGlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.misc-unicorn-standin {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(93, 120, 229, 0.35), rgba(2, 3, 8, 0) 60%),
+    linear-gradient(120deg, #020308, #0f1116 30%, #171920 50%, #0f1116 70%, #020308);
+  background-size: 100% 100%, 300% 300%;
+  animation: miscGlow 12s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .misc-spin-60, .misc-marquee-20, .misc-unicorn-standin { animation: none; }
+}
+
+/* template-page.md: plain Webflow .rich-text on white (used with RichText variant="plain") */
+.misc-legal-rt { color: #171920; font: 400 16px/24px Inter, sans-serif; letter-spacing: -0.18px; }
+.misc-legal-rt p { margin: 0; }
+.misc-legal-rt h2 { font: 700 32px/38.4px Inter, sans-serif; margin: 0; }
+.misc-legal-rt h3 { font: 700 24px/30px Inter, sans-serif; margin: 20px 0 10px; }
+.misc-legal-rt h4 { font: 400 18px/24px Circular, sans-serif; margin: 20px 0 5px; }
+.misc-legal-rt ul, .misc-legal-rt ol { margin: 0 0 10px; padding-left: 40px; overflow: hidden; }
+.misc-legal-rt ul { list-style: disc; }
+.misc-legal-rt ol { list-style: decimal; }
+.misc-legal-rt strong { font-weight: 700; }
+.misc-legal-rt a { font-weight: 600; color: #3787ff; text-decoration: none; }
+/* faq.md §2: answer links #fff w500, underline on hover; multi-block lists */
+.misc-faq-rt a { color: #fff; font-weight: 500; }
+.misc-faq-rt a:hover { text-decoration: underline; }
+.misc-faq-rt ul, .misc-faq-rt ol { display: flex; flex-direction: column; gap: 12px; margin: 16px 0; padding-left: 24px; }
+.misc-faq-rt ul > li, .misc-faq-rt ol > li { margin-left: 0; }
+/* ================================== end MISC ================================== */

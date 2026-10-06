@@ -1,0 +1,220 @@
+{
+  "id": "hero.product-shell",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "ProductHeroShell with page-specific sticky content (api: icon, h1 gradient, docs cards, integrations row; mcp: setup tabs for Claude/ChatGPT with copy buttons; mobile-app: phone video + store badges). Same a-71 parallax as hero.product.",
+  "measuredFrom": [
+    "src/components/product/ProductHero.jsx:35",
+    "src/pages/Api.jsx:53",
+    "src/pages/Mcp.jsx:138",
+    "src/pages/MobileApp.jsx:21"
+  ],
+  "behaviour": [
+    {
+      "note": "The live #lens-hero-section twinkling canvas is a no-op (0px tall) and is skipped on api/mcp.",
+      "measuredFrom": [
+        "src/pages/Api.jsx:10"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "name": "api",
+      "description": "API: hero dots off, docs links (ChatGPT GPT + public API docs, external) and integration icons",
+      "measuredFrom": [
+        "src/pages/Api.jsx:54"
+      ]
+    },
+    {
+      "name": "mcp",
+      "description": "MCP: fade tabs (100/300) with numbered steps and copy-to-clipboard of the MCP URL",
+      "measuredFrom": [
+        "src/pages/Mcp.jsx:135"
+      ]
+    },
+    {
+      "name": "mobile-app",
+      "description": "Mobile app: phone frame video + App Store/Google Play badges (external)",
+      "measuredFrom": [
+        "src/pages/MobileApp.jsx:10"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 12,
+        "measuredFrom": [
+          "src/pages/MobileApp.jsx:44"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 56,
+        "measuredFrom": [
+          "src/pages/Api.jsx:62"
+        ]
+      },
+      "subtitle": {
+        "type": "string",
+        "required": true,
+        "maxChars": 110,
+        "measuredFrom": [
+          "src/pages/MobileApp.jsx:46"
+        ]
+      },
+      "actions": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 16,
+              "measuredFrom": [
+                "src/pages/Api.jsx:70"
+              ]
+            },
+            "href": {
+              "type": "route-or-url",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Api.jsx:70"
+              ]
+            },
+            "variant": {
+              "type": "enum",
+              "required": false,
+              "values": [
+                "dark-primary",
+                "dark-secondary",
+                "dark-ghost",
+                "light-primary",
+                "dark-stroke",
+                "dark-ghost-icon",
+                "light-stroke",
+                "light-secondary"
+              ],
+              "measuredFrom": [
+                "src/pages/Api.jsx:70"
+              ]
+            }
+          },
+          "measuredFrom": [
+            "src/pages/Api.jsx:70"
+          ]
+        },
+        "measuredFrom": [
+          "src/pages/Mcp.jsx:157"
+        ]
+      },
+      "media": {
+        "type": "assetRef",
+        "assetRole": "product-screenshot",
+        "required": false,
+        "measuredFrom": [
+          "src/pages/MobileApp.jsx:30"
+        ]
+      },
+      "setupTabs": {
+        "type": "array",
+        "required": false,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 12,
+              "measuredFrom": [
+                "src/pages/Mcp.jsx:80"
+              ]
+            },
+            "steps": {
+              "type": "array",
+              "required": true,
+              "minItems": 2,
+              "maxItems": 4,
+              "items": {
+                "type": "object",
+                "required": true,
+                "fields": {
+                  "title": {
+                    "type": "string",
+                    "required": true,
+                    "maxChars": 28,
+                    "measuredFrom": [
+                      "src/pages/Mcp.jsx:86"
+                    ]
+                  },
+                  "text": {
+                    "type": "string",
+                    "required": true,
+                    "maxChars": 60,
+                    "measuredFrom": [
+                      "src/pages/Mcp.jsx:96"
+                    ]
+                  }
+                }
+              },
+              "measuredFrom": [
+                "src/pages/Mcp.jsx:63"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Mcp.jsx:80"
+        ],
+        "note": "mcp only"
+      }
+    }
+  },
+  "mediaFields": [
+    "media"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "scroll-parallax-shrink",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/product/ProductHero.jsx:38"
+    ],
+    "easing": "in-out-cubic",
+    "trigger": "scroll",
+    "minViewportPx": 768
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticTypography.display.hero",
+    "semanticMotion.fadeTabs"
+  ],
+  "usedOnTemplates": [
+    "developer-api",
+    "developer-mcp",
+    "mobile-app"
+  ],
+  "usedOnRoutes": [
+    "/api",
+    "/mcp",
+    "/mobile-app"
+  ]
+}

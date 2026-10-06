@@ -1,0 +1,118 @@
+{
+  "id": "hero.expert-profile",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Expert entry hero: breadcrumb inside, headshot, name h1, social icons, role/bio text, 'Access Free Swipe File' CTA and the large board-window card.",
+  "measuredFrom": [
+    "src/pages/templates/Expert.jsx:74"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "name": {
+        "type": "string",
+        "required": true,
+        "maxChars": 21,
+        "measuredFrom": [
+          "src/data/experts.json:5"
+        ],
+        "personIdentity": true
+      },
+      "role": {
+        "type": "string",
+        "required": true,
+        "maxChars": 1107,
+        "measuredFrom": [
+          "src/data/experts.json:6"
+        ],
+        "personIdentity": true,
+        "note": "Rendered in full on the entry page (CMS export holds long bios up to 1107 chars)."
+      },
+      "headshot": {
+        "type": "assetRef",
+        "assetRole": "person-portrait",
+        "required": true,
+        "measuredFrom": [
+          "src/data/experts.json:7"
+        ]
+      },
+      "board": {
+        "type": "assetRef",
+        "assetRole": "product-screenshot",
+        "required": true,
+        "measuredFrom": [
+          "src/data/experts.json:8"
+        ]
+      },
+      "cta": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 28,
+            "measuredFrom": [
+              "src/data/experts.json:10"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/data/experts.json:10"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/data/experts.json:10"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/data/experts.json:10"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "headshot",
+    "board"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/Expert.jsx:19"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "expert"
+  ],
+  "usedOnRoutes": [
+    "/experts/:slug"
+  ]
+}

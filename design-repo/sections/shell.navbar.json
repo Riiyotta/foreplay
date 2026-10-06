@@ -1,0 +1,459 @@
+{
+  "id": "shell.navbar",
+  "kind": "section",
+  "category": "shell",
+  "purpose": "Global sticky navigation mounted once in App.jsx: brand, Product/Solutions/Resources click dropdowns, Pricing, Book a Demo and a 'Start free trial' CTA. Every href is internal: the clone deliberately has NO outbound navbar links.",
+  "measuredFrom": [
+    "src/App.jsx:30",
+    "src/components/Navbar.jsx:385"
+  ],
+  "behaviour": [
+    {
+      "note": "Dropdowns are click-toggled (not hover), one open at a time, close on outside click and Escape.",
+      "measuredFrom": [
+        "src/components/Navbar.jsx:391"
+      ]
+    },
+    {
+      "note": "Product badges step through sprite sheets on hover (>=992, 300ms ease-out-quad).",
+      "measuredFrom": [
+        "src/components/shared.jsx:211"
+      ]
+    },
+    {
+      "note": "EXCEPTION found in code: the Product menu's 'What is Foreplay?' lightbox contains one outbound anchor to youtube.com (opens the video on YouTube). It is a fixed lightbox link, not a navigation item, and is not part of the items[] content; generated navbars must not add any external href.",
+      "measuredFrom": [
+        "src/components/Navbar.jsx:363"
+      ]
+    }
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "items": {
+        "type": "array",
+        "required": true,
+        "minItems": 26,
+        "maxItems": 26,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "group": {
+              "type": "enum",
+              "required": true,
+              "values": [
+                "Brand",
+                "Product",
+                "Solutions",
+                "Resources",
+                "Top",
+                "CTA"
+              ],
+              "measuredFrom": [
+                "src/components/Navbar.jsx:165"
+              ]
+            },
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 32,
+              "measuredFrom": [
+                "src/components/Navbar.jsx:242"
+              ],
+              "note": "Longest label: 'Info, Education & Community' (27)"
+            },
+            "href": {
+              "type": "route",
+              "required": true,
+              "measuredFrom": [
+                "src/components/Navbar.jsx:31"
+              ],
+              "note": "SITE is '' so every link is a same-origin path"
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/Navbar.jsx:165"
+        ],
+        "note": "Exactly the canonical item set below; generated pages reproduce it verbatim."
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true,
+    "global": true
+  },
+  "motion": {
+    "pattern": "dropdown-scale-fade",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/Navbar.jsx:326",
+      "src/components/Navbar.jsx:323"
+    ],
+    "durationMs": 500,
+    "easing": "cubic-bezier(0.19, 1, 0.22, 1)",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-lg",
+        "change": "collapses to hamburger; menu slides translateY(-100%) -> 0 over 400ms ease; dropdowns become static lists",
+        "measuredFrom": [
+          "src/components/Navbar.jsx:444"
+        ]
+      },
+      {
+        "at": "max-md",
+        "change": "background nav.bg-mobile, backdrop blur removed",
+        "measuredFrom": [
+          "src/components/Navbar.jsx:416"
+        ]
+      },
+      {
+        "at": "xl",
+        "change": "Product menu shows the 'What is Foreplay?' video column",
+        "measuredFrom": [
+          "src/components/Navbar.jsx:195"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "component.nav.height",
+    "component.nav.background",
+    "component.nav.dropdownRadius",
+    "semanticMotion.navDropdown",
+    "semanticMotion.navLink",
+    "semanticMotion.navbarCta",
+    "semanticMotion.mobileMenu",
+    "semanticMotion.dropdownChevron",
+    "semanticMotion.spriteHover"
+  ],
+  "canonical": {
+    "items": [
+      {
+        "group": "Product",
+        "label": "Swipe File",
+        "href": "/swipe-file",
+        "measuredFrom": "src/components/Navbar.jsx:172"
+      },
+      {
+        "group": "Product",
+        "label": "Discovery",
+        "href": "/discovery",
+        "measuredFrom": "src/components/Navbar.jsx:173"
+      },
+      {
+        "group": "Product",
+        "label": "Spyder",
+        "href": "/spyder-ad-spy",
+        "measuredFrom": "src/components/Navbar.jsx:174"
+      },
+      {
+        "group": "Product",
+        "label": "Lens",
+        "href": "/lens-creative-analytics",
+        "measuredFrom": "src/components/Navbar.jsx:180"
+      },
+      {
+        "group": "Product",
+        "label": "Briefs",
+        "href": "/briefs",
+        "measuredFrom": "src/components/Navbar.jsx:181"
+      },
+      {
+        "group": "Product",
+        "label": "Chrome Extension",
+        "href": "/chrome-extension",
+        "measuredFrom": "src/components/Navbar.jsx:187"
+      },
+      {
+        "group": "Product",
+        "label": "MCP",
+        "href": "/mcp",
+        "measuredFrom": "src/components/Navbar.jsx:188"
+      },
+      {
+        "group": "Product",
+        "label": "Mobile App",
+        "href": "/mobile-app",
+        "measuredFrom": "src/components/Navbar.jsx:189"
+      },
+      {
+        "group": "Product",
+        "label": "API",
+        "href": "/api",
+        "measuredFrom": "src/components/Navbar.jsx:190"
+      },
+      {
+        "group": "Solutions",
+        "label": "E-Commerce & Retail",
+        "href": "/industries/ecommerce",
+        "measuredFrom": "src/components/Navbar.jsx:238"
+      },
+      {
+        "group": "Solutions",
+        "label": "Agencies",
+        "href": "/industries/agencies",
+        "measuredFrom": "src/components/Navbar.jsx:239"
+      },
+      {
+        "group": "Solutions",
+        "label": "Mobile Apps & Gaming",
+        "href": "/industries/mobile-apps",
+        "measuredFrom": "src/components/Navbar.jsx:240"
+      },
+      {
+        "group": "Solutions",
+        "label": "B2B & SaaS",
+        "href": "/industries/b2b-saas",
+        "measuredFrom": "src/components/Navbar.jsx:241"
+      },
+      {
+        "group": "Solutions",
+        "label": "Info, Education & Community",
+        "href": "/industries/info-education-community",
+        "measuredFrom": "src/components/Navbar.jsx:242"
+      },
+      {
+        "group": "Solutions",
+        "label": "Freelancers & Creators",
+        "href": "/industries/freelancers-creators",
+        "measuredFrom": "src/components/Navbar.jsx:243"
+      },
+      {
+        "group": "Resources",
+        "label": "University",
+        "href": "/university",
+        "measuredFrom": "src/components/Navbar.jsx:268"
+      },
+      {
+        "group": "Resources",
+        "label": "Events & Webinars",
+        "href": "/fireside",
+        "measuredFrom": "src/components/Navbar.jsx:269"
+      },
+      {
+        "group": "Resources",
+        "label": "Experts",
+        "href": "/experts",
+        "measuredFrom": "src/components/Navbar.jsx:270"
+      },
+      {
+        "group": "Resources",
+        "label": "Blog",
+        "href": "/blog",
+        "measuredFrom": "src/components/Navbar.jsx:271"
+      },
+      {
+        "group": "Resources",
+        "label": "Affiliate Program",
+        "href": "/affiliates",
+        "measuredFrom": "src/components/Navbar.jsx:277"
+      },
+      {
+        "group": "Resources",
+        "label": "Work with Brands",
+        "href": "/work-with-brands",
+        "measuredFrom": "src/components/Navbar.jsx:278"
+      },
+      {
+        "group": "Resources",
+        "label": "Agency Directory",
+        "href": "/agency-directory",
+        "measuredFrom": "src/components/Navbar.jsx:279"
+      },
+      {
+        "group": "Top",
+        "label": "Pricing",
+        "href": "/pricing",
+        "measuredFrom": "src/components/Navbar.jsx:459"
+      },
+      {
+        "group": "Top",
+        "label": "Book a Demo",
+        "href": "/book-demo",
+        "measuredFrom": "src/components/Navbar.jsx:462"
+      },
+      {
+        "group": "CTA",
+        "label": "Start free trial",
+        "href": "/pricing",
+        "measuredFrom": "src/components/Navbar.jsx:471"
+      },
+      {
+        "group": "Brand",
+        "label": "home",
+        "href": "/",
+        "measuredFrom": "src/components/Navbar.jsx:425"
+      }
+    ]
+  },
+  "removedItems": [
+    {
+      "label": "Sign in",
+      "where": "navbar",
+      "liveHref": "https://app.foreplay.co/login",
+      "measuredFrom": [
+        "CLONE_SPEC.md:159"
+      ]
+    },
+    {
+      "label": "Knowledge Base",
+      "where": "navbar+footer",
+      "liveHref": "https://help.foreplay.co/",
+      "measuredFrom": [
+        "CLONE_SPEC.md:198",
+        "CLONE_SPEC.md:539"
+      ]
+    },
+    {
+      "label": "Merch",
+      "where": "navbar+footer",
+      "liveHref": "https://shop.foreplay.co/",
+      "measuredFrom": [
+        "CLONE_SPEC.md:200",
+        "CLONE_SPEC.md:543"
+      ]
+    }
+  ],
+  "reroutedItems": [
+    {
+      "label": "Chrome Extension",
+      "where": "navbar Product menu + footer Product column",
+      "liveHref": "chromewebstore.google.com (live)",
+      "cloneHref": "/chrome-extension",
+      "measuredFrom": [
+        "src/components/Navbar.jsx:187",
+        "src/components/Footer.jsx:191"
+      ]
+    },
+    {
+      "label": "Start free trial",
+      "where": "navbar CTA",
+      "liveHref": "https://app.foreplay.co/sign-up",
+      "cloneHref": "/pricing",
+      "measuredFrom": [
+        "src/components/Navbar.jsx:471",
+        "CLONE_SPEC.md:159"
+      ]
+    }
+  ],
+  "noOutboundLinks": {
+    "rule": "Every items[].href must be an internal path (starts with '/') or '#'. Labels in removedItems must never appear.",
+    "enforcedBy": "schema/semantic_validate.py check_shell_links (NAV_EXTERNAL_LINK, NAV_REMOVED_ITEM, NAV_CANONICAL_DRIFT)"
+  },
+  "usedOnTemplates": [
+    "affiliates",
+    "agency",
+    "agency-directory",
+    "application-form",
+    "apps-extensions",
+    "author",
+    "blog-index",
+    "book-demo",
+    "bounties-index",
+    "bounty",
+    "career",
+    "careers-index",
+    "category",
+    "chrome-extension",
+    "comparison",
+    "contest",
+    "contest-submission",
+    "creative-strategist-jobs",
+    "developer-api",
+    "developer-mcp",
+    "event",
+    "expert",
+    "experts-index",
+    "faq-index",
+    "faq-item",
+    "fireside",
+    "fireside-replays",
+    "home",
+    "industry",
+    "jumpstart",
+    "legal-page",
+    "media-kit",
+    "mobile-app",
+    "not-found",
+    "paid-landing",
+    "post",
+    "pre-black-friday",
+    "pricing",
+    "product-feature",
+    "product-lens",
+    "product-spyder",
+    "reviews",
+    "ships",
+    "university-course",
+    "university-landing",
+    "video",
+    "watch-demo",
+    "work-with"
+  ],
+  "usedOnRoutes": [
+    "*",
+    "/",
+    "/2026-paid-lp",
+    "/affiliates",
+    "/agencies/:slug",
+    "/agency-directory",
+    "/api",
+    "/apps-extensions",
+    "/authors/:slug",
+    "/blog",
+    "/book-demo",
+    "/bounties",
+    "/bounties/:slug",
+    "/briefs",
+    "/careers",
+    "/careers/:slug",
+    "/category/:slug",
+    "/chrome-extension",
+    "/comparison/:slug",
+    "/contest",
+    "/contest-submission",
+    "/creative-strategist-jobs",
+    "/discovery",
+    "/events/:slug",
+    "/experts",
+    "/experts-application",
+    "/experts/:slug",
+    "/faq",
+    "/faqs/:slug",
+    "/fireside",
+    "/fireside-application",
+    "/fireside-replays",
+    "/industries/:slug",
+    "/jumpstart-2026",
+    "/lens-creative-analytics",
+    "/mcp",
+    "/media-kit",
+    "/mobile-app",
+    "/page/:slug",
+    "/post/:slug",
+    "/post/ai-emotional-analysis-new-ad-details",
+    "/post/restaurant-facebook-ad-examples",
+    "/pre-black-friday",
+    "/pricing",
+    "/reviews",
+    "/ships",
+    "/spyder-ad-spy",
+    "/swipe-file",
+    "/university/classes",
+    "/university/psychology-in-advertising",
+    "/videos/:slug",
+    "/watch-demo",
+    "/work-with-brands",
+    "/work-with-marketers"
+  ]
+}

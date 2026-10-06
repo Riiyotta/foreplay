@@ -1,0 +1,18 @@
+{
+  "$description": "Component-scoped values for faqRow.",
+  "category": "component",
+  "faqRow": {
+    "padding": {
+      "value": "20px 0 12px",
+      "measuredFrom": "src/components/shared/Faq.jsx:61"
+    },
+    "border": {
+      "value": "{semanticColor.border.dark}",
+      "measuredFrom": "src/components/shared/Faq.jsx:61"
+    },
+    "motion": {
+      "value": "{semanticMotion.faqAccordion}",
+      "measuredFrom": "src/components/shared/Faq.jsx:61"
+    }
+  }
+}

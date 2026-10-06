@@ -1,0 +1,129 @@
+{
+  "id": "social-proof.ratings-wall",
+  "kind": "section",
+  "category": "social-proof",
+  "purpose": "White social-proof block: 'Loved by brands and agencies globally.' head + 3 rating tiles (G2 4.9, Chrome 4.8, Capterra 4.8) + Senja testimonial-wall placeholder.",
+  "measuredFrom": [
+    "src/pages/BookDemo.jsx:11",
+    "src/components/community/WorkWith.jsx:222"
+  ],
+  "variants": [
+    {
+      "name": "book-demo",
+      "description": "inside the 8px-inset WhiteBlock; tiles grid 3 cols",
+      "measuredFrom": [
+        "src/pages/BookDemo.jsx:66"
+      ]
+    },
+    {
+      "name": "work-loved",
+      "description": "full-bleed white block (no 8px inset), square 144 tiles",
+      "measuredFrom": [
+        "src/components/community/WorkWith.jsx:222"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 40,
+        "measuredFrom": [
+          "src/pages/BookDemo.jsx:74"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 91,
+        "measuredFrom": [
+          "src/components/community/WorkWith.jsx:230"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 79,
+          "upperBoundChars": 91
+        },
+        "standIn": true
+      },
+      "tiles": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "score": {
+              "type": "string",
+              "required": true,
+              "maxChars": 6,
+              "measuredFrom": [
+                "src/pages/BookDemo.jsx:12"
+              ]
+            },
+            "name": {
+              "type": "string",
+              "required": true,
+              "maxChars": 12,
+              "measuredFrom": [
+                "src/pages/BookDemo.jsx:12"
+              ]
+            },
+            "icon": {
+              "type": "assetRef",
+              "assetRole": "third-party-mark",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/BookDemo.jsx:12"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/BookDemo.jsx:11"
+        ]
+      },
+      "wall": {
+        "type": "assetRef",
+        "assetRole": "third-party-embed",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/BookDemo.jsx:106"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "tiles[].icon",
+    "wall"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/BookDemo.jsx:11"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "book-demo",
+    "work-with"
+  ],
+  "usedOnRoutes": [
+    "/book-demo",
+    "/work-with-brands",
+    "/work-with-marketers"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "content.author-row",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Post footer author row (.blog-author repeated after the related carousel).",
+  "measuredFrom": [
+    "src/pages/templates/Post.jsx:19"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "name": {
+        "type": "string",
+        "required": true,
+        "maxChars": 15,
+        "measuredFrom": [
+          "src/data/post.json:7"
+        ],
+        "personIdentity": true
+      },
+      "role": {
+        "type": "string",
+        "required": false,
+        "maxChars": 46,
+        "measuredFrom": [
+          "src/data/post.json:8"
+        ],
+        "personIdentity": true
+      },
+      "avatar": {
+        "type": "assetRef",
+        "assetRole": "person-portrait",
+        "required": true,
+        "measuredFrom": [
+          "src/data/post.json:9"
+        ]
+      },
+      "socials": {
+        "type": "array",
+        "required": false,
+        "minItems": 0,
+        "maxItems": 7,
+        "items": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "website",
+            "linkedin",
+            "twitter",
+            "instagram",
+            "youtube",
+            "facebook",
+            "tiktok"
+          ],
+          "measuredFrom": [
+            "src/pages/templates/Post.jsx:16"
+          ]
+        },
+        "measuredFrom": [
+          "src/pages/templates/Post.jsx:16"
+        ],
+        "note": "external profile links (target _blank) - recorded as-is"
+      }
+    }
+  },
+  "mediaFields": [
+    "avatar"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/Post.jsx:19"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "post"
+  ],
+  "usedOnRoutes": [
+    "/post/:slug"
+  ]
+}

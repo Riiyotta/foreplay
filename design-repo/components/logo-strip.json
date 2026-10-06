@@ -1,0 +1,14 @@
+{
+  "id": "logo-strip",
+  "kind": "component",
+  "purpose": "'POWERING +10,000 SOCIAL AD TEAMS & AGENCIES' 14-logo grid (7 cols @1440 / 5 @991 / 3 @390).",
+  "measuredFrom": [
+    "src/components/shared/LogoStrip.jsx:19",
+    "src/components/shared/LogoStrip.jsx:38"
+  ],
+  "props": {},
+  "tokensUsed": [],
+  "notes": [
+    "Logos are real customer marks (assetRole customer-logo): generated pages may only use placeholder refs."
+  ]
+}

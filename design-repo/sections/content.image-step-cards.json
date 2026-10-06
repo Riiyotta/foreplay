@@ -1,0 +1,126 @@
+{
+  "id": "content.image-step-cards",
+  "kind": "section",
+  "category": "content",
+  "purpose": "C3 image step cards (Features-grid style, 768x528 images): affiliates 3 numbered steps; fireside 'Why should I attend?' with head + icons.",
+  "measuredFrom": [
+    "src/components/community/ImageStepCards.jsx:6"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": false,
+        "maxChars": 24,
+        "measuredFrom": [
+          "src/pages/Fireside.jsx:116"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": false,
+        "maxChars": 140,
+        "measuredFrom": [
+          "src/pages/Fireside.jsx:116"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 128,
+          "upperBoundChars": 140
+        },
+        "standIn": true
+      },
+      "cards": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 30,
+              "measuredFrom": [
+                "src/pages/Affiliates.jsx:11"
+              ]
+            },
+            "text": {
+              "type": "string",
+              "required": true,
+              "maxChars": 141,
+              "measuredFrom": [
+                "src/pages/Affiliates.jsx:13"
+              ],
+              "copyBudget": {
+                "generator": "copy",
+                "targetChars": 129,
+                "upperBoundChars": 141
+              },
+              "standIn": true
+            },
+            "image": {
+              "type": "assetRef",
+              "assetRole": "editorial-image",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Affiliates.jsx:10"
+              ]
+            },
+            "icon": {
+              "type": "assetRef",
+              "assetRole": "ui-icon",
+              "required": false,
+              "measuredFrom": [
+                "src/pages/Fireside.jsx:20"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Affiliates.jsx:9"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "cards[].image",
+    "cards[].icon"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/community/ImageStepCards.jsx:6"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-lg",
+        "change": "1 column, max-w 480, centred",
+        "measuredFrom": [
+          "specs/_shared-community.md:36"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "affiliates",
+    "fireside"
+  ],
+  "usedOnRoutes": [
+    "/affiliates",
+    "/fireside"
+  ]
+}

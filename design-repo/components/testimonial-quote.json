@@ -1,0 +1,31 @@
+{
+  "id": "testimonial-quote",
+  "kind": "component",
+  "purpose": "Logo + quote + avatar/name/role block used inside product FeatureSection groups.",
+  "measuredFrom": [
+    "src/components/product/Testimonial.jsx:12"
+  ],
+  "props": {
+    "logo": {
+      "type": "assetRef",
+      "assetRole": "customer-logo"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "assetRef",
+      "assetRole": "person-portrait"
+    },
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "avatar"
+  ]
+}

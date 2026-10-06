@@ -1,0 +1,19 @@
+{
+  "id": "social-icon-list",
+  "kind": "primitive",
+  "purpose": "Row of 28px social icons (opacity .68 -> 1) rendered only for networks present in the entry; used on expert/author profiles (NOT in the footer, where the social row was removed).",
+  "measuredFrom": [
+    "src/components/templates/Profile.jsx:12"
+  ],
+  "props": {
+    "socials": {
+      "type": "object"
+    },
+    "order": {
+      "type": "string[]"
+    }
+  },
+  "tokensUsed": [
+    "iconSize.7"
+  ]
+}

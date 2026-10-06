@@ -1,0 +1,22 @@
+URL https://www.foreplay.co/media-kit W991 docH 1616 title="Foreplay - Media Kit" wfpage=69724832f31dbc4a5a3231ec bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 991x1616] 
+  div.global [0,0 0x0] 
+  div.section.overflow-hidden [0,72 991x440] 
+    div.container.section-container [0,72 991x440] p:0px 32px
+      div.demo-hero [32,72 927x440] fx:column p:120px 0px
+        div.media-kit-header [127,192 737x200] fx:row gap:25px
+          img.image-169 [127,192 200x200] IMG 6972490d55ff501309a8bec6_foreplay-folder-gray.webp nat432x432 alt="" lazy 
+          div.section-head.is-align-left [352,205 512x174] fx:column gap:12px
+            div.section-head_title [352,205 169x52] 
+              h1.text-display-h2 [352,205 169x52]  {Inter Display 40px/52px w600 ls-0.3px c:rgb(255, 255, 255)} "Media Kit" (1L)
+            div.section-head-wrapper [352,269 512x56] fx:column gap:12px
+              div.section-head_paragraph [352,269 512x56] 
+                div.text-alpha-100 [352,269 512x56] 
+                  p.text-body-l [352,269 512x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68)} [TEXT 82ch 2L]
+            a.button-dark.button-secondary.w-inline-block [352,337 249x42] fx:row p:8px r:10px href=#
+              div.button-text-block [361,346 211x24] p:0px 6px
+                div.text-heading-m [367,346 199x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Download all brand assets" (1L)
+              div.button-icon-block.icon-right [568,346 24x24] fx:row
+                div.icon-medium [568,346 24x24] fx:row
+                  div.svg.w-embed [571,349 18x18] fx:row
+                    svg [571,349 18x18] SVG vb=0 0 18 18 fill=none color=rgb(255, 255, 255) 

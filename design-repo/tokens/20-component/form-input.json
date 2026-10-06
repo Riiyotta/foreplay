@@ -1,0 +1,15 @@
+{
+  "$description": "Component-scoped values for formInput.",
+  "category": "component",
+  "formInput": {
+    "background": {
+      "value": "{color.white.12}",
+      "note": "DemoForm input bg rgba(255,255,255,.1) per spec; see contract for the exact class",
+      "measuredFrom": "src/components/community/WorkWith.jsx:43"
+    },
+    "radius": {
+      "value": "{borderRadius.8}",
+      "measuredFrom": "src/components/community/WorkWith.jsx:43"
+    }
+  }
+}

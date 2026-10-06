@@ -1,0 +1,91 @@
+{
+  "id": "nav.breadcrumb",
+  "kind": "section",
+  "category": "nav",
+  "purpose": "S1 breadcrumb row (padding 40/0, hidden <=479): parent crumb -> current title (ellipsis).",
+  "measuredFrom": [
+    "src/components/templates/Breadcrumb.jsx:8"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "crumbs": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 107,
+              "measuredFrom": [
+                "src/data/events.json:4"
+              ]
+            },
+            "href": {
+              "type": "route",
+              "required": true,
+              "measuredFrom": [
+                "src/components/templates/Breadcrumb.jsx:19"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/templates/Breadcrumb.jsx:8"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/templates/Breadcrumb.jsx:8"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-sm",
+        "change": "hidden (unless alwaysVisible)",
+        "measuredFrom": [
+          "src/components/templates/Breadcrumb.jsx:11"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "agency",
+    "author",
+    "bounty",
+    "career",
+    "event",
+    "faq-item",
+    "fireside-replays",
+    "post"
+  ],
+  "usedOnRoutes": [
+    "/agencies/:slug",
+    "/authors/:slug",
+    "/bounties/:slug",
+    "/careers/:slug",
+    "/events/:slug",
+    "/faqs/:slug",
+    "/fireside-replays",
+    "/post/:slug"
+  ]
+}

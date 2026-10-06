@@ -1,0 +1,163 @@
+{
+  "id": "content.comparison-table",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Comparison table: head (tableOverline/Title + stand-in) and a 3-col grid (feature | Foreplay | competitor) of value cells with check/x icons, coloured bars and pills.",
+  "measuredFrom": [
+    "src/components/misc/Comparison.jsx:270"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 32,
+        "measuredFrom": [
+          "src/data/comparison.json:100"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 58,
+        "measuredFrom": [
+          "src/data/comparison.json:101"
+        ]
+      },
+      "paragraph": {
+        "type": "string",
+        "required": true,
+        "maxChars": 106,
+        "measuredFrom": [
+          "src/data/comparison.json:102"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 106,
+          "upperBoundChars": 106
+        },
+        "standIn": true
+      },
+      "rows": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "row": {
+              "type": "string",
+              "required": false,
+              "maxChars": 13,
+              "measuredFrom": [
+                "src/data/comparison.json:107"
+              ],
+              "note": "plain row (e.g. Pricing Model)"
+            },
+            "category": {
+              "type": "string",
+              "required": false,
+              "maxChars": 33,
+              "measuredFrom": [
+                "src/data/comparison.json:107"
+              ],
+              "note": "category group head (cat)"
+            },
+            "items": {
+              "type": "array",
+              "required": false,
+              "minItems": 1,
+              "maxItems": 8,
+              "items": {
+                "type": "object",
+                "required": true,
+                "fields": {
+                  "label": {
+                    "type": "string",
+                    "required": true,
+                    "maxChars": 28,
+                    "measuredFrom": [
+                      "src/data/comparison.json:107"
+                    ]
+                  },
+                  "cells": {
+                    "type": "array",
+                    "required": true,
+                    "minItems": 2,
+                    "maxItems": 2,
+                    "items": {
+                      "type": "string",
+                      "required": true,
+                      "maxChars": 21,
+                      "measuredFrom": [
+                        "src/data/comparison.json:107"
+                      ]
+                    },
+                    "measuredFrom": [
+                      "src/data/comparison.json:107"
+                    ]
+                  }
+                }
+              },
+              "measuredFrom": [
+                "src/data/comparison.json:107"
+              ]
+            },
+            "cells": {
+              "type": "array",
+              "required": false,
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "string",
+                "required": true,
+                "maxChars": 21,
+                "measuredFrom": [
+                  "src/data/comparison.json:107"
+                ]
+              },
+              "measuredFrom": [
+                "src/data/comparison.json:107"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/data/comparison.json:107"
+        ],
+        "note": "tableRows: plain rows {row, cells[2]} or category groups {cat, rows[{label, cells[2]}]}"
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/misc/Comparison.jsx:270"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "color.misc.green",
+    "color.misc.red",
+    "color.misc.yellow"
+  ],
+  "usedOnTemplates": [
+    "comparison"
+  ],
+  "usedOnRoutes": [
+    "/comparison/:slug"
+  ]
+}

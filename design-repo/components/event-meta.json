@@ -1,0 +1,25 @@
+{
+  "id": "event-meta",
+  "kind": "component",
+  "purpose": "S7 headshot + name and calendar icon + date row.",
+  "measuredFrom": [
+    "src/components/templates/EventRow.jsx:12"
+  ],
+  "props": {
+    "ev": {
+      "type": "eventRef"
+    },
+    "layout": {
+      "type": "enum",
+      "values": [
+        "head",
+        "row"
+      ]
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "avatar",
+    "icon"
+  ]
+}

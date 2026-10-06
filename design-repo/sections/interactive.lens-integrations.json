@@ -1,0 +1,114 @@
+{
+  "id": "interactive.lens-integrations",
+  "kind": "section",
+  "category": "interactive",
+  "purpose": "'INTEGRATIONS' head, two rows of platform logos and instant tabs (Creative Test Analysis / Group Comparison / Trend Analysis) with dashboard mockups.",
+  "measuredFrom": [
+    "src/components/lens/LensIntegrations.jsx:20"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 14,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:191"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 50,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:192"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 130,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:193"
+        ]
+      },
+      "logos": {
+        "type": "array",
+        "required": true,
+        "minItems": 6,
+        "maxItems": 6,
+        "items": {
+          "type": "assetRef",
+          "assetRole": "third-party-mark",
+          "required": true,
+          "measuredFrom": [
+            "src/pages/Lens.jsx:194"
+          ]
+        },
+        "measuredFrom": [
+          "src/pages/Lens.jsx:194"
+        ]
+      },
+      "tabs": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 24,
+              "measuredFrom": [
+                "src/pages/Lens.jsx:197"
+              ]
+            },
+            "mockup": {
+              "type": "assetRef",
+              "assetRole": "product-screenshot",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Lens.jsx:197"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Lens.jsx:196"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "logos[]",
+    "tabs[].mockup"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "instant-tabs",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/lens/LensIntegrations.jsx:21"
+    ],
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "product-lens"
+  ],
+  "usedOnRoutes": [
+    "/lens-creative-analytics"
+  ]
+}

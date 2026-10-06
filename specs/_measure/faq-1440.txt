@@ -1,0 +1,85 @@
+URL https://www.foreplay.co/faq W1440 docH 6347 title="Frequently Asked Questions (FAQs) - Foreplay" wfpage=647668309e49d3c3f7a76548 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 1440x6347] minh:100% bg:rgb(2, 3, 8) of:clip visible
+  div.global [0,0 0x0] pos:fixed t0px r1440px b900px l0px of:clip
+  div.main [0,72 1440x4305] 
+    section#product-hero-section.section.relative [0,72 1440x4305] pos:relative
+      canvas#product-hero-canvas.product-hero-canvas [0,72 0x0] pos:absolute t0px r0px b0px l0px of:clip
+      div.container [0,72 1440x4305] p:0px 40px maxw:1440px
+        div.fireside-hero [40,72 1360x340] d:flex fx:column/center/flex-start p:80px 0px pos:relative
+          div.product-hero-content [377,152 686x180] d:flex fx:column/center/flex-start gap:28px
+            div.hero-text [377,152 686x180] d:flex fx:column/center/flex-start gap:16px maxw:900px
+              h1.text-overline [705,152 30x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "FAQ" (1L)
+              h2.text-display-h1.hero-title [377,184 686x68] bgi:radial-gradient(circle at 50% -100%, rgb(255, 255, 255), rgba(255, 255, 255, 0.88)) {Inter Display 60px/68px w600 ls-0.45px c:rgba(255, 255, 255, 0.88) ta:center CLIPTEXT} "Questions about Foreplay" (1L)
+              div.faq-buttons [536,268 369x64] d:flex fx:row/center/center gap:12px p:12px 0px
+                a#intercomButton.button-dark.ghost-icon-button.w-inline-block [536,280 177x40] d:flex fx:row/center/center gap:5px p:8px maxw:100% bg:rgb(2, 3, 8) r:10px pos:relative z:5 tr:all 0.2s ease href=#
+                  div.button-icon-block.icon-left [544,288 24x24] d:flex fx:row/center/center m:0px -4px 0px 0px pos:relative op:0.68 z:2 cursor:pointer
+                    div.icon-medium [544,288 24x24] d:flex fx:row/center/center cursor:pointer
+                      div.svg.w-embed [546,290 20x20] d:flex fx:row/center/center cursor:pointer
+                        svg [546,290 20x20] SVG vb=0 0 20 20 fill=none color=rgb(255, 255, 255) of:hidden cursor:pointer
+                  div.button-text-block [569,288 136x24] p:0px 6px pos:relative z:2 cursor:pointer
+                    div.text-heading-m [575,288 124x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255) ta:center} "Contact support" (1L)
+                a.button-dark.ghost-icon-button.w-inline-block [725,280 179x40] d:flex fx:row/center/center gap:5px p:8px maxw:100% bg:rgb(2, 3, 8) r:10px pos:relative z:5 tr:all 0.2s ease @target=_blank href=https://foreplay.featurebase.app/help
+                  div.button-icon-block.icon-left [733,288 24x24] d:flex fx:row/center/center m:0px -4px 0px 0px pos:relative op:0.68 z:2 cursor:pointer
+                    div.icon-medium [733,288 24x24] d:flex fx:row/center/center cursor:pointer
+                      div.svg.w-embed [733,288 24x24] d:flex fx:row/center/center cursor:pointer
+                        svg [733,288 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) of:hidden cursor:pointer
+                  div.button-text-block [758,288 138x24] p:0px 6px pos:relative z:2 cursor:pointer
+                    div.text-heading-m [764,288 126x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255) ta:center} "Knowledge Base" (1L)
+        div.faq-block-container [344,412 752x3965] m:0px 304px maxw:752px @data-accordion-container=
+          div.code-style.w-embed (display:none)
+          div.w-dyn-list [344,412 752x3965] 
+            div.w-dyn-items [344,412 752x3965]  @role=list
+              div.w-dyn-item [344,412 752x61]  @role=listitem
+                div.faq-block [344,412 752x61] d:flex fx:row/flex-start/center gap:44px p:20px 0px 12px b:0px none rgba(255, 255, 255, 0.68)|0px none rgba(255, 255, 255, 0.68)|1px solid rgba(255, 255, 255, 0.1)|0px none rgba(255, 255, 255, 0.68) tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer @role=button @data-accordion-item= @data-expanded=false @aria-expanded=false
+                  div.faq-block_content [344,432 680x24] d:flex fx:column/normal/normal flex:1 1 0% cursor:pointer
+                    div.faq-block_head [344,432 680x24] d:flex fx:row/center/normal gap:44px cursor:pointer
+                      h4.text-label-l [344,432 204x24] cursor:pointer {Inter 18px/24px w500 ls-0.259999px c:rgba(255, 255, 255, 0.68)} "How current is the data?" (1L)
+                    div.faq-block_body [344,456 680x0] of:hidden tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer
+                      div.faq-block_answer [344,456 680x56] p:8px 0px of:hidden tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer
+                        div.faq-rtb [344,464 680x40] cursor:pointer
+                          div.text-alpha-100 [344,464 680x40] flex:1 1 0% cursor:pointer
+                            div.text-body-s.w-richtext [344,464 680x40] cursor:pointer
+                              p [344,464 680x40] cursor:pointer {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} [TEXT 185ch 2L]
+                  div.faq-block_icon [1068,432 28x28] d:flex fx:row/center/center tr:all 0.2s ease cursor:pointer
+                    div.icon-medium [1070,434 24x24] d:flex fx:row/center/center cursor:pointer
+                      div.svg.w-embed [1070,434 24x24] d:flex fx:row/center/center cursor:pointer
+                        svg [1070,434 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgba(255, 255, 255, 0.68) of:hidden cursor:pointer
+              div.w-dyn-item [344,473 752x61]  @role=listitem
+                div.faq-block [344,473 752x61] d:flex fx:row/flex-start/center gap:44px p:20px 0px 12px b:0px none rgba(255, 255, 255, 0.68)|0px none rgba(255, 255, 255, 0.68)|1px solid rgba(255, 255, 255, 0.1)|0px none rgba(255, 255, 255, 0.68) tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer @role=button @data-accordion-item= @data-expanded=false @aria-expanded=false
+                  div.faq-block_content [344,493 680x24] d:flex fx:column/normal/normal flex:1 1 0% cursor:pointer
+                    div.faq-block_head [344,493 680x24] d:flex fx:row/center/normal gap:44px cursor:pointer
+                      h4.text-label-l [344,493 328x24] cursor:pointer {Inter 18px/24px w500 ls-0.259999px c:rgba(255, 255, 255, 0.68)} "Will this use extra credits or cost more?" (1L)
+                    div.faq-block_body [344,517 680x0] of:hidden tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer
+                      div.faq-block_answer [344,517 680x76] p:8px 0px of:hidden tr:all 0.9s cubic-bezier(0.19, 1, 0.22, 1) cursor:pointer
+                        div.faq-rtb [344,525 680x60] cursor:pointer
+                          div.text-alpha-100 [344,525 680x60] flex:1 1 0% cursor:pointer
+                            div.text-body-s.w-richtext [344,525 680x60] cursor:pointer
+                              p [344,525 680x60] cursor:pointer {Inter 14px/20px w400 ls-0.09px c:rgba(255, 255, 255, 0.68)} [TEXT 221ch 3L]
+                                >a [837,526 71x17] {Inter 14px/20px w500 ls-0.09px c:rgb(255, 255, 255)} d:inline "API credits"
+                  div.faq-block_icon [1068,493 28x28] d:flex fx:row/center/center tr:all 0.2s ease cursor:pointer
+                    div.icon-medium [1070,495 24x24] d:flex fx:row/center/center cursor:pointer
+                      div.svg.w-embed [1070,495 24x24] d:flex fx:row/center/center cursor:pointer
+                        svg [1070,495 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgba(255, 255, 255, 0.68) of:hidden cursor:pointer
+              … +63 more div.w-dyn-item (repeat)
+  div.section.overflow-hidden [0,4377 1440x1038] of:hidden
+    div.container.section-container [48,4377 1344x1038] p:0px 40px m:0px 48px maxw:1344px
+      div.home-cta [88,4377 1264x1038] d:flex fx:column/center/flex-start gap:36px p:108px 0px 0px
+        div.section-head.is-large [240,4485 960x94] d:flex fx:column/center/flex-start gap:12px m:0px 152px maxw:960px pos:relative z:2
+          div.section-head_title [398,4485 645x54] 
+            h2.text-display-h2 [398,4485 645x54]  {Inter Display 44px/53.76px w600 ls-0.33px c:rgb(255, 255, 255) ta:center} "Ready to ship more winning ads?" (1L)
+          div.section-head_paragraph.is-large [448,4551 544x28] maxw:640px
+            div.text-alpha-100 [448,4551 544x28] flex:1 1 0%
+              p.text-body-l [448,4551 544x28]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 67ch 1L]
+        div.main-cta-buttons [576,4615 289x42] d:flex fx:row/center/flex-start gap:12px pos:relative z:2
+          a.button-dark.button-primary.w-inline-block [576,4616 153x40] d:flex fx:row/center/center p:8px maxw:100% flex:1 1 0% bg:rgb(255, 255, 255) r:10px pos:relative z:5 tr:all 0.2s ease href=https://app.foreplay.co/sign-up
+            div.button-text-block [584,4624 117x24] p:0px 6px pos:relative z:2 cursor:pointer
+              div.text-heading-m [590,4624 105x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Start free trial" (1L)
+            div.button-icon-block.icon-right.opacity-100 [696,4624 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative z:2 cursor:pointer
+              div.icon-medium [696,4624 24x24] d:flex fx:row/center/center cursor:pointer
+                div.svg.w-embed [696,4624 24x24] d:flex fx:row/center/center cursor:pointer
+                  svg [696,4624 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) of:hidden cursor:pointer
+          a.button-dark.button-secondary.w-inline-block [740,4615 124x42] d:flex fx:row/center/center p:8px maxw:100% bg:rgb(9, 10, 14) r:10px b:1px solid rgb(36, 38, 46) pos:relative z:5 tr:all 0.2s ease href=/pricing
+            div.button-text-block [749,4624 106x24] p:0px 6px pos:relative z:2 cursor:pointer
+              div.text-heading-m [755,4624 94x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "View Pricing" (1L)
+        div.home-cta-image-wrapper [0,4592 1440x924] m:-101.109px -40px
+          img.home-cta-image [0,4592 1440x924] IMG 680a4b467abdcf40d0d0fa8b_home-cta-p-1600.webp nat1440x924 alt="Two people looking at laptop, Foreplay d" lazy of:clip ar:auto 1440 / 924

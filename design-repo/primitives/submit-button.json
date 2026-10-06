@@ -1,0 +1,18 @@
+{
+  "id": "submit-button",
+  "kind": "primitive",
+  "purpose": "Form submit control rendered as a white button; forms never submit (noSubmit).",
+  "measuredFrom": [
+    "src/components/templates/Form.jsx:4",
+    "src/components/templates/Form.jsx:21"
+  ],
+  "props": {
+    "label": {
+      "type": "string",
+      "default": "Submit"
+    }
+  },
+  "tokensUsed": [
+    "component.button.dark-primary"
+  ]
+}

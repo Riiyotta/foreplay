@@ -1,0 +1,728 @@
+{
+ "agencies": {
+  "url": "/industries/agencies",
+  "title": "Foreplay for Agencies - Acquire & Retain Clients",
+  "desc": "‹174ch›",
+  "og": "remote(og-only):https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/690e281b57b86fad5fcd2149_Agencies-Opengraph.png",
+  "overline": "FOREPLAY FOR AGENCIES",
+  "h": "Win more clients and keep them longer with Foreplay",
+  "paraLen": 210,
+  "carousel": [
+   "/assets/templates/industries/690e23aa132d5eafac070a3c_image-6.avif",
+   "/assets/templates/industries/690e239f7828b83b8bfedaec_wallaroo_media_logo.avif",
+   "/assets/templates/industries/690e239f2c76d3f771b22c4e_common_thread_collective_logo.avif",
+   "/assets/templates/industries/690e23aa3ca1c312ccc4bfb0_image-5.avif",
+   "/assets/templates/industries/690e239f0479721723b47681_wearegrowthco_logo.avif",
+   "/assets/templates/industries/690e23aa34435913ed443040_image-7.avif",
+   "/assets/templates/industries/690e23ab89c02d714646c26b_WT_Icon_Black_YellowBG.avif",
+   "/assets/templates/industries/690e23e107631efa4a626cb0_image-8.avif",
+   "/assets/templates/industries/690bcfc2f3e01b47967b2da0_1630580870608.avif"
+  ],
+  "sectionHeads": [
+   {
+    "over": "FOREPLAY FOR AGENCIES",
+    "h": "Win more clients and keep them longer with Foreplay",
+    "paraLen": 210
+   },
+   {
+    "over": "TESTIMONIALS",
+    "h": "Trusted by the world’s best performance agencies",
+    "paraLen": 156
+   },
+   {
+    "over": "5 APPS IN ONE",
+    "h": "The creative operating system built for agencies",
+    "paraLen": 123
+   },
+   {
+    "over": "AGENCY ADVERTISING INSPIRATION",
+    "h": "Browse top performing agency ads",
+    "paraLen": 0
+   },
+   {
+    "over": null,
+    "h": "Creative experience your clients expect, results they can’t ignore.",
+    "paraLen": 145
+   },
+   {
+    "over": "1:1 Creative Strategy Audit",
+    "h": "Can’t find what you’re looking for?",
+    "paraLen": 69
+   }
+  ],
+  "testimonials": [
+   {
+    "link": "https://thesocialsavannah.com/",
+    "logo": "/assets/templates/industries/690e15d80c06e35f3ab82175_footer-logo03.avif",
+    "quoteLen": 190,
+    "headshot": "/assets/templates/industries/690e15c87211e140e0273c47_1733772243879.avif",
+    "name": "Savannah Sanchez",
+    "role": "Founder @ Social Savannah",
+    "bg": "/assets/templates/industries/690e163896fa29d354f065b9_social-savanah-image.webp",
+    "h": 529
+   },
+   {
+    "link": "https://pearmill.com/",
+    "logo": "/assets/templates/industries/690e166537748feee0b74868_63b59b7475377c988b04eb2e_Pearmill-logo-svg.svg",
+    "quoteLen": 164,
+    "headshot": "/assets/templates/industries/690e15c8dad4e6da324d6fb4_1585368523538.avif",
+    "name": "Donovan McKnight",
+    "role": "Head of Creative @ Pearmill",
+    "bg": "/assets/templates/industries/690e163857fb65d5f2648a37_pearmill-image.webp",
+    "h": 487
+   },
+   {
+    "link": "https://wallaroomedia.com/",
+    "logo": "/assets/templates/industries/690e22ef3bbcdef088e45259_Wallaroo-Horizontal-Logo-2.svg",
+    "quoteLen": 252,
+    "headshot": "/assets/templates/industries/690e15c8eabf90569ff11514_1554911405576.avif",
+    "name": "Eric Farmer",
+    "role": "Partner @ Wallaroo",
+    "bg": "/assets/templates/industries/690e1638f641be4453f94319_wallaroo-image.webp",
+    "h": 528
+   }
+  ],
+  "tabsDefault": "Lens",
+  "tabOrder": [
+   "Lens",
+   "Spyder",
+   "Swipe File",
+   "Discovery",
+   "Briefs"
+  ],
+  "examples": [
+   {
+    "avatar": "/assets/templates/industries/690e23e107631efa4a626cb0_image-8.avif",
+    "name": "Soar With Us",
+    "days": "203D",
+    "img": "/assets/templates/industries/690e24ece6ebf2166939da9f_0-dco-O1pJqOOKXj7CHN2wGMe4.avif"
+   },
+   {
+    "avatar": "/assets/templates/industries/690e239f2c76d3f771b22c4e_common_thread_collective_logo.avif",
+    "name": "CTC",
+    "days": "7D",
+    "img": "/assets/templates/industries/690e264393c08ce0a6662787_thumbnail-1xndDXw6LSzTTm87bObn.avif"
+   },
+   {
+    "avatar": "/assets/templates/industries/690e26dd28b7bdef0706f483_71cbc6cb27f3364d05cc2178aed3d02d.webp",
+    "name": "Boomerangme",
+    "days": "109D",
+    "img": "/assets/templates/industries/690e26ee431b3a6f757aca50_10b07bc6c8f471b210f613e0fb5c076f.avif"
+   }
+  ],
+  "examplesCta": "See thousands of high performing agency ads.",
+  "examplesBtn": "Start Browsing",
+  "ctaTitle": "Creative experience your clients expect, results they can’t ignore.",
+  "ctaParaLen": 145,
+  "ctaBtns": [
+   "Start free trial → https://app.foreplay.co/sign-up",
+   "Book a Demo → /book-demo"
+  ],
+  "icon": "/assets/templates/industries/svg/icon-agencies.svg"
+ },
+ "b2b-saas": {
+  "url": "/industries/b2b-saas",
+  "title": "Foreplay for B2B & SaaS Marketing Teams",
+  "desc": "‹160ch›",
+  "og": "remote(og-only):https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/690cd753b295f16c93786e23_B2B-SaaS-Opengraph.png",
+  "overline": "FOREPLAY FOR B2B & SAAS",
+  "h": "Turn competitor insights into your B2B growth channel",
+  "paraLen": 177,
+  "carousel": [
+   "/assets/templates/industries/690bc99a68a9ffaa9d6fee09_triple_whale_logo.avif",
+   "/assets/templates/industries/690bc9b7d41847c9eafe87b3_sezzle_logo.avif",
+   "/assets/templates/industries/690bc9e20892424ea044e22b_ahrefs_logo.avif",
+   "/assets/templates/industries/690bca0cfa5e174722acc5c4_Fermat_Commerce_Logo-1.avif",
+   "/assets/templates/industries/690bcd451ce334134df729ae_joinslash_logo.avif",
+   "/assets/templates/industries/690bce6442990728d246899e_rokt_logo.avif",
+   "/assets/pages/contest-submission/66902b7a4e591b4dcb8e8376_1708959987676.webp",
+   "/assets/templates/industries/690bcf953199334582aebe50_wizainc_logo.avif",
+   "/assets/templates/industries/690bcfc2f3e01b47967b2da0_1630580870608.avif"
+  ],
+  "sectionHeads": [
+   {
+    "over": "FOREPLAY FOR B2B & SAAS",
+    "h": "Turn competitor insights into your B2B growth channel",
+    "paraLen": 177
+   },
+   {
+    "over": "TESTIMONIALS",
+    "h": "Trusted by acquisition focused B2B software companies",
+    "paraLen": 168
+   },
+   {
+    "over": "5 APPS IN ONE",
+    "h": "The creative operating system for SaaS growth",
+    "paraLen": 138
+   },
+   {
+    "over": "SOFTWARE ADVERTISING INSPIRATION",
+    "h": "Browse top performing B2B software ads",
+    "paraLen": 0
+   },
+   {
+    "over": null,
+    "h": "Ready for profitable paid acquisition?",
+    "paraLen": 127
+   },
+   {
+    "over": "1:1 Creative Strategy Audit",
+    "h": "Can’t find what you’re looking for?",
+    "paraLen": 69
+   }
+  ],
+  "testimonials": [
+   {
+    "link": "https://wiza.com/",
+    "logo": "/assets/templates/industries/690bc7817130edbb280695c5_wiza-logo.svg",
+    "quoteLen": 124,
+    "headshot": "/assets/templates/industries/690bc6ed1bcc3bdfb56f3762_1750214304476.avif",
+    "name": "Stephen Hakami",
+    "role": "Founder @ Wiza",
+    "bg": "/assets/templates/industries/690bc95032ed47769365d33b_wiza-photo-2.webp",
+    "h": 449
+   },
+   {
+    "link": "https://www.perspective.co/",
+    "logo": "/assets/templates/industries/690ccdf63ab25cef4f8f26e4_perspective-logo.webp",
+    "quoteLen": 130,
+    "headshot": "/assets/templates/industries/690ccbd2d2e64d19b85c517d_T02SEBT8V-U03JWEBPWUV-9255c91735ee-512.avif",
+    "name": "Niels Klement",
+    "role": "CMO @ Perspective",
+    "bg": "/assets/templates/industries/690cd102b59a7ef6ec897629_perspective-image-2.webp",
+    "h": 445
+   },
+   {
+    "link": "https://www.foreplay.co/industries/b2b-saas#",
+    "logo": "/assets/templates/industries/690ccf92e19129d551045dc7_fermat-logo.svg",
+    "quoteLen": 144,
+    "headshot": "/assets/templates/industries/690ccf5dace9185c1cc4afa9_1657044445897.avif",
+    "name": "Rabah Rahil",
+    "role": "CMO @ FERMAT",
+    "bg": "/assets/templates/industries/690cd10156728e58058799b0_fermat-image.webp",
+    "h": 443
+   }
+  ],
+  "tabsDefault": "Lens",
+  "tabOrder": [
+   "Lens",
+   "Spyder",
+   "Swipe File",
+   "Discovery",
+   "Briefs"
+  ],
+  "examples": [
+   {
+    "avatar": "/assets/templates/industries/690cd225bfd8956971906051_repl_it_logo.avif",
+    "name": "Replit",
+    "days": "203D",
+    "img": "/assets/templates/industries/690cd4ab38c09aef33cde9bd_ad-replit.webp"
+   },
+   {
+    "avatar": "/assets/templates/industries/690cd21f1ef2593bd7a81865_tiny_spec_inc_logo.webp",
+    "name": "Slack",
+    "days": "7D",
+    "img": "/assets/templates/industries/690cd4abc81dbe47ed42d798_ad-slack.webp"
+   },
+   {
+    "avatar": "/assets/templates/industries/690cd21f032067480cfc27df_hyros_software_logo.avif",
+    "name": "Hyros",
+    "days": "109D",
+    "img": "/assets/templates/industries/690cd4ab117b0b999b31a860_ad-hyros.webp"
+   }
+  ],
+  "examplesCta": "See thousands of high performing SaaS ads.",
+  "examplesBtn": "Start Browsing",
+  "ctaTitle": "Ready for profitable paid acquisition?",
+  "ctaParaLen": 127,
+  "ctaBtns": [
+   "Start free trial → https://app.foreplay.co/sign-up",
+   "Book a Demo → /book-demo"
+  ],
+  "icon": "/assets/templates/industries/svg/icon-b2b-saas.svg"
+ },
+ "ecommerce": {
+  "url": "/industries/ecommerce",
+  "title": "Foreplay for eCommerce & Retail Brands",
+  "desc": "‹153ch›",
+  "og": "remote(og-only):https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/690e447c18e285b51208d0db_eCommerce-Opengraph.png",
+  "overline": "FOREPLAY FOR ECOMMERCE BRANDS",
+  "h": "Crush creative fatigue and scale your creative velocity by 10x",
+  "paraLen": 193,
+  "carousel": [
+   "/assets/templates/industries/6901211f335601e4f11435c7_gruns_logo.avif",
+   "/assets/templates/industries/690123782bbd1a63cf96e99b_cuts_clothing_inc_logo.avif",
+   "/assets/templates/industries/6901213def9dbb235788f85e_image.avif",
+   "/assets/templates/industries/690125db8f9088175a692da3_ilmakiage_logo.avif",
+   "/assets/templates/industries/6901263cc57155d3857ac3c7_219522-8874a242d3d67f128f77a9060056dd34-medium_jpg.avif",
+   "/assets/templates/industries/690126a133a99ca994bd3f73_brooklinen-logo-png_seeklogo-442099.avif",
+   "/assets/templates/industries/690bca59febb5423b1816bdd_reef_2_logo.avif",
+   "/assets/templates/industries/690bcaa3d10a25559d1d4ff2_nrkro03f4hmp59xanfu5.avif",
+   "/assets/templates/industries/690bcbcb3091e50bdf07c43d_petlabco_logo.avif"
+  ],
+  "sectionHeads": [
+   {
+    "over": "FOREPLAY FOR ECOMMERCE BRANDS",
+    "h": "Crush creative fatigue and scale your creative velocity by 10x",
+    "paraLen": 193
+   },
+   {
+    "over": "TESTIMONIALS",
+    "h": "Trusted by growth-hungry eCommerce brands",
+    "paraLen": 169
+   },
+   {
+    "over": "5 APPS IN ONE",
+    "h": "The creative operating system for ecommerce growth",
+    "paraLen": 137
+   },
+   {
+    "over": "ECOMMERCE ADVERTISING INSPIRATION",
+    "h": "Browse top performing ecommerce ads",
+    "paraLen": 0
+   },
+   {
+    "over": null,
+    "h": "Ready to scale your online store?",
+    "paraLen": 123
+   },
+   {
+    "over": "1:1 Creative Strategy Audit",
+    "h": "Can’t find what you’re looking for?",
+    "paraLen": 69
+   }
+  ],
+  "testimonials": [
+   {
+    "link": "https://ridge.com/",
+    "logo": "/assets/pages/contest-submission/6478c433c4fc1d3402c883fc_the-ridge.webp",
+    "quoteLen": 234,
+    "headshot": "/assets/templates/industries/6478c447be86e2342219433d_Connor-MacDonald.webp",
+    "name": "Connor MacDonald",
+    "role": "CMO @ The Ridge",
+    "bg": "/assets/templates/industries/691b5d6114156c5776564535_ridge-image.webp",
+    "h": 523
+   },
+   {
+    "link": "https://bydavidkollar.com/",
+    "logo": "/assets/templates/industries/690120f44b70c00086aaec6d_White_e8711f69-aa57-4481-8048-78047ccd68d1.avif",
+    "quoteLen": 106,
+    "headshot": "/assets/templates/industries/6901230890f3af15186d2e76_david-kollar-headshot.webp",
+    "name": "David Kollar",
+    "role": "Founder @ ByDavidKollar",
+    "bg": "/assets/templates/industries/69012308669938a5c3f8b698_david-kollar-testimonial.webp",
+    "h": 399
+   },
+   {
+    "link": "https://www.drinkbrez.com/",
+    "logo": "/assets/templates/industries/690e40281d7f30cbbaff3c6c_brez-logo.svg",
+    "quoteLen": 124,
+    "headshot": "/assets/templates/industries/690e4074e56f5f919a5afdeb_531363979_18524588173028937_8380805158155772432_n.avif",
+    "name": "Aaron Nosbisch",
+    "role": "Founder @ BREZ",
+    "bg": "/assets/templates/industries/690e402852b8720eb330f7d0_brez-image.avif",
+    "h": 462
+   }
+  ],
+  "tabsDefault": "Lens",
+  "tabOrder": [
+   "Lens",
+   "Spyder",
+   "Swipe File",
+   "Discovery",
+   "Briefs"
+  ],
+  "examples": [
+   {
+    "avatar": "/assets/templates/industries/6901213def9dbb235788f85e_image.avif",
+    "name": "AG1",
+    "days": "203D",
+    "img": "/assets/templates/industries/690e43bce5daae0783a0d0fa_0-dco-fVzvC4MZPO6e1fsjTwcN@0.3x.avif"
+   },
+   {
+    "avatar": "/assets/templates/industries/690e4163815a4dfcdc62e2a1_images.avif",
+    "name": "Space Goods",
+    "days": "7D",
+    "img": "/assets/templates/industries/690e43136657394d12f097fb_205727aa1d36a25bb5b6345abc6fb226.avif"
+   },
+   {
+    "avatar": "/assets/templates/industries/690e41845213d9f3a721fb3b_image-9.avif",
+    "name": "Hims",
+    "days": "109D",
+    "img": "/assets/templates/industries/690e42700eaee9e08447a61d_de11366cf74addca6a2396586748492b.avif"
+   }
+  ],
+  "examplesCta": "Browse over 100m Ecommerce Ads",
+  "examplesBtn": "Start Browsing",
+  "ctaTitle": "Ready to scale your online store?",
+  "ctaParaLen": 123,
+  "ctaBtns": [
+   "Start free trial → https://app.foreplay.co/sign-up",
+   "Book a Demo → /book-demo"
+  ],
+  "icon": "/assets/templates/industries/svg/icon-ecommerce.svg"
+ },
+ "freelancers-creators": {
+  "url": "/industries/freelancers-creators",
+  "title": "Foreplay for Freelancers & UGC Creators",
+  "desc": "‹162ch›",
+  "og": "remote(og-only):https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/69121b95dd3d0d70626776d7_Freelancer-Opengraph.png",
+  "overline": "FOREPLAY FOR FREELANCERS & CREATORS",
+  "h": "Madison Avenue software on a freelancer budget",
+  "paraLen": 187,
+  "carousel": [
+   "/assets/templates/industries/691211fa72f29cd65aa5ccc3_unnamed.avif",
+   "/assets/templates/industries/69121704ca565e133a0c5e23_mr-paid-social-headshot.avif",
+   "/assets/templates/industries/69121475ff104fa0f96ae170_channels4_profile.avif",
+   "/assets/templates/industries/691217a48b9a6d53b6286221_344372476_227668366546891_1082099233011237103_n.avif",
+   "/assets/templates/industries/69122413241ff0e446defefb_0x0.webp",
+   "/assets/templates/industries/691217d9beca7e0258517ed5_images-2.avif",
+   "/assets/templates/industries/691217d09282885d5b215f1a_images-3.avif",
+   "/assets/templates/industries/6912241ddca165c47f94a4b7_427688542_1630037001135267_6839841012621872415_n.avif",
+   "/assets/templates/industries/6912246fdf57b4fb16c8b839_1709169149948.avif"
+  ],
+  "sectionHeads": [
+   {
+    "over": "FOREPLAY FOR FREELANCERS & CREATORS",
+    "h": "Madison Avenue software on a freelancer budget",
+    "paraLen": 187
+   },
+   {
+    "over": "TESTIMONIALS",
+    "h": "Trusted by independent marketers and UGC creators worldwide",
+    "paraLen": 114
+   },
+   {
+    "over": "5 APPS IN ONE",
+    "h": "The creative operating system for solo marketers",
+    "paraLen": 105
+   },
+   {
+    "over": "ADVERTISING INSPO FOR EVERY NICHE",
+    "h": "Browse ads from over 1,000 different niches",
+    "paraLen": 0
+   },
+   {
+    "over": null,
+    "h": "Service more clients. Keep them longer. Stress less.",
+    "paraLen": 138
+   },
+   {
+    "over": "1:1 Creative Strategy Audit",
+    "h": "Can’t find what you’re looking for?",
+    "paraLen": 69
+   }
+  ],
+  "testimonials": [
+   {
+    "link": "https://www.youtube.com/@orenmeetsworld",
+    "logo": "/assets/templates/industries/69121692cfef073deb3bf3a8_oren_logo.avif",
+    "quoteLen": 186,
+    "headshot": "/assets/templates/industries/69121475ff104fa0f96ae170_channels4_profile.avif",
+    "name": "Oren John",
+    "role": "The Internet's Creative Director",
+    "bg": "/assets/templates/industries/691217066243edcf41278615_oren-image.avif",
+    "h": 529
+   },
+   {
+    "link": "https://www.perspective.co/",
+    "logo": "/assets/templates/industries/69121ab1e72bae3b28e21776_kelly-logo.webp",
+    "quoteLen": 224,
+    "headshot": "/assets/templates/industries/691217a48b9a6d53b6286221_344372476_227668366546891_1082099233011237103_n.avif",
+    "name": "Kelly J UGC",
+    "role": "UGC Creator",
+    "bg": "/assets/templates/industries/69121ab1e909a11acf708879_kelly-image.webp",
+    "h": 558
+   },
+   {
+    "link": "https://www.perspective.co/",
+    "logo": "/assets/pages/contest-submission/66269cefcd8042e78308e9eb_dara-logo.avif",
+    "quoteLen": 161,
+    "headshot": "/assets/templates/industries/691211fa72f29cd65aa5ccc3_unnamed.avif",
+    "name": "Dara Denney",
+    "role": "Creative Strategy Educator",
+    "bg": "/assets/templates/industries/6912170681eafd4bff994612_dara-image.avif",
+    "h": 462
+   },
+   {
+    "link": "https://www.youtube.com/@MrPaidSocial",
+    "logo": "/assets/templates/industries/691217042f4246554137eb62_mr-paid-logo.avif",
+    "quoteLen": 271,
+    "headshot": "/assets/templates/industries/69121704a6c210eda390a32b_mr-paid-social-headshot-2.avif",
+    "name": "Mr. Paid Social",
+    "role": "10+ Years in SM Advertising",
+    "bg": "/assets/templates/industries/69121706cf9ea64d2bd27a80_mr-paid-image.avif",
+    "h": 555
+   }
+  ],
+  "tabsDefault": "Discovery",
+  "tabOrder": [
+   "Discovery",
+   "Swipe File",
+   "Lens",
+   "Spyder",
+   "Briefs"
+  ],
+  "examples": [
+   {
+    "avatar": "/assets/templates/industries/69120f8e40d0d1c6bd08b315_22f4d966b9103f8011d3c00de1daa5e1cb6a874c950df300577aa55b086c70ed.webp",
+    "name": "Calm",
+    "days": "203D",
+    "img": "/assets/templates/industries/69120f8717113d7b30de299a_thumbnail-PW8FGTPyQeGLfdvH5iP6.avif"
+   },
+   {
+    "avatar": "/assets/templates/industries/6901213def9dbb235788f85e_image.avif",
+    "name": "AG1",
+    "days": "7D",
+    "img": "/assets/templates/industries/690e43bce5daae0783a0d0fa_0-dco-fVzvC4MZPO6e1fsjTwcN@0.3x.avif"
+   },
+   {
+    "avatar": "/assets/templates/industries/690e4163815a4dfcdc62e2a1_images.avif",
+    "name": "Spacegoods",
+    "days": "109D",
+    "img": "/assets/templates/industries/690e43136657394d12f097fb_205727aa1d36a25bb5b6345abc6fb226.avif"
+   }
+  ],
+  "examplesCta": "‹61ch›",
+  "examplesBtn": "Start Browsing",
+  "ctaTitle": "Service more clients. Keep them longer. Stress less.",
+  "ctaParaLen": 138,
+  "ctaBtns": [
+   "Start free trial → https://app.foreplay.co/sign-up",
+   "Book a Demo → /book-demo"
+  ],
+  "icon": "/assets/templates/industries/svg/icon-freelancers-creators.svg"
+ },
+ "info-education-community": {
+  "url": "/industries/info-education-community",
+  "title": "Foreplay for Info, Education & Community Offers",
+  "desc": "‹147ch›",
+  "og": "remote(og-only):https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/68ff6fda348032ceecc3ff92_Education-Opengraph.png",
+  "overline": "FOREPLAY FOR INFO, EDUCATION & COMMUNITY",
+  "h": "‹60ch›",
+  "paraLen": 183,
+  "carousel": [
+   "/assets/templates/industries/68fbb0c0560270c55e65bc22_1686793511383.avif",
+   "/assets/templates/industries/68fbbd66cb1ce4f467252e02_skool-logo.webp",
+   "/assets/templates/industries/68fbb7564136f59ff275648c_536111454_18522603943035881_7436841251363458408_n-1.avif",
+   "/assets/templates/industries/68fbbd66673e2848b5c39158_mindvalley-logo.webp",
+   "/assets/templates/industries/68fbb745aec506fa2ec8f1f4_550793602_18524353798009261_7727866367549708554_n.avif",
+   "/assets/templates/industries/68fbbd66bb6371d544d604d7_whop-logo.webp",
+   "/assets/templates/industries/68fbbd662ec50c3bcc0b079d_chase-headshot.webp",
+   "/assets/templates/industries/68fbbd66857c62b1d923f416_foundersclub-logo.webp",
+   "/assets/templates/industries/68fbbd668cc60943009f2553_masterclass-logo.webp"
+  ],
+  "sectionHeads": [
+   {
+    "over": "FOREPLAY FOR INFO, EDUCATION & COMMUNITY",
+    "h": "‹60ch›",
+    "paraLen": 183
+   },
+   {
+    "over": "TESTIMONIALS",
+    "h": "Verified and loved by major players",
+    "paraLen": 167
+   },
+   {
+    "over": "5 APPS IN ONE",
+    "h": "The creative operating system for online eduction",
+    "paraLen": 140
+   },
+   {
+    "over": "INFO ADVERTISING INSPIRATION",
+    "h": "Browse top performing info & education ads",
+    "paraLen": 0
+   },
+   {
+    "over": null,
+    "h": "Ready to scale your info offer?",
+    "paraLen": 141
+   },
+   {
+    "over": "1:1 Creative Strategy Audit",
+    "h": "Can’t find what you’re looking for?",
+    "paraLen": 69
+   }
+  ],
+  "testimonials": [
+   {
+    "link": "https://www.founderos.com/",
+    "logo": "/assets/templates/industries/68fbafe155ae9036329833f8_6776246b72f981235e69f4e3_FOUNDEROS.svg",
+    "quoteLen": 182,
+    "headshot": "/assets/templates/industries/68fbb0c0560270c55e65bc22_1686793511383.avif",
+    "name": "Matt Gray",
+    "role": "Founder @ Founder OS",
+    "bg": "/assets/templates/industries/68fbb6db3dcd21a41783c4c4_matt-gray-testimonial.webp",
+    "h": 469
+   },
+   {
+    "link": "https://www.actualize.club/",
+    "logo": "/assets/templates/industries/68fbb71f729f8d2bddde51a3_68f038055898f5311f9f97dd_Actualize-Logo-Feb-25---Centred-Star-p-500.avif",
+    "quoteLen": 135,
+    "headshot": "/assets/templates/industries/68fbb745aec506fa2ec8f1f4_550793602_18524353798009261_7727866367549708554_n.avif",
+    "name": "Cam Russelle",
+    "role": "Founder @ Actualize Club",
+    "bg": "/assets/templates/industries/68fbb6dbde3940e8a1cdc289_actualize-testomonial.webp",
+    "h": 449
+   },
+   {
+    "link": "https://www.learntocut.com/",
+    "logo": "/assets/templates/industries/68fbb84e14cc82c679e8ee21_learn-to-cut-logo.svg",
+    "quoteLen": 110,
+    "headshot": "/assets/templates/industries/68fbb7564136f59ff275648c_536111454_18522603943035881_7436841251363458408_n-1.avif",
+    "name": "Alexi Michael",
+    "role": "Founder @ Learn to Cut",
+    "bg": "/assets/templates/industries/68fbb6da1a99fa9ba84a78d3_learn-to-cut-testimonial.webp",
+    "h": 462
+   }
+  ],
+  "tabsDefault": "Spyder",
+  "tabOrder": [
+   "Spyder",
+   "Swipe File",
+   "Discovery",
+   "Lens",
+   "Briefs"
+  ],
+  "examples": [
+   {
+    "avatar": "/assets/templates/industries/690111b56d0bc59079c7e355_avatar-tony.webp",
+    "name": "Tony Robbins",
+    "days": "203D",
+    "img": "/assets/templates/industries/6901114ac979b2f3fdcc287e_ad-tony-robbins.webp"
+   },
+   {
+    "avatar": "/assets/templates/industries/690111b52d78190e5bc607e2_avatar-masterclass.webp",
+    "name": "Masterclass",
+    "days": "7D",
+    "img": "/assets/templates/industries/6901114ab90982795b5dc108_ad-masterclass.webp"
+   },
+   {
+    "avatar": "/assets/templates/industries/690111b57098d1628a28e9dd_avatar-mindvaley.webp",
+    "name": "Mindvalley",
+    "days": "109D",
+    "img": "/assets/templates/industries/6901114a766fdfc3a2b6ec1b_ad-mindvalley.webp"
+   }
+  ],
+  "examplesCta": "See the rest of the Info & Education Ads",
+  "examplesBtn": "Start Browsing",
+  "ctaTitle": "Ready to scale your info offer?",
+  "ctaParaLen": 141,
+  "ctaBtns": [
+   "Start free trial → https://app.foreplay.co/sign-up",
+   "Book a Demo → /book-demo"
+  ],
+  "icon": "/assets/templates/industries/svg/icon-info-education-community.svg"
+ },
+ "mobile-apps": {
+  "url": "/industries/mobile-apps",
+  "title": "Foreplay for Mobile Apps & Gaming - Scale your Installs",
+  "desc": "‹189ch›",
+  "og": "remote(og-only):https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/6912111a34324f3839d561a3_MobileApp-Opengraph.png",
+  "overline": "FOREPLAY FOR MOBILE APPS & GAMING",
+  "h": "Profitably acquire mobile app users with paid advertising.",
+  "paraLen": 191,
+  "carousel": [
+   "/assets/templates/industries/69120b07818595f7660a8ab8_download.png",
+   "/assets/templates/industries/69120b566e12ae1703b02951_1636642674594.webp",
+   "/assets/templates/industries/69120bbad011881d13c2d3d9_supercell_logo.avif",
+   "/assets/templates/industries/69120bd336860c8ab0a5d9e7_duolingo_logo.avif",
+   "/assets/templates/industries/69120aa46aa813cff769275a_codewaystudios_logo.avif",
+   "/assets/templates/industries/691b5ee1d9424051fa80b678_68022fcbda93e1eec86ca16b_codewayco_appler-03-1.avif",
+   "/assets/templates/industries/69120e38ffa96955241a07e7_images-1.avif",
+   "/assets/templates/industries/69120e605e5289d994454aaf_unnamed.avif",
+   "/assets/templates/industries/69120e7e9c0d80fd3c44045a_unnamed.webp"
+  ],
+  "sectionHeads": [
+   {
+    "over": "FOREPLAY FOR MOBILE APPS & GAMING",
+    "h": "Profitably acquire mobile app users with paid advertising.",
+    "paraLen": 191
+   },
+   {
+    "over": "TESTIMONIALS",
+    "h": "Trusted by top mobile growth teams",
+    "paraLen": 128
+   },
+   {
+    "over": "5 APPS IN ONE",
+    "h": "The ad creative operating system for mobile growth",
+    "paraLen": 137
+   },
+   {
+    "over": "MOBILE APP ADVERTISING INSPIRATION",
+    "h": "Browse top performing mobile app ads",
+    "paraLen": 0
+   },
+   {
+    "over": null,
+    "h": "Turn Creative Testing Into Scalable User Acquisition",
+    "paraLen": 131
+   },
+   {
+    "over": "1:1 Creative Strategy Audit",
+    "h": "Can’t find what you’re looking for?",
+    "paraLen": 69
+   }
+  ],
+  "testimonials": [
+   {
+    "link": "https://appewa.com/",
+    "logo": "/assets/templates/industries/691b657cd070df6188afe81e_ewa-logo.svg",
+    "quoteLen": 223,
+    "headshot": "/assets/templates/industries/691b652c05c230fd8384d929_1604844525582.avif",
+    "name": "Ania Wysocka",
+    "role": "Founder @ EWA",
+    "bg": "/assets/templates/industries/691b664a0883910699a1c96b_ewa-image.avif",
+    "h": 526
+   },
+   {
+    "link": "https://taxfix.de/",
+    "logo": "/assets/templates/industries/691ba83d7e08eb85506279a1_taxfix-logo.svg",
+    "quoteLen": 264,
+    "headshot": "/assets/templates/industries/691ba90db848bd2c0543757e_1551647851244.avif",
+    "name": "Alex Beresford",
+    "role": "Chief Growth Officer @ Taxfix",
+    "bg": "/assets/templates/industries/691baa75c5fad08c32e743f0_taxfix-image.webp",
+    "h": 520
+   }
+  ],
+  "tabsDefault": "Lens",
+  "tabOrder": [
+   "Lens",
+   "Spyder",
+   "Swipe File",
+   "Discovery",
+   "Briefs"
+  ],
+  "examples": [
+   {
+    "avatar": "/assets/templates/industries/69120f8e40d0d1c6bd08b315_22f4d966b9103f8011d3c00de1daa5e1cb6a874c950df300577aa55b086c70ed.webp",
+    "name": "Calm",
+    "days": "203D",
+    "img": "/assets/templates/industries/69120f8717113d7b30de299a_thumbnail-PW8FGTPyQeGLfdvH5iP6.avif"
+   },
+   {
+    "avatar": "/assets/templates/industries/6912100c3395c80874d87315_05f959c8b169d75e3bc6ed24cb5e683306ab748db96119754610841a39b5ff4a.avif",
+    "name": "Clash of Clans",
+    "days": "7D",
+    "img": "/assets/templates/industries/69121023a0af39c87f05f588_thumbnail-LwYHyqJspEIAUsRmBq3Y.jpg"
+   },
+   {
+    "avatar": "/assets/templates/industries/69120fd041b9e16829fca9eb_59b97baa42b1d3e6bf901eec00c905ea2a1b87181986a5607dc4de97021c9ffb.avif",
+    "name": "Opal",
+    "days": "109D",
+    "img": "/assets/templates/industries/69120fe23e3d07000c1c5e69_thumbnail-gSMxAN9CskSPHw1S2QSX.avif"
+   }
+  ],
+  "examplesCta": "See millions of high performing mobile app ads.",
+  "examplesBtn": "Start Browsing",
+  "ctaTitle": "Turn Creative Testing Into Scalable User Acquisition",
+  "ctaParaLen": 131,
+  "ctaBtns": [
+   "Start free trial → https://app.foreplay.co/sign-up",
+   "Book a Demo → /book-demo"
+  ],
+  "icon": "/assets/templates/industries/svg/icon-mobile-apps.svg"
+ }
+}

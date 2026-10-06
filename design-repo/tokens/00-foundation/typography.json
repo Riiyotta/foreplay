@@ -1,0 +1,393 @@
+{
+  "$description": "Typography foundation exactly as implemented: fontFamily from tailwind.config.js (plus the CSS-only Ebgaramond family), the fontSize scale (Tailwind tuples: size, line-height, letter-spacing, weight), font weights and every @font-face in src/index.css. Responsive steps are separate tokens (e.g. display-h1 / display-h1-md / display-h1-sm) applied with max-* variants. Rich-text (.tpl-rtb, .misc-legal-rt) heading sizes are CSS-only and documented in 20-component/rich-text.json.",
+  "category": "typography",
+  "fontFamily": {
+    "sans": {
+      "value": "['Inter', 'sans-serif']",
+      "type": "fontFamily",
+      "measuredFrom": "tailwind.config.js:153"
+    },
+    "display": {
+      "value": "['\"Inter Display\"', 'Arial', 'sans-serif']",
+      "type": "fontFamily",
+      "measuredFrom": "tailwind.config.js:154"
+    },
+    "circular": {
+      "value": "['Circular', 'sans-serif']",
+      "type": "fontFamily",
+      "measuredFrom": "tailwind.config.js:155"
+    },
+    "ebgaramond": {
+      "value": "['Ebgaramond', serif]",
+      "type": "fontFamily",
+      "note": "CSS family name is 'Ebgaramond' (not 'EB Garamond'); used only on /ships via an arbitrary font-['Ebgaramond',serif] class.",
+      "measuredFrom": "src/index.css:356"
+    }
+  },
+  "fontSize": {
+    "display-h1": {
+      "fontSize": "60px",
+      "lineHeight": "68px",
+      "type": "typography",
+      "utility": "text-display-h1",
+      "utilityUsage": 8,
+      "measuredFrom": "tailwind.config.js:159",
+      "letterSpacing": "-0.0075em",
+      "fontWeight": "600"
+    },
+    "display-h1-md": {
+      "fontSize": "52px",
+      "lineHeight": "60px",
+      "type": "typography",
+      "utility": "text-display-h1-md",
+      "utilityUsage": 6,
+      "measuredFrom": "tailwind.config.js:160"
+    },
+    "display-h1-sm": {
+      "fontSize": "38px",
+      "lineHeight": "48px",
+      "type": "typography",
+      "utility": "text-display-h1-sm",
+      "utilityUsage": 6,
+      "measuredFrom": "tailwind.config.js:161"
+    },
+    "display-h2": {
+      "fontSize": "44px",
+      "lineHeight": "53.76px",
+      "type": "typography",
+      "utility": "text-display-h2",
+      "utilityUsage": 18,
+      "measuredFrom": "tailwind.config.js:162",
+      "letterSpacing": "-0.0075em",
+      "fontWeight": "600"
+    },
+    "display-h2-lg": {
+      "fontSize": "40px",
+      "lineHeight": "52px",
+      "type": "typography",
+      "utility": "text-display-h2-lg",
+      "utilityUsage": 17,
+      "measuredFrom": "tailwind.config.js:163"
+    },
+    "display-h2-sm": {
+      "fontSize": "36px",
+      "lineHeight": "48px",
+      "type": "typography",
+      "utility": "text-display-h2-sm",
+      "utilityUsage": 17,
+      "measuredFrom": "tailwind.config.js:164"
+    },
+    "display-h3": {
+      "fontSize": "36px",
+      "lineHeight": "44px",
+      "type": "typography",
+      "utility": "text-display-h3",
+      "utilityUsage": 14,
+      "measuredFrom": "tailwind.config.js:165",
+      "letterSpacing": "-0.00722222em",
+      "fontWeight": "600"
+    },
+    "display-h4": {
+      "fontSize": "28px",
+      "lineHeight": "36px",
+      "type": "typography",
+      "utility": "text-display-h4",
+      "utilityUsage": 16,
+      "measuredFrom": "tailwind.config.js:166",
+      "letterSpacing": "-0.00714286em",
+      "fontWeight": "600"
+    },
+    "display-h5": {
+      "fontSize": "24px",
+      "lineHeight": "32px",
+      "type": "typography",
+      "utility": "text-display-h5",
+      "utilityUsage": 6,
+      "measuredFrom": "tailwind.config.js:167",
+      "letterSpacing": "-0.00666667em",
+      "fontWeight": "600"
+    },
+    "body-l": {
+      "fontSize": "18px",
+      "lineHeight": "28px",
+      "type": "typography",
+      "utility": "text-body-l",
+      "utilityUsage": 27,
+      "measuredFrom": "tailwind.config.js:168",
+      "letterSpacing": "-0.0144444em",
+      "fontWeight": "400"
+    },
+    "body-m": {
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "type": "typography",
+      "utility": "text-body-m",
+      "utilityUsage": 48,
+      "measuredFrom": "tailwind.config.js:169",
+      "letterSpacing": "-0.01125em",
+      "fontWeight": "400"
+    },
+    "body-s": {
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "type": "typography",
+      "utility": "text-body-s",
+      "utilityUsage": 51,
+      "measuredFrom": "tailwind.config.js:170",
+      "letterSpacing": "-0.00642857em",
+      "fontWeight": "400"
+    },
+    "body-xs": {
+      "fontSize": "12px",
+      "lineHeight": "20px",
+      "type": "typography",
+      "utility": "text-body-xs",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:171",
+      "letterSpacing": "-0.18px"
+    },
+    "label-l": {
+      "fontSize": "18px",
+      "lineHeight": "24px",
+      "type": "typography",
+      "utility": "text-label-l",
+      "utilityUsage": 17,
+      "measuredFrom": "tailwind.config.js:172",
+      "letterSpacing": "-0.0144444em",
+      "fontWeight": "500"
+    },
+    "label-l-md": {
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "type": "typography",
+      "utility": "text-label-l-md",
+      "utilityUsage": 9,
+      "measuredFrom": "tailwind.config.js:173"
+    },
+    "label-m": {
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "type": "typography",
+      "utility": "text-label-m",
+      "utilityUsage": 75,
+      "measuredFrom": "tailwind.config.js:174",
+      "letterSpacing": "-0.01125em",
+      "fontWeight": "500"
+    },
+    "label-s": {
+      "fontSize": "14px",
+      "lineHeight": "20px",
+      "type": "typography",
+      "utility": "text-label-s",
+      "utilityUsage": 58,
+      "measuredFrom": "tailwind.config.js:175",
+      "letterSpacing": "-0.00642857em",
+      "fontWeight": "500"
+    },
+    "heading-m": {
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "type": "typography",
+      "utility": "text-heading-m",
+      "utilityUsage": 6,
+      "measuredFrom": "tailwind.config.js:176",
+      "letterSpacing": "-0.01125em",
+      "fontWeight": "550"
+    },
+    "overline": {
+      "fontSize": "12px",
+      "lineHeight": "16px",
+      "type": "typography",
+      "utility": "text-overline",
+      "utilityUsage": 29,
+      "measuredFrom": "tailwind.config.js:177",
+      "letterSpacing": "0.166667em",
+      "fontWeight": "550"
+    },
+    "navlink": {
+      "fontSize": "15px",
+      "lineHeight": "20px",
+      "type": "typography",
+      "utility": "text-navlink",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:178",
+      "letterSpacing": "-0.18px"
+    },
+    "navlink-mobile": {
+      "fontSize": "20px",
+      "lineHeight": "28px",
+      "type": "typography",
+      "utility": "text-navlink-mobile",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:179",
+      "fontWeight": "600"
+    },
+    "quote": {
+      "fontSize": "24px",
+      "lineHeight": "36px",
+      "type": "typography",
+      "utility": "text-quote",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:181",
+      "letterSpacing": "-0.18px",
+      "fontWeight": "400"
+    },
+    "quote-md": {
+      "fontSize": "19.2px",
+      "lineHeight": "28.8px",
+      "type": "typography",
+      "utility": "text-quote-md",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:182"
+    },
+    "quote-sm": {
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "type": "typography",
+      "utility": "text-quote-sm",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:183"
+    },
+    "tooltip": {
+      "fontSize": "16px",
+      "lineHeight": "24px",
+      "type": "typography",
+      "utility": "text-tooltip",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:184",
+      "letterSpacing": "-0.18px",
+      "fontWeight": "500"
+    }
+  },
+  "fontWeight": {
+    "400": {
+      "value": 400,
+      "measuredFrom": "src/index.css:9",
+      "faces": [
+        "Inter Regular (public/fonts/Inter-Regular.otf)"
+      ]
+    },
+    "500": {
+      "value": 500,
+      "measuredFrom": "src/index.css:16",
+      "faces": [
+        "Inter Medium"
+      ]
+    },
+    "550": {
+      "value": 550,
+      "measuredFrom": "tailwind.config.js:186",
+      "note": "Declared in Tailwind; no 550 face exists, so it renders with the nearest available face (CLONE_SPEC 0.6 says SemiBold)."
+    },
+    "600": {
+      "value": 600,
+      "measuredFrom": "src/index.css:23",
+      "faces": [
+        "Inter SemiBold",
+        "Inter Display SemiBold"
+      ]
+    },
+    "700": {
+      "value": 700,
+      "measuredFrom": "src/index.css:133",
+      "faces": [
+        "Inter Bold (served from the lens page asset folder)"
+      ],
+      "note": "Used by .tpl-rtb headings/strong (posts, events, bounties, agencies) and lens; jumpstart uses font-bold."
+    }
+  },
+  "fontFaces": [
+    {
+      "family": "Inter",
+      "weight": 400,
+      "style": "normal",
+      "file": "/fonts/Inter-Regular.otf",
+      "measuredFrom": "src/index.css:8"
+    },
+    {
+      "family": "Inter",
+      "weight": 500,
+      "style": "normal",
+      "file": "/fonts/Inter-Medium.otf",
+      "measuredFrom": "src/index.css:15"
+    },
+    {
+      "family": "Inter",
+      "weight": 600,
+      "style": "normal",
+      "file": "/fonts/Inter-SemiBold.otf",
+      "measuredFrom": "src/index.css:22"
+    },
+    {
+      "family": "Inter Display",
+      "weight": 600,
+      "style": "normal",
+      "file": "/fonts/InterDisplay-SemiBold.ttf",
+      "measuredFrom": "src/index.css:29"
+    },
+    {
+      "family": "Inter",
+      "weight": 700,
+      "style": "normal",
+      "file": "/assets/pages/lens-creative-analytics/62a4ee4863aafab209e40961_Inter-Bold.otf",
+      "measuredFrom": "src/index.css:133"
+    },
+    {
+      "family": "Inter",
+      "weight": 500,
+      "style": "italic",
+      "file": "/assets/pages/book-demo/62a4ee4910ae3435c66edb56_Inter-MediumItalic.otf",
+      "note": "Declared for book-demo; the CSS comment says no measured visible use.",
+      "measuredFrom": "src/index.css:141"
+    },
+    {
+      "family": "Circular",
+      "weight": 300,
+      "style": "normal",
+      "file": "CircularXX-Regular.otf (contest folder)",
+      "note": "chrome-extension .ce-h2",
+      "measuredFrom": "src/index.css:149"
+    },
+    {
+      "family": "Circular",
+      "weight": 200,
+      "style": "normal",
+      "file": "CircularXX-Light.otf",
+      "note": "contest theme",
+      "measuredFrom": "src/index.css:289"
+    },
+    {
+      "family": "Circular",
+      "weight": "400 500",
+      "style": "normal",
+      "file": "CircularXX-Book.otf",
+      "note": "contest theme; ships header",
+      "measuredFrom": "src/index.css:296"
+    },
+    {
+      "family": "Circular",
+      "weight": 700,
+      "style": "normal",
+      "file": "CircularXX-Bold.otf",
+      "note": "contest theme",
+      "measuredFrom": "src/index.css:303"
+    },
+    {
+      "family": "Ebgaramond",
+      "weight": 500,
+      "style": "normal",
+      "file": "EBGaramond-Medium.ttf (ships folder)",
+      "note": "ships legacy theme only",
+      "measuredFrom": "src/index.css:357"
+    }
+  ],
+  "bodyDefaults": {
+    "fontSize": "16px",
+    "lineHeight": "24px",
+    "fontWeight": 400,
+    "letterSpacing": "-0.01125em",
+    "color": "{color.neutral.300}",
+    "background": "{color.background}",
+    "measuredFrom": "src/index.css:42-47"
+  }
+}

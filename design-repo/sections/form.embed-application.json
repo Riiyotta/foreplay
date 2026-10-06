@@ -1,0 +1,88 @@
+{
+  "id": "form.embed-application",
+  "kind": "section",
+  "category": "form",
+  "purpose": "C2 application page body: centred head (overline, h1, lead) + NoteForms iframe placeholder (830 / 620 tall). No final CTA.",
+  "measuredFrom": [
+    "src/components/community/ApplicationPage.jsx:8"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 20,
+        "measuredFrom": [
+          "src/pages/ExpertsApplication.jsx:8"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 36,
+        "measuredFrom": [
+          "src/pages/ExpertsApplication.jsx:9"
+        ]
+      },
+      "lead": {
+        "type": "string",
+        "required": true,
+        "maxChars": 155,
+        "measuredFrom": [
+          "src/pages/ExpertsApplication.jsx:10"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 143,
+          "upperBoundChars": 155
+        },
+        "standIn": true
+      },
+      "form": {
+        "type": "assetRef",
+        "assetRole": "third-party-embed",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/ExpertsApplication.jsx:11"
+        ]
+      },
+      "formHeight": {
+        "type": "integer",
+        "required": true,
+        "minimum": 100,
+        "measuredFrom": [
+          "src/pages/ExpertsApplication.jsx:12"
+        ],
+        "maximum": 2000
+      }
+    }
+  },
+  "mediaFields": [
+    "form"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/community/ApplicationPage.jsx:8"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "application-form"
+  ],
+  "usedOnRoutes": [
+    "/experts-application",
+    "/fireside-application"
+  ]
+}

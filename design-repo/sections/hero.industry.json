@@ -1,0 +1,101 @@
+{
+  "id": "hero.industry",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Industry entry hero: industry icon, overline, h1, stand-in paragraph (paraLen), Start Free Trial + Book a Demo, and a 20s CSS logo marquee (two copies).",
+  "measuredFrom": [
+    "src/components/misc/Industry.jsx:29"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 40,
+        "measuredFrom": [
+          "src/data/industries.json:7"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 62,
+        "measuredFrom": [
+          "src/data/industries.json:8"
+        ]
+      },
+      "paragraph": {
+        "type": "string",
+        "required": true,
+        "maxChars": 210,
+        "measuredFrom": [
+          "src/data/industries.json:9"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 210,
+          "upperBoundChars": 210
+        },
+        "standIn": true
+      },
+      "icon": {
+        "type": "assetRef",
+        "assetRole": "ui-icon",
+        "required": true,
+        "measuredFrom": [
+          "src/data/industries.json:6"
+        ]
+      },
+      "logos": {
+        "type": "array",
+        "required": true,
+        "minItems": 9,
+        "maxItems": 9,
+        "items": {
+          "type": "assetRef",
+          "assetRole": "customer-logo",
+          "required": true,
+          "measuredFrom": [
+            "src/data/industries.json:10"
+          ]
+        },
+        "measuredFrom": [
+          "src/data/industries.json:10"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "icon",
+    "logos[]"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "css-marquee-loop",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": true,
+    "measuredFrom": [
+      "src/index.css:383",
+      "src/index.css:400"
+    ],
+    "durationMs": 20000,
+    "easing": "linear",
+    "trigger": "page-load"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "industry"
+  ],
+  "usedOnRoutes": [
+    "/industries/:slug"
+  ]
+}

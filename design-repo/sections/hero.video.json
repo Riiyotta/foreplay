@@ -1,0 +1,161 @@
+{
+  "id": "hero.video",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Video entry: S9 demo hero with overline/title/paragraph(110), primary + secondary CTAs from data, and the 16:9 VideoBox placeholder.",
+  "measuredFrom": [
+    "src/pages/templates/Video.jsx:11"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 16,
+        "measuredFrom": [
+          "src/data/videos.json:5"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 44,
+        "measuredFrom": [
+          "src/data/videos.json:4"
+        ]
+      },
+      "paragraph": {
+        "type": "string",
+        "required": true,
+        "maxChars": 181,
+        "measuredFrom": [
+          "src/pages/templates/Video.jsx:15"
+        ],
+        "copyBudget": {
+          "generator": "paragraph",
+          "targetChars": 110,
+          "upperBoundChars": 181
+        },
+        "standIn": true
+      },
+      "primary": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 24,
+            "measuredFrom": [
+              "src/data/videos.json:7"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/data/videos.json:7"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/data/videos.json:7"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/data/videos.json:7"
+        ]
+      },
+      "secondary": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 24,
+            "measuredFrom": [
+              "src/data/videos.json:11"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/data/videos.json:11"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/data/videos.json:11"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/data/videos.json:11"
+        ]
+      },
+      "video": {
+        "type": "assetRef",
+        "assetRole": "third-party-embed",
+        "required": true,
+        "measuredFrom": [
+          "src/data/videos.json:6"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "video"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/Video.jsx:11"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "video"
+  ],
+  "usedOnRoutes": [
+    "/videos/:slug"
+  ]
+}

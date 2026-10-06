@@ -1,0 +1,14 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_23820_3071)">
+<path d="M7.83969 16.4802C9.03201 16.4802 9.99969 15.5125 9.99969 14.3202V12.1602H7.83969C6.64737 12.1602 5.67969 13.1278 5.67969 14.3202C5.67969 15.5125 6.64737 16.4802 7.83969 16.4802Z" fill="#0ACF83" style="fill:#0ACF83;fill:color(display-p3 0.0392 0.8118 0.5137);fill-opacity:1;"></path>
+<path d="M5.67969 9.99984C5.67969 8.80752 6.64737 7.83984 7.83969 7.83984H9.99969V12.1598H7.83969C6.64737 12.1598 5.67969 11.1922 5.67969 9.99984Z" fill="#A259FF" style="fill:#A259FF;fill:color(display-p3 0.6353 0.3490 1.0000);fill-opacity:1;"></path>
+<path d="M5.67969 5.68002C5.67969 4.4877 6.64737 3.52002 7.83969 3.52002H9.99969V7.84002H7.83969C6.64737 7.84002 5.67969 6.87234 5.67969 5.68002Z" fill="#F24E1E" style="fill:#F24E1E;fill:color(display-p3 0.9490 0.3059 0.1176);fill-opacity:1;"></path>
+<path d="M9.99902 3.52002H12.159C13.3513 3.52002 14.319 4.4877 14.319 5.68002C14.319 6.87234 13.3513 7.84002 12.159 7.84002H9.99902V3.52002Z" fill="#FF7262" style="fill:#FF7262;fill:color(display-p3 1.0000 0.4471 0.3843);fill-opacity:1;"></path>
+<path d="M14.319 9.99984C14.319 11.1922 13.3513 12.1598 12.159 12.1598C10.9667 12.1598 9.99902 11.1922 9.99902 9.99984C9.99902 8.80752 10.9667 7.83984 12.159 7.83984C13.3513 7.83984 14.319 8.80752 14.319 9.99984Z" fill="#1ABCFE" style="fill:#1ABCFE;fill:color(display-p3 0.1020 0.7373 0.9961);fill-opacity:1;"></path>
+</g>
+<defs>
+<clipPath id="clip0_23820_3071">
+<rect width="8.64" height="12.96" fill="white" style="fill:white;fill-opacity:1;" transform="translate(5.67969 3.52002)"></rect>
+</clipPath>
+</defs>
+</svg>

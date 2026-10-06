@@ -1,0 +1,129 @@
+{
+  "id": "content.lens-contextual-block",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Lens white block S4: 'CONTEXTUAL AD REPORTS' head, two left/right illustration rows (Gamification, Benchmarks) and two benchmarking-segment marquees (0.75 and 0.5 px/frame, opposite directions).",
+  "measuredFrom": [
+    "src/pages/Lens.jsx:203",
+    "src/components/lens/LensBenchmarking.jsx:8"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "head": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "overline": {
+            "type": "string",
+            "required": true,
+            "maxChars": 24,
+            "measuredFrom": [
+              "src/pages/Lens.jsx:209"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "required": true,
+            "maxChars": 52,
+            "measuredFrom": [
+              "src/pages/Lens.jsx:210"
+            ]
+          },
+          "body": {
+            "type": "string",
+            "required": true,
+            "maxChars": 110,
+            "measuredFrom": [
+              "src/pages/Lens.jsx:211"
+            ]
+          }
+        }
+      },
+      "rows": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "overline": {
+              "type": "string",
+              "required": true,
+              "maxChars": 12,
+              "measuredFrom": [
+                "src/pages/Lens.jsx:231"
+              ]
+            },
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 56,
+              "measuredFrom": [
+                "src/pages/Lens.jsx:232"
+              ]
+            },
+            "body": {
+              "type": "string",
+              "required": true,
+              "maxChars": 150,
+              "measuredFrom": [
+                "src/pages/Lens.jsx:221"
+              ]
+            },
+            "image": {
+              "type": "assetRef",
+              "assetRole": "decorative-media",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Lens.jsx:216"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Lens.jsx:215"
+        ]
+      },
+      "benchmarkHeading": {
+        "type": "string",
+        "required": true,
+        "maxChars": 30,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:238"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "rows[].image"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "marquee-autoscroll",
+    "reducedMotionFallback": "pause",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/lens/LensBenchmarking.jsx:17",
+      "src/components/lens/LensBenchmarking.jsx:31"
+    ],
+    "speedPxPerFrame": 0.75,
+    "trigger": "auto"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "product-lens"
+  ],
+  "usedOnRoutes": [
+    "/lens-creative-analytics"
+  ]
+}

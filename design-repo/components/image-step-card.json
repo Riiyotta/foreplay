@@ -1,0 +1,23 @@
+{
+  "id": "image-step-card",
+  "kind": "component",
+  "purpose": "Features-grid style card with a 768x528 image body (affiliates steps, fireside 'why attend').",
+  "measuredFrom": [
+    "src/components/community/ImageStepCards.jsx:6"
+  ],
+  "props": {
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "type": "assetRef"
+    },
+    "text": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "node"
+    }
+  },
+  "tokensUsed": []
+}

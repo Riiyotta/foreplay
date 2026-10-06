@@ -1,0 +1,19 @@
+{
+  "id": "replay-row",
+  "kind": "component",
+  "purpose": "Fireside replay row: 162x92 thumbnail, author + date meta, 2-line title, 'Watch' dark-secondary button; 2-col grid <=767, 1 col <=479.",
+  "measuredFrom": [
+    "src/components/community/ReplayRow.jsx:8",
+    "src/components/templates/EventRow.jsx:40"
+  ],
+  "props": {
+    "ev": {
+      "type": "eventRef"
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "button",
+    "avatar"
+  ]
+}

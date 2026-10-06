@@ -1,0 +1,64 @@
+{
+  "id": "content.not-found",
+  "kind": "section",
+  "category": "content",
+  "purpose": "TemplateNotFound / NotFound state: 'Page not found' + back-home link. Rendered for the two post slugs whose CMS entry is a '404' stub, for any unknown CMS slug, and by the * catch-all.",
+  "measuredFrom": [
+    "src/components/templates/Layout.jsx:55",
+    "src/App.jsx:14"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 14,
+        "measuredFrom": [
+          "src/components/templates/Layout.jsx:58"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 64,
+        "measuredFrom": [
+          "src/components/templates/Layout.jsx:59"
+        ]
+      },
+      "homeLink": {
+        "type": "route",
+        "required": true,
+        "measuredFrom": [
+          "src/components/templates/Layout.jsx:60"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/templates/Layout.jsx:55"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "not-found"
+  ],
+  "usedOnRoutes": [
+    "*",
+    "/post/ai-emotional-analysis-new-ad-details",
+    "/post/restaurant-facebook-ad-examples"
+  ]
+}

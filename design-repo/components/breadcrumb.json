@@ -1,0 +1,17 @@
+{
+  "id": "breadcrumb",
+  "kind": "component",
+  "purpose": "S1 crumb row (padding 40/0, hidden <=479 unless alwaysVisible); last crumb ellipsised with href #.",
+  "measuredFrom": [
+    "src/components/templates/Breadcrumb.jsx:8"
+  ],
+  "props": {
+    "crumbs": {
+      "type": "crumb[]"
+    },
+    "alwaysVisible": {
+      "type": "boolean"
+    }
+  },
+  "tokensUsed": []
+}

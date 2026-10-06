@@ -1,0 +1,94 @@
+{
+  "id": "pricing.api-credits",
+  "kind": "section",
+  "category": "pricing",
+  "purpose": "#api-pricing: section head, 3 credit cards and the Enterprise footer card (api and pre-black-friday).",
+  "measuredFrom": [
+    "src/components/shared/ApiPricing.jsx:52",
+    "src/components/shared/ApiPricing.jsx:16"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 60,
+        "measuredFrom": [
+          "src/pages/PreBlackFriday.jsx:71"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": false,
+        "maxChars": 108,
+        "measuredFrom": [
+          "src/pages/PreBlackFriday.jsx:73"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 108,
+          "upperBoundChars": 108
+        },
+        "standIn": true
+      },
+      "cards": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "credits": {
+              "type": "string",
+              "required": true,
+              "maxChars": 16,
+              "measuredFrom": [
+                "src/components/shared/ApiPricing.jsx:16"
+              ]
+            },
+            "price": {
+              "type": "string",
+              "required": true,
+              "maxChars": 12,
+              "measuredFrom": [
+                "src/components/shared/ApiPricing.jsx:16"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/shared/ApiPricing.jsx:16"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/ApiPricing.jsx:52"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "developer-api",
+    "pre-black-friday"
+  ],
+  "usedOnRoutes": [
+    "/api",
+    "/pre-black-friday"
+  ]
+}

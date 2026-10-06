@@ -1,0 +1,28 @@
+{
+  "id": "container",
+  "kind": "primitive",
+  "purpose": "Horizontal layout wrappers: Container (1440), SectionContainer (1344), BlogContainer (800/832).",
+  "measuredFrom": [
+    "src/components/shared/Layout.jsx:6",
+    "src/components/shared/Layout.jsx:14",
+    "src/components/templates/Layout.jsx:13"
+  ],
+  "props": {
+    "variant": {
+      "type": "enum",
+      "values": [
+        "container",
+        "section",
+        "blog"
+      ]
+    },
+    "children": {
+      "type": "node"
+    }
+  },
+  "tokensUsed": [
+    "layout.container.container",
+    "layout.container.sectionContainer",
+    "layout.container.blogContainer"
+  ]
+}

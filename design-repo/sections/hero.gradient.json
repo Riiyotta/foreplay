@@ -1,0 +1,203 @@
+{
+  "id": "hero.gradient",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "M1 gradient page hero: centred overline + H1-size gradient title (+ optional paragraph), with optional children (FAQ buttons) or an 'after' block (blog featured grid, paid-lp CTA).",
+  "measuredFrom": [
+    "src/components/misc/GradientHero.jsx:28"
+  ],
+  "variants": [
+    {
+      "name": "blog",
+      "description": "with BlogHeaderGrid (featured + 4 popular)",
+      "measuredFrom": [
+        "src/pages/Blog.jsx:35"
+      ]
+    },
+    {
+      "name": "faq",
+      "description": "with FaqButtons children, wide container",
+      "measuredFrom": [
+        "src/pages/Faq.jsx:16"
+      ]
+    },
+    {
+      "name": "product",
+      "description": "paid-lp: overline outside, product padding, CTA after",
+      "measuredFrom": [
+        "src/pages/PaidLp2026.jsx:13"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 8,
+        "measuredFrom": [
+          "src/pages/Blog.jsx:31"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 50,
+        "measuredFrom": [
+          "src/pages/Blog.jsx:32"
+        ]
+      },
+      "paragraph": {
+        "type": "string",
+        "required": false,
+        "maxChars": 148,
+        "measuredFrom": [
+          "src/pages/PaidLp2026.jsx:17"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 148,
+          "upperBoundChars": 148
+        },
+        "standIn": true
+      },
+      "featured": {
+        "type": "object",
+        "required": false,
+        "fields": {
+          "post": {
+            "type": "string",
+            "required": true,
+            "maxChars": 104,
+            "measuredFrom": [
+              "src/data/post.json:5"
+            ],
+            "note": "featured post title (post.json max 104)"
+          },
+          "popular": {
+            "type": "array",
+            "required": true,
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {
+              "type": "string",
+              "required": true,
+              "maxChars": 104,
+              "measuredFrom": [
+                "src/data/post.json:5"
+              ]
+            },
+            "measuredFrom": [
+              "src/pages/Blog.jsx:15"
+            ]
+          },
+          "popularExcerpt": {
+            "type": "string",
+            "required": true,
+            "maxChars": 150,
+            "measuredFrom": [
+              "src/components/misc/Blog.jsx:58"
+            ],
+            "copyBudget": {
+              "generator": "standin",
+              "targetChars": 150,
+              "upperBoundChars": 150
+            },
+            "standIn": true
+          }
+        },
+        "note": "blog variant only (BlogHeaderGrid)"
+      },
+      "faqButtons": {
+        "type": "boolean",
+        "required": false,
+        "measuredFrom": [
+          "src/pages/Faq.jsx:17"
+        ],
+        "note": "faq variant only"
+      },
+      "primary": {
+        "type": "object",
+        "required": false,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 16,
+            "measuredFrom": [
+              "src/pages/PaidLp2026.jsx:20"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/pages/PaidLp2026.jsx:20"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/pages/PaidLp2026.jsx:20"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/pages/PaidLp2026.jsx:20"
+        ],
+        "note": "paid-lp variant only (external sign-up)"
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/misc/GradientHero.jsx:28"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-md",
+        "change": "padding 80 -> 40",
+        "measuredFrom": [
+          "src/components/misc/GradientHero.jsx:39"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticTypography.display.hero",
+    "gradient.css.hero-title-fill"
+  ],
+  "usedOnTemplates": [
+    "blog-index",
+    "faq-index",
+    "paid-landing"
+  ],
+  "usedOnRoutes": [
+    "/2026-paid-lp",
+    "/blog",
+    "/faq"
+  ]
+}

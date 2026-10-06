@@ -1,0 +1,125 @@
+[
+ {
+  "slug": "build-share-a-workflow-using-the-foreplay-api",
+  "title": "Build and Share an AI Workflow with the Foreplay API",
+  "amount": 5000,
+  "currency": "$",
+  "author": "Zachary Murray",
+  "authorHandle": "@foreplayzach",
+  "authorAvatar": "/assets/templates/bounties/68add40d84910965e17bfbc7_T01VC6J4RBM-U01UX70C6FR-54a12b5e6052-512-2.png",
+  "dueDate": "October 31, 2025",
+  "status": "Open",
+  "youtubeId": "TqzUKpgjbwg",
+  "submitTitle": "Submit to the $5k Bounty",
+  "termsHref": "/page/api-bounty-terms-of-service",
+  "formSections": [
+   {
+    "title": "Personal Details",
+    "fields": [
+     {
+      "label": "Name",
+      "type": "text",
+      "placeholder": "First & Last",
+      "required": true,
+      "hasHelp": false,
+      "social": null
+     },
+     {
+      "label": "Foreplay Account Email",
+      "type": "email",
+      "placeholder": "john@gmail.com",
+      "required": true,
+      "hasHelp": true,
+      "social": null
+     },
+     {
+      "label": "Phone Number",
+      "type": "tel",
+      "placeholder": "000-000-0000",
+      "required": true,
+      "hasHelp": false,
+      "social": null
+     }
+    ],
+    "notes": 0
+   },
+   {
+    "title": "Workflow",
+    "fields": [
+     {
+      "label": "Workflow Title",
+      "type": "text",
+      "placeholder": "Name your workflow",
+      "required": true,
+      "hasHelp": true,
+      "social": null
+     },
+     {
+      "label": "Workflow Description",
+      "type": "textarea",
+      "placeholder": "Describe your workflow",
+      "required": true,
+      "hasHelp": true,
+      "social": null
+     },
+     {
+      "label": "Platform Share Link",
+      "type": "text",
+      "placeholder": "https://zapier.com/30945039450",
+      "required": true,
+      "hasHelp": true,
+      "social": null
+     }
+    ],
+    "notes": 1
+   },
+   {
+    "title": "Social",
+    "fields": [
+     {
+      "label": "LinkedIn Post URL",
+      "type": "text",
+      "placeholder": "https://....",
+      "required": true,
+      "hasHelp": false,
+      "social": "https://www.linkedin.com/company/foreplayco/"
+     },
+     {
+      "label": "X/Twitter Post URL",
+      "type": "text",
+      "placeholder": "https://....",
+      "required": true,
+      "hasHelp": false,
+      "social": "https://x.com/foreplay_co"
+     },
+     {
+      "label": "Instagram Post URL",
+      "type": "text",
+      "placeholder": "https://....",
+      "required": true,
+      "hasHelp": false,
+      "social": "https://www.instagram.com/foreplay_co/"
+     },
+     {
+      "label": "TikTok Post URL",
+      "type": "text",
+      "placeholder": "https://....",
+      "required": true,
+      "hasHelp": false,
+      "social": "https://www.tiktok.com/@foreplay_co"
+     },
+     {
+      "label": "YouTube Post URL",
+      "type": "text",
+      "placeholder": "https://....",
+      "required": true,
+      "hasHelp": false,
+      "social": "https://www.youtube.com/channel/UCzLrvXeeuoUW5h4a1kz34cQ"
+     }
+    ],
+    "notes": 1
+   }
+  ],
+  "updated": "2025-09-08"
+ }
+]

@@ -1,0 +1,127 @@
+{
+  "id": "content.ce-install-guide",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Chrome-extension legacy page body: sticky lottie pin, 5px blue bar, black section with Chrome/Phone pills and three numbered install steps (Chrome extension, Instagram mobile, TikTok mobile with store buttons).",
+  "measuredFrom": [
+    "src/pages/ChromeExtension.jsx:85"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "steps": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 32,
+              "measuredFrom": [
+                "src/pages/ChromeExtension.jsx:111"
+              ]
+            },
+            "buttons": {
+              "type": "array",
+              "required": true,
+              "minItems": 0,
+              "maxItems": 3,
+              "items": {
+                "type": "object",
+                "required": true,
+                "fields": {
+                  "label": {
+                    "type": "string",
+                    "required": true,
+                    "maxChars": 28,
+                    "measuredFrom": [
+                      "src/pages/ChromeExtension.jsx:38"
+                    ]
+                  },
+                  "href": {
+                    "type": "route-or-url",
+                    "required": true,
+                    "measuredFrom": [
+                      "src/pages/ChromeExtension.jsx:38"
+                    ]
+                  },
+                  "variant": {
+                    "type": "enum",
+                    "required": false,
+                    "values": [
+                      "dark-primary",
+                      "dark-secondary",
+                      "dark-ghost",
+                      "light-primary",
+                      "dark-stroke",
+                      "dark-ghost-icon",
+                      "light-stroke",
+                      "light-secondary"
+                    ],
+                    "measuredFrom": [
+                      "src/pages/ChromeExtension.jsx:38"
+                    ]
+                  }
+                },
+                "measuredFrom": [
+                  "src/pages/ChromeExtension.jsx:38"
+                ]
+              },
+              "measuredFrom": [
+                "src/pages/ChromeExtension.jsx:38"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/ChromeExtension.jsx:14"
+        ]
+      },
+      "pin": {
+        "type": "assetRef",
+        "assetRole": "lottie-animation",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/ChromeExtension.jsx:67"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "pin"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "lottie-hover",
+    "reducedMotionFallback": "first-frame",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/ChromeExtension.jsx:67"
+    ],
+    "trigger": "page-load"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "fontFamily.circular",
+    "color.pure-black",
+    "layout.container.legacy1200"
+  ],
+  "usedOnTemplates": [
+    "chrome-extension"
+  ],
+  "usedOnRoutes": [
+    "/chrome-extension"
+  ]
+}

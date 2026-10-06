@@ -1,0 +1,184 @@
+{
+  "$description": "Elevation in this site is rings and focus halos (box-shadow), not drop shadows, plus blur filters. All values from theme.extend.boxShadow / blur / backdropBlur.",
+  "category": "elevation",
+  "elevation": {
+    "ring-product": {
+      "value": "0 0 0 1px #ffffff1a",
+      "type": "boxShadow",
+      "utility": "shadow-ring-product",
+      "utilityUsage": 5,
+      "measuredFrom": "tailwind.config.js:207"
+    },
+    "ring-card": {
+      "value": "0 0 0 1px #e9eaef",
+      "type": "boxShadow",
+      "utility": "shadow-ring-card",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:208"
+    },
+    "ring-card-0": {
+      "value": "0 0 0 0 #e9eaef",
+      "type": "boxShadow",
+      "utility": "shadow-ring-card-0",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:209"
+    },
+    "ring-extension": {
+      "value": "0 0 0 1px #171920",
+      "type": "boxShadow",
+      "utility": "shadow-ring-extension",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:210"
+    },
+    "avatar-hover": {
+      "value": "0 0 0 3px #fff, 0 0 0 5px #4c505f",
+      "type": "boxShadow",
+      "utility": "shadow-avatar-hover",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:211"
+    },
+    "menu-inner": {
+      "value": "inset 0 0 0 1px #0003",
+      "type": "boxShadow",
+      "utility": "shadow-menu-inner",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:212"
+    },
+    "focus-dark": {
+      "value": "0 0 0 2px #020308, 0 0 0 3px #fff",
+      "type": "boxShadow",
+      "utility": "shadow-focus-dark",
+      "utilityUsage": 10,
+      "measuredFrom": "tailwind.config.js:213"
+    },
+    "focus-light": {
+      "value": "0 0 0 2px #fff, 0 0 0 3px #090a0e",
+      "type": "boxShadow",
+      "utility": "shadow-focus-light",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:214"
+    },
+    "focus-nav": {
+      "value": "0 0 0 3px #ffffff1a",
+      "type": "boxShadow",
+      "utility": "shadow-focus-nav",
+      "utilityUsage": 7,
+      "measuredFrom": "tailwind.config.js:215"
+    },
+    "focus-inset": {
+      "value": "inset 0 0 0 3px #ffffff1a",
+      "type": "boxShadow",
+      "utility": "shadow-focus-inset",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:216"
+    },
+    "focus-merch": {
+      "value": "0 0 0 2px #020308, 0 0 0 5px #ffffff5c",
+      "type": "boxShadow",
+      "utility": "shadow-focus-merch",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:217"
+    },
+    "ring-card-inset": {
+      "value": "inset 0 0 0 1px #e9eaef",
+      "type": "boxShadow",
+      "utility": "shadow-ring-card-inset",
+      "utilityUsage": 8,
+      "measuredFrom": "tailwind.config.js:218"
+    },
+    "ring-slide": {
+      "value": "0 0 0 1px #1b1c21",
+      "type": "boxShadow",
+      "utility": "shadow-ring-slide",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:219"
+    },
+    "ring-solid-700-inset": {
+      "value": "inset 0 0 0 1px #171920",
+      "type": "boxShadow",
+      "utility": "shadow-ring-solid-700-inset",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:220"
+    },
+    "ring-neutral-600": {
+      "value": "0 0 0 1px #ffffff29",
+      "type": "boxShadow",
+      "utility": "shadow-ring-neutral-600",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:221"
+    },
+    "ring-neutral-600-0": {
+      "value": "0 0 0 0 #ffffff29",
+      "type": "boxShadow",
+      "utility": "shadow-ring-neutral-600-0",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:222"
+    },
+    "ring-neutral-600-inset": {
+      "value": "inset 0 0 0 1px #ffffff29",
+      "type": "boxShadow",
+      "utility": "shadow-ring-neutral-600-inset",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:223"
+    },
+    "ring-white-12": {
+      "value": "0 0 0 1px #ffffff1f",
+      "type": "boxShadow",
+      "utility": "shadow-ring-white-12",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:224"
+    },
+    "focus-dark-52": {
+      "value": "0 0 0 2px #020308, 0 0 0 3px #ffffff52",
+      "type": "boxShadow",
+      "utility": "shadow-focus-dark-52",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:225"
+    },
+    "play-button": {
+      "value": "0 2px 7px 1px #0000002b",
+      "type": "boxShadow",
+      "utility": "shadow-play-button",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:226"
+    },
+    "popover": {
+      "value": "0 0 16px 0 #0f1116",
+      "type": "boxShadow",
+      "utility": "shadow-popover",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:227"
+    },
+    "new-btn-ring": {
+      "value": "inset 0 0 0 1px #ebebeb",
+      "type": "boxShadow",
+      "utility": "shadow-new-btn-ring",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:228"
+    },
+    "new-btn-ring-0": {
+      "value": "inset 0 0 0 1px #ebebeb00",
+      "type": "boxShadow",
+      "utility": "shadow-new-btn-ring-0",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:229"
+    }
+  },
+  "blur": {
+    "blur.glow": {
+      "value": "28px",
+      "type": "blur",
+      "measuredFrom": "tailwind.config.js:264"
+    },
+    "backdropBlur.10": {
+      "value": "10px",
+      "type": "blur",
+      "measuredFrom": "tailwind.config.js:265"
+    },
+    "backdropBlur.nav": {
+      "value": "24px",
+      "type": "blur",
+      "measuredFrom": "tailwind.config.js:265"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tag-pill",
+  "kind": "primitive",
+  "purpose": "Small rounded label (prize/award pills, status tags, category chips, 'Soon' tags).",
+  "measuredFrom": [
+    "src/pages/Bounties.jsx:17",
+    "src/components/community/contest.jsx:39"
+  ],
+  "props": {
+    "label": {
+      "type": "string",
+      "maxChars": 32
+    },
+    "tone": {
+      "type": "enum",
+      "values": [
+        "dark",
+        "teal",
+        "contest",
+        "light"
+      ]
+    }
+  },
+  "tokensUsed": [
+    "borderRadius.8",
+    "color.teal"
+  ]
+}

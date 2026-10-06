@@ -1,0 +1,32 @@
+{
+  "id": "faq-item",
+  "kind": "component",
+  "purpose": "Accordion row: question (label-l .68, white when open/hover) + 24px chevron; answer height animates with 900ms expo; links inside answers don't toggle.",
+  "measuredFrom": [
+    "src/components/shared/Faq.jsx:28",
+    "src/components/shared/Faq.jsx:61"
+  ],
+  "props": {
+    "q": {
+      "type": "string",
+      "maxChars": 64
+    },
+    "a": {
+      "type": "richtext"
+    }
+  },
+  "tokensUsed": [
+    "component.faqRow.padding",
+    "semanticMotion.faqAccordion"
+  ],
+  "motion": {
+    "pattern": "accordion-height",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/Faq.jsx:61"
+    ],
+    "durationMs": 900,
+    "easing": "cubic-bezier(0.19, 1, 0.22, 1)"
+  }
+}

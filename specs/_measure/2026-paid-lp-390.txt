@@ -1,0 +1,76 @@
+URL https://www.foreplay.co/2026-paid-lp W390 docH 2667 title="2026 Paid LP" wfpage=6aa9a8b1507dedae6dcd8bf6 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 390x2667] 
+  div.global [0,0 0x0] 
+  div.main [0,72 390x2595] 
+    section#product-hero-section.section [0,72 390x468] 
+      div.container [0,72 390x468] p:0px 24px
+        div.product-hero [24,72 342x468] fx:column p:24px 0px
+          div.product-hero [24,96 342x380] fx:column p:24px 0px
+            div.product-hero-content [24,120 342x332] fx:column gap:24px p:0px 0px 24px
+              h1.text-overline.text-white-68 [149,120 93x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "MOBILE APP" (1L)
+              div.hero-text [24,160 342x268] fx:column gap:12px
+                h2.text-display-h1.hero-title [24,160 342x144]  {Inter Display 38px/48px w600 ls-0.285px c:rgba(255, 255, 255, 0.88) ta:center CLIPTEXT} "Stop Guessing What Ads to Make Next" (3L)
+                div.max-w-lg [24,316 342x112] 
+                  div.text-alpha-100 [24,316 342x112] 
+                    p.text-body-l.text-white-84 [24,316 342x112]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 148ch 4L]
+          div [115,476 159x40] 
+            a.button-dark.button-primary.w-inline-block [115,476 159x40] fx:row p:8px r:10px href=https://app.foreplay.co/sign-up
+              div.button-text-block [123,484 123x24] p:0px 6px
+                div.text-heading-m [129,484 111x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14) ta:center} "Start Free Trial" (1L)
+              div.button-icon-block.icon-right.opacity-100 [243,484 24x24] fx:row
+                div.icon-medium [243,484 24x24] fx:row
+                  div.svg.w-embed [243,484 24x24] fx:row
+                    svg [243,484 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+            div [115,516 159x0] 
+    div.section [0,540 390x2127] 
+      div.product-page-padding-y [0,540 390x2127] fx:column p:80px 0px
+        div.container.section-container [0,620 390x1967] p:0px 24px
+          div.mobile-app-main-features [24,620 342x1967] fx:column gap:64px
+            div.feature-block.mobile-app-video [24,620 342x200] fx:column r:10px
+              a.lightbox-link-9.w-inline-block.w-lightbox [25,621 340x198]  href=#
+                div.mobile-app-thumbnail [25,621 340x198] fx:row
+                  div.play-button-1 [160,685 70x70] fx:row p:15px r:10000px
+                    div.play-button-2 [171,696 48x48] fx:row r:100px
+                      img.play-button3 [189,712 14x16] IMG 64502d8b633f4d3ee4584b7a_play-small.svg nat8x9 alt="" lazy 
+            div.macbook-sync-block-copy [24,884 342x427] fx:column p:16px r:10px
+              div.div-block-254 [41,901 308x163] p:0px 0px 25px
+                img.image-101 [41,901 68x138] IMG 652990b64da0f365aef91633_iphone-sync.avif nat366x748 alt="" lazy 
+              div.text-white [41,1064 308x230] 
+                div.mobile-app-feature-content [41,1064 308x230] fx:column gap:10px
+                  h3.text-display-h4 [41,1064 308x108]  {Inter Display 28px/36px w600 ls-0.2px c:rgb(255, 255, 255) ta:center} "Save content to Foreplay from your Phone" (3L)
+                  div.max-w-lg [41,1182 308x112] 
+                    div.text-alpha-100 [41,1182 308x112] 
+                      p.text-body-l [41,1182 308x112]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 112ch 4L]
+              div.macbook-sync-holder [25,885 340x425] 
+            div.left-right-section [24,1375 342x578] fx:column gap:40px
+              div#w-node-a00644b0-3649-9e29-64e8-3b912e554036-6dcd8bf6.mobile-app-video-holder [24,1375 342x350] fx:row
+                div.video-feature-block.w-background-video.w-background-video-atom [24,1375 342x350] r:10px @data-poster-url=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/ @data-video-urls=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/ @data-autoplay=true @data-loop=true @data-wf-ignore=true
+                  video#a00644b0-3649-9e29-64e8-3b912e554037-video [25,1376 340x348] VIDEO src=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653030fda3d7bc4941a03672_Swipe-File-Pic-transcode.mp4,https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653030fda3d7bc4941a03672_Swipe-File-Pic-transcode.webm poster= auto=true loop=true muted=true pinline=true 
+              div#w-node-a00644b0-3649-9e29-64e8-3b912e554038-6dcd8bf6.left-right-section-content [24,1765 342x188] fx:column gap:24px
+                div.section-head.is-align-left [24,1765 342x188] fx:column gap:8px
+                  div.app-icon-wrapper [24,1765 112x36] fx:row gap:10px
+                    img.app-logo [24,1765 36x36] IMG 652ff16b9b6781c56e020aa0_ios-camera-icon.avif nat121x121 alt="" lazy 
+                    img.app-to-app-arrows [70,1765 20x36] IMG 652ff16b558d6fef7811591a_ap-to-app-arrow.svg nat17x7 alt="" lazy 
+                    img.app-logo [100,1765 36x36] IMG 67b10c2cd2812e66e1c2af76_product-swipe-file.webp nat252x252 alt="" lazy 
+                  div.section-head_title [24,1817 342x72] 
+                    div.text-white [24,1817 342x72] 
+                      h2.text-display-h3.mobile-landscape-text-display-h4 [24,1817 342x72]  {Inter Display 28px/36px w600 ls-0.202222px c:rgb(255, 255, 255)} "Snap a Photo and save it to Swipe File" (2L)
+                  div.section-head_paragraph [24,1897 342x56] 
+                    div.text-alpha-100 [24,1897 342x56] 
+                      p.text-body-l [24,1897 342x56]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68)} [TEXT 68ch 2L]
+            div.left-right-section [24,2017 342x570] fx:column gap:40px
+              div#w-node-e90ee398-3443-4b87-135f-fdeb750dcea7-6dcd8bf6.left-right-section-content [24,2407 342x180] fx:column gap:24px
+                div.section-head.is-align-left [24,2407 342x180] fx:column gap:8px
+                  div.app-icon-wrapper [24,2407 36x36] fx:row gap:10px
+                    img.app-logo [24,2407 36x36] IMG 67b10c250778c8023e8536e9_product-discovery.webp nat252x252 alt="" lazy 
+                  div.section-head_title [24,2459 278x36] 
+                    div.text-white [24,2459 278x36] 
+                      h2.text-display-h3.mobile-landscape-text-display-h4 [24,2459 278x36]  {Inter Display 28px/36px w600 ls-0.202222px c:rgb(255, 255, 255)} "Browse millions of ads" (1L)
+                  div.section-head_paragraph [24,2503 342x84] 
+                    div.text-alpha-100 [24,2503 342x84] 
+                      p.text-body-l [24,2503 342x84]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68)} [TEXT 87ch 3L]
+              div#w-node-e90ee398-3443-4b87-135f-fdeb750dcea5-6dcd8bf6.mobile-app-video-holder [24,2017 342x350] fx:row
+                div#w-node-c8c7e875-08a1-3550-a650-4e72fda0d69a-6dcd8bf6.video-feature-block.w-background-video.w-background-video-atom [24,2017 342x350] r:10px @data-poster-url=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/ @data-video-urls=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/ @data-autoplay=true @data-loop=true @data-wf-ignore=true
+                  video#c8c7e875-08a1-3550-a650-4e72fda0d69a-video [25,2018 340x348] VIDEO src=https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653009a60733cf5f9aa796e7_discovery-test-render-transcode.mp4,https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/653009a60733cf5f9aa796e7_discovery-test-render-transcode.webm poster= auto=true loop=true muted=true pinline=true 
+        div.container.section-container [0,2587 390x0] p:0px 24px
+    div.negative-spacing-bottom [0,2667 390x0] 

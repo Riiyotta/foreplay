@@ -1,0 +1,52 @@
+URL https://www.foreplay.co/careers W991 docH 2072 title="Jobs at Foreplay" wfpage=64a72a4948f6bf39ef9ec668 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 991x2072] 
+  div.global [0,0 0x0] 
+  div.main [0,72 991x444] 
+    div.section.overflow-hidden [0,72 991x444] 
+      div.container.section-container [0,72 991x444] p:0px 32px
+        div.demo-hero [32,72 927x444] fx:column p:120px 0px
+          div.section-head [136,192 720x204] fx:column gap:12px
+            div.section-head-wrapper [240,192 512x204] fx:column gap:12px
+              div.section-head_subtitle [461,192 69x16] 
+                div.text-overline.text-white-68 [461,192 69x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "CAREERS" (1L)
+              div.section-head_title [346,220 299x52] 
+                h1.text-display-h2 [346,220 299x52]  {Inter Display 40px/52px w600 ls-0.3px c:rgb(255, 255, 255) ta:center} "Jobs @ Foreplay" (1L)
+              div.section-head_paragraph [240,284 512x112] 
+                div.text-alpha-100 [240,284 512x112] 
+                  p.text-body-l [240,284 512x112]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 177ch 4L]
+  section.section [0,516 991x452] 
+    div.section-padding [0,516 991x452] p:8px
+      div.section-white-block [8,524 975x436] r:36px
+        div.container.section-container [8,524 975x436] p:0px 32px
+          div.product-page-solution [40,524 911x436] fx:column gap:36px p:80px 0px
+            div.w-dyn-list [40,604 911x276] 
+              div.jobs-list.w-dyn-items [40,604 911x276] fx:column gap:15px @role=list
+                div.w-dyn-item [40,604 911x82]  @role=listitem
+                  div.job-list-link [40,604 911x82] fx:row gap:16px p:20px r:20px
+                    div.text-label-m [61,633 255x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(9, 10, 14)} "Customer Support Representative" (1L)
+                    div.jobs-destinction [332,633 448x24] fx:row gap:12px
+                      div.text-label-m [631,633 67x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ws:nowrap} "Full Time" (1L)
+                      div.jobs-divider [710,639 1x12] 
+                      div.text-label-m [723,633 58x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ws:nowrap} "Remote" (1L)
+                    a.button-light.button-secondary.w-inline-block [796,625 134x40] fx:row p:8px r:10px href=/careers/customer-support-representative
+                      div.button-text-block [804,633 98x24] p:0px 6px
+                        div.text-heading-m [810,633 86x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Learn More" (1L)
+                      div.button-icon-block.icon-right [898,633 24x24] fx:row
+                        div.icon-medium [898,633 24x24] fx:row
+                          div.svg.w-embed [898,633 24x24] fx:row
+                            svg [898,633 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+                div.w-dyn-item [40,701 911x82]  @role=listitem
+                  div.job-list-link [40,701 911x82] fx:row gap:16px p:20px r:20px
+                    div.text-label-m [61,730 225x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(9, 10, 14)} "AI Ops & Automation Engineer" (1L)
+                    div.jobs-destinction [302,730 479x24] fx:row gap:12px
+                      div.text-label-m [631,730 67x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ws:nowrap} "Full Time" (1L)
+                      div.jobs-divider [710,736 1x12] 
+                      div.text-label-m [723,730 58x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ws:nowrap} "Remote" (1L)
+                    a.button-light.button-secondary.w-inline-block [796,722 134x40] fx:row p:8px r:10px href=/careers/ai-ops-automation-engineer
+                      div.button-text-block [804,730 98x24] p:0px 6px
+                        div.text-heading-m [810,730 86x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Learn More" (1L)
+                      div.button-icon-block.icon-right [898,730 24x24] fx:row
+                        div.icon-medium [898,730 24x24] fx:row
+                          div.svg.w-embed [898,730 24x24] fx:row
+                            svg [898,730 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) 
+                … +1 more div.w-dyn-item (repeat)

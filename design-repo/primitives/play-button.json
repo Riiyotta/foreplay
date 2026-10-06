@@ -1,0 +1,22 @@
+{
+  "id": "play-button",
+  "kind": "primitive",
+  "purpose": "50px frosted play bubble (bg white/50, blur 10) over a poster; opens a lightbox or links out.",
+  "measuredFrom": [
+    "src/components/Navbar.jsx:223"
+  ],
+  "props": {
+    "size": {
+      "type": "enum",
+      "values": [
+        "50",
+        "100"
+      ]
+    }
+  },
+  "tokensUsed": [
+    "color.play-bubble",
+    "blur.backdropBlur.10",
+    "iconSize.50px"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "content.media-rows",
+  "kind": "section",
+  "category": "content",
+  "purpose": "White block of alternating illustration rows (GridRow content 5 / illustration 7, or LeftRightRow): api Spyder/Discovery/Swipe File API rows with product icons; mcp capability rows.",
+  "measuredFrom": [
+    "src/components/shared/Rows.jsx:68",
+    "src/components/shared/Rows.jsx:44",
+    "src/pages/Mcp.jsx:103"
+  ],
+  "variants": [
+    {
+      "name": "api",
+      "description": "API rows + section head",
+      "measuredFrom": [
+        "src/pages/Api.jsx:138"
+      ]
+    },
+    {
+      "name": "mcp",
+      "description": "MCP rows, white block without top padding",
+      "measuredFrom": [
+        "src/pages/Mcp.jsx:198"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "head": {
+        "type": "object",
+        "required": false,
+        "fields": {
+          "title": {
+            "type": "string",
+            "required": true,
+            "maxChars": 50,
+            "measuredFrom": [
+              "src/pages/Api.jsx:127"
+            ]
+          },
+          "body": {
+            "type": "string",
+            "required": true,
+            "maxChars": 110,
+            "measuredFrom": [
+              "src/pages/Api.jsx:129"
+            ]
+          }
+        }
+      },
+      "rows": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "overline": {
+              "type": "string",
+              "required": false,
+              "maxChars": 12,
+              "measuredFrom": [
+                "src/components/shared/Rows.jsx:10"
+              ]
+            },
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 51,
+              "measuredFrom": [
+                "src/pages/Api.jsx:141"
+              ]
+            },
+            "body": {
+              "type": "string",
+              "required": true,
+              "maxChars": 150,
+              "measuredFrom": [
+                "src/pages/Api.jsx:143"
+              ]
+            },
+            "image": {
+              "type": "assetRef",
+              "assetRole": "decorative-media",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Api.jsx:138"
+              ]
+            },
+            "productIcon": {
+              "type": "assetRef",
+              "assetRole": "product-icon",
+              "required": false,
+              "measuredFrom": [
+                "src/pages/Api.jsx:15"
+              ]
+            },
+            "mediaFirst": {
+              "type": "boolean",
+              "required": false,
+              "measuredFrom": [
+                "src/components/shared/Rows.jsx:68"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Mcp.jsx:103"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "rows[].image",
+    "rows[].productIcon"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/Rows.jsx:68"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-md",
+        "change": "media moves first in column layout",
+        "measuredFrom": [
+          "src/components/shared/Rows.jsx:44"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "developer-api",
+    "developer-mcp"
+  ],
+  "usedOnRoutes": [
+    "/api",
+    "/mcp"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "interactive.product-tabs-5",
+  "kind": "section",
+  "category": "interactive",
+  "purpose": "M2 '5 products in 1' Webflow tabs (fade 100/300): each pane is the homepage ProductCard with ghost 'Book a Demo'; tab order from tabOrder; default from tabsDefault.",
+  "measuredFrom": [
+    "src/components/misc/ProductTabs5.jsx:19"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 24,
+        "measuredFrom": [
+          "src/pages/templates/Comparison.jsx:32"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 48,
+        "measuredFrom": [
+          "src/pages/templates/Comparison.jsx:32"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 127,
+        "measuredFrom": [
+          "src/pages/templates/Comparison.jsx:34"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 127,
+          "upperBoundChars": 127
+        },
+        "standIn": true
+      },
+      "order": {
+        "type": "array",
+        "required": true,
+        "minItems": 5,
+        "maxItems": 5,
+        "items": {
+          "type": "enum",
+          "required": true,
+          "values": [
+            "lens",
+            "swipe",
+            "discovery",
+            "spyder",
+            "briefs"
+          ],
+          "measuredFrom": [
+            "src/components/misc/ProductTabs5.jsx:9"
+          ]
+        },
+        "measuredFrom": [
+          "src/data/comparison.json:64"
+        ]
+      },
+      "initial": {
+        "type": "enum",
+        "required": true,
+        "values": [
+          "lens",
+          "swipe",
+          "discovery",
+          "spyder",
+          "briefs"
+        ],
+        "measuredFrom": [
+          "src/data/comparison.json:63"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "fade-tabs",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/misc/ProductTabs5.jsx:19"
+    ],
+    "durationMs": 300,
+    "easing": "ease",
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-lg",
+        "change": "tab menu 3 cols; panes stack content above figure",
+        "measuredFrom": [
+          "specs/_shared-misc.md:60"
+        ]
+      },
+      {
+        "at": "max-sm",
+        "change": "tab menu 1 column",
+        "measuredFrom": [
+          "specs/_shared-misc.md:61"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "comparison",
+    "industry"
+  ],
+  "usedOnRoutes": [
+    "/comparison/:slug",
+    "/industries/:slug"
+  ]
+}

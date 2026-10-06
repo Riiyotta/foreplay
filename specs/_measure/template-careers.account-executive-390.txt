@@ -1,0 +1,58 @@
+URL https://www.foreplay.co/careers/account-executive W390 docH 3952 title="Account Executive - Remote" wfpage=64a7037dd519617f8ade34f0 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 390x3952] 
+  div.global [0,0 0x0] 
+  div.main [0,72 390x2093] 
+    section.section [0,72 390x0] 
+      div.container.blog-container [0,72 390x0] p:0px 24px
+    section.section [0,72 390x117] 
+      div.container.blog-container [0,72 390x116] p:0px 24px
+        div.blog-top [24,72 342x116] fx:column gap:24px p:40px 0px
+          div.blog-head [24,112 342x36] fx:column gap:8px
+            div.text-white [24,112 342x36] 
+              div.text-balance [24,112 342x36] 
+                h1.text-display-h4 [24,112 342x36]  {Inter Display 28px/36px w600 ls-0.2px c:rgb(255, 255, 255)} "Account Executive" (1L)
+      div.container [0,188 390x1] p:0px 24px
+        div.blog-line [24,188 342x1] 
+    div.section [0,189 390x1976] 
+      div.container.blog-container [0,189 390x1976] p:0px 24px
+        div.fireside-subscribe-action [24,189 342x235] fx:column gap:24px p:40px 0px
+          div.fireside-section-title-text [24,229 342x88] fx:column gap:16px
+            div.text-white [24,229 342x24] 
+              div.fireside-subscribe-action-title [24,229 342x24] fx:row gap:8px
+                div.icon-medium.w-embed [24,229 24x24] fx:row
+                  svg [24,229 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) 
+                div.text-label-l [56,229 81x24]  {Inter 16px/24px w500 ls-0.23111px c:rgb(255, 255, 255)} "Apply Now" (1L)
+            div.text-alpha-50 [24,269 342x48] 
+              div.text-body-m [24,269 342x48]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 61ch 2L]
+          a.button-dark.button-secondary.w-inline-block [24,341 132x42] fx:row p:8px r:10px href=<google-form>
+            div.button-text-block [33,350 94x24] p:0px 6px
+              div.text-heading-m [39,350 82x24]  {Inter 16px/24px w550 ls-0.18px c:rgb(255, 255, 255)} "Apply Now" (1L)
+            div.button-icon-block.icon-right [123,350 24x24] fx:row
+              div.icon-medium [123,350 24x24] fx:row
+                div.svg.w-embed [123,350 24x24] fx:row
+                  svg [123,350 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(255, 255, 255) 
+        div.fireside-subscribe-action [24,424 342x1741] fx:column gap:24px p:40px 0px
+          div.fireside-section-title-text [24,464 342x1660] fx:column gap:16px
+            div.text-white [24,464 342x24] 
+              div.fireside-subscribe-action-title [24,464 342x24] fx:row gap:8px
+                div.icon-medium.w-embed [24,464 24x24] fx:row
+                  svg [24,464 24x24] SVG vb=0 0 24 24 fill=none color=rgb(255, 255, 255) 
+                div.text-label-l [56,464 117x24]  {Inter 16px/24px w500 ls-0.23111px c:rgb(255, 255, 255)} "Job Description" (1L)
+            div.text-alpha-50 [24,504 342x1620] 
+              div#blog-rtb.blog-rtb [24,504 342x1620] 
+                div.w-richtext [24,504 342x1620] 
+                  p [24,504 342x168]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 288ch 7L]
+                  p [24,672 342x96]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 138ch 4L]
+                  … +4 more p (repeat)
+                  h2 [24,1176 342x36]  {Inter Display 28px/36px w700 ls-0.18px c:rgba(255, 255, 255, 0.84)} "About this Role:" (1L)
+                  p [24,1228 342x72]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 105ch 3L]
+                  p [24,1300 342x48]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 64ch 2L]
+                  … +1 more p (repeat)
+                  h2 [24,1420 342x36]  {Inter Display 28px/36px w700 ls-0.18px c:rgba(255, 255, 255, 0.84)} "The Ideal Candidate" (1L)
+                  p [24,1472 342x72]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 102ch 3L]
+                  p [24,1544 342x48]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 76ch 2L]
+                  … +2 more p (repeat)
+                  h2 [24,1712 342x36]  {Inter Display 28px/36px w700 ls-0.18px c:rgba(255, 255, 255, 0.84)} "Why Foreplay?" (1L)
+                  p [24,1764 342x72]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 129ch 3L]
+                  p [24,1836 342x72]  {Inter 16px/24px w400 ls-0.18px c:rgba(255, 255, 255, 0.84)} [TEXT 116ch 3L]
+                  … +3 more p (repeat)

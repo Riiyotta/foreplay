@@ -1,0 +1,130 @@
+{
+  "id": "hero.demo-video",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Watch-demo: section head, Wistia player placeholder (16:9) and a white message card with a Start Free Trial button.",
+  "measuredFrom": [
+    "src/pages/WatchDemo.jsx:7"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 4,
+        "measuredFrom": [
+          "src/pages/WatchDemo.jsx:13"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 27,
+        "measuredFrom": [
+          "src/pages/WatchDemo.jsx:14"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 82,
+        "measuredFrom": [
+          "src/pages/WatchDemo.jsx:16"
+        ]
+      },
+      "player": {
+        "type": "assetRef",
+        "assetRole": "third-party-embed",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/WatchDemo.jsx:22"
+        ]
+      },
+      "message": {
+        "type": "string",
+        "required": true,
+        "maxChars": 200,
+        "measuredFrom": [
+          "src/pages/WatchDemo.jsx:35-36"
+        ]
+      },
+      "avatar": {
+        "type": "assetRef",
+        "assetRole": "person-portrait",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/WatchDemo.jsx:29"
+        ]
+      },
+      "cta": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 16,
+            "measuredFrom": [
+              "src/pages/WatchDemo.jsx:39"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/pages/WatchDemo.jsx:39"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/pages/WatchDemo.jsx:39"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/pages/WatchDemo.jsx:39"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "player",
+    "avatar"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/WatchDemo.jsx:7"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "watch-demo"
+  ],
+  "usedOnRoutes": [
+    "/watch-demo"
+  ]
+}

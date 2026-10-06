@@ -1,0 +1,13 @@
+{
+  "id": "trial-card",
+  "kind": "component",
+  "purpose": "Post sidebar trial card (sticky top 120, static <=991).",
+  "measuredFrom": [
+    "src/components/templates/TrialCard.jsx:42"
+  ],
+  "props": {},
+  "tokensUsed": [],
+  "composes": [
+    "button"
+  ]
+}

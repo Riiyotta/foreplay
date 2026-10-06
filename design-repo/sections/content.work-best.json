@@ -1,0 +1,72 @@
+{
+  "id": "content.work-best",
+  "kind": "section",
+  "category": "content",
+  "purpose": "C5 WorkBest: centred head 'The world’s best marketers use Foreplay' + stand-in lead + illustration.",
+  "measuredFrom": [
+    "src/components/community/WorkWith.jsx:168"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 44,
+        "measuredFrom": [
+          "src/components/community/WorkWith.jsx:168"
+        ]
+      },
+      "lead": {
+        "type": "string",
+        "required": true,
+        "maxChars": 201,
+        "measuredFrom": [
+          "src/components/community/WorkWith.jsx:173"
+        ],
+        "copyBudget": {
+          "generator": "copy",
+          "targetChars": 189,
+          "upperBoundChars": 201
+        },
+        "standIn": true
+      },
+      "image": {
+        "type": "assetRef",
+        "assetRole": "customer-logo",
+        "required": true,
+        "measuredFrom": [
+          "src/components/community/WorkWith.jsx:168"
+        ],
+        "note": "image-167 illustration made of customer brand marks"
+      }
+    }
+  },
+  "mediaFields": [
+    "image"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/community/WorkWith.jsx:168"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "work-with"
+  ],
+  "usedOnRoutes": [
+    "/work-with-brands",
+    "/work-with-marketers"
+  ]
+}

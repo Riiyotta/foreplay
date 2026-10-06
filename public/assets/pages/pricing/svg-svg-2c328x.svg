@@ -1,0 +1,6 @@
+<svg viewBox="0 0 20 20" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><symbol viewBox="0 0 20 20" id="sprite-info">
+      <path stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 9h.75v3.75m6.75-3a6.75 6.75 0 1 1-13.5 0 6.75 6.75 0 0 1 13.5 0Z"></path>
+      <path fill="currentColor" d="M10 6.25a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"></path>
+    </symbol></defs>
+  <use href="#sprite-info" width="20" height="20"></use>
+</svg>

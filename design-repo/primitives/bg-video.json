@@ -1,0 +1,29 @@
+{
+  "id": "bg-video",
+  "kind": "primitive",
+  "purpose": "Muted, looping, inline autoplay background video with poster (Webflow .w-background-video).",
+  "measuredFrom": [
+    "src/components/shared.jsx:84"
+  ],
+  "props": {
+    "poster": {
+      "type": "assetRef"
+    },
+    "sources": {
+      "type": "assetRef[]"
+    },
+    "children": {
+      "type": "node"
+    }
+  },
+  "tokensUsed": [],
+  "motion": {
+    "pattern": "background-video-loop",
+    "reducedMotionFallback": "first-frame",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared.jsx:91"
+    ],
+    "note": "Proposal only: show the poster frame. The clone has no reduced-motion handling for videos."
+  }
+}

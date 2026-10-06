@@ -1,0 +1,122 @@
+{
+  "id": "button",
+  "kind": "primitive",
+  "purpose": "Anchor-rendered call to action; every CTA on the site is this component (there is no <button> variant).",
+  "measuredFrom": [
+    "src/components/shared.jsx:51",
+    "src/components/shared.jsx:9"
+  ],
+  "props": {
+    "variant": {
+      "type": "enum",
+      "values": [
+        "dark-primary",
+        "dark-secondary",
+        "dark-ghost",
+        "light-primary",
+        "dark-stroke",
+        "dark-ghost-icon",
+        "light-stroke",
+        "light-secondary"
+      ]
+    },
+    "href": {
+      "type": "route-or-url"
+    },
+    "label": {
+      "type": "string",
+      "maxChars": 28,
+      "description": "Longest observed label: 'Post a Bounty (Coming Soon)' (27)"
+    },
+    "icon": {
+      "type": "boolean",
+      "default": true,
+      "description": "right chevron, opacity .68"
+    },
+    "iconFull": {
+      "type": "boolean",
+      "default": false,
+      "description": "chevron at opacity 1"
+    },
+    "iconLeft": {
+      "type": "node"
+    },
+    "iconRight": {
+      "type": "node"
+    },
+    "children": {
+      "type": "node",
+      "description": "replaces the label (store badges)"
+    }
+  },
+  "variants": [
+    {
+      "name": "dark-primary",
+      "measuredFrom": [
+        "src/components/shared.jsx:11-12"
+      ]
+    },
+    {
+      "name": "dark-secondary",
+      "measuredFrom": [
+        "src/components/shared.jsx:14-15"
+      ]
+    },
+    {
+      "name": "dark-ghost",
+      "measuredFrom": [
+        "src/components/shared.jsx:17-18"
+      ]
+    },
+    {
+      "name": "light-primary",
+      "measuredFrom": [
+        "src/components/shared.jsx:20-21"
+      ]
+    },
+    {
+      "name": "dark-stroke",
+      "measuredFrom": [
+        "src/components/shared.jsx:23-24"
+      ]
+    },
+    {
+      "name": "dark-ghost-icon",
+      "measuredFrom": [
+        "src/components/shared.jsx:26-27"
+      ]
+    },
+    {
+      "name": "light-stroke",
+      "measuredFrom": [
+        "src/components/shared.jsx:29-30"
+      ]
+    },
+    {
+      "name": "light-secondary",
+      "measuredFrom": [
+        "src/components/shared.jsx:32-33"
+      ]
+    }
+  ],
+  "tokensUsed": [
+    "component.button.dark-primary",
+    "fontSize.heading-m",
+    "borderRadius.10",
+    "semanticMotion.buttonHoverDark",
+    "semanticMotion.buttonHoverLight"
+  ],
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared.jsx:12"
+    ],
+    "durationMs": 200,
+    "easing": "ease"
+  },
+  "notes": [
+    "8 variants in code; src/components/README.md lists 7 (light-secondary missing from the README)."
+  ]
+}

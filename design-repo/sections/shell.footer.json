@@ -1,0 +1,752 @@
+{
+  "id": "shell.footer",
+  "kind": "section",
+  "category": "shell",
+  "purpose": "Global footer (with the floating calendar pop-up inside it): product sprite badges, review badges, link columns (Product, Resources + Compare dropdown, Solutions, Company, Community), an Ad Count snapshot and the legal row. No outbound links; the Ask-AI row and social icons were removed.",
+  "measuredFrom": [
+    "src/App.jsx:21",
+    "src/components/Footer.jsx:150"
+  ],
+  "behaviour": [
+    {
+      "note": "CalendarPopup (rendered inside the footer): 'Click Me!' trigger opens a panel with modalIn 380ms / modalOut 260ms; 'Book a Call' -> /book-demo, 'Start Free Trial' -> /pricing. The panel names a real person (calendar host) with a real headshot: person-portrait role.",
+      "measuredFrom": [
+        "src/components/CalendarPopup.jsx:7",
+        "src/components/CalendarPopup.jsx:108"
+      ]
+    },
+    {
+      "note": "Link grid is 5 columns >=992, 3 at <=991, 2 at <=767; the Ask-AI row (which forced 5 columns at every width on the original) was removed with the other external footer links.",
+      "measuredFrom": [
+        "src/components/Footer.jsx:182"
+      ]
+    },
+    {
+      "note": "Hidden on /2026-paid-lp (App.jsx hideFooterOn).",
+      "measuredFrom": [
+        "src/App.jsx:19"
+      ]
+    }
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "items": {
+        "type": "array",
+        "required": true,
+        "minItems": 45,
+        "maxItems": 45,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "group": {
+              "type": "enum",
+              "required": true,
+              "values": [
+                "Brand",
+                "Badges",
+                "Reviews",
+                "Columns",
+                "Compare",
+                "Legal"
+              ],
+              "measuredFrom": [
+                "src/components/Footer.jsx:15"
+              ]
+            },
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 28,
+              "measuredFrom": [
+                "src/components/Footer.jsx:210"
+              ]
+            },
+            "href": {
+              "type": "route",
+              "required": true,
+              "measuredFrom": [
+                "src/components/Footer.jsx:12"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/Footer.jsx:43"
+        ]
+      },
+      "adCount": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "total": {
+            "type": "string",
+            "required": true,
+            "maxChars": 11,
+            "measuredFrom": [
+              "src/components/Footer.jsx:232"
+            ]
+          },
+          "live": {
+            "type": "string",
+            "required": true,
+            "maxChars": 9,
+            "measuredFrom": [
+              "src/components/Footer.jsx:250"
+            ]
+          },
+          "historical": {
+            "type": "string",
+            "required": true,
+            "maxChars": 11,
+            "measuredFrom": [
+              "src/components/Footer.jsx:261"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/components/Footer.jsx:225"
+        ],
+        "note": "Static snapshot (no live API fetch)."
+      },
+      "copyright": {
+        "type": "string",
+        "required": true,
+        "maxChars": 42,
+        "measuredFrom": [
+          "src/components/Footer.jsx:272"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLast": true,
+    "global": true,
+    "absentOnTemplates": [
+      "paid-landing"
+    ]
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/Footer.jsx:41"
+    ],
+    "durationMs": 200,
+    "easing": "ease"
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-lg",
+        "change": "link grid 3 columns, row gap 32",
+        "measuredFrom": [
+          "src/components/Footer.jsx:184"
+        ]
+      },
+      {
+        "at": "max-md",
+        "change": "link grid 2 columns",
+        "measuredFrom": [
+          "src/components/Footer.jsx:184"
+        ]
+      },
+      {
+        "at": "max-sm",
+        "change": "Ad Count block spans 2 columns (max 256); review row stacks. INTENTIONAL DEVIATION: the live footer overflows at 390 (5 implicit columns forced by the Ask-AI row); the clone stacks instead.",
+        "measuredFrom": [
+          "src/components/Footer.jsx:226",
+          "src/components/Footer.jsx:183",
+          "CLONE_SPEC.md:531"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "component.footer.containerMax",
+    "component.footer.linkColor",
+    "component.footer.divider",
+    "semanticTypography.display.small",
+    "semanticMotion.spriteHover",
+    "semanticMotion.modal"
+  ],
+  "canonical": {
+    "items": [
+      {
+        "group": "Badges",
+        "label": "SwipeFile",
+        "href": "/swipe-file",
+        "measuredFrom": "src/components/Footer.jsx:158"
+      },
+      {
+        "group": "Badges",
+        "label": "Discovery",
+        "href": "/discovery",
+        "measuredFrom": "src/components/Footer.jsx:159"
+      },
+      {
+        "group": "Badges",
+        "label": "Spyder",
+        "href": "/spyder-ad-spy",
+        "measuredFrom": "src/components/Footer.jsx:160"
+      },
+      {
+        "group": "Badges",
+        "label": "Lens",
+        "href": "/lens-creative-analytics",
+        "measuredFrom": "src/components/Footer.jsx:161"
+      },
+      {
+        "group": "Badges",
+        "label": "Briefs",
+        "href": "/briefs",
+        "measuredFrom": "src/components/Footer.jsx:162"
+      },
+      {
+        "group": "Reviews",
+        "label": "Chrome review badge",
+        "href": "/chrome-extension",
+        "measuredFrom": "src/components/Footer.jsx:175"
+      },
+      {
+        "group": "Reviews",
+        "label": "G2 review badge",
+        "href": "/reviews",
+        "measuredFrom": "src/components/Footer.jsx:176"
+      },
+      {
+        "group": "Columns",
+        "label": "Swipe File",
+        "href": "/swipe-file",
+        "measuredFrom": "src/components/Footer.jsx:186"
+      },
+      {
+        "group": "Columns",
+        "label": "Discovery",
+        "href": "/discovery",
+        "measuredFrom": "src/components/Footer.jsx:187"
+      },
+      {
+        "group": "Columns",
+        "label": "Spyder",
+        "href": "/spyder-ad-spy",
+        "measuredFrom": "src/components/Footer.jsx:188"
+      },
+      {
+        "group": "Columns",
+        "label": "Lens",
+        "href": "/lens-creative-analytics",
+        "measuredFrom": "src/components/Footer.jsx:189"
+      },
+      {
+        "group": "Columns",
+        "label": "Briefs",
+        "href": "/briefs",
+        "measuredFrom": "src/components/Footer.jsx:190"
+      },
+      {
+        "group": "Columns",
+        "label": "Chrome Extension",
+        "href": "/chrome-extension",
+        "measuredFrom": "src/components/Footer.jsx:191"
+      },
+      {
+        "group": "Columns",
+        "label": "Mobile App",
+        "href": "/mobile-app",
+        "measuredFrom": "src/components/Footer.jsx:192"
+      },
+      {
+        "group": "Columns",
+        "label": "API",
+        "href": "/api",
+        "measuredFrom": "src/components/Footer.jsx:193"
+      },
+      {
+        "group": "Columns",
+        "label": "MCP",
+        "href": "/mcp",
+        "measuredFrom": "src/components/Footer.jsx:194"
+      },
+      {
+        "group": "Columns",
+        "label": "University",
+        "href": "/university",
+        "measuredFrom": "src/components/Footer.jsx:197"
+      },
+      {
+        "group": "Columns",
+        "label": "Blog",
+        "href": "/blog",
+        "measuredFrom": "src/components/Footer.jsx:198"
+      },
+      {
+        "group": "Columns",
+        "label": "Bounties",
+        "href": "/bounties",
+        "measuredFrom": "src/components/Footer.jsx:199"
+      },
+      {
+        "group": "Columns",
+        "label": "Events & Webinars",
+        "href": "/fireside",
+        "measuredFrom": "src/components/Footer.jsx:200"
+      },
+      {
+        "group": "Columns",
+        "label": "Agency Directory",
+        "href": "/agency-directory",
+        "measuredFrom": "src/components/Footer.jsx:201"
+      },
+      {
+        "group": "Columns",
+        "label": "Experts",
+        "href": "/experts",
+        "measuredFrom": "src/components/Footer.jsx:202"
+      },
+      {
+        "group": "Columns",
+        "label": "E-Commerce & Retail",
+        "href": "/industries/ecommerce",
+        "measuredFrom": "src/components/Footer.jsx:206"
+      },
+      {
+        "group": "Columns",
+        "label": "Agencies",
+        "href": "/industries/agencies",
+        "measuredFrom": "src/components/Footer.jsx:207"
+      },
+      {
+        "group": "Columns",
+        "label": "Mobile Apps & Gaming",
+        "href": "/industries/mobile-apps",
+        "measuredFrom": "src/components/Footer.jsx:208"
+      },
+      {
+        "group": "Columns",
+        "label": "B2B & SaaS",
+        "href": "/industries/b2b-saas",
+        "measuredFrom": "src/components/Footer.jsx:209"
+      },
+      {
+        "group": "Columns",
+        "label": "Info, Education & Community",
+        "href": "/industries/info-education-community",
+        "measuredFrom": "src/components/Footer.jsx:210"
+      },
+      {
+        "group": "Columns",
+        "label": "Freelancers & Creators",
+        "href": "/industries/freelancers-creators",
+        "measuredFrom": "src/components/Footer.jsx:211"
+      },
+      {
+        "group": "Columns",
+        "label": "Pricing",
+        "href": "/pricing",
+        "measuredFrom": "src/components/Footer.jsx:215"
+      },
+      {
+        "group": "Columns",
+        "label": "Book a Demo",
+        "href": "/book-demo",
+        "measuredFrom": "src/components/Footer.jsx:216"
+      },
+      {
+        "group": "Columns",
+        "label": "Careers",
+        "href": "/careers",
+        "measuredFrom": "src/components/Footer.jsx:217"
+      },
+      {
+        "group": "Columns",
+        "label": "Affiliate Program",
+        "href": "/affiliates",
+        "measuredFrom": "src/components/Footer.jsx:220"
+      },
+      {
+        "group": "Columns",
+        "label": "Wall of Love",
+        "href": "/reviews",
+        "measuredFrom": "src/components/Footer.jsx:221"
+      },
+      {
+        "group": "Compare",
+        "label": "Motion",
+        "href": "/comparison/motion",
+        "measuredFrom": "src/components/Footer.jsx:65"
+      },
+      {
+        "group": "Compare",
+        "label": "Atria",
+        "href": "/comparison/atria",
+        "measuredFrom": "src/components/Footer.jsx:66"
+      },
+      {
+        "group": "Compare",
+        "label": "Superads",
+        "href": "/comparison/superads",
+        "measuredFrom": "src/components/Footer.jsx:67"
+      },
+      {
+        "group": "Compare",
+        "label": "Magic Brief",
+        "href": "/comparison/magic-brief",
+        "measuredFrom": "src/components/Footer.jsx:68"
+      },
+      {
+        "group": "Compare",
+        "label": "Adnova",
+        "href": "/comparison/ad-nova",
+        "measuredFrom": "src/components/Footer.jsx:69"
+      },
+      {
+        "group": "Compare",
+        "label": "Gethookd",
+        "href": "/comparison/gethookd",
+        "measuredFrom": "src/components/Footer.jsx:70"
+      },
+      {
+        "group": "Compare",
+        "label": "AdsLibrary.ai",
+        "href": "/comparison/ad-library-ai",
+        "measuredFrom": "src/components/Footer.jsx:71"
+      },
+      {
+        "group": "Compare",
+        "label": "Adscan",
+        "href": "/comparison/adscan",
+        "measuredFrom": "src/components/Footer.jsx:72"
+      },
+      {
+        "group": "Compare",
+        "label": "SwipeKit",
+        "href": "/comparison/swipekit",
+        "measuredFrom": "src/components/Footer.jsx:73"
+      },
+      {
+        "group": "Legal",
+        "label": "Privacy Policy",
+        "href": "/page/privacy-policy",
+        "measuredFrom": "src/components/Footer.jsx:273"
+      },
+      {
+        "group": "Legal",
+        "label": "Terms & Conditions",
+        "href": "/page/terms-of-service",
+        "measuredFrom": "src/components/Footer.jsx:276"
+      },
+      {
+        "group": "Brand",
+        "label": "home",
+        "href": "/",
+        "measuredFrom": "src/components/Footer.jsx:169"
+      }
+    ]
+  },
+  "removedItems": [
+    {
+      "label": "Knowledge Base",
+      "where": "navbar+footer",
+      "liveHref": "https://help.foreplay.co/",
+      "measuredFrom": [
+        "CLONE_SPEC.md:198",
+        "CLONE_SPEC.md:539"
+      ]
+    },
+    {
+      "label": "Merch",
+      "where": "navbar+footer",
+      "liveHref": "https://shop.foreplay.co/",
+      "measuredFrom": [
+        "CLONE_SPEC.md:200",
+        "CLONE_SPEC.md:543"
+      ]
+    },
+    {
+      "label": "Merch Store",
+      "where": "footer",
+      "liveHref": "https://shop.foreplay.co/",
+      "measuredFrom": [
+        "CLONE_SPEC.md:543"
+      ]
+    },
+    {
+      "label": "API Docs",
+      "where": "footer",
+      "liveHref": "https://public.api.foreplay.co/docs",
+      "measuredFrom": [
+        "CLONE_SPEC.md:539"
+      ]
+    },
+    {
+      "label": "Feature Requests",
+      "where": "footer",
+      "liveHref": "https://feedback.foreplay.co/",
+      "measuredFrom": [
+        "CLONE_SPEC.md:543"
+      ]
+    },
+    {
+      "label": "Public Road Map",
+      "where": "footer",
+      "liveHref": "https://feedback.foreplay.co/roadmap",
+      "measuredFrom": [
+        "CLONE_SPEC.md:543"
+      ]
+    },
+    {
+      "label": "Roadmap",
+      "where": "footer",
+      "liveHref": "https://feedback.foreplay.co/roadmap",
+      "measuredFrom": [
+        "CLONE_SPEC.md:543"
+      ]
+    },
+    {
+      "label": "Ask AI about Foreplay.co",
+      "where": "footer",
+      "liveHref": "ChatGPT/Grok/Claude/Perplexity/Gemini prompt URLs",
+      "measuredFrom": [
+        "CLONE_SPEC.md:549"
+      ]
+    },
+    {
+      "label": "ChatGPT",
+      "where": "footer (Ask AI row)",
+      "measuredFrom": [
+        "CLONE_SPEC.md:551"
+      ]
+    },
+    {
+      "label": "Grok",
+      "where": "footer (Ask AI row)",
+      "measuredFrom": [
+        "CLONE_SPEC.md:552"
+      ]
+    },
+    {
+      "label": "Claude",
+      "where": "footer (Ask AI row)",
+      "measuredFrom": [
+        "CLONE_SPEC.md:553"
+      ]
+    },
+    {
+      "label": "Perplexity",
+      "where": "footer (Ask AI row)",
+      "measuredFrom": [
+        "CLONE_SPEC.md:554"
+      ]
+    },
+    {
+      "label": "Gemini",
+      "where": "footer (Ask AI row)",
+      "measuredFrom": [
+        "CLONE_SPEC.md:555"
+      ]
+    },
+    {
+      "label": "Facebook",
+      "where": "footer social row",
+      "measuredFrom": [
+        "CLONE_SPEC.md:563"
+      ]
+    },
+    {
+      "label": "Instagram",
+      "where": "footer social row",
+      "measuredFrom": [
+        "CLONE_SPEC.md:563"
+      ]
+    },
+    {
+      "label": "LinkedIn",
+      "where": "footer social row",
+      "measuredFrom": [
+        "CLONE_SPEC.md:563"
+      ]
+    },
+    {
+      "label": "TikTok",
+      "where": "footer social row",
+      "measuredFrom": [
+        "CLONE_SPEC.md:563"
+      ]
+    },
+    {
+      "label": "X",
+      "where": "footer social row",
+      "measuredFrom": [
+        "CLONE_SPEC.md:563"
+      ]
+    },
+    {
+      "label": "YouTube",
+      "where": "footer social row",
+      "measuredFrom": [
+        "CLONE_SPEC.md:563"
+      ]
+    }
+  ],
+  "reroutedItems": [
+    {
+      "label": "Chrome Extension",
+      "where": "navbar Product menu + footer Product column",
+      "liveHref": "chromewebstore.google.com (live)",
+      "cloneHref": "/chrome-extension",
+      "measuredFrom": [
+        "src/components/Navbar.jsx:187",
+        "src/components/Footer.jsx:191"
+      ]
+    },
+    {
+      "label": "Chrome review badge",
+      "where": "footer",
+      "cloneHref": "/chrome-extension",
+      "measuredFrom": [
+        "src/components/Footer.jsx:175"
+      ]
+    },
+    {
+      "label": "G2 review badge",
+      "where": "footer",
+      "cloneHref": "/reviews",
+      "measuredFrom": [
+        "src/components/Footer.jsx:176"
+      ]
+    },
+    {
+      "label": "Start Free Trial",
+      "where": "footer calendar popup",
+      "liveHref": "https://app.foreplay.co/sign-up",
+      "cloneHref": "/pricing",
+      "measuredFrom": [
+        "src/components/CalendarPopup.jsx:158"
+      ]
+    },
+    {
+      "label": "Book a Call",
+      "where": "footer calendar popup",
+      "liveHref": "Cal.com embed",
+      "cloneHref": "/book-demo",
+      "measuredFrom": [
+        "src/components/CalendarPopup.jsx:7"
+      ]
+    }
+  ],
+  "noOutboundLinks": {
+    "rule": "Every items[].href must be an internal path (starts with '/') or '#'. Labels in removedItems must never appear.",
+    "enforcedBy": "schema/semantic_validate.py check_shell_links (NAV_EXTERNAL_LINK, NAV_REMOVED_ITEM, NAV_CANONICAL_DRIFT)"
+  },
+  "usedOnTemplates": [
+    "affiliates",
+    "agency",
+    "agency-directory",
+    "application-form",
+    "apps-extensions",
+    "author",
+    "blog-index",
+    "book-demo",
+    "bounties-index",
+    "bounty",
+    "career",
+    "careers-index",
+    "category",
+    "chrome-extension",
+    "comparison",
+    "contest",
+    "contest-submission",
+    "creative-strategist-jobs",
+    "developer-api",
+    "developer-mcp",
+    "event",
+    "expert",
+    "experts-index",
+    "faq-index",
+    "faq-item",
+    "fireside",
+    "fireside-replays",
+    "home",
+    "industry",
+    "jumpstart",
+    "legal-page",
+    "media-kit",
+    "mobile-app",
+    "not-found",
+    "post",
+    "pre-black-friday",
+    "pricing",
+    "product-feature",
+    "product-lens",
+    "product-spyder",
+    "reviews",
+    "ships",
+    "university-course",
+    "university-landing",
+    "video",
+    "watch-demo",
+    "work-with"
+  ],
+  "usedOnRoutes": [
+    "*",
+    "/",
+    "/affiliates",
+    "/agencies/:slug",
+    "/agency-directory",
+    "/api",
+    "/apps-extensions",
+    "/authors/:slug",
+    "/blog",
+    "/book-demo",
+    "/bounties",
+    "/bounties/:slug",
+    "/briefs",
+    "/careers",
+    "/careers/:slug",
+    "/category/:slug",
+    "/chrome-extension",
+    "/comparison/:slug",
+    "/contest",
+    "/contest-submission",
+    "/creative-strategist-jobs",
+    "/discovery",
+    "/events/:slug",
+    "/experts",
+    "/experts-application",
+    "/experts/:slug",
+    "/faq",
+    "/faqs/:slug",
+    "/fireside",
+    "/fireside-application",
+    "/fireside-replays",
+    "/industries/:slug",
+    "/jumpstart-2026",
+    "/lens-creative-analytics",
+    "/mcp",
+    "/media-kit",
+    "/mobile-app",
+    "/page/:slug",
+    "/post/:slug",
+    "/post/ai-emotional-analysis-new-ad-details",
+    "/post/restaurant-facebook-ad-examples",
+    "/pre-black-friday",
+    "/pricing",
+    "/reviews",
+    "/ships",
+    "/spyder-ad-spy",
+    "/swipe-file",
+    "/university/classes",
+    "/university/psychology-in-advertising",
+    "/videos/:slug",
+    "/watch-demo",
+    "/work-with-brands",
+    "/work-with-marketers"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "hero.product",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Product-page hero (swipe-file, discovery, spyder, briefs, lens): animated product icon, overline, h1, subtitle, Start free trial, then the sticky product screen video that shrinks on scroll (inOutCubic translate).",
+  "measuredFrom": [
+    "src/components/product/ProductHero.jsx:114",
+    "src/components/product/ProductHero.jsx:38"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 18,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:93"
+        ],
+        "note": "max 18 (observed max over the product/lens/api/mcp pages' props, measured at build time)"
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 46,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:95"
+        ],
+        "note": "max 46 (observed max over the product/lens/api/mcp pages' props, measured at build time)"
+      },
+      "subtitle": {
+        "type": "string",
+        "required": true,
+        "maxChars": 143,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:96"
+        ],
+        "note": "max 143 (observed max over the product/lens/api/mcp pages' props, measured at build time)"
+      },
+      "icon": {
+        "type": "assetRef",
+        "assetRole": "product-icon",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:98"
+        ]
+      },
+      "screen": {
+        "type": "assetRef",
+        "assetRole": "product-video",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:104"
+        ]
+      },
+      "watchVideo": {
+        "type": "boolean",
+        "required": false,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:108"
+        ],
+        "note": "lens only: 'Watch video' lightbox button over the preview"
+      }
+    }
+  },
+  "mediaFields": [
+    "icon",
+    "screen"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "scroll-parallax-shrink",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/useHeroParallax.js:30",
+      "src/components/product/ProductHero.jsx:38"
+    ],
+    "easing": "in-out-cubic",
+    "trigger": "scroll",
+    "minViewportPx": 768
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-md",
+        "change": "parallax disabled below 768",
+        "measuredFrom": [
+          "src/components/useHeroParallax.js:44"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticTypography.display.hero",
+    "gradient.hero-underlay",
+    "easing.in-out-cubic"
+  ],
+  "usedOnTemplates": [
+    "product-feature",
+    "product-lens",
+    "product-spyder"
+  ],
+  "usedOnRoutes": [
+    "/briefs",
+    "/discovery",
+    "/lens-creative-analytics",
+    "/spyder-ad-spy",
+    "/swipe-file"
+  ]
+}

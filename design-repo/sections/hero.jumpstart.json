@@ -1,0 +1,76 @@
+{
+  "id": "hero.jumpstart",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Jumpstart-2026 hero: spaced uppercase kicker, giant '2026' type, countdown stand-in, rotating circle (60s loop) and background video.",
+  "measuredFrom": [
+    "src/components/misc/Jumpstart.jsx:44"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "kicker": {
+        "type": "string",
+        "required": true,
+        "maxChars": 24,
+        "measuredFrom": [
+          "src/components/misc/Jumpstart.jsx:60"
+        ]
+      },
+      "headline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 8,
+        "measuredFrom": [
+          "src/components/misc/Jumpstart.jsx:63"
+        ]
+      },
+      "countdown": {
+        "type": "boolean",
+        "required": true,
+        "measuredFrom": [
+          "src/components/misc/Jumpstart.jsx:14"
+        ]
+      },
+      "video": {
+        "type": "assetRef",
+        "assetRole": "decorative-media",
+        "required": true,
+        "measuredFrom": [
+          "src/components/misc/Jumpstart.jsx:44"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "video"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "css-rotate-loop",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": true,
+    "measuredFrom": [
+      "src/index.css:379",
+      "src/index.css:400"
+    ],
+    "durationMs": 60000,
+    "easing": "linear",
+    "trigger": "page-load"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "jumpstart"
+  ],
+  "usedOnRoutes": [
+    "/jumpstart-2026"
+  ]
+}

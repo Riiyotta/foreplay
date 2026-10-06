@@ -1,0 +1,22 @@
+{
+  "id": "rating-tile",
+  "kind": "component",
+  "purpose": "Review-site rating tile (40px brand icon, star + score, name pill) on white.",
+  "measuredFrom": [
+    "src/components/community/WorkWith.jsx:197",
+    "src/pages/BookDemo.jsx:11"
+  ],
+  "props": {
+    "icon": {
+      "type": "assetRef",
+      "assetRole": "third-party-mark"
+    },
+    "score": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  },
+  "tokensUsed": []
+}

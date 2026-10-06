@@ -1,0 +1,16 @@
+{
+  "id": "faq-buttons",
+  "kind": "component",
+  "purpose": "'Contact support' (#, intercom stand-in) + 'Knowledge Base' (external, foreplay.featurebase.app) dark-ghost-icon buttons under every Faq section.",
+  "measuredFrom": [
+    "src/components/shared/Faq.jsx:86"
+  ],
+  "props": {},
+  "tokensUsed": [],
+  "composes": [
+    "button"
+  ],
+  "notes": [
+    "Records the clone as-is: the Knowledge Base link was removed from navbar/footer but still exists here as an external link (src/components/shared/Faq.jsx)."
+  ]
+}

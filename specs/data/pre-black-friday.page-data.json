@@ -1,0 +1,37 @@
+{
+ "url": "/pre-black-friday",
+ "title": "Pre Black Friday",
+ "og": "remote(og-only):https://cdn.prod.website-files.com/62a4ed18ddad95dde8b8bfa4/68b7006509405fc31a9ace25_api-open-graph-new.png",
+ "faqs": [
+  {
+   "q": "Do credits carry over?",
+   "aLen": 118,
+   "aBlocks": "p",
+   "links": 0
+  },
+  {
+   "q": "How does pro-rated billing work?",
+   "aLen": 135,
+   "aBlocks": "p",
+   "links": 0
+  },
+  {
+   "q": "When do my credits renew?",
+   "aLen": 197,
+   "aBlocks": "p",
+   "links": 0
+  },
+  {
+   "q": "How are credits calculated?",
+   "aLen": 264,
+   "aBlocks": "p p p p",
+   "links": 0
+  },
+  {
+   "q": "When will my credits be added?",
+   "aLen": 177,
+   "aBlocks": "p",
+   "links": 0
+  }
+ ]
+}

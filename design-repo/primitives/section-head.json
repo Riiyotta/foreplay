@@ -1,0 +1,75 @@
+{
+  "id": "section-head",
+  "kind": "primitive",
+  "purpose": "Centered or left head: overline + title (h1 gradient / h2 / h3 / h3-sm) + paragraph (max 512 by default), dark or light theme.",
+  "measuredFrom": [
+    "src/components/shared/SectionHead.jsx:18",
+    "src/components/shared/SectionHead.jsx:6-11",
+    "src/components/shared/SectionHead.jsx:13-16"
+  ],
+  "props": {
+    "overline": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "titleAs": {
+      "type": "enum",
+      "values": [
+        "h1",
+        "h2",
+        "h3"
+      ]
+    },
+    "size": {
+      "type": "enum",
+      "values": [
+        "h1",
+        "h2",
+        "h3",
+        "h3-sm"
+      ]
+    },
+    "body": {
+      "type": "string"
+    },
+    "bodySize": {
+      "type": "enum",
+      "values": [
+        "l",
+        "m"
+      ]
+    },
+    "theme": {
+      "type": "enum",
+      "values": [
+        "dark",
+        "light"
+      ]
+    },
+    "align": {
+      "type": "enum",
+      "values": [
+        "center",
+        "left"
+      ]
+    },
+    "bodyMax": {
+      "type": "string",
+      "default": "max-w-[512px]"
+    }
+  },
+  "tokensUsed": [
+    "semanticTypography.display.section",
+    "semanticTypography.display.card",
+    "semanticTypography.display.hero",
+    "semanticTypography.body.lead",
+    "semanticColor.text.primary",
+    "semanticColor.text.body",
+    "semanticColor.text.onLight.heading"
+  ],
+  "composes": [
+    "overline"
+  ]
+}

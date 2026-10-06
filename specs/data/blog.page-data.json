@@ -1,0 +1,250 @@
+{
+ "url": "/blog",
+ "title": "Foreplay Blog | Ad Creative, Facebook Ad Library & More",
+ "desc": "‹152ch›",
+ "featured": [
+  {
+   "href": "/post/ad-library-mcp",
+   "img": "/assets/pages/blog/6a341585b0dc1e82740a52f6_maxresdefault.jpg",
+   "title": "‹76ch›",
+   "excerptLen": 145
+  }
+ ],
+ "popular": [
+  {
+   "href": "/post/ad-library-mcp",
+   "title": "‹76ch›"
+  },
+  {
+   "href": "/post/the-2026-super-bowl-ads",
+   "title": "The 2026 Super Bowl Ads"
+  },
+  {
+   "href": "/post/how-to-use-the-worlds-largest-library-of-ads-to-do-creative-strategy-for-your-brands",
+   "title": "‹85ch›"
+  },
+  {
+   "href": "/post/how-to-search-ads-using-the-foreplay-api",
+   "title": "How to Search Ads using the Foreplay API"
+  }
+ ],
+ "popularAuthors": [
+  "Zachary Murray 5 min read",
+  "Zachary Murray 5 min read",
+  "Jack Kavanagh 10 min read",
+  "Jack Kavanagh 10 min read",
+  "Jack Kavanagh 10 min read"
+ ],
+ "categories": [
+  "SAAS Operators Podcast → /category/saas-operators-podcast",
+  "Behind the Bootstraps → /category/behind-the-bootstraps",
+  "Spyder → /category/spyder",
+  "AD&P → /category/ad-p",
+  "Foreplay Ships → /category/foreplay-ships",
+  "TikTok Creative Center → /category/tiktok-creative-center",
+  "Facebook Ad Library → /category/facebook-ad-library",
+  "Ad Briefs → /category/ad-briefs",
+  "Ad Inspiration → /category/ad-inspiration",
+  "Swipe File → /category/swipe-file",
+  "Google Ads → /category/google-ads",
+  "LinkedIn Ads → /category/linkedin-ads",
+  "Creative Strategy → /category/creative-strategy",
+  "TikTok Ads → /category/tiktok-ads",
+  "Meta Ads → /category/meta-ads"
+ ],
+ "cards": [
+  {
+   "href": "/post/ad-library-mcp",
+   "img": "/assets/pages/blog/6a341585b0dc1e82740a52f6_maxresdefault.jpg",
+   "avatar": "/assets/templates/authors/64766a422ca53ffc07495f5a_zach.webp",
+   "author": "Zachary Murray",
+   "title": "‹76ch›",
+   "excerptLen": 145
+  },
+  {
+   "href": "/post/the-2026-super-bowl-ads",
+   "img": "/assets/pages/blog/699c79256759e8e5e5d30ffa_Blog.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "The 2026 Super Bowl Ads",
+   "excerptLen": 286
+  },
+  {
+   "href": "/post/how-to-use-the-worlds-largest-library-of-ads-to-do-creative-strategy-for-your-brands",
+   "img": "/assets/pages/blog/6952d2ca7adeb06040a5df45_Screenshot-2025-12-30-031302.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "‹85ch›",
+   "excerptLen": 81
+  },
+  {
+   "href": "/post/how-to-search-ads-using-the-foreplay-api",
+   "img": "/assets/templates/post/69419aba40b173a35f30c9ca_a.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to Search Ads using the Foreplay API",
+   "excerptLen": 342
+  },
+  {
+   "href": "/post/how-to-save-and-share-ads-with-your-swipe-file-in-foreplay",
+   "img": "/assets/pages/blog/693c5f30484a0cd5f501cabf_das.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "‹58ch›",
+   "excerptLen": 267
+  },
+  {
+   "href": "/post/introduction-to-lens",
+   "img": "/assets/pages/blog/69456cf1f1ab892ffc171ea0_Screenshot-2025-12-19-231856.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "Introduction to Lens",
+   "excerptLen": 186
+  },
+  {
+   "href": "/post/how-to-use-hooks",
+   "img": "/assets/pages/blog/6927673fc6794b5420f10c95_9.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to Use Hooks",
+   "excerptLen": 240
+  },
+  {
+   "href": "/post/how-to-use-spyder-in-foreplay",
+   "img": "/assets/pages/blog/694572dd5122a3be1448b247_asdasdasdasdasdassda.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to Use Spyder in Foreplay",
+   "excerptLen": 259
+  },
+  {
+   "href": "/post/landing-page-strategy",
+   "img": "/assets/pages/blog/69261773d34fb63c0732c8fa_1.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "Landing Page Strategy",
+   "excerptLen": 233
+  },
+  {
+   "href": "/post/how-to-make-an-existing-post-facebook-ad",
+   "img": "/assets/pages/blog/696029e3a3a26e96ca0682ca_Screenshot-2026-01-09-060407.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to Make an Existing Post Facebook Ad",
+   "excerptLen": 215
+  },
+  {
+   "href": "/post/how-to-choose-which-products-to-use-in-ads",
+   "img": "/assets/templates/post/69457266d46515d748370da1_asdas.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to Choose Which Products to Use in Ads",
+   "excerptLen": 156
+  },
+  {
+   "href": "/post/how-to-see-ad-performance-in-meta-ads-manager",
+   "img": "/assets/templates/post/69456f7684a9b4b43238148b_0JGiBQf9TMuqmrssFcG19Jt2tc.avif",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to See Ad Performance in Meta Ads Manager",
+   "excerptLen": 217
+  },
+  {
+   "href": "/post/how-to-sell-creative-strategy-in-a-pitch-with-a-new-potential-client",
+   "img": "/assets/pages/blog/694572043c06755f4d4d1c96_22.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "‹68ch›",
+   "excerptLen": 410
+  },
+  {
+   "href": "/post/how-agencies-deliver-world-class-creative-strategy-services",
+   "img": "/assets/pages/blog/691ce9487b22bd19d325ebd7_6.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How Agencies Deliver World Class Creative Strategy Services",
+   "excerptLen": 174
+  },
+  {
+   "href": "/post/how-creative-strategists-at-agencies-do-their-jobs",
+   "img": "/assets/pages/blog/691ce6c2255dfeeec1fc0991_4.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How Creative Strategists At Agencies Deliver Ad Creative Inspiration",
+   "excerptLen": 192
+  },
+  {
+   "href": "/post/how-to-launch-a-geo-targeted-ads-in-facebook",
+   "img": "/assets/pages/blog/691ce36cb8aaf0ddb240ca4a_2.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to Launch a Geo Targeted Ads in Facebook",
+   "excerptLen": 285
+  },
+  {
+   "href": "/post/the-ugc-that-brought-armra-over-10-000-new-customers",
+   "img": "/assets/pages/blog/691cd89608fca0b4451dc7a9_ARMRA-image-4.webp",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "The UGC That Brought ARMRA Over 10,000 New Customers",
+   "excerptLen": 245
+  },
+  {
+   "href": "/post/how-to-set-up-a-facebook-retargeting-campaign",
+   "img": "/assets/pages/blog/691ccfdb5d8702d524bbacb6_S3.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to Set Up a Facebook Retargeting Campaign",
+   "excerptLen": 195
+  },
+  {
+   "href": "/post/november-lens-update",
+   "img": "/assets/pages/blog/69125b35c75841840a45cc0d_Screenshot-2025-11-10-at-4.37.49 PM.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "November Lens Updates. Upgrade your Creative analytics",
+   "excerptLen": 208
+  },
+  {
+   "href": "/post/how-to-review-ad-creative-performance-in-meta",
+   "img": "/assets/pages/blog/68c301015c6bcaa9060e1eec_Screenshot-2025-09-11-at-12.03.33 PM.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to Review Ad Creative Performance in Meta",
+   "excerptLen": 231
+  },
+  {
+   "href": "/post/how-to-see-your-ad-performance-in-meta",
+   "img": "/assets/pages/blog/696907e636c261a4d2f3b644_benefits-of-meta-ads-c3b437ed.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to See Your Ad Performance in Meta",
+   "excerptLen": 219
+  },
+  {
+   "href": "/post/how-to-choose-which-products-to-use-in-your-ads",
+   "img": "/assets/pages/blog/696907446acae1d82811e8e8_Screenshot-2026-01-15-232548.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to Choose Which Products to Use in Your Ads",
+   "excerptLen": 170
+  },
+  {
+   "href": "/post/how-to-change-attribution-settings-in-facebook-and-instagram-ads",
+   "img": "/assets/pages/blog/68c2f92ddd0329c16ec43795_Screenshot-2025-09-11-at-11.30.28 AM.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How to Change Attribution Settings in Facebook and Instagram Ads",
+   "excerptLen": 207
+  },
+  {
+   "href": "/post/how-foreplay-helps-brands-agencies-and-creative-strategists",
+   "img": "/assets/pages/blog/68c2f6889e889d209400b7a2_Screenshot-2025-09-11-at-11.17.59 AM.png",
+   "avatar": "/assets/pages/blog/679252417b4e7f917c8e9842_T01VC6J4RBM-U081BE37V8T-7338e244e1a2-512.png",
+   "author": "Jack Kavanagh",
+   "title": "How Foreplay Helps Brands, Agencies, and Creative Strategists",
+   "excerptLen": 170
+  }
+ ],
+ "pagination": "1 / 8 Next"
+}

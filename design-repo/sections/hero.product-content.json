@@ -1,0 +1,107 @@
+{
+  "id": "hero.product-content",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Short centred product hero without media (apps-extensions): overline inside, h1, subtitle, one CTA.",
+  "measuredFrom": [
+    "src/components/product/ProductHero.jsx:11",
+    "src/pages/AppsExtensions.jsx:15"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 20,
+        "measuredFrom": [
+          "src/pages/AppsExtensions.jsx:17"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 40,
+        "measuredFrom": [
+          "src/pages/AppsExtensions.jsx:18"
+        ]
+      },
+      "subtitle": {
+        "type": "string",
+        "required": true,
+        "maxChars": 110,
+        "measuredFrom": [
+          "src/pages/AppsExtensions.jsx:19"
+        ]
+      },
+      "primary": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "label": {
+            "type": "string",
+            "required": true,
+            "maxChars": 20,
+            "measuredFrom": [
+              "src/pages/AppsExtensions.jsx:25"
+            ]
+          },
+          "href": {
+            "type": "route-or-url",
+            "required": true,
+            "measuredFrom": [
+              "src/pages/AppsExtensions.jsx:25"
+            ]
+          },
+          "variant": {
+            "type": "enum",
+            "required": false,
+            "values": [
+              "dark-primary",
+              "dark-secondary",
+              "dark-ghost",
+              "light-primary",
+              "dark-stroke",
+              "dark-ghost-icon",
+              "light-stroke",
+              "light-secondary"
+            ],
+            "measuredFrom": [
+              "src/pages/AppsExtensions.jsx:25"
+            ]
+          }
+        },
+        "measuredFrom": [
+          "src/pages/AppsExtensions.jsx:25"
+        ],
+        "note": "Recorded as-is: 'Become an Affiliate' -> getrewardful (external) on the apps page."
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/AppsExtensions.jsx:15"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "semanticTypography.display.hero"
+  ],
+  "usedOnTemplates": [
+    "apps-extensions"
+  ],
+  "usedOnRoutes": [
+    "/apps-extensions"
+  ]
+}

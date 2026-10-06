@@ -1,0 +1,116 @@
+{
+  "$description": "Named motion patterns built from foundation durations/easings. Section-level motion (parallax, logo rain, marquees) is declared per section contract.",
+  "category": "semanticMotion",
+  "semanticMotion": {
+    "buttonHoverDark": {
+      "value": {
+        "duration": "{duration.200}",
+        "easing": "{easing.ease}",
+        "property": "all"
+      },
+      "measuredFrom": "src/components/shared.jsx:12"
+    },
+    "buttonHoverLight": {
+      "value": {
+        "duration": "{duration.150}",
+        "easing": "{easing.ease}",
+        "property": "all"
+      },
+      "measuredFrom": "src/components/shared.jsx:21"
+    },
+    "navLink": {
+      "value": {
+        "duration": "{duration.500}",
+        "easing": "{easing.expo}",
+        "property": "all (colour .52 -> .84)"
+      },
+      "measuredFrom": "src/components/Navbar.jsx:410"
+    },
+    "navDropdown": {
+      "value": {
+        "duration": "{duration.500}",
+        "easing": "{easing.expo}",
+        "from": "opacity 0, translateY(-8px), scale(.96)",
+        "to": "opacity 1, none"
+      },
+      "measuredFrom": "src/components/Navbar.jsx:326"
+    },
+    "dropdownChevron": {
+      "value": {
+        "duration": "{duration.500}",
+        "easing": "{easing.expo-alt}",
+        "property": "rotate 0 -> 180deg on aria-expanded"
+      },
+      "measuredFrom": "src/index.css:79"
+    },
+    "navbarCta": {
+      "value": {
+        "duration": "{duration.600}",
+        "easing": "{easing.expo}",
+        "property": "background #fff -> solid.100"
+      },
+      "measuredFrom": "src/components/Navbar.jsx:468"
+    },
+    "mobileMenu": {
+      "value": {
+        "duration": "{duration.400}",
+        "easing": "{easing.ease}",
+        "property": "translateY(-100%) -> 0"
+      },
+      "measuredFrom": "src/components/Navbar.jsx:444"
+    },
+    "faqAccordion": {
+      "value": {
+        "duration": "{duration.900}",
+        "easing": "{easing.expo}",
+        "property": "height + chevron rotate 180"
+      },
+      "measuredFrom": "src/components/shared/Faq.jsx:61"
+    },
+    "fadeTabs": {
+      "value": {
+        "durationOut": "{duration.100}",
+        "durationIn": "{duration.300}",
+        "easing": "{easing.ease}"
+      },
+      "measuredFrom": "src/components/shared/useFadeTabs.js:8"
+    },
+    "instantTabs": {
+      "value": {
+        "duration": "0ms",
+        "note": "product-card / sharing tabs swap panes instantly; tab links tint over 400ms expo"
+      },
+      "measuredFrom": "src/components/ProductSections.jsx:150"
+    },
+    "tooltip": {
+      "value": {
+        "duration": "{duration.300}",
+        "easing": "{easing.cubic-out}",
+        "from": "opacity 0, translateY(24px) scale(.8)"
+      },
+      "measuredFrom": "src/components/Collaboration.jsx:77"
+    },
+    "modal": {
+      "value": {
+        "in": "modalIn {duration.380} {easing.expo-alt}",
+        "out": "modalOut {duration.260} {easing.expo-alt}"
+      },
+      "measuredFrom": "src/index.css:122"
+    },
+    "spriteHover": {
+      "value": {
+        "duration": "300ms",
+        "easing": "{easing.ease-out-quad}",
+        "note": ">=992 only; background-position steps through N frames"
+      },
+      "measuredFrom": "src/components/shared.jsx:211"
+    },
+    "cardHover": {
+      "value": {
+        "duration": "{duration.200}",
+        "easing": "{easing.ease}"
+      },
+      "measuredFrom": "src/pages/Bounties.jsx:33"
+    }
+  }
+}

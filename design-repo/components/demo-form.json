@@ -1,0 +1,22 @@
+{
+  "id": "demo-form",
+  "kind": "component",
+  "purpose": "Webflow-style lead form (brands / marketers field sets): label rows, inputs/selects, 'Continue' submit, terms line. Never submits.",
+  "measuredFrom": [
+    "src/components/community/WorkWith.jsx:77"
+  ],
+  "props": {
+    "variant": {
+      "type": "enum",
+      "values": [
+        "brands",
+        "marketers"
+      ]
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "form-field",
+    "submit-button"
+  ]
+}

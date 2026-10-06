@@ -1,0 +1,56 @@
+{
+  "$description": "Tailwind screens. The clone is authored desktop-first with max-* variants (max-lg = <=991, max-md = <=767, max-sm = <=479) plus min-width xl (>=1280) and 2xl (>=1440), mirroring Webflow's breakpoints.",
+  "category": "breakpoint",
+  "screens": {
+    "sm": {
+      "minWidth": "480px",
+      "measuredFrom": "tailwind.config.js:8"
+    },
+    "md": {
+      "minWidth": "768px",
+      "measuredFrom": "tailwind.config.js:8"
+    },
+    "lg": {
+      "minWidth": "992px",
+      "measuredFrom": "tailwind.config.js:8"
+    },
+    "xl": {
+      "minWidth": "1280px",
+      "measuredFrom": "tailwind.config.js:8"
+    },
+    "2xl": {
+      "minWidth": "1440px",
+      "measuredFrom": "tailwind.config.js:8"
+    }
+  },
+  "authoringConvention": {
+    "desktopFirst": true,
+    "maxVariants": {
+      "max-lg": "<=991px",
+      "max-md": "<=767px",
+      "max-sm": "<=479px"
+    },
+    "minVariants": {
+      "xl": ">=1280px",
+      "2xl": ">=1440px"
+    },
+    "measuredFrom": "tailwind.config.js:3-4"
+  },
+  "jsBreakpoints": [
+    {
+      "what": "hero parallax active",
+      "rule": "window.innerWidth >= 768",
+      "measuredFrom": "src/components/useHeroParallax.js:14"
+    },
+    {
+      "what": "sprite hover + tilt cards active",
+      "rule": "matchMedia(min-width: 992px)",
+      "measuredFrom": "src/components/shared.jsx:161"
+    },
+    {
+      "what": "logo rain body count",
+      "rule": "<=480: 8, <=768: 12, else 16",
+      "measuredFrom": "src/components/logoRain.js:81"
+    }
+  ]
+}

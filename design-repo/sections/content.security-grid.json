@@ -1,0 +1,211 @@
+{
+  "id": "content.security-grid",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Section head + the 3-card '.lens-security-grid' frame (icon + title, image body, footer text with optional ghost button). Homepage 'Miles beyond the status quo', lens security, spyder use cases, apps-extensions downloads, comparison features.",
+  "measuredFrom": [
+    "src/components/Features.jsx:39",
+    "src/components/shared/SecurityGrid.jsx:24"
+  ],
+  "variants": [
+    {
+      "name": "home-features",
+      "description": "homepage Features (with ghost buttons)",
+      "measuredFrom": [
+        "src/components/Features.jsx:66"
+      ]
+    },
+    {
+      "name": "lens-security",
+      "description": "plainText, fixed body height h-80",
+      "measuredFrom": [
+        "src/pages/Lens.jsx:261"
+      ]
+    },
+    {
+      "name": "spyder-use-cases",
+      "description": "USE CASES grid replacing the carousel",
+      "measuredFrom": [
+        "src/pages/Spyder.jsx:69"
+      ]
+    },
+    {
+      "name": "apps-extensions",
+      "description": "store download cards (external store links)",
+      "measuredFrom": [
+        "src/pages/AppsExtensions.jsx:36"
+      ]
+    },
+    {
+      "name": "comparison-features",
+      "description": "comparison template: reuses homepage CARDS, no ghost buttons",
+      "measuredFrom": [
+        "src/pages/templates/Comparison.jsx:4"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": false,
+        "maxChars": 24,
+        "measuredFrom": [
+          "src/components/Features.jsx:48"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": false,
+        "maxChars": 56,
+        "measuredFrom": [
+          "src/pages/Lens.jsx:255"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": false,
+        "maxChars": 160,
+        "measuredFrom": [
+          "src/pages/templates/Comparison.jsx:44"
+        ],
+        "note": "comparison body is standin(158)"
+      },
+      "cards": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 30,
+              "measuredFrom": [
+                "src/components/Features.jsx:11"
+              ],
+              "note": "max 30 (observed max over the product/lens/api/mcp pages' props, measured at build time)"
+            },
+            "text": {
+              "type": "string",
+              "required": true,
+              "maxChars": 109,
+              "measuredFrom": [
+                "src/pages/AppsExtensions.jsx:41"
+              ]
+            },
+            "icon": {
+              "type": "assetRef",
+              "assetRole": "ui-icon",
+              "required": true,
+              "measuredFrom": [
+                "src/components/Features.jsx:10"
+              ]
+            },
+            "image": {
+              "type": "assetRef",
+              "assetRole": "product-screenshot",
+              "required": false,
+              "measuredFrom": [
+                "src/components/Features.jsx:12"
+              ]
+            },
+            "cta": {
+              "type": "object",
+              "required": false,
+              "fields": {
+                "label": {
+                  "type": "string",
+                  "required": true,
+                  "maxChars": 24,
+                  "measuredFrom": [
+                    "src/components/Features.jsx:15"
+                  ]
+                },
+                "href": {
+                  "type": "route-or-url",
+                  "required": true,
+                  "measuredFrom": [
+                    "src/components/Features.jsx:15"
+                  ]
+                },
+                "variant": {
+                  "type": "enum",
+                  "required": false,
+                  "values": [
+                    "dark-primary",
+                    "dark-secondary",
+                    "dark-ghost",
+                    "light-primary",
+                    "dark-stroke",
+                    "dark-ghost-icon",
+                    "light-stroke",
+                    "light-secondary"
+                  ],
+                  "measuredFrom": [
+                    "src/components/Features.jsx:15"
+                  ]
+                }
+              },
+              "measuredFrom": [
+                "src/components/Features.jsx:15"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/Features.jsx:8"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "cards[].icon",
+    "cards[].image"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/SecurityGrid.jsx:9"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-lg",
+        "change": "features section gap 108 -> 40",
+        "measuredFrom": [
+          "src/components/Features.jsx:42"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "layout.sectionRhythm.featuresY",
+    "elevation.ring-extension"
+  ],
+  "usedOnTemplates": [
+    "apps-extensions",
+    "comparison",
+    "home",
+    "product-lens",
+    "product-spyder"
+  ],
+  "usedOnRoutes": [
+    "/",
+    "/apps-extensions",
+    "/comparison/:slug",
+    "/lens-creative-analytics",
+    "/spyder-ad-spy"
+  ]
+}

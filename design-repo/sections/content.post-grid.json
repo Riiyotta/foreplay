@@ -1,0 +1,194 @@
+{
+  "id": "content.post-grid",
+  "kind": "section",
+  "category": "content",
+  "purpose": "S4 BlogList grid of BlogListCards (3/2/1 cols). blog: 'Explore More Blogs' head + category chips + 24/page grid + ?page=N pagination; csj: SectionHead + 66 cards; category: topic chips + posts in category; author: 'Blogs' feed.",
+  "measuredFrom": [
+    "src/components/templates/CardGrid.jsx:49"
+  ],
+  "variants": [
+    {
+      "name": "blog",
+      "description": "blog index",
+      "measuredFrom": [
+        "src/pages/Blog.jsx:48"
+      ]
+    },
+    {
+      "name": "csj",
+      "description": "creative-strategist-jobs",
+      "measuredFrom": [
+        "src/pages/CreativeStrategistJobs.jsx:39"
+      ]
+    },
+    {
+      "name": "category",
+      "description": "category entry (empty category hides the grid)",
+      "measuredFrom": [
+        "src/pages/templates/Category.jsx:51"
+      ]
+    },
+    {
+      "name": "author",
+      "description": "author 'Blogs' feed (only when non-empty)",
+      "measuredFrom": [
+        "src/pages/templates/Author.jsx:87"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": false,
+        "maxChars": 28,
+        "measuredFrom": [
+          "src/pages/CreativeStrategistJobs.jsx:34"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": false,
+        "maxChars": 64,
+        "measuredFrom": [
+          "src/pages/Blog.jsx:45"
+        ]
+      },
+      "chips": {
+        "type": "array",
+        "required": false,
+        "minItems": 0,
+        "maxItems": 15,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "label": {
+              "type": "string",
+              "required": true,
+              "maxChars": 22,
+              "measuredFrom": [
+                "src/data/category.json:4"
+              ]
+            },
+            "href": {
+              "type": "route",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Blog.jsx:16"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Blog.jsx:16"
+        ]
+      },
+      "cards": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 66,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 104,
+              "measuredFrom": [
+                "src/data/post.json:5"
+              ]
+            },
+            "author": {
+              "type": "string",
+              "required": true,
+              "maxChars": 15,
+              "measuredFrom": [
+                "src/data/post.json:7"
+              ],
+              "personIdentity": true
+            },
+            "excerpt": {
+              "type": "string",
+              "required": true,
+              "maxChars": 191,
+              "measuredFrom": [
+                "src/components/templates/standin.js:128"
+              ],
+              "copyBudget": {
+                "generator": "paragraph",
+                "targetChars": 120,
+                "upperBoundChars": 191
+              },
+              "standIn": true
+            },
+            "cover": {
+              "type": "assetRef",
+              "assetRole": "editorial-image",
+              "required": true,
+              "measuredFrom": [
+                "src/data/post.json:10"
+              ]
+            },
+            "href": {
+              "type": "route",
+              "required": true,
+              "measuredFrom": [
+                "src/components/templates/CardGrid.jsx:37"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/templates/CardGrid.jsx:49"
+        ]
+      },
+      "pagination": {
+        "type": "boolean",
+        "required": false,
+        "measuredFrom": [
+          "src/pages/Blog.jsx:49"
+        ],
+        "note": "blog only: 24 per page"
+      }
+    }
+  },
+  "mediaFields": [
+    "cards[].cover"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "specs/_shared-templates.md:54"
+    ],
+    "durationMs": 200
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "layout.grid.blogList",
+    "component.blogListCard.radius"
+  ],
+  "usedOnTemplates": [
+    "author",
+    "blog-index",
+    "category",
+    "creative-strategist-jobs"
+  ],
+  "usedOnRoutes": [
+    "/authors/:slug",
+    "/blog",
+    "/category/:slug",
+    "/creative-strategist-jobs"
+  ]
+}

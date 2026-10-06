@@ -1,0 +1,86 @@
+{
+  "id": "hero.ships",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Ships legacy '2.0' header: helmet icon + 'Foreplay Ships' (Circular, gradient), Ebgaramond 54px title, light stand-in subline, header art.",
+  "measuredFrom": [
+    "src/pages/Ships.jsx:12"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "eyebrow": {
+        "type": "string",
+        "required": true,
+        "maxChars": 14,
+        "measuredFrom": [
+          "src/pages/Ships.jsx:24"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 40,
+        "measuredFrom": [
+          "src/pages/Ships.jsx:28"
+        ]
+      },
+      "subline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 101,
+        "measuredFrom": [
+          "src/pages/Ships.jsx:32"
+        ],
+        "copyBudget": {
+          "generator": "standin",
+          "targetChars": 101,
+          "upperBoundChars": 101
+        },
+        "standIn": true
+      },
+      "art": {
+        "type": "assetRef",
+        "assetRole": "decorative-media",
+        "required": true,
+        "measuredFrom": [
+          "src/pages/Ships.jsx:16"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "art"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true,
+    "theme": "ships-legacy"
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/Ships.jsx:12"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "gradient.css.ships-name",
+    "gradient.css.ships-title",
+    "fontFamily.ebgaramond",
+    "fontFamily.circular",
+    "layout.container.legacy1200"
+  ],
+  "usedOnTemplates": [
+    "ships"
+  ],
+  "usedOnRoutes": [
+    "/ships"
+  ]
+}

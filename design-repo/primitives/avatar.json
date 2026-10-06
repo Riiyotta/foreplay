@@ -1,0 +1,32 @@
+{
+  "id": "avatar",
+  "kind": "primitive",
+  "purpose": "Round or rounded-square headshot (testimonial pins 72px round, event meta 24px, author/expert profile 96/80/64 radius 10).",
+  "measuredFrom": [
+    "src/components/templates/Profile.jsx:5",
+    "src/components/Collaboration.jsx:102"
+  ],
+  "props": {
+    "src": {
+      "type": "assetRef",
+      "assetRole": "person-portrait"
+    },
+    "size": {
+      "type": "enum",
+      "values": [
+        "24",
+        "28",
+        "48",
+        "72",
+        "96"
+      ]
+    }
+  },
+  "tokensUsed": [
+    "semanticRadius.avatar",
+    "elevation.avatar-hover"
+  ],
+  "notes": [
+    "Always a person-portrait asset: generated pages must use placeholder refs, never real photos."
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "pricing.plans",
+  "kind": "section",
+  "category": "pricing",
+  "purpose": "Pricing hero + plans: h1 gradient head, Monthly/Annually toggle (instant swap, Annually default), 3 PlanCards with benefit popovers, and the Enterprise card.",
+  "measuredFrom": [
+    "src/pages/Pricing.jsx:185",
+    "src/pages/Pricing.jsx:186"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 7,
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:194"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 27,
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:195"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 120,
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:198"
+        ]
+      },
+      "billingTabs": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "string",
+          "required": true,
+          "maxChars": 8,
+          "measuredFrom": [
+            "src/pages/Pricing.jsx:187"
+          ]
+        },
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:187"
+        ]
+      },
+      "annualNote": {
+        "type": "string",
+        "required": true,
+        "maxChars": 27,
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:226"
+        ]
+      },
+      "plans": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "name": {
+              "type": "string",
+              "required": true,
+              "maxChars": 8,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:36"
+              ]
+            },
+            "price": {
+              "type": "string",
+              "required": true,
+              "maxChars": 4,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:49"
+              ]
+            },
+            "save": {
+              "type": "string",
+              "required": false,
+              "maxChars": 18,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:50"
+              ]
+            },
+            "description": {
+              "type": "string",
+              "required": true,
+              "maxChars": 78,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:28"
+              ]
+            },
+            "users": {
+              "type": "string",
+              "required": true,
+              "maxChars": 8,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:51"
+              ]
+            },
+            "extra": {
+              "type": "string",
+              "required": true,
+              "maxChars": 23,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:32"
+              ]
+            },
+            "primary": {
+              "type": "boolean",
+              "required": false,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:37"
+              ]
+            },
+            "benefits": {
+              "type": "array",
+              "required": true,
+              "minItems": 3,
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "required": true,
+                "fields": {
+                  "text": {
+                    "type": "string",
+                    "required": true,
+                    "maxChars": 32,
+                    "measuredFrom": [
+                      "src/pages/Pricing.jsx:13"
+                    ]
+                  },
+                  "value": {
+                    "type": "string",
+                    "required": false,
+                    "maxChars": 10,
+                    "measuredFrom": [
+                      "src/pages/Pricing.jsx:53"
+                    ]
+                  },
+                  "icon": {
+                    "type": "assetRef",
+                    "assetRole": "ui-icon",
+                    "required": true,
+                    "measuredFrom": [
+                      "src/pages/Pricing.jsx:13"
+                    ]
+                  }
+                }
+              },
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:24"
+              ],
+              "note": "Workflow/Agency: spyder, lens, one grouped row (AI/chrome/IG), then the 3 base rows"
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:236"
+        ]
+      },
+      "enterprise": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "subtitle": {
+            "type": "string",
+            "required": true,
+            "maxChars": 51,
+            "measuredFrom": [
+              "src/pages/Pricing.jsx:244"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "required": true,
+            "maxChars": 14,
+            "measuredFrom": [
+              "src/pages/Pricing.jsx:245"
+            ]
+          },
+          "items": {
+            "type": "array",
+            "required": true,
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "string",
+              "required": true,
+              "maxChars": 48,
+              "measuredFrom": [
+                "src/pages/Pricing.jsx:246"
+              ]
+            },
+            "measuredFrom": [
+              "src/pages/Pricing.jsx:246"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true
+  },
+  "motion": {
+    "pattern": "instant-tabs",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/Pricing.jsx:186"
+    ],
+    "durationMs": 0,
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-lg",
+        "change": "plan cards 1 column",
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:235"
+        ]
+      },
+      {
+        "at": "max-sm",
+        "change": "toggle becomes a 2-col grid",
+        "measuredFrom": [
+          "src/pages/Pricing.jsx:206"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [
+    "layout.grid.planCards",
+    "semanticTypography.display.hero",
+    "elevation.popover",
+    "easing.in-quad-ish"
+  ],
+  "usedOnTemplates": [
+    "pricing"
+  ],
+  "usedOnRoutes": [
+    "/pricing"
+  ]
+}

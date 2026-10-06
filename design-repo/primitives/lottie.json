@@ -1,0 +1,39 @@
+{
+  "id": "lottie",
+  "kind": "primitive",
+  "purpose": "lottie-web player: hover (play forward on enter, scrub back on leave) or loop.",
+  "measuredFrom": [
+    "src/components/shared/LottieHover.jsx:23"
+  ],
+  "props": {
+    "src": {
+      "type": "assetRef",
+      "assetRole": "lottie-animation"
+    },
+    "mode": {
+      "type": "enum",
+      "values": [
+        "hover",
+        "loop"
+      ]
+    },
+    "inMs": {
+      "type": "integer",
+      "default": 4000
+    },
+    "outMs": {
+      "type": "integer",
+      "default": 4000
+    }
+  },
+  "tokensUsed": [],
+  "motion": {
+    "pattern": "lottie-hover",
+    "reducedMotionFallback": "first-frame",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/shared/LottieHover.jsx:23"
+    ],
+    "durationMs": 4000
+  }
+}

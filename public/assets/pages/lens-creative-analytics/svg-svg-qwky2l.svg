@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 520 520">
+        <defs>
+            <linearGradient id="rainbow-gradient" x1="0%" y1="0%" x2="0%" y2="1200%">
+                <stop offset="0%" stop-color="#E77F6E"></stop>
+                <stop offset="3.33%" stop-color="#FFC852"></stop>
+                <stop offset="6.66%" stop-color="#D2E382"></stop>
+                <stop offset="10%" stop-color="#7CDDB5"></stop>
+                <stop offset="13.33%" stop-color="#5DBCE5"></stop>
+                <stop offset="16.66%" stop-color="#5D8FE5"></stop>
+                <stop offset="20%" stop-color="#5DBCE5"></stop>
+                <stop offset="23.33%" stop-color="#7CDDB5"></stop>
+                <stop offset="26.66%" stop-color="#D2E382"></stop>
+                <stop offset="30%" stop-color="#FFC852"></stop>
+                <stop offset="33.33%" stop-color="#E77F6E"></stop>
+                <stop offset="36.66%" stop-color="#FFC852"></stop>
+                <stop offset="40%" stop-color="#D2E382"></stop>
+                <stop offset="43.33%" stop-color="#7CDDB5"></stop>
+                <stop offset="46.66%" stop-color="#5DBCE5"></stop>
+                <stop offset="50%" stop-color="#5D8FE5"></stop>
+                <stop offset="53.33%" stop-color="#5DBCE5"></stop>
+                <stop offset="56.66%" stop-color="#7CDDB5"></stop>
+                <stop offset="60%" stop-color="#D2E382"></stop>
+                <stop offset="63.33%" stop-color="#FFC852"></stop>
+                <stop offset="66.66%" stop-color="#E77F6E"></stop>
+                <stop offset="70%" stop-color="#FFC852"></stop>
+                <stop offset="73.33%" stop-color="#D2E382"></stop>
+                <stop offset="76.66%" stop-color="#7CDDB5"></stop>
+                <stop offset="80%" stop-color="#5DBCE5"></stop>
+                <stop offset="83.33%" stop-color="#5D8FE5"></stop>
+                <stop offset="86.66%" stop-color="#5DBCE5"></stop>
+                <stop offset="90%" stop-color="#7CDDB5"></stop>
+                <stop offset="93.33%" stop-color="#D2E382"></stop>
+                <stop offset="96.66%" stop-color="#FFC852"></stop>
+
+                <animate attributeName="y1" from="0%" to="-400%" dur="8s" repeatCount="indefinite" fill="remove"></animate>
+                <animate attributeName="y2" from="1200%" to="800%" dur="8s" repeatCount="indefinite" fill="remove"></animate>
+            </linearGradient>
+
+            <clipPath id="intersection-clip">
+                <path d="M260 485C338.219 440.605 391 356.476 391 260C391 163.524 338.219 79.395 260 35C181.781 79.395 129 163.524 129 260C129 356.476 181.781 440.605 260 485Z"></path>
+            </clipPath>
+        </defs>
+
+        <rect x="0" y="0" width="520" height="520" fill="url(#rainbow-gradient)" clip-path="url(#intersection-clip)"></rect>
+    </svg>

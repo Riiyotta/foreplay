@@ -1,0 +1,102 @@
+{
+  "id": "content.ships-grid",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Ships white grid: 2-col release cards (image 300/400/175 tall, date, Ebgaramond title hover cta, light stand-in excerpt).",
+  "measuredFrom": [
+    "src/pages/Ships.jsx:42"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "items": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 40,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "date": {
+              "type": "string",
+              "required": true,
+              "maxChars": 18,
+              "measuredFrom": [
+                "src/components/misc/pageData.js:74"
+              ]
+            },
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 55,
+              "measuredFrom": [
+                "src/components/misc/pageData.js:74"
+              ]
+            },
+            "excerpt": {
+              "type": "string",
+              "required": true,
+              "maxChars": 519,
+              "measuredFrom": [
+                "src/pages/Ships.jsx:60"
+              ],
+              "copyBudget": {
+                "generator": "standin",
+                "targetChars": 519,
+                "upperBoundChars": 519
+              },
+              "standIn": true,
+              "note": "excerptLen max 519 in SHIPS_ITEMS"
+            },
+            "image": {
+              "type": "assetRef",
+              "assetRole": "product-screenshot",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Ships.jsx:47"
+              ]
+            },
+            "href": {
+              "type": "route",
+              "required": true,
+              "measuredFrom": [
+                "src/pages/Ships.jsx:45"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/misc/pageData.js:74"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "items[].image"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "theme": "ships-legacy"
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/Ships.jsx:45"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "ships"
+  ],
+  "usedOnRoutes": [
+    "/ships"
+  ]
+}

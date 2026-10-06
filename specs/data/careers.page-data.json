@@ -1,0 +1,31 @@
+{
+ "url": "/careers",
+ "title": "Jobs at Foreplay",
+ "desc": "‹145ch›",
+ "jobs": [
+  {
+   "title": "Customer Support Representative",
+   "meta": [
+    "Full Time",
+    "Remote"
+   ],
+   "href": "/careers/customer-support-representative"
+  },
+  {
+   "title": "AI Ops & Automation Engineer",
+   "meta": [
+    "Full Time",
+    "Remote"
+   ],
+   "href": "/careers/ai-ops-automation-engineer"
+  },
+  {
+   "title": "Account Executive",
+   "meta": [
+    "Full Time",
+    "Remote"
+   ],
+   "href": "/careers/account-executive"
+  }
+ ]
+}

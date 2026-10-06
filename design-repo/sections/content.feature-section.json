@@ -1,0 +1,176 @@
+{
+  "id": "content.feature-section",
+  "kind": "section",
+  "category": "content",
+  "purpose": "'ALL FEATURES' groups of feature cards (image or lottie, title, text), optionally followed by a customer testimonial per group.",
+  "measuredFrom": [
+    "src/components/product/FeatureSection.jsx:53"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "overline": {
+        "type": "string",
+        "required": true,
+        "maxChars": 16,
+        "measuredFrom": [
+          "src/components/product/FeatureSection.jsx:53"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 37,
+        "measuredFrom": [
+          "src/pages/Briefs.jsx:82"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 164,
+        "measuredFrom": [
+          "src/pages/Briefs.jsx:82"
+        ],
+        "note": "max 164 (observed max over the product/lens/api/mcp pages' props, measured at build time)"
+      },
+      "groups": {
+        "type": "array",
+        "required": true,
+        "minItems": 1,
+        "maxItems": 4,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "features": {
+              "type": "array",
+              "required": true,
+              "minItems": 2,
+              "maxItems": 6,
+              "items": {
+                "type": "object",
+                "required": true,
+                "fields": {
+                  "title": {
+                    "type": "string",
+                    "required": true,
+                    "maxChars": 37,
+                    "measuredFrom": [
+                      "src/components/product/FeatureSection.jsx:10"
+                    ]
+                  },
+                  "text": {
+                    "type": "string",
+                    "required": true,
+                    "maxChars": 81,
+                    "measuredFrom": [
+                      "src/components/product/FeatureSection.jsx:10"
+                    ]
+                  },
+                  "media": {
+                    "type": "assetRef",
+                    "assetRole": "product-screenshot",
+                    "required": true,
+                    "measuredFrom": [
+                      "src/components/product/FeatureSection.jsx:10"
+                    ]
+                  }
+                }
+              },
+              "measuredFrom": [
+                "src/components/product/FeatureSection.jsx:41"
+              ]
+            },
+            "testimonial": {
+              "type": "object",
+              "required": false,
+              "fields": {
+                "quote": {
+                  "type": "string",
+                  "required": true,
+                  "maxChars": 263,
+                  "measuredFrom": [
+                    "src/components/product/Testimonial.jsx:12"
+                  ],
+                  "standIn": true
+                },
+                "name": {
+                  "type": "string",
+                  "required": true,
+                  "maxChars": 16,
+                  "measuredFrom": [
+                    "src/components/product/Testimonial.jsx:12"
+                  ],
+                  "personIdentity": true
+                },
+                "role": {
+                  "type": "string",
+                  "required": true,
+                  "maxChars": 30,
+                  "measuredFrom": [
+                    "src/components/product/Testimonial.jsx:12"
+                  ],
+                  "personIdentity": true
+                },
+                "avatar": {
+                  "type": "assetRef",
+                  "assetRole": "person-portrait",
+                  "required": true,
+                  "measuredFrom": [
+                    "src/components/product/Testimonial.jsx:12"
+                  ]
+                },
+                "logo": {
+                  "type": "assetRef",
+                  "assetRole": "customer-logo",
+                  "required": true,
+                  "measuredFrom": [
+                    "src/components/product/Testimonial.jsx:12"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/product/FeatureSection.jsx:64"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "groups[].features[].media",
+    "groups[].testimonial.avatar",
+    "groups[].testimonial.logo"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "lottie-hover",
+    "reducedMotionFallback": "first-frame",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/product/FeatureSection.jsx:20"
+    ],
+    "durationMs": 4000,
+    "trigger": "hover"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "product-feature",
+    "product-spyder"
+  ],
+  "usedOnRoutes": [
+    "/briefs",
+    "/discovery",
+    "/spyder-ad-spy",
+    "/swipe-file"
+  ]
+}

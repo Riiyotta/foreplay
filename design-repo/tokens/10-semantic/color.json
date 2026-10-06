@@ -1,0 +1,162 @@
+{
+  "$description": "Semantic colour roles. Every value is a reference into 00-foundation/color.json; the default (dark) theme resolves them in themes/dark.json. Roles were picked from the most-used colour utilities (see utilityUsage in the foundation file) and the CLONE_SPEC 0.4 'Used for' column, then pinned to a real usage site.",
+  "category": "semanticColor",
+  "semanticColor": {
+    "text.primary": {
+      "value": "{color.neutral.0}",
+      "measuredFrom": "src/components/CTA.jsx:15",
+      "note": "Headings and labels on dark surfaces (text-neutral-0 / text-white are both #fff)."
+    },
+    "text.body": {
+      "value": "{color.neutral.100}",
+      "measuredFrom": "src/components/CTA.jsx:21",
+      "note": "Paragraph copy on dark (.68). Most-used text colour utility."
+    },
+    "text.emphasis": {
+      "value": "{color.neutral.50}",
+      "measuredFrom": "src/components/Hero.jsx:35",
+      "note": "Hero subtitle, card text (.84)."
+    },
+    "text.muted": {
+      "value": "{color.neutral.300}",
+      "measuredFrom": "src/index.css:42",
+      "note": "Body default colour (.36): overlines, legal row."
+    },
+    "text.subtle": {
+      "value": "{color.neutral.200}",
+      "measuredFrom": "src/components/ProductSections.jsx:151",
+      "note": "Inactive tab labels (.44)."
+    },
+    "text.hero": {
+      "value": "{color.hero-title}",
+      "measuredFrom": "src/components/Hero.jsx:31",
+      "note": "Hero h1 fallback colour under the gradient clip."
+    },
+    "text.link": {
+      "value": "{color.link}",
+      "measuredFrom": "src/index.css:51",
+      "note": "Webflow base anchor colour (#3a6ffb) where not overridden."
+    },
+    "text.onLight.strong": {
+      "value": "{color.solid.900}",
+      "measuredFrom": "src/components/BeforeAfter.jsx:60",
+      "note": "Dark text on white blocks."
+    },
+    "text.onLight.heading": {
+      "value": "{color.solid.700}",
+      "measuredFrom": "src/components/BeforeAfter.jsx:40",
+      "note": "White-block headings (WhiteBlock sets text-solid-700)."
+    },
+    "text.onLight.body": {
+      "value": "{color.solid.600}",
+      "measuredFrom": "src/components/BeforeAfter.jsx:44",
+      "note": "Paragraphs on white."
+    },
+    "text.onLight.muted": {
+      "value": "{color.solid.500}",
+      "measuredFrom": "src/components/BeforeAfter.jsx:61",
+      "note": "Muted copy on white."
+    },
+    "text.onLight.overline": {
+      "value": "{color.solid.400}",
+      "measuredFrom": "src/components/Collaboration.jsx:130",
+      "note": "Overlines on white."
+    },
+    "surface.page": {
+      "value": "{color.background}",
+      "measuredFrom": "src/index.css:42",
+      "note": "Page background #020308."
+    },
+    "surface.whiteBlock": {
+      "value": "{color.neutral.0}",
+      "measuredFrom": "src/components/shared/Layout.jsx:27",
+      "note": "The rounded white 'section-white-block' panel."
+    },
+    "surface.cardDark": {
+      "value": "{color.background}",
+      "measuredFrom": "src/components/BeforeAfter.jsx:80",
+      "note": "Dark card on white (After Foreplay) and dark list cards."
+    },
+    "surface.raised": {
+      "value": "{color.neutral.800}",
+      "measuredFrom": "src/components/ProductSections.jsx:180",
+      "note": "Product figure panel (.06)."
+    },
+    "surface.hover": {
+      "value": "{color.neutral.700}",
+      "measuredFrom": "src/components/shared.jsx:18",
+      "note": "Ghost/stroke hover fill (.10)."
+    },
+    "surface.subtleLight": {
+      "value": "{color.solid.25}",
+      "measuredFrom": "src/components/shared.jsx:33",
+      "note": "Light secondary button / pills on white."
+    },
+    "surface.nav": {
+      "value": "{color.nav.bg}",
+      "measuredFrom": "src/components/Navbar.jsx:416",
+      "note": "Sticky navbar (.92) with 24px backdrop blur; <=767 nav.bg-mobile without blur."
+    },
+    "surface.navMobile": {
+      "value": "{color.nav.bg-mobile}",
+      "measuredFrom": "src/components/Navbar.jsx:416"
+    },
+    "surface.overlayExit": {
+      "value": "{color.exit-overlay}",
+      "measuredFrom": "src/components/ExitIntentModal.jsx:44"
+    },
+    "surface.overlayLightbox": {
+      "value": "{color.lightbox-backdrop}",
+      "measuredFrom": "src/components/Navbar.jsx:352"
+    },
+    "surface.contest": {
+      "value": "{color.contest.bg}",
+      "measuredFrom": "src/index.css:310",
+      "note": "Only inside the .contest scoped theme."
+    },
+    "border.dark": {
+      "value": "{color.neutral.700}",
+      "measuredFrom": "src/pages/Bounties.jsx:29",
+      "note": "1px card/panel border on dark (most-used border colour)."
+    },
+    "border.divider": {
+      "value": "{color.neutral.600}",
+      "measuredFrom": "src/components/Footer.jsx:166",
+      "note": "Footer divider, ring-neutral-600."
+    },
+    "border.light": {
+      "value": "{color.solid.50}",
+      "measuredFrom": "tailwind.config.js:208",
+      "note": "Card ring on white (#e9eaef)."
+    },
+    "border.nav": {
+      "value": "{color.nav.border}",
+      "measuredFrom": "src/components/Navbar.jsx:329",
+      "note": "Dropdown panel border."
+    },
+    "border.cardOnLight": {
+      "value": "{color.solid.700}",
+      "measuredFrom": "tailwind.config.js:210",
+      "note": "Extension card / features grid ring."
+    },
+    "accent.cta": {
+      "value": "{color.cta}",
+      "measuredFrom": "tailwind.config.js:44",
+      "note": "Swipe File glow; ships link hover; contest CTA."
+    },
+    "accent.live": {
+      "value": "{color.teal}",
+      "measuredFrom": "src/components/Footer.jsx:243",
+      "note": "Live dot; bounty status."
+    },
+    "accent.online": {
+      "value": "{color.lime-green}",
+      "measuredFrom": "src/components/CalendarPopup.jsx:12",
+      "note": "Calendar online dot."
+    },
+    "accent.spyder": {
+      "value": "{color.spyder}",
+      "measuredFrom": "tailwind.config.js:45"
+    }
+  }
+}

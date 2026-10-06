@@ -1,0 +1,18 @@
+{
+  "$description": "Component-scoped values for whiteBlock.",
+  "category": "component",
+  "whiteBlock": {
+    "inset": {
+      "value": "8px (p-2)",
+      "measuredFrom": "src/components/shared/Layout.jsx:25"
+    },
+    "radius": {
+      "value": "{semanticRadius.whiteBlock}",
+      "measuredFrom": "src/components/shared/Layout.jsx:27"
+    },
+    "text": {
+      "value": "{color.solid.700}",
+      "measuredFrom": "src/components/shared/Layout.jsx:27"
+    }
+  }
+}

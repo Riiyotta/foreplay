@@ -1,0 +1,79 @@
+{
+  "id": "content.event-more",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Event aside: 'Watch More Replays' row (-> /fireside-replays) + 3 latest UpcomingCards.",
+  "measuredFrom": [
+    "src/pages/templates/Event.jsx:138"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 20,
+        "measuredFrom": [
+          "src/pages/templates/Event.jsx:145"
+        ]
+      },
+      "cards": {
+        "type": "array",
+        "required": true,
+        "minItems": 3,
+        "maxItems": 3,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 107,
+              "measuredFrom": [
+                "src/data/events.json:4"
+              ]
+            },
+            "thumbnail": {
+              "type": "assetRef",
+              "assetRole": "editorial-image",
+              "required": true,
+              "measuredFrom": [
+                "src/data/events.json:10"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/templates/Event.jsx:153"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "cards[].thumbnail"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/Event.jsx:138"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "event"
+  ],
+  "usedOnRoutes": [
+    "/events/:slug"
+  ]
+}

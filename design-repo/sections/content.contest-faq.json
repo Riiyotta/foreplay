@@ -1,0 +1,86 @@
+{
+  "id": "content.contest-faq",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Contest FAQ ('Questions? We got answers!'): ContestFaqItem rows (IX2 accordion, contest theme).",
+  "measuredFrom": [
+    "src/components/community/contest.jsx:103"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 28,
+        "measuredFrom": [
+          "src/pages/ContestSubmission.jsx:269"
+        ]
+      },
+      "items": {
+        "type": "array",
+        "required": true,
+        "minItems": 9,
+        "maxItems": 9,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "q": {
+              "type": "string",
+              "required": true,
+              "maxChars": 40,
+              "measuredFrom": [
+                "src/pages/ContestSubmission.jsx:50"
+              ]
+            },
+            "a": {
+              "type": "string",
+              "required": true,
+              "maxChars": 302,
+              "measuredFrom": [
+                "src/pages/ContestSubmission.jsx:60"
+              ],
+              "copyBudget": {
+                "generator": "copy",
+                "targetChars": 290,
+                "upperBoundChars": 302
+              },
+              "standIn": true,
+              "note": "copy(n), n max 290"
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/pages/ContestSubmission.jsx:50"
+        ]
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true,
+    "theme": "contest"
+  },
+  "motion": {
+    "pattern": "accordion-height",
+    "reducedMotionFallback": "instant",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/community/contest.jsx:103"
+    ],
+    "trigger": "click"
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.contest",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "contest-submission"
+  ],
+  "usedOnRoutes": [
+    "/contest-submission"
+  ]
+}

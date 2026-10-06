@@ -1,0 +1,98 @@
+{
+  "$description": "Button: base = flex, padding 8px, radius {borderRadius.10}, z-5; label .text-heading-m in a 0 6px block; optional 24px chevron (opacity .68, or 1 with iconFull). 8 variants exist in code (src/components/README.md lists 7; light-secondary is the extra one).",
+  "category": "component",
+  "base": {
+    "radius": "{borderRadius.10}",
+    "padding": "8px",
+    "label": "{fontSize.heading-m}",
+    "iconBox": "{iconSize.6}",
+    "measuredFrom": "src/components/shared.jsx:6-7"
+  },
+  "button": {
+    "dark-primary": {
+      "classes": {
+        "bg": "{color.neutral.0}",
+        "text": "{color.solid.900}",
+        "hoverBg": "{color.neutral.50}",
+        "activeBg": "{color.neutral.200}",
+        "weight": 600,
+        "motion": "{semanticMotion.buttonHoverDark}",
+        "focus": "{elevation.focus-dark}"
+      },
+      "measuredFrom": "src/components/shared.jsx:11-12"
+    },
+    "dark-secondary": {
+      "classes": {
+        "bg": "{color.solid.900}",
+        "text": "{color.solid.0}",
+        "border": "1px {color.solid.600}",
+        "hoverBg": "{color.neutral.800}",
+        "activeBg": "{color.neutral.400}",
+        "weight": 600,
+        "motion": "{semanticMotion.buttonHoverDark}"
+      },
+      "measuredFrom": "src/components/shared.jsx:14-15"
+    },
+    "dark-ghost": {
+      "classes": {
+        "bg": "{color.background}",
+        "text": "{color.solid.0}",
+        "hoverBg": "{color.neutral.700}",
+        "activeBg": "{color.neutral.500}",
+        "weight": 600
+      },
+      "measuredFrom": "src/components/shared.jsx:17-18"
+    },
+    "light-primary": {
+      "classes": {
+        "bg": "{color.background}",
+        "text": "{color.solid.0}",
+        "hoverBg": "{color.solid.600}",
+        "activeBg": "{color.solid.400}",
+        "weight": 500,
+        "motion": "{semanticMotion.buttonHoverLight}",
+        "focus": "{elevation.focus-light}"
+      },
+      "measuredFrom": "src/components/shared.jsx:20-21"
+    },
+    "dark-stroke": {
+      "classes": {
+        "bg": "{color.background}",
+        "text": "{color.solid.0}",
+        "ring": "{elevation.ring-neutral-600}",
+        "hoverBg": "{color.neutral.700}",
+        "weight": 600
+      },
+      "measuredFrom": "src/components/shared.jsx:23-24"
+    },
+    "dark-ghost-icon": {
+      "classes": {
+        "bg": "{color.background}",
+        "text": "{color.solid.0}",
+        "gap": "5px",
+        "hoverBg": "{color.neutral.700}",
+        "weight": 600
+      },
+      "measuredFrom": "src/components/shared.jsx:26-27"
+    },
+    "light-stroke": {
+      "classes": {
+        "bg": "{color.solid.0}",
+        "text": "{color.solid.900}",
+        "ring": "{elevation.ring-card}",
+        "hoverBg": "{color.solid.25}",
+        "activeBg": "{color.solid.50}"
+      },
+      "measuredFrom": "src/components/shared.jsx:29-30"
+    },
+    "light-secondary": {
+      "classes": {
+        "bg": "{color.solid.25}",
+        "text": "{color.solid.900}",
+        "hoverBg": "{color.solid.50}",
+        "activeBg": "{color.solid.100}"
+      },
+      "measuredFrom": "src/components/shared.jsx:32-33"
+    }
+  }
+}

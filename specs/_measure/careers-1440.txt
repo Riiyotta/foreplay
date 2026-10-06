@@ -1,0 +1,52 @@
+URL https://www.foreplay.co/careers W1440 docH 1902 title="Jobs at Foreplay" wfpage=64a72a4948f6bf39ef9ec668 bodyclass=body bodybg=rgb(2, 3, 8) bodycolor=rgba(255, 255, 255, 0.36)
+body.body [0,0 1440x1902] minh:100% bg:rgb(2, 3, 8) of:clip visible
+  div.global [0,0 0x0] pos:fixed t0px r1440px b900px l0px of:clip
+  div.main [0,72 1440x446] 
+    div.section.overflow-hidden [0,72 1440x446] of:hidden
+      div.container.section-container [48,72 1344x446] p:0px 40px m:0px 48px maxw:1344px
+        div.demo-hero [88,72 1264x446] d:flex fx:column/center/flex-start p:120px 0px
+          div.section-head [360,192 720x206] d:flex fx:column/center/flex-start gap:12px m:0px 272px maxw:720px
+            div.section-head-wrapper [464,192 512x206] d:flex fx:column/center/normal gap:12px
+              div.section-head_subtitle [685,192 69x16] 
+                div.text-overline.text-white-68 [685,192 69x16]  {Inter 12px/16px w550 ls2px c:rgba(255, 255, 255, 0.36) uppercase ta:center} "CAREERS" (1L)
+              div.section-head_title [556,220 328x54] 
+                h1.text-display-h2 [556,220 328x54]  {Inter Display 44px/53.76px w600 ls-0.33px c:rgb(255, 255, 255) ta:center} "Jobs @ Foreplay" (1L)
+              div.section-head_paragraph [464,286 512x112] maxw:512px
+                div.text-alpha-100 [464,286 512x112] flex:1 1 0%
+                  p.text-body-l [464,286 512x112]  {Inter 18px/28px w400 ls-0.259999px c:rgba(255, 255, 255, 0.68) ta:center} [TEXT 177ch 4L]
+  section.section [0,518 1440x452] 
+    div.section-padding [0,518 1440x452] p:8px
+      div.section-white-block [8,526 1424x436] bg:rgb(255, 255, 255) r:36px pos:relative of:hidden z:2
+        div.container.section-container [48,526 1344x436] p:0px 40px m:0px 40px maxw:1344px
+          div.product-page-solution [250,526 940x436] d:flex fx:column/stretch/flex-start gap:36px p:80px 0px m:0px 162px maxw:940px
+            div.w-dyn-list [250,606 940x276] 
+              div.jobs-list.w-dyn-items [250,606 940x276] d:flex fx:column/normal/normal gap:15px @role=list
+                div.w-dyn-item [250,606 940x82]  @role=listitem
+                  div.job-list-link [250,606 940x82] d:flex fx:row/center/flex-start gap:16px p:20px r:20px b:1px solid rgb(221, 222, 229)
+                    div.text-label-m [271,635 255x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(9, 10, 14)} "Customer Support Representative" (1L)
+                    div.jobs-destinction [542,635 477x24] d:flex fx:row/center/flex-end gap:12px flex:1 1 0%
+                      div.text-label-m [870,635 67x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ws:nowrap} "Full Time" (1L)
+                      div.jobs-divider [949,641 1x12] bg:rgb(195, 197, 210)
+                      div.text-label-m [962,635 58x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ws:nowrap} "Remote" (1L)
+                    a.button-light.button-secondary.w-inline-block [1035,627 134x40] d:flex fx:row/center/center p:8px maxw:100% bg:rgb(249, 249, 250) r:10px pos:relative z:5 tr:all 0.15s ease href=/careers/customer-support-representative
+                      div.button-text-block [1043,635 98x24] p:0px 6px pos:relative z:2 cursor:pointer
+                        div.text-heading-m [1049,635 86x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Learn More" (1L)
+                      div.button-icon-block.icon-right [1137,635 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative op:0.68 z:2 cursor:pointer
+                        div.icon-medium [1137,635 24x24] d:flex fx:row/center/center cursor:pointer
+                          div.svg.w-embed [1137,635 24x24] d:flex fx:row/center/center cursor:pointer
+                            svg [1137,635 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) of:hidden cursor:pointer
+                div.w-dyn-item [250,703 940x82]  @role=listitem
+                  div.job-list-link [250,703 940x82] d:flex fx:row/center/flex-start gap:16px p:20px r:20px b:1px solid rgb(221, 222, 229)
+                    div.text-label-m [271,732 225x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(9, 10, 14)} "AI Ops & Automation Engineer" (1L)
+                    div.jobs-destinction [512,732 508x24] d:flex fx:row/center/flex-end gap:12px flex:1 1 0%
+                      div.text-label-m [870,732 67x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ws:nowrap} "Full Time" (1L)
+                      div.jobs-divider [949,738 1x12] bg:rgb(195, 197, 210)
+                      div.text-label-m [962,732 58x24]  {Inter 16px/24px w500 ls-0.18px c:rgb(23, 25, 32) ws:nowrap} "Remote" (1L)
+                    a.button-light.button-secondary.w-inline-block [1035,724 134x40] d:flex fx:row/center/center p:8px maxw:100% bg:rgb(249, 249, 250) r:10px pos:relative z:5 tr:all 0.15s ease href=/careers/ai-ops-automation-engineer
+                      div.button-text-block [1043,732 98x24] p:0px 6px pos:relative z:2 cursor:pointer
+                        div.text-heading-m [1049,732 86x24] cursor:pointer {Inter 16px/24px w550 ls-0.18px c:rgb(9, 10, 14)} "Learn More" (1L)
+                      div.button-icon-block.icon-right [1137,732 24x24] d:flex fx:row/center/center m:0px 0px 0px -4px pos:relative op:0.68 z:2 cursor:pointer
+                        div.icon-medium [1137,732 24x24] d:flex fx:row/center/center cursor:pointer
+                          div.svg.w-embed [1137,732 24x24] d:flex fx:row/center/center cursor:pointer
+                            svg [1137,732 24x24] SVG vb=0 0 20 20 fill=rgb(0, 0, 0) color=rgb(9, 10, 14) of:hidden cursor:pointer
+                … +1 more div.w-dyn-item (repeat)

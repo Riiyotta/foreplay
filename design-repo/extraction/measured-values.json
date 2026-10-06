@@ -1,0 +1,321 @@
+{
+  "$description": "Citation ledger. Every measuredFrom in this repo is 'path:line[-line]' relative to the SOURCE PROJECT (the folder that contains design-repo/), i.e. external evidence that is NOT shipped in this package. extraction/verify_all.py resolves each citation (bounds + the anchor text recorded in extraction/citation-anchors.json) when that sibling source tree is present, and degrades to a warning when it is absent.",
+  "sourceTreeRelativeTo": "design-repo/..",
+  "evidencePolicy": {
+    "canonical": "the implemented clone (src/, tailwind.config.js, src/index.css, src/data, public/)",
+    "specs": "specs/*.md and CLONE_SPEC.md are cited for measured live values and recorded as divergences when code differs",
+    "notUsed": "QA_REPORT.md is shallow/unreliable and is never cited as authority (see divergences.json)"
+  },
+  "copyPolicy": {
+    "homepage": "verbatim from the user's own saved copy (src/components/*.jsx homepage blocks)",
+    "everythingElse": "long copy (paragraphs, articles, FAQ answers, bios, testimonials, legal/job text) is deliberately STAND-IN text generated to a target length by standin()/copy()/paragraph()/blocksFrom(); contracts record those character budgets, never real text",
+    "generators": {
+      "standin": {
+        "upperBound": "n",
+        "rule": "standin(seed, n) trims to <= n chars at a word boundary",
+        "measuredFrom": "src/components/misc/copy.js:6-14"
+      },
+      "copy": {
+        "upperBound": "n + 12",
+        "rule": "copy(seed, n) returns whole sentences up to n + 12 chars, else cuts at n",
+        "measuredFrom": "src/components/community/data.js:10-25"
+      },
+      "paragraph": {
+        "upperBound": "n - 40 + 1 + MAX_SENTENCE (= n + 71)",
+        "rule": "paragraph(r, n) appends sentences while length < n - 40; one stand-in sentence is at most 110 chars",
+        "measuredFrom": "src/components/templates/standin.js:59-63"
+      }
+    }
+  },
+  "families": {
+    "compatibility": {
+      "citations": 17,
+      "distinctSourceFiles": 13,
+      "mostCited": [
+        {
+          "file": "src/App.jsx",
+          "citations": 3
+        },
+        {
+          "file": "src/pages/Home.jsx",
+          "citations": 2
+        },
+        {
+          "file": "src/components/Navbar.jsx",
+          "citations": 2
+        },
+        {
+          "file": "src/pages/ChromeExtension.jsx",
+          "citations": 1
+        },
+        {
+          "file": "src/components/community/ApplicationPage.jsx",
+          "citations": 1
+        },
+        {
+          "file": "src/pages/Pricing.jsx",
+          "citations": 1
+        },
+        {
+          "file": "src/pages/templates/Post.jsx",
+          "citations": 1
+        },
+        {
+          "file": "src/pages/templates/Comparison.jsx",
+          "citations": 1
+        }
+      ]
+    },
+    "components": {
+      "citations": 46,
+      "distinctSourceFiles": 28,
+      "mostCited": [
+        {
+          "file": "src/components/shared/Faq.jsx",
+          "citations": 4
+        },
+        {
+          "file": "src/components/templates/EventRow.jsx",
+          "citations": 3
+        },
+        {
+          "file": "src/components/product/ProductCarousel.jsx",
+          "citations": 3
+        },
+        {
+          "file": "src/components/community/WorkWith.jsx",
+          "citations": 2
+        },
+        {
+          "file": "src/components/shared/useFadeTabs.js",
+          "citations": 2
+        },
+        {
+          "file": "src/components/ProductSections.jsx",
+          "citations": 2
+        },
+        {
+          "file": "src/components/shared/LogoStrip.jsx",
+          "citations": 2
+        },
+        {
+          "file": "src/components/templates/CardGrid.jsx",
+          "citations": 2
+        }
+      ]
+    },
+    "primitives": {
+      "citations": 42,
+      "distinctSourceFiles": 17,
+      "mostCited": [
+        {
+          "file": "src/components/shared.jsx",
+          "citations": 14
+        },
+        {
+          "file": "src/components/templates/Layout.jsx",
+          "citations": 4
+        },
+        {
+          "file": "src/components/shared/Layout.jsx",
+          "citations": 3
+        },
+        {
+          "file": "src/components/shared/SectionHead.jsx",
+          "citations": 3
+        },
+        {
+          "file": "src/index.css",
+          "citations": 2
+        },
+        {
+          "file": "src/components/shared/Marquee.jsx",
+          "citations": 2
+        },
+        {
+          "file": "src/components/templates/Form.jsx",
+          "citations": 2
+        },
+        {
+          "file": "src/components/templates/Profile.jsx",
+          "citations": 2
+        }
+      ]
+    },
+    "sections": {
+      "citations": 1056,
+      "distinctSourceFiles": 131,
+      "mostCited": [
+        {
+          "file": "src/components/Footer.jsx",
+          "citations": 65
+        },
+        {
+          "file": "src/pages/Lens.jsx",
+          "citations": 53
+        },
+        {
+          "file": "src/components/Navbar.jsx",
+          "citations": 41
+        },
+        {
+          "file": "src/pages/Pricing.jsx",
+          "citations": 41
+        },
+        {
+          "file": "src/data/comparison.json",
+          "citations": 31
+        },
+        {
+          "file": "CLONE_SPEC.md",
+          "citations": 28
+        },
+        {
+          "file": "src/data/industries.json",
+          "citations": 23
+        },
+        {
+          "file": "src/pages/Contest.jsx",
+          "citations": 22
+        }
+      ]
+    },
+    "templates": {
+      "citations": 135,
+      "distinctSourceFiles": 67,
+      "mostCited": [
+        {
+          "file": "src/routes.jsx",
+          "citations": 54
+        },
+        {
+          "file": "src/App.jsx",
+          "citations": 6
+        },
+        {
+          "file": "src/pages/templates/Post.jsx",
+          "citations": 3
+        },
+        {
+          "file": "src/pages/templates/University.jsx",
+          "citations": 3
+        },
+        {
+          "file": "src/pages/Spyder.jsx",
+          "citations": 2
+        },
+        {
+          "file": "src/pages/Lens.jsx",
+          "citations": 2
+        },
+        {
+          "file": "src/pages/Api.jsx",
+          "citations": 2
+        },
+        {
+          "file": "src/pages/Mcp.jsx",
+          "citations": 2
+        }
+      ]
+    },
+    "tokens": {
+      "citations": 533,
+      "distinctSourceFiles": 31,
+      "mostCited": [
+        {
+          "file": "tailwind.config.js",
+          "citations": 281
+        },
+        {
+          "file": "src/index.css",
+          "citations": 52
+        },
+        {
+          "file": "src/components/Navbar.jsx",
+          "citations": 32
+        },
+        {
+          "file": "src/components/shared.jsx",
+          "citations": 28
+        },
+        {
+          "file": "src/components/BeforeAfter.jsx",
+          "citations": 24
+        },
+        {
+          "file": "src/components/Footer.jsx",
+          "citations": 17
+        },
+        {
+          "file": "src/components/ProductSections.jsx",
+          "citations": 16
+        },
+        {
+          "file": "src/components/shared/Layout.jsx",
+          "citations": 13
+        }
+      ]
+    }
+  },
+  "generatorMeasurements": {
+    "method": "esbuild-bundled the clone's src/components/templates/standin.js with src/data/*.json and executed each generator over every CMS entry (build-time only; no output written into the source project)",
+    "results": {
+      "postExcerptMax": 283,
+      "postBodyBlockMax": 520,
+      "postBodyBlocksMax": 328,
+      "postSummaryMax": 1015,
+      "faqAnswerMax": 629,
+      "authorBioMax": 1018,
+      "eventLearnMax": 2448,
+      "agencySectionMax": 1969,
+      "bountyDetailsMax": 1198,
+      "cardExcerptMax": 176
+    },
+    "measuredFrom": [
+      "src/components/templates/standin.js:84",
+      "src/components/templates/standin.js:191"
+    ]
+  },
+  "keyEvidence": [
+    {
+      "what": "route table (36 pages + 14 CMS collections)",
+      "measuredFrom": "src/routes.jsx:18-32"
+    },
+    {
+      "what": "global shell + redirects + hidden footer",
+      "measuredFrom": "src/App.jsx:19-44"
+    },
+    {
+      "what": "full Tailwind theme",
+      "measuredFrom": "tailwind.config.js:1-272"
+    },
+    {
+      "what": "fonts, keyframes, rich-text and theme classes",
+      "measuredFrom": "src/index.css:1-419"
+    },
+    {
+      "what": "homepage measured spec (tokens, motion table, section offsets)",
+      "measuredFrom": "CLONE_SPEC.md:610-631"
+    },
+    {
+      "what": "reusable component index",
+      "measuredFrom": "src/components/README.md:1-65"
+    },
+    {
+      "what": "asset inventory",
+      "measuredFrom": "CLONE_ASSETS.md:1-164"
+    },
+    {
+      "what": "shared patterns for templates (S1-S11)",
+      "measuredFrom": "specs/_shared-templates.md:1-101"
+    },
+    {
+      "what": "shared patterns for community pages (C1-C7)",
+      "measuredFrom": "specs/_shared-community.md:1-62"
+    },
+    {
+      "what": "shared patterns for misc pages (M1-M4)",
+      "measuredFrom": "specs/_shared-misc.md:1-99"
+    }
+  ]
+}

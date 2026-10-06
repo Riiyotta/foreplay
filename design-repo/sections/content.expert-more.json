@@ -1,0 +1,103 @@
+{
+  "id": "content.expert-more",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Expert entry white block: 'More ad creative experts' + paragraph(110) stand-in + 3-col ExpertCards (6 others).",
+  "measuredFrom": [
+    "src/pages/templates/Expert.jsx:114"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 28,
+        "measuredFrom": [
+          "src/pages/templates/Expert.jsx:114"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 181,
+        "measuredFrom": [
+          "src/pages/templates/Expert.jsx:116"
+        ],
+        "copyBudget": {
+          "generator": "paragraph",
+          "targetChars": 110,
+          "upperBoundChars": 181
+        },
+        "standIn": true
+      },
+      "experts": {
+        "type": "array",
+        "required": true,
+        "minItems": 6,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "name": {
+              "type": "string",
+              "required": true,
+              "maxChars": 21,
+              "measuredFrom": [
+                "src/data/experts.json:5"
+              ],
+              "personIdentity": true
+            },
+            "portrait": {
+              "type": "assetRef",
+              "assetRole": "person-portrait",
+              "required": true,
+              "measuredFrom": [
+                "src/data/experts.json:7"
+              ]
+            },
+            "board": {
+              "type": "assetRef",
+              "assetRole": "product-screenshot",
+              "required": true,
+              "measuredFrom": [
+                "src/data/experts.json:8"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/templates/data.js:44"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "experts[].portrait",
+    "experts[].board"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "hover-transition",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/templates/Expert.jsx:19"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "expert"
+  ],
+  "usedOnRoutes": [
+    "/experts/:slug"
+  ]
+}

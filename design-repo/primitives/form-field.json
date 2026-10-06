@@ -1,0 +1,34 @@
+{
+  "id": "form-field",
+  "kind": "primitive",
+  "purpose": "Demo-form label + input/select/textarea (input bg white/10, no border, radius 8, 14/20 500); selects use the CSS chevron.",
+  "measuredFrom": [
+    "src/components/community/WorkWith.jsx:46",
+    "src/index.css:335"
+  ],
+  "props": {
+    "label": {
+      "type": "string",
+      "maxChars": 40
+    },
+    "optional": {
+      "type": "boolean"
+    },
+    "control": {
+      "type": "enum",
+      "values": [
+        "input",
+        "select",
+        "textarea",
+        "email"
+      ]
+    }
+  },
+  "tokensUsed": [
+    "component.formInput.background",
+    "component.formInput.radius"
+  ],
+  "notes": [
+    "Forms never submit: every form uses noSubmit / preventDefault."
+  ]
+}

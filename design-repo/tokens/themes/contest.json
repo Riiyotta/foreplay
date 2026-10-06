@@ -1,0 +1,200 @@
+{
+  "$description": "Scoped sub-theme for /contest and /contest-submission only: the .contest wrapper switches page bg to #000211, text to #bed8ff and the font to Circular; headings use .contest-gradient. Not a site-wide mode.",
+  "theme": "contest",
+  "appliedTo": ".contest wrapper (ContestTheme)",
+  "measuredFrom": "src/index.css:309-313",
+  "tokens": {
+    "accent.cta": {
+      "ref": "{color.cta}",
+      "foundation": "color.cta",
+      "resolved": "#1f69ff",
+      "measuredFrom": "tailwind.config.js:133"
+    },
+    "accent.live": {
+      "ref": "{color.teal}",
+      "foundation": "color.teal",
+      "resolved": "#7cddb5",
+      "measuredFrom": "src/components/Footer.jsx:243"
+    },
+    "accent.online": {
+      "ref": "{color.lime-green}",
+      "foundation": "color.lime-green",
+      "resolved": "#10b981",
+      "measuredFrom": "src/components/CalendarPopup.jsx:12"
+    },
+    "accent.spyder": {
+      "ref": "{color.spyder}",
+      "foundation": "color.spyder",
+      "resolved": "#ed615a",
+      "measuredFrom": "tailwind.config.js:45"
+    },
+    "border.cardOnLight": {
+      "ref": "{color.solid.700}",
+      "foundation": "color.solid.700",
+      "resolved": "#171920",
+      "measuredFrom": "tailwind.config.js:210"
+    },
+    "border.dark": {
+      "ref": "{color.contest.card}",
+      "foundation": "color.contest.card",
+      "resolved": "#609ffe1a",
+      "measuredFrom": "tailwind.config.js:131"
+    },
+    "border.divider": {
+      "ref": "{color.neutral.600}",
+      "foundation": "color.neutral.600",
+      "resolved": "#ffffff29",
+      "measuredFrom": "src/components/Footer.jsx:166"
+    },
+    "border.light": {
+      "ref": "{color.solid.50}",
+      "foundation": "color.solid.50",
+      "resolved": "#e9eaef",
+      "measuredFrom": "tailwind.config.js:208"
+    },
+    "border.nav": {
+      "ref": "{color.nav.border}",
+      "foundation": "color.nav.border",
+      "resolved": "#2a2b30",
+      "measuredFrom": "src/components/Navbar.jsx:329"
+    },
+    "surface.cardDark": {
+      "ref": "{color.background}",
+      "foundation": "color.background",
+      "resolved": "#020308",
+      "measuredFrom": "src/components/BeforeAfter.jsx:80"
+    },
+    "surface.contest": {
+      "ref": "{color.contest.bg}",
+      "foundation": "color.contest.bg",
+      "resolved": "#000211",
+      "measuredFrom": "src/index.css:310"
+    },
+    "surface.hover": {
+      "ref": "{color.neutral.700}",
+      "foundation": "color.neutral.700",
+      "resolved": "#ffffff1a",
+      "measuredFrom": "src/components/shared.jsx:18"
+    },
+    "surface.nav": {
+      "ref": "{color.nav.bg}",
+      "foundation": "color.nav.bg",
+      "resolved": "#020308eb",
+      "measuredFrom": "src/components/Navbar.jsx:416"
+    },
+    "surface.navMobile": {
+      "ref": "{color.nav.bg-mobile}",
+      "foundation": "color.nav.bg-mobile",
+      "resolved": "#020308f0",
+      "measuredFrom": "src/components/Navbar.jsx:416"
+    },
+    "surface.overlayExit": {
+      "ref": "{color.exit-overlay}",
+      "foundation": "color.exit-overlay",
+      "resolved": "#020308d4",
+      "measuredFrom": "src/components/ExitIntentModal.jsx:44"
+    },
+    "surface.overlayLightbox": {
+      "ref": "{color.lightbox-backdrop}",
+      "foundation": "color.lightbox-backdrop",
+      "resolved": "#000000e6",
+      "measuredFrom": "src/components/Navbar.jsx:352"
+    },
+    "surface.page": {
+      "ref": "{color.contest.bg}",
+      "foundation": "color.contest.bg",
+      "resolved": "#000211",
+      "measuredFrom": "src/index.css:310"
+    },
+    "surface.raised": {
+      "ref": "{color.neutral.800}",
+      "foundation": "color.neutral.800",
+      "resolved": "#ffffff0f",
+      "measuredFrom": "src/components/ProductSections.jsx:180"
+    },
+    "surface.subtleLight": {
+      "ref": "{color.solid.25}",
+      "foundation": "color.solid.25",
+      "resolved": "#f9f9fa",
+      "measuredFrom": "src/components/shared.jsx:33"
+    },
+    "surface.whiteBlock": {
+      "ref": "{color.neutral.0}",
+      "foundation": "color.neutral.0",
+      "resolved": "#fff",
+      "measuredFrom": "src/components/shared/Layout.jsx:27"
+    },
+    "text.body": {
+      "ref": "{color.contest.text}",
+      "foundation": "color.contest.text",
+      "resolved": "#bed8ff",
+      "measuredFrom": "src/index.css:311"
+    },
+    "text.emphasis": {
+      "ref": "{color.neutral.50}",
+      "foundation": "color.neutral.50",
+      "resolved": "#ffffffd6",
+      "measuredFrom": "src/components/Hero.jsx:35"
+    },
+    "text.hero": {
+      "ref": "{color.hero-title}",
+      "foundation": "color.hero-title",
+      "resolved": "#ffffffe0",
+      "measuredFrom": "src/components/Hero.jsx:31"
+    },
+    "text.link": {
+      "ref": "{color.link}",
+      "foundation": "color.link",
+      "resolved": "#3a6ffb",
+      "measuredFrom": "src/index.css:51"
+    },
+    "text.muted": {
+      "ref": "{color.neutral.300}",
+      "foundation": "color.neutral.300",
+      "resolved": "#ffffff5c",
+      "measuredFrom": "src/index.css:42"
+    },
+    "text.onLight.body": {
+      "ref": "{color.solid.600}",
+      "foundation": "color.solid.600",
+      "resolved": "#24262e",
+      "measuredFrom": "src/components/BeforeAfter.jsx:44"
+    },
+    "text.onLight.heading": {
+      "ref": "{color.solid.700}",
+      "foundation": "color.solid.700",
+      "resolved": "#171920",
+      "measuredFrom": "src/components/BeforeAfter.jsx:40"
+    },
+    "text.onLight.muted": {
+      "ref": "{color.solid.500}",
+      "foundation": "color.solid.500",
+      "resolved": "#343642",
+      "measuredFrom": "src/components/BeforeAfter.jsx:61"
+    },
+    "text.onLight.overline": {
+      "ref": "{color.solid.400}",
+      "foundation": "color.solid.400",
+      "resolved": "#4c505f",
+      "measuredFrom": "src/components/Collaboration.jsx:130"
+    },
+    "text.onLight.strong": {
+      "ref": "{color.solid.900}",
+      "foundation": "color.solid.900",
+      "resolved": "#090a0e",
+      "measuredFrom": "src/components/BeforeAfter.jsx:60"
+    },
+    "text.primary": {
+      "ref": "{color.contest.bright}",
+      "foundation": "color.contest.bright",
+      "resolved": "#fafafd",
+      "measuredFrom": "tailwind.config.js:128"
+    },
+    "text.subtle": {
+      "ref": "{color.neutral.200}",
+      "foundation": "color.neutral.200",
+      "resolved": "#ffffff70",
+      "measuredFrom": "src/components/ProductSections.jsx:151"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "video-lightbox",
+  "kind": "component",
+  "purpose": "Click-to-open lightbox replacing Webflow w-lightbox: dark backdrop, local poster, link out to the video (no iframe).",
+  "measuredFrom": [
+    "src/components/shared/VideoLightbox.jsx:8",
+    "src/components/shared/VideoLightbox.jsx:52"
+  ],
+  "props": {
+    "url": {
+      "type": "route-or-url"
+    },
+    "title": {
+      "type": "string"
+    },
+    "poster": {
+      "type": "assetRef"
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "play-button"
+  ]
+}

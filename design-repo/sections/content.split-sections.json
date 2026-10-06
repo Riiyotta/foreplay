@@ -1,0 +1,83 @@
+{
+  "id": "content.split-sections",
+  "kind": "section",
+  "category": "content",
+  "purpose": "University SplitSection: alternating image/text rows from the entry's sections (bodies are stand-in).",
+  "measuredFrom": [
+    "src/components/templates/SplitSection.jsx:5"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "rows": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 48,
+              "measuredFrom": [
+                "src/data/university.json:38"
+              ]
+            },
+            "body": {
+              "type": "string",
+              "required": true,
+              "maxChars": 460,
+              "measuredFrom": [
+                "src/data/university.json:44"
+              ],
+              "standIn": true,
+              "note": "stand-in of paragraphChars (max 460)"
+            },
+            "image": {
+              "type": "assetRef",
+              "assetRole": "editorial-image",
+              "required": true,
+              "measuredFrom": [
+                "src/data/university.json:38"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/data/university.json:38"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "rows[].image"
+  ],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/templates/SplitSection.jsx:5"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "university-course",
+    "university-landing"
+  ],
+  "usedOnRoutes": [
+    "/university/classes",
+    "/university/psychology-in-advertising"
+  ]
+}

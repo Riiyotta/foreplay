@@ -1,0 +1,117 @@
+{
+  "$description": "Places where a spec (specs/*.md, CLONE_SPEC.md, README) and the implemented clone disagree. Per the 'record as it is' instruction the CODE value is canonical everywhere in this repo; the spec value is kept here with both citations.",
+  "divergences": [
+    {
+      "topic": "Button variant count",
+      "spec": "src/components/README.md lists 7 Button variants",
+      "code": "BUTTON_VARIANTS has 8 (light-secondary added)",
+      "canonical": "code",
+      "specCite": "src/components/README.md:11",
+      "codeCite": "src/components/shared.jsx:32"
+    },
+    {
+      "topic": "S10 ResponsiveVideo",
+      "spec": "_shared-templates S10: build a youtube.com/embed iframe",
+      "code": "VideoBox renders a same-size placeholder that links out (no third-party request)",
+      "canonical": "code",
+      "specCite": "specs/_shared-templates.md:96",
+      "codeCite": "src/components/templates/VideoBox.jsx:2"
+    },
+    {
+      "topic": "Footer at 390px",
+      "spec": "CLONE_SPEC 8.3: reproduce the 5 implicit columns (overflow at 390) for fidelity",
+      "code": "<=479 the grid uses the 2 explicit columns (no overflow)",
+      "canonical": "code (intentional deviation)",
+      "specCite": "CLONE_SPEC.md:531",
+      "codeCite": "src/components/Footer.jsx:183"
+    },
+    {
+      "topic": "Navbar Sign in / Start free trial",
+      "spec": "CLONE_SPEC 1.1: Sign in -> app.foreplay.co/login; Start free trial -> app.foreplay.co/sign-up",
+      "code": "Sign in removed; Start free trial -> /pricing",
+      "canonical": "code (no-outbound-links constraint)",
+      "specCite": "CLONE_SPEC.md:159",
+      "codeCite": "src/components/Navbar.jsx:471"
+    },
+    {
+      "topic": "Footer link columns",
+      "spec": "CLONE_SPEC 8.3: Knowledge Base, API Docs, Feature Requests, Public Road Map, Merch Store, Ask-AI row, social icons",
+      "code": "all removed from Footer.jsx",
+      "canonical": "code",
+      "specCite": "CLONE_SPEC.md:539",
+      "codeCite": "src/components/Footer.jsx:150"
+    },
+    {
+      "topic": "Footer ad count values",
+      "spec": "CLONE_SPEC 8.3 live values 264,801,971 / 9,543,639 / 255,258,332",
+      "code": "static snapshot 264,864,773 / 9,543,253 / 255,321,520 (no fetch)",
+      "canonical": "code",
+      "specCite": "CLONE_SPEC.md:547",
+      "codeCite": "src/components/Footer.jsx:232"
+    },
+    {
+      "topic": "Agency entry layout <=767",
+      "spec": "live/spec: no responsive rules (article pushed off-canvas at 390)",
+      "code": "stacks at <=767",
+      "canonical": "code (intentional deviation)",
+      "specCite": "specs/template-agencies.md:19",
+      "codeCite": "src/pages/templates/Agency.jsx:83"
+    },
+    {
+      "topic": "Agency directory <=767",
+      "spec": "live overflows at 390",
+      "code": "sidebar stacks above the feed",
+      "canonical": "code (intentional deviation)",
+      "specCite": "specs/agency-directory.md:23",
+      "codeCite": "src/pages/AgencyDirectory.jsx:8"
+    },
+    {
+      "topic": "Event transcript background",
+      "spec": "live Webflow dropdown list bg #ddd",
+      "code": "transparent + 16px padding",
+      "canonical": "code (intentional readability fix)",
+      "specCite": "specs/template-events.md:42",
+      "codeCite": "src/pages/templates/Event.jsx:65"
+    },
+    {
+      "topic": "Post reading progress bar",
+      "spec": "IX2 a-43 Blog Scroll Bar targets a missing element (no-op)",
+      "code": "not built",
+      "canonical": "code",
+      "specCite": "specs/template-post.md:194",
+      "codeCite": "src/pages/templates/Post.jsx:59"
+    },
+    {
+      "topic": "Pre-black-friday parallax",
+      "spec": "IX2 a-71 targets .product-hero-sticky which does not exist (no-op)",
+      "code": "no parallax on /pre-black-friday",
+      "canonical": "code",
+      "specCite": "specs/pre-black-friday.md:16",
+      "codeCite": "src/pages/PreBlackFriday.jsx:40"
+    },
+    {
+      "topic": "NoteForms / Senja / Cal.com / Wistia embeds",
+      "spec": "_shared-community C2: NoteForms iframe 'do not rebuild it' (embed); C5 Senja widget",
+      "code": "EmbedPlaceholder frames of the same size; /reviews uses locally generated stand-in cards",
+      "canonical": "code (no third-party requests)",
+      "specCite": "specs/_shared-community.md:28",
+      "codeCite": "src/components/community/ApplicationPage.jsx:16"
+    },
+    {
+      "topic": "Related posts carousel timing",
+      "spec": "template-post 7: transform .6s cubic-bezier(.19,1,.22,1)",
+      "code": "duration-600 ease-expo (agrees)",
+      "canonical": "code",
+      "specCite": "specs/template-post.md:197",
+      "codeCite": "src/components/templates/RelatedCarousel.jsx:102"
+    },
+    {
+      "topic": "QA_REPORT reliability",
+      "spec": "QA_REPORT.md called a 1983px /pricing height gap 'visually equivalent/ACCEPTABLE'",
+      "code": "not used as evidence anywhere in this repo",
+      "canonical": "specs + src (QA_REPORT is shallow/unreliable)",
+      "specCite": "QA_REPORT.md:104",
+      "codeCite": "src/pages/Pricing.jsx:185"
+    }
+  ]
+}

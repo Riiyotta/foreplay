@@ -1,0 +1,58 @@
+{
+  "id": "content.contest-sponsors",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Contest sponsors row (logos).",
+  "measuredFrom": [
+    "src/pages/Contest.jsx:192"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "logos": {
+        "type": "array",
+        "required": true,
+        "minItems": 6,
+        "maxItems": 6,
+        "items": {
+          "type": "assetRef",
+          "assetRole": "customer-logo",
+          "required": true,
+          "measuredFrom": [
+            "src/pages/Contest.jsx:7"
+          ]
+        },
+        "measuredFrom": [
+          "src/pages/Contest.jsx:7-14"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "logos[]"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "theme": "contest"
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/pages/Contest.jsx:192"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.contest",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "contest"
+  ],
+  "usedOnRoutes": [
+    "/contest"
+  ]
+}

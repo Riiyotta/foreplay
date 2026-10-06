@@ -1,0 +1,33 @@
+{
+  "id": "plan-card",
+  "kind": "component",
+  "purpose": "Pricing plan card: name, description, price (monthly/annual), save badge, primary CTA, users/extra lines, benefit rows with popovers, integrations.",
+  "measuredFrom": [
+    "src/components/pricing/PlanCard.jsx:69",
+    "src/components/pricing/PlanCard.jsx:10"
+  ],
+  "props": {
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "save": {
+      "type": "string"
+    },
+    "primary": {
+      "type": "boolean"
+    },
+    "benefits": {
+      "type": "benefit[]"
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "button"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$description": "Component-scoped values for nav.",
+  "category": "component",
+  "nav": {
+    "height": {
+      "value": "72px",
+      "measuredFrom": "CLONE_SPEC.md:144"
+    },
+    "background": {
+      "value": "{semanticColor.surface.nav}",
+      "measuredFrom": "src/components/Navbar.jsx:416"
+    },
+    "backdropBlur": {
+      "value": "{blur.backdropBlur.nav}",
+      "measuredFrom": "src/components/Navbar.jsx:416"
+    },
+    "linkColor": {
+      "value": "{color.nav.link}",
+      "measuredFrom": "src/components/Navbar.jsx:410"
+    },
+    "dropdownRadius": {
+      "value": "{borderRadius.28}",
+      "measuredFrom": "src/components/Navbar.jsx:329"
+    },
+    "zIndex": {
+      "value": "{zIndex.100}",
+      "measuredFrom": "src/components/Navbar.jsx:416"
+    }
+  }
+}

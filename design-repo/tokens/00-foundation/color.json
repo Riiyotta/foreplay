@@ -1,0 +1,811 @@
+{
+  "$description": "Foundation colour palette, exactly as implemented in the clone's Tailwind theme (theme.colors replaces the default palette entirely, so these are the ONLY colour utilities that exist). utilityUsage = count of text-/bg-/border-/fill-/stroke-/ring-/decoration-/placeholder- utility occurrences across src/**/*.{js,jsx} (computed at build time, 138 files); 0 means the token is defined but consumed only via arbitrary values, CSS or not at all. Some JSX also uses arbitrary hex values (e.g. bg-[#7cddb526]); those are recorded per contract, not promoted to tokens.",
+  "category": "color",
+  "color": {
+    "transparent": {
+      "value": "transparent",
+      "type": "color",
+      "tailwindKey": "transparent",
+      "utilityUsage": 14,
+      "measuredFrom": "tailwind.config.js:10"
+    },
+    "current": {
+      "value": "currentColor",
+      "type": "color",
+      "tailwindKey": "current",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:11"
+    },
+    "link": {
+      "value": "#3a6ffb",
+      "type": "color",
+      "tailwindKey": "link",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:12"
+    },
+    "background": {
+      "value": "#020308",
+      "type": "color",
+      "tailwindKey": "background",
+      "utilityUsage": 26,
+      "measuredFrom": "tailwind.config.js:13"
+    },
+    "solid.0": {
+      "value": "#fff",
+      "type": "color",
+      "tailwindKey": "solid.0",
+      "utilityUsage": 29,
+      "measuredFrom": "tailwind.config.js:15"
+    },
+    "solid.25": {
+      "value": "#f9f9fa",
+      "type": "color",
+      "tailwindKey": "solid.25",
+      "utilityUsage": 22,
+      "measuredFrom": "tailwind.config.js:16"
+    },
+    "solid.50": {
+      "value": "#e9eaef",
+      "type": "color",
+      "tailwindKey": "solid.50",
+      "utilityUsage": 28,
+      "measuredFrom": "tailwind.config.js:17"
+    },
+    "solid.100": {
+      "value": "#dddee5",
+      "type": "color",
+      "tailwindKey": "solid.100",
+      "utilityUsage": 12,
+      "measuredFrom": "tailwind.config.js:18"
+    },
+    "solid.200": {
+      "value": "#c3c5d2",
+      "type": "color",
+      "tailwindKey": "solid.200",
+      "utilityUsage": 6,
+      "measuredFrom": "tailwind.config.js:19"
+    },
+    "solid.300": {
+      "value": "#b2b4c5",
+      "type": "color",
+      "tailwindKey": "solid.300",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:20"
+    },
+    "solid.400": {
+      "value": "#4c505f",
+      "type": "color",
+      "tailwindKey": "solid.400",
+      "utilityUsage": 14,
+      "measuredFrom": "tailwind.config.js:21"
+    },
+    "solid.500": {
+      "value": "#343642",
+      "type": "color",
+      "tailwindKey": "solid.500",
+      "utilityUsage": 19,
+      "measuredFrom": "tailwind.config.js:22"
+    },
+    "solid.600": {
+      "value": "#24262e",
+      "type": "color",
+      "tailwindKey": "solid.600",
+      "utilityUsage": 22,
+      "measuredFrom": "tailwind.config.js:23"
+    },
+    "solid.700": {
+      "value": "#171920",
+      "type": "color",
+      "tailwindKey": "solid.700",
+      "utilityUsage": 47,
+      "measuredFrom": "tailwind.config.js:24"
+    },
+    "solid.800": {
+      "value": "#0f1116",
+      "type": "color",
+      "tailwindKey": "solid.800",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:25"
+    },
+    "solid.900": {
+      "value": "#090a0e",
+      "type": "color",
+      "tailwindKey": "solid.900",
+      "utilityUsage": 41,
+      "measuredFrom": "tailwind.config.js:26"
+    },
+    "neutral.0": {
+      "value": "#fff",
+      "type": "color",
+      "tailwindKey": "neutral.0",
+      "utilityUsage": 129,
+      "measuredFrom": "tailwind.config.js:29"
+    },
+    "neutral.25": {
+      "value": "#ffffffeb",
+      "type": "color",
+      "tailwindKey": "neutral.25",
+      "utilityUsage": 10,
+      "measuredFrom": "tailwind.config.js:30"
+    },
+    "neutral.50": {
+      "value": "#ffffffd6",
+      "type": "color",
+      "tailwindKey": "neutral.50",
+      "utilityUsage": 40,
+      "measuredFrom": "tailwind.config.js:31"
+    },
+    "neutral.100": {
+      "value": "#ffffffad",
+      "type": "color",
+      "tailwindKey": "neutral.100",
+      "utilityUsage": 118,
+      "measuredFrom": "tailwind.config.js:32"
+    },
+    "neutral.200": {
+      "value": "#ffffff70",
+      "type": "color",
+      "tailwindKey": "neutral.200",
+      "utilityUsage": 18,
+      "measuredFrom": "tailwind.config.js:33"
+    },
+    "neutral.300": {
+      "value": "#ffffff5c",
+      "type": "color",
+      "tailwindKey": "neutral.300",
+      "utilityUsage": 21,
+      "measuredFrom": "tailwind.config.js:34"
+    },
+    "neutral.400": {
+      "value": "#ffffff52",
+      "type": "color",
+      "tailwindKey": "neutral.400",
+      "utilityUsage": 5,
+      "measuredFrom": "tailwind.config.js:35"
+    },
+    "neutral.500": {
+      "value": "#fff3",
+      "type": "color",
+      "tailwindKey": "neutral.500",
+      "utilityUsage": 9,
+      "measuredFrom": "tailwind.config.js:36"
+    },
+    "neutral.600": {
+      "value": "#ffffff29",
+      "type": "color",
+      "tailwindKey": "neutral.600",
+      "utilityUsage": 19,
+      "measuredFrom": "tailwind.config.js:37"
+    },
+    "neutral.700": {
+      "value": "#ffffff1a",
+      "type": "color",
+      "tailwindKey": "neutral.700",
+      "utilityUsage": 69,
+      "measuredFrom": "tailwind.config.js:38"
+    },
+    "neutral.800": {
+      "value": "#ffffff0f",
+      "type": "color",
+      "tailwindKey": "neutral.800",
+      "utilityUsage": 29,
+      "measuredFrom": "tailwind.config.js:39"
+    },
+    "neutral.900": {
+      "value": "#ffffff08",
+      "type": "color",
+      "tailwindKey": "neutral.900",
+      "utilityUsage": 8,
+      "measuredFrom": "tailwind.config.js:40"
+    },
+    "teal": {
+      "value": "#7cddb5",
+      "type": "color",
+      "tailwindKey": "teal",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:42"
+    },
+    "lime-green": {
+      "value": "#10b981",
+      "type": "color",
+      "tailwindKey": "lime-green",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:43"
+    },
+    "cta": {
+      "value": "#1f69ff",
+      "type": "color",
+      "tailwindKey": "cta",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:44"
+    },
+    "spyder": {
+      "value": "#ed615a",
+      "type": "color",
+      "tailwindKey": "spyder",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:45"
+    },
+    "red": {
+      "value": "#e77f6e",
+      "type": "color",
+      "tailwindKey": "red",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:46"
+    },
+    "yellow": {
+      "value": "#ffc852",
+      "type": "color",
+      "tailwindKey": "yellow",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:47"
+    },
+    "lime": {
+      "value": "#d2e382",
+      "type": "color",
+      "tailwindKey": "lime",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:48"
+    },
+    "sky": {
+      "value": "#5dbce5",
+      "type": "color",
+      "tailwindKey": "sky",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:49"
+    },
+    "ocean": {
+      "value": "#5d78e5",
+      "type": "color",
+      "tailwindKey": "ocean",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:50"
+    },
+    "nav.border": {
+      "value": "#2a2b30",
+      "type": "color",
+      "tailwindKey": "nav.border",
+      "utilityUsage": 5,
+      "measuredFrom": "tailwind.config.js:52"
+    },
+    "nav.bg": {
+      "value": "#020308eb",
+      "type": "color",
+      "tailwindKey": "nav.bg",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:53"
+    },
+    "nav.bg-mobile": {
+      "value": "#020308f0",
+      "type": "color",
+      "tailwindKey": "nav.bg-mobile",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:54"
+    },
+    "nav.link": {
+      "value": "#ffffff85",
+      "type": "color",
+      "tailwindKey": "nav.link",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:55"
+    },
+    "hero-title": {
+      "value": "#ffffffe0",
+      "type": "color",
+      "tailwindKey": "hero-title",
+      "utilityUsage": 6,
+      "measuredFrom": "tailwind.config.js:57"
+    },
+    "footer-badge": {
+      "value": "#ffffffb8",
+      "type": "color",
+      "tailwindKey": "footer-badge",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:58"
+    },
+    "play-bubble": {
+      "value": "#ffffff80",
+      "type": "color",
+      "tailwindKey": "play-bubble",
+      "utilityUsage": 6,
+      "measuredFrom": "tailwind.config.js:59"
+    },
+    "black-20": {
+      "value": "#0003",
+      "type": "color",
+      "tailwindKey": "black-20",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:60"
+    },
+    "nav-badge-text": {
+      "value": "#000000ad",
+      "type": "color",
+      "tailwindKey": "nav-badge-text",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:61"
+    },
+    "exit-overlay": {
+      "value": "#020308d4",
+      "type": "color",
+      "tailwindKey": "exit-overlay",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:62"
+    },
+    "lightbox-backdrop": {
+      "value": "#000000e6",
+      "type": "color",
+      "tailwindKey": "lightbox-backdrop",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:63"
+    },
+    "body": {
+      "value": "#fafafd",
+      "type": "color",
+      "tailwindKey": "body",
+      "utilityUsage": 12,
+      "measuredFrom": "tailwind.config.js:65"
+    },
+    "slide-ring": {
+      "value": "#1b1c21",
+      "type": "color",
+      "tailwindKey": "slide-ring",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:66"
+    },
+    "spyder-ui-border": {
+      "value": "#fafafd21",
+      "type": "color",
+      "tailwindKey": "spyder-ui-border",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:67"
+    },
+    "grey-stroke": {
+      "value": "#7a7b7f40",
+      "type": "color",
+      "tailwindKey": "grey-stroke",
+      "utilityUsage": 11,
+      "measuredFrom": "tailwind.config.js:68"
+    },
+    "pure-black": {
+      "value": "#000",
+      "type": "color",
+      "tailwindKey": "pure-black",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:69"
+    },
+    "phone-border": {
+      "value": "#131313",
+      "type": "color",
+      "tailwindKey": "phone-border",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:70"
+    },
+    "arrow-btn": {
+      "value": "#efefef",
+      "type": "color",
+      "tailwindKey": "arrow-btn",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:71"
+    },
+    "graph-fade": {
+      "value": "#212226",
+      "type": "color",
+      "tailwindKey": "graph-fade",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:72"
+    },
+    "graph-fade-50": {
+      "value": "#21222680",
+      "type": "color",
+      "tailwindKey": "graph-fade-50",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:73"
+    },
+    "white": {
+      "value": "#fff",
+      "type": "color",
+      "tailwindKey": "white.DEFAULT",
+      "utilityUsage": 70,
+      "measuredFrom": "tailwind.config.js:75"
+    },
+    "white.05": {
+      "value": "#ffffff0d",
+      "type": "color",
+      "tailwindKey": "white.05",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:76"
+    },
+    "white.07": {
+      "value": "#ffffff12",
+      "type": "color",
+      "tailwindKey": "white.07",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:77"
+    },
+    "white.08": {
+      "value": "#ffffff14",
+      "type": "color",
+      "tailwindKey": "white.08",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:78"
+    },
+    "white.17": {
+      "value": "#ffffff2b",
+      "type": "color",
+      "tailwindKey": "white.17",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:79"
+    },
+    "white.12": {
+      "value": "#ffffff1f",
+      "type": "color",
+      "tailwindKey": "white.12",
+      "utilityUsage": 11,
+      "measuredFrom": "tailwind.config.js:80"
+    },
+    "white.15": {
+      "value": "#ffffff26",
+      "type": "color",
+      "tailwindKey": "white.15",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:81"
+    },
+    "white.30": {
+      "value": "#ffffff4d",
+      "type": "color",
+      "tailwindKey": "white.30",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:82"
+    },
+    "white.54": {
+      "value": "#ffffff8a",
+      "type": "color",
+      "tailwindKey": "white.54",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:83"
+    },
+    "white.56": {
+      "value": "#ffffff8f",
+      "type": "color",
+      "tailwindKey": "white.56",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:84"
+    },
+    "white.80": {
+      "value": "#ffffffcc",
+      "type": "color",
+      "tailwindKey": "white.80",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:85"
+    },
+    "black": {
+      "value": "#000",
+      "type": "color",
+      "tailwindKey": "black.DEFAULT",
+      "utilityUsage": 7,
+      "measuredFrom": "tailwind.config.js:88"
+    },
+    "black.17": {
+      "value": "#0000002b",
+      "type": "color",
+      "tailwindKey": "black.17",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:89"
+    },
+    "black.22": {
+      "value": "#00000038",
+      "type": "color",
+      "tailwindKey": "black.22",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:90"
+    },
+    "black.24": {
+      "value": "#0000003d",
+      "type": "color",
+      "tailwindKey": "black.24",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:91"
+    },
+    "black.84": {
+      "value": "#000000d6",
+      "type": "color",
+      "tailwindKey": "black.84",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:92"
+    },
+    "black.90": {
+      "value": "#000000e6",
+      "type": "color",
+      "tailwindKey": "black.90",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:93"
+    },
+    "bg-fade-80": {
+      "value": "#020308cc",
+      "type": "color",
+      "tailwindKey": "bg-fade-80",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:95"
+    },
+    "new-btn.text": {
+      "value": "#13151a",
+      "type": "color",
+      "tailwindKey": "new-btn.text",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:98"
+    },
+    "new-btn.ring": {
+      "value": "#ebebeb",
+      "type": "color",
+      "tailwindKey": "new-btn.ring",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:99"
+    },
+    "new-btn.hover": {
+      "value": "#f2f2f2",
+      "type": "color",
+      "tailwindKey": "new-btn.hover",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:100"
+    },
+    "new-btn.active-text": {
+      "value": "#5e6063",
+      "type": "color",
+      "tailwindKey": "new-btn.active-text",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:101"
+    },
+    "new-btn.active-bg": {
+      "value": "#f2f2f280",
+      "type": "color",
+      "tailwindKey": "new-btn.active-bg",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:102"
+    },
+    "segment.blue-bg": {
+      "value": "#f0f7ff",
+      "type": "color",
+      "tailwindKey": "segment.blue-bg",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:105"
+    },
+    "segment.blue": {
+      "value": "#07247e",
+      "type": "color",
+      "tailwindKey": "segment.blue",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:106"
+    },
+    "segment.green-bg": {
+      "value": "#effefa",
+      "type": "color",
+      "tailwindKey": "segment.green-bg",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:107"
+    },
+    "segment.green": {
+      "value": "#184e44",
+      "type": "color",
+      "tailwindKey": "segment.green",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:108"
+    },
+    "ai.chatgpt": {
+      "value": "#4da684",
+      "type": "color",
+      "tailwindKey": "ai.chatgpt",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:111"
+    },
+    "ai.chatgpt-bg": {
+      "value": "#4da6841a",
+      "type": "color",
+      "tailwindKey": "ai.chatgpt-bg",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:112"
+    },
+    "ai.chatgpt-border": {
+      "value": "#4da68433",
+      "type": "color",
+      "tailwindKey": "ai.chatgpt-border",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:113"
+    },
+    "ai.claude": {
+      "value": "#d97757",
+      "type": "color",
+      "tailwindKey": "ai.claude",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:114"
+    },
+    "ai.claude-bg": {
+      "value": "#d977571a",
+      "type": "color",
+      "tailwindKey": "ai.claude-bg",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:115"
+    },
+    "ai.claude-border": {
+      "value": "#d9775733",
+      "type": "color",
+      "tailwindKey": "ai.claude-border",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:116"
+    },
+    "ai.perplexity": {
+      "value": "#58b5ca",
+      "type": "color",
+      "tailwindKey": "ai.perplexity",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:117"
+    },
+    "ai.perplexity-bg": {
+      "value": "#58b5ca33",
+      "type": "color",
+      "tailwindKey": "ai.perplexity-bg",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:118"
+    },
+    "ai.perplexity-border": {
+      "value": "#58b5ca33",
+      "type": "color",
+      "tailwindKey": "ai.perplexity-border",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:119"
+    },
+    "ai.gemini": {
+      "value": "#306df6",
+      "type": "color",
+      "tailwindKey": "ai.gemini",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:120"
+    },
+    "ai.gemini-bg": {
+      "value": "#306df61a",
+      "type": "color",
+      "tailwindKey": "ai.gemini-bg",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:121"
+    },
+    "ai.gemini-border": {
+      "value": "#306df633",
+      "type": "color",
+      "tailwindKey": "ai.gemini-border",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:122"
+    },
+    "contest.bg": {
+      "value": "#000211",
+      "type": "color",
+      "tailwindKey": "contest.bg",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:126"
+    },
+    "contest.text": {
+      "value": "#bed8ff",
+      "type": "color",
+      "tailwindKey": "contest.text",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:127"
+    },
+    "contest.bright": {
+      "value": "#fafafd",
+      "type": "color",
+      "tailwindKey": "contest.bright",
+      "utilityUsage": 8,
+      "measuredFrom": "tailwind.config.js:128"
+    },
+    "contest.accent": {
+      "value": "#609ffe",
+      "type": "color",
+      "tailwindKey": "contest.accent",
+      "utilityUsage": 4,
+      "measuredFrom": "tailwind.config.js:129"
+    },
+    "contest.play": {
+      "value": "#3787ff",
+      "type": "color",
+      "tailwindKey": "contest.play",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:130"
+    },
+    "contest.card": {
+      "value": "#609ffe1a",
+      "type": "color",
+      "tailwindKey": "contest.card",
+      "utilityUsage": 16,
+      "measuredFrom": "tailwind.config.js:131"
+    },
+    "contest.deep": {
+      "value": "#0e1227",
+      "type": "color",
+      "tailwindKey": "contest.deep",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:132"
+    },
+    "contest.cta-hover": {
+      "value": "#093bae",
+      "type": "color",
+      "tailwindKey": "contest.cta-hover",
+      "utilityUsage": 2,
+      "measuredFrom": "tailwind.config.js:133"
+    },
+    "misc.green": {
+      "value": "#40c4aa",
+      "type": "color",
+      "tailwindKey": "misc.green",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:138"
+    },
+    "misc.green-pill": {
+      "value": "#9ee1d4",
+      "type": "color",
+      "tailwindKey": "misc.green-pill",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:139"
+    },
+    "misc.red": {
+      "value": "#df1c41",
+      "type": "color",
+      "tailwindKey": "misc.red",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:140"
+    },
+    "misc.red-pill": {
+      "value": "#96132c",
+      "type": "color",
+      "tailwindKey": "misc.red-pill",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:141"
+    },
+    "misc.yellow": {
+      "value": "#ffbe4c",
+      "type": "color",
+      "tailwindKey": "misc.yellow",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:142"
+    },
+    "misc.yellow-pill": {
+      "value": "#9b6327",
+      "type": "color",
+      "tailwindKey": "misc.yellow-pill",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:143"
+    },
+    "misc.grey": {
+      "value": "#74767a",
+      "type": "color",
+      "tailwindKey": "misc.grey",
+      "utilityUsage": 3,
+      "measuredFrom": "tailwind.config.js:144"
+    },
+    "misc.cta-ring": {
+      "value": "#ebebeb",
+      "type": "color",
+      "tailwindKey": "misc.cta-ring",
+      "utilityUsage": 0,
+      "measuredFrom": "tailwind.config.js:145"
+    },
+    "misc.cta-hover": {
+      "value": "#f2f2f2",
+      "type": "color",
+      "tailwindKey": "misc.cta-hover",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:146"
+    },
+    "misc.cta-text": {
+      "value": "#13151a",
+      "type": "color",
+      "tailwindKey": "misc.cta-text",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:147"
+    },
+    "misc.cta-active": {
+      "value": "#5e6063",
+      "type": "color",
+      "tailwindKey": "misc.cta-active",
+      "utilityUsage": 1,
+      "measuredFrom": "tailwind.config.js:148"
+    }
+  }
+}

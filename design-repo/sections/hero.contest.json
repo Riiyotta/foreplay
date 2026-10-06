@@ -1,0 +1,107 @@
+{
+  "id": "hero.contest",
+  "kind": "section",
+  "category": "hero",
+  "purpose": "Contest theme header (.contest wrapper, Circular, gradient heading): contest page (date, prize info, header bg radial fade >=1280) or submission hub (pill, 'Presented By', tips).",
+  "measuredFrom": [
+    "src/components/community/contest.jsx:13",
+    "src/pages/Contest.jsx:150",
+    "src/pages/ContestSubmission.jsx:127"
+  ],
+  "variants": [
+    {
+      "name": "contest",
+      "description": "/contest header",
+      "measuredFrom": [
+        "src/pages/Contest.jsx:151"
+      ]
+    },
+    {
+      "name": "submission",
+      "description": "/contest-submission hub header",
+      "measuredFrom": [
+        "src/pages/ContestSubmission.jsx:135"
+      ]
+    }
+  ],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "pill": {
+        "type": "string",
+        "required": false,
+        "maxChars": 24,
+        "measuredFrom": [
+          "src/pages/ContestSubmission.jsx:135"
+        ]
+      },
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 48,
+        "measuredFrom": [
+          "src/pages/Contest.jsx:164"
+        ]
+      },
+      "date": {
+        "type": "string",
+        "required": false,
+        "maxChars": 20,
+        "measuredFrom": [
+          "src/pages/Contest.jsx:182"
+        ]
+      },
+      "sponsorLogos": {
+        "type": "array",
+        "required": false,
+        "minItems": 0,
+        "maxItems": 12,
+        "items": {
+          "type": "assetRef",
+          "assetRole": "customer-logo",
+          "required": true,
+          "measuredFrom": [
+            "src/pages/Contest.jsx:7"
+          ]
+        },
+        "measuredFrom": [
+          "src/pages/Contest.jsx:7"
+        ]
+      }
+    }
+  },
+  "mediaFields": [
+    "sponsorLogos[]"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "mustFollowNav": true,
+    "theme": "contest"
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/community/contest.jsx:13"
+    ]
+  },
+  "responsive": {
+    "changes": []
+  },
+  "defaultSurface": "surface.contest",
+  "tokensUsed": [
+    "gradient.css.contest-gradient",
+    "color.contest.bg",
+    "fontFamily.circular",
+    "layout.container.contest1200"
+  ],
+  "usedOnTemplates": [
+    "contest",
+    "contest-submission"
+  ],
+  "usedOnRoutes": [
+    "/contest",
+    "/contest-submission"
+  ]
+}

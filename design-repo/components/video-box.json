@@ -1,0 +1,33 @@
+{
+  "id": "video-box",
+  "kind": "component",
+  "purpose": "S10 16:9 video frame (padding-top 56.206%) rendered as a placeholder that links out to YouTube; frames events/bounties/videos/course/none.",
+  "measuredFrom": [
+    "src/components/templates/VideoBox.jsx:14"
+  ],
+  "props": {
+    "youtubeId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "frame": {
+      "type": "enum",
+      "values": [
+        "events",
+        "bounties",
+        "videos",
+        "course",
+        "none"
+      ]
+    }
+  },
+  "tokensUsed": [],
+  "composes": [
+    "play-button"
+  ],
+  "notes": [
+    "Spec S10 asks for a youtube.com/embed iframe; the code renders a placeholder link instead (no third-party request). Code is canonical."
+  ]
+}

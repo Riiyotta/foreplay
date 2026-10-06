@@ -1,0 +1,2398 @@
+{
+  "$description": "Closed list of ids a generator may instantiate, one entry per contract file (parity checked by verify_all.py). PageSpec nodes may only use kind=section ids; settableProps mirrors schema/pagespec.schema.json definitions.node.properties.",
+  "allowlistVersion": "1.0.0",
+  "assetRoleEnum": [
+    "brand-mark",
+    "customer-logo",
+    "decorative-media",
+    "editorial-image",
+    "lottie-animation",
+    "person-portrait",
+    "product-icon",
+    "product-screenshot",
+    "product-video",
+    "third-party-embed",
+    "third-party-mark",
+    "ui-icon"
+  ],
+  "components": [
+    {
+      "id": "button",
+      "kind": "primitive",
+      "file": "primitives/button.json",
+      "settableProps": [
+        "children",
+        "href",
+        "icon",
+        "iconFull",
+        "iconLeft",
+        "iconRight",
+        "label",
+        "variant"
+      ]
+    },
+    {
+      "id": "overline",
+      "kind": "primitive",
+      "file": "primitives/overline.json",
+      "settableProps": [
+        "children"
+      ]
+    },
+    {
+      "id": "section-head",
+      "kind": "primitive",
+      "file": "primitives/section-head.json",
+      "settableProps": [
+        "align",
+        "body",
+        "bodyMax",
+        "bodySize",
+        "overline",
+        "size",
+        "theme",
+        "title",
+        "titleAs"
+      ]
+    },
+    {
+      "id": "container",
+      "kind": "primitive",
+      "file": "primitives/container.json",
+      "settableProps": [
+        "children",
+        "variant"
+      ]
+    },
+    {
+      "id": "white-block",
+      "kind": "primitive",
+      "file": "primitives/white-block.json",
+      "settableProps": [
+        "as",
+        "children",
+        "innerClassName"
+      ]
+    },
+    {
+      "id": "bg-video",
+      "kind": "primitive",
+      "file": "primitives/bg-video.json",
+      "settableProps": [
+        "children",
+        "poster",
+        "sources"
+      ]
+    },
+    {
+      "id": "icon",
+      "kind": "primitive",
+      "file": "primitives/icon.json",
+      "settableProps": [
+        "size",
+        "src"
+      ]
+    },
+    {
+      "id": "avatar",
+      "kind": "primitive",
+      "file": "primitives/avatar.json",
+      "settableProps": [
+        "size",
+        "src"
+      ]
+    },
+    {
+      "id": "tag-pill",
+      "kind": "primitive",
+      "file": "primitives/tag-pill.json",
+      "settableProps": [
+        "label",
+        "tone"
+      ]
+    },
+    {
+      "id": "form-field",
+      "kind": "primitive",
+      "file": "primitives/form-field.json",
+      "settableProps": [
+        "control",
+        "label",
+        "optional"
+      ]
+    },
+    {
+      "id": "submit-button",
+      "kind": "primitive",
+      "file": "primitives/submit-button.json",
+      "settableProps": [
+        "label"
+      ]
+    },
+    {
+      "id": "embed-placeholder",
+      "kind": "primitive",
+      "file": "primitives/embed-placeholder.json",
+      "settableProps": [
+        "href",
+        "label",
+        "linkLabel",
+        "theme"
+      ]
+    },
+    {
+      "id": "rich-text",
+      "kind": "primitive",
+      "file": "primitives/rich-text.json",
+      "settableProps": [
+        "anchors",
+        "blocks",
+        "variant"
+      ]
+    },
+    {
+      "id": "divider",
+      "kind": "primitive",
+      "file": "primitives/divider.json",
+      "settableProps": [
+        "variant"
+      ]
+    },
+    {
+      "id": "lottie",
+      "kind": "primitive",
+      "file": "primitives/lottie.json",
+      "settableProps": [
+        "inMs",
+        "mode",
+        "outMs",
+        "src"
+      ]
+    },
+    {
+      "id": "marquee",
+      "kind": "primitive",
+      "file": "primitives/marquee.json",
+      "settableProps": [
+        "gap",
+        "rtl",
+        "speed"
+      ]
+    },
+    {
+      "id": "play-button",
+      "kind": "primitive",
+      "file": "primitives/play-button.json",
+      "settableProps": [
+        "size"
+      ]
+    },
+    {
+      "id": "social-icon-list",
+      "kind": "primitive",
+      "file": "primitives/social-icon-list.json",
+      "settableProps": [
+        "order",
+        "socials"
+      ]
+    },
+    {
+      "id": "faq-item",
+      "kind": "component",
+      "file": "components/faq-item.json",
+      "settableProps": [
+        "a",
+        "q"
+      ]
+    },
+    {
+      "id": "faq-buttons",
+      "kind": "component",
+      "file": "components/faq-buttons.json",
+      "settableProps": []
+    },
+    {
+      "id": "product-card",
+      "kind": "component",
+      "file": "components/product-card.json",
+      "settableProps": [
+        "ghost",
+        "product",
+        "title"
+      ]
+    },
+    {
+      "id": "security-card",
+      "kind": "component",
+      "file": "components/security-card.json",
+      "settableProps": [
+        "cta",
+        "href",
+        "icon",
+        "img",
+        "text",
+        "title"
+      ]
+    },
+    {
+      "id": "blog-list-card",
+      "kind": "component",
+      "file": "components/blog-list-card.json",
+      "settableProps": [
+        "post"
+      ]
+    },
+    {
+      "id": "replay-row",
+      "kind": "component",
+      "file": "components/replay-row.json",
+      "settableProps": [
+        "ev"
+      ]
+    },
+    {
+      "id": "event-meta",
+      "kind": "component",
+      "file": "components/event-meta.json",
+      "settableProps": [
+        "ev",
+        "layout"
+      ]
+    },
+    {
+      "id": "upcoming-card",
+      "kind": "component",
+      "file": "components/upcoming-card.json",
+      "settableProps": [
+        "ev"
+      ]
+    },
+    {
+      "id": "expert-card",
+      "kind": "component",
+      "file": "components/expert-card.json",
+      "settableProps": [
+        "expert",
+        "variant"
+      ]
+    },
+    {
+      "id": "agency-card",
+      "kind": "component",
+      "file": "components/agency-card.json",
+      "settableProps": [
+        "a"
+      ]
+    },
+    {
+      "id": "plan-card",
+      "kind": "component",
+      "file": "components/plan-card.json",
+      "settableProps": [
+        "benefits",
+        "desc",
+        "name",
+        "price",
+        "primary",
+        "save"
+      ]
+    },
+    {
+      "id": "enterprise-card",
+      "kind": "component",
+      "file": "components/enterprise-card.json",
+      "settableProps": [
+        "items",
+        "subtitle",
+        "title"
+      ]
+    },
+    {
+      "id": "credit-card",
+      "kind": "component",
+      "file": "components/credit-card.json",
+      "settableProps": [
+        "credits",
+        "price"
+      ]
+    },
+    {
+      "id": "testimonial-quote",
+      "kind": "component",
+      "file": "components/testimonial-quote.json",
+      "settableProps": [
+        "avatar",
+        "logo",
+        "name",
+        "quote",
+        "role"
+      ]
+    },
+    {
+      "id": "testimonial-pin",
+      "kind": "component",
+      "file": "components/testimonial-pin.json",
+      "settableProps": [
+        "img",
+        "name",
+        "quote",
+        "role"
+      ]
+    },
+    {
+      "id": "rating-tile",
+      "kind": "component",
+      "file": "components/rating-tile.json",
+      "settableProps": [
+        "icon",
+        "name",
+        "score"
+      ]
+    },
+    {
+      "id": "logo-strip",
+      "kind": "component",
+      "file": "components/logo-strip.json",
+      "settableProps": []
+    },
+    {
+      "id": "tilt-card",
+      "kind": "component",
+      "file": "components/tilt-card.json",
+      "settableProps": [
+        "href",
+        "tilt"
+      ]
+    },
+    {
+      "id": "video-box",
+      "kind": "component",
+      "file": "components/video-box.json",
+      "settableProps": [
+        "frame",
+        "title",
+        "youtubeId"
+      ]
+    },
+    {
+      "id": "video-lightbox",
+      "kind": "component",
+      "file": "components/video-lightbox.json",
+      "settableProps": [
+        "poster",
+        "title",
+        "url"
+      ]
+    },
+    {
+      "id": "tab-bar",
+      "kind": "component",
+      "file": "components/tab-bar.json",
+      "settableProps": [
+        "mode",
+        "tabs"
+      ]
+    },
+    {
+      "id": "slide-carousel",
+      "kind": "component",
+      "file": "components/slide-carousel.json",
+      "settableProps": [
+        "slides"
+      ]
+    },
+    {
+      "id": "breadcrumb",
+      "kind": "component",
+      "file": "components/breadcrumb.json",
+      "settableProps": [
+        "alwaysVisible",
+        "crumbs"
+      ]
+    },
+    {
+      "id": "image-step-card",
+      "kind": "component",
+      "file": "components/image-step-card.json",
+      "settableProps": [
+        "icon",
+        "img",
+        "text",
+        "title"
+      ]
+    },
+    {
+      "id": "demo-form",
+      "kind": "component",
+      "file": "components/demo-form.json",
+      "settableProps": [
+        "variant"
+      ]
+    },
+    {
+      "id": "sticky-toc",
+      "kind": "component",
+      "file": "components/sticky-toc.json",
+      "settableProps": [
+        "items"
+      ]
+    },
+    {
+      "id": "trial-card",
+      "kind": "component",
+      "file": "components/trial-card.json",
+      "settableProps": []
+    },
+    {
+      "id": "shell.navbar",
+      "kind": "section",
+      "file": "sections/shell.navbar.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "items"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "shell.footer",
+      "kind": "section",
+      "file": "sections/shell.footer.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "adCount",
+        "copyright",
+        "items"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "shell.exit-intent-modal",
+      "kind": "section",
+      "file": "sections/shell.exit-intent-modal.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "primary",
+        "secondary",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "conversion.cta-final",
+      "kind": "section",
+      "file": "sections/conversion.cta-final.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "image",
+        "paragraph",
+        "primary",
+        "secondary",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "conversion.cta-banner",
+      "kind": "section",
+      "file": "sections/conversion.cta-banner.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "icon",
+        "title",
+        "video"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-icon",
+        "product-video"
+      ]
+    },
+    {
+      "id": "hero.home",
+      "kind": "section",
+      "file": "sections/hero.home.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "lead",
+        "logoStrip",
+        "primary",
+        "title",
+        "video"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-video"
+      ]
+    },
+    {
+      "id": "content.before-after",
+      "kind": "section",
+      "file": "sections/content.before-after.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "after",
+        "before",
+        "body",
+        "rainLogos",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "customer-logo",
+        "product-video"
+      ]
+    },
+    {
+      "id": "content.product-showcase",
+      "kind": "section",
+      "file": "sections/content.product-showcase.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "chromeExtensionCard",
+        "overline",
+        "products",
+        "title"
+      ],
+      "variants": [
+        "research",
+        "analytics"
+      ],
+      "assetRoles": []
+    },
+    {
+      "id": "content.collaboration",
+      "kind": "section",
+      "file": "sections/content.collaboration.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "overline",
+        "sharing",
+        "testimonials",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "person-portrait",
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "content.security-grid",
+      "kind": "section",
+      "file": "sections/content.security-grid.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "cards",
+        "overline",
+        "title"
+      ],
+      "variants": [
+        "home-features",
+        "lens-security",
+        "spyder-use-cases",
+        "apps-extensions",
+        "comparison-features"
+      ],
+      "assetRoles": [
+        "product-screenshot",
+        "ui-icon"
+      ]
+    },
+    {
+      "id": "hero.product",
+      "kind": "section",
+      "file": "sections/hero.product.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "icon",
+        "overline",
+        "screen",
+        "subtitle",
+        "title",
+        "watchVideo"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-icon",
+        "product-video"
+      ]
+    },
+    {
+      "id": "hero.product-shell",
+      "kind": "section",
+      "file": "sections/hero.product-shell.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "actions",
+        "media",
+        "overline",
+        "setupTabs",
+        "subtitle",
+        "title"
+      ],
+      "variants": [
+        "api",
+        "mcp",
+        "mobile-app"
+      ],
+      "assetRoles": [
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "hero.product-content",
+      "kind": "section",
+      "file": "sections/hero.product-content.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "overline",
+        "primary",
+        "subtitle",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "content.solution-cards",
+      "kind": "section",
+      "file": "sections/content.solution-cards.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "after",
+        "before",
+        "body",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "interactive.product-carousel",
+      "kind": "section",
+      "file": "sections/interactive.product-carousel.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "overline",
+        "slides",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "interactive.product-tabs",
+      "kind": "section",
+      "file": "sections/interactive.product-tabs.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "extension",
+        "overline",
+        "tabs",
+        "title"
+      ],
+      "variants": [
+        "default",
+        "spyder"
+      ],
+      "assetRoles": [
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "content.feature-section",
+      "kind": "section",
+      "file": "sections/content.feature-section.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "groups",
+        "overline",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "customer-logo",
+        "person-portrait",
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "content.faq",
+      "kind": "section",
+      "file": "sections/content.faq.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "buttons",
+        "items",
+        "overline",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "content.lens-solution-block",
+      "kind": "section",
+      "file": "sections/content.lens-solution-block.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "graphTitle",
+        "graphs",
+        "icons",
+        "reporting"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "person-portrait",
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "interactive.lens-integrations",
+      "kind": "section",
+      "file": "sections/interactive.lens-integrations.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "logos",
+        "overline",
+        "tabs",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-screenshot",
+        "third-party-mark"
+      ]
+    },
+    {
+      "id": "content.lens-contextual-block",
+      "kind": "section",
+      "file": "sections/content.lens-contextual-block.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "benchmarkHeading",
+        "head",
+        "rows"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "decorative-media"
+      ]
+    },
+    {
+      "id": "content.lens-enrichment",
+      "kind": "section",
+      "file": "sections/content.lens-enrichment.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "overline",
+        "pins",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "content.media-rows",
+      "kind": "section",
+      "file": "sections/content.media-rows.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "head",
+        "rows"
+      ],
+      "variants": [
+        "api",
+        "mcp"
+      ],
+      "assetRoles": [
+        "decorative-media",
+        "product-icon"
+      ]
+    },
+    {
+      "id": "pricing.api-credits",
+      "kind": "section",
+      "file": "sections/pricing.api-credits.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "cards",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "content.mobile-app-features",
+      "kind": "section",
+      "file": "sections/content.mobile-app-features.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "lightboxVideo",
+        "rows"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-video",
+        "third-party-embed"
+      ]
+    },
+    {
+      "id": "pricing.plans",
+      "kind": "section",
+      "file": "sections/pricing.plans.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "annualNote",
+        "billingTabs",
+        "body",
+        "enterprise",
+        "overline",
+        "plans",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "ui-icon"
+      ]
+    },
+    {
+      "id": "pricing.compare-table",
+      "kind": "section",
+      "file": "sections/pricing.compare-table.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "categories",
+        "plans"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "hero.gradient",
+      "kind": "section",
+      "file": "sections/hero.gradient.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "faqButtons",
+        "featured",
+        "overline",
+        "paragraph",
+        "primary",
+        "title"
+      ],
+      "variants": [
+        "blog",
+        "faq",
+        "product"
+      ],
+      "assetRoles": []
+    },
+    {
+      "id": "hero.centered",
+      "kind": "section",
+      "file": "sections/hero.centered.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "overline",
+        "paragraph",
+        "title"
+      ],
+      "variants": [
+        "demo",
+        "fireside"
+      ],
+      "assetRoles": []
+    },
+    {
+      "id": "hero.page",
+      "kind": "section",
+      "file": "sections/hero.page.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "characters",
+        "cta",
+        "overline",
+        "subtitle",
+        "tabs",
+        "title",
+        "topMedia"
+      ],
+      "variants": [
+        "affiliates",
+        "fireside",
+        "bounties"
+      ],
+      "assetRoles": [
+        "brand-mark",
+        "person-portrait",
+        "ui-icon"
+      ]
+    },
+    {
+      "id": "hero.section-head",
+      "kind": "section",
+      "file": "sections/hero.section-head.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "overline",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "hero.split-video",
+      "kind": "section",
+      "file": "sections/hero.split-video.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "actions",
+        "lead",
+        "overline",
+        "title",
+        "video"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-video"
+      ]
+    },
+    {
+      "id": "hero.booking",
+      "kind": "section",
+      "file": "sections/hero.booking.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "apacBar",
+        "lead",
+        "logoStrip",
+        "overline",
+        "scheduler",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "third-party-embed"
+      ]
+    },
+    {
+      "id": "hero.demo-video",
+      "kind": "section",
+      "file": "sections/hero.demo-video.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "avatar",
+        "body",
+        "cta",
+        "message",
+        "overline",
+        "player",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "person-portrait",
+        "third-party-embed"
+      ]
+    },
+    {
+      "id": "hero.promo",
+      "kind": "section",
+      "file": "sections/hero.promo.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "actions",
+        "announcement",
+        "lead",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "hero.media-kit",
+      "kind": "section",
+      "file": "sections/hero.media-kit.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "cta",
+        "image",
+        "subline",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "brand-mark"
+      ]
+    },
+    {
+      "id": "hero.jumpstart",
+      "kind": "section",
+      "file": "sections/hero.jumpstart.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "countdown",
+        "headline",
+        "kicker",
+        "video"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "decorative-media"
+      ]
+    },
+    {
+      "id": "hero.ships",
+      "kind": "section",
+      "file": "sections/hero.ships.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "art",
+        "eyebrow",
+        "subline",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "decorative-media"
+      ]
+    },
+    {
+      "id": "hero.contest",
+      "kind": "section",
+      "file": "sections/hero.contest.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "date",
+        "pill",
+        "sponsorLogos",
+        "title"
+      ],
+      "variants": [
+        "contest",
+        "submission"
+      ],
+      "assetRoles": [
+        "customer-logo"
+      ]
+    },
+    {
+      "id": "hero.directory",
+      "kind": "section",
+      "file": "sections/hero.directory.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "lead",
+        "overline",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "hero.comparison",
+      "kind": "section",
+      "file": "sections/hero.comparison.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "intro",
+        "overline",
+        "title",
+        "video"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-video"
+      ]
+    },
+    {
+      "id": "hero.industry",
+      "kind": "section",
+      "file": "sections/hero.industry.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "icon",
+        "logos",
+        "overline",
+        "paragraph",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "customer-logo",
+        "ui-icon"
+      ]
+    },
+    {
+      "id": "hero.legal-title",
+      "kind": "section",
+      "file": "sections/hero.legal-title.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "hero.blog-top",
+      "kind": "section",
+      "file": "sections/hero.blog-top.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "bounty",
+        "meta",
+        "profile",
+        "title"
+      ],
+      "variants": [
+        "post",
+        "faq",
+        "event",
+        "career",
+        "bounty",
+        "replays",
+        "author"
+      ],
+      "assetRoles": [
+        "person-portrait",
+        "third-party-embed"
+      ]
+    },
+    {
+      "id": "nav.breadcrumb",
+      "kind": "section",
+      "file": "sections/nav.breadcrumb.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "crumbs"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "hero.expert-profile",
+      "kind": "section",
+      "file": "sections/hero.expert-profile.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "board",
+        "cta",
+        "headshot",
+        "name",
+        "role"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "person-portrait",
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "hero.university",
+      "kind": "section",
+      "file": "sections/hero.university.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "blurb",
+        "courses",
+        "emailForm",
+        "teacher",
+        "title"
+      ],
+      "variants": [
+        "landing",
+        "course"
+      ],
+      "assetRoles": [
+        "brand-mark"
+      ]
+    },
+    {
+      "id": "form.embed-application",
+      "kind": "section",
+      "file": "sections/form.embed-application.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "form",
+        "formHeight",
+        "lead",
+        "overline",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "third-party-embed"
+      ]
+    },
+    {
+      "id": "form.work-hero",
+      "kind": "section",
+      "file": "sections/form.work-hero.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "formVariant",
+        "lead",
+        "logos",
+        "overline",
+        "terms",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "customer-logo"
+      ]
+    },
+    {
+      "id": "content.work-best",
+      "kind": "section",
+      "file": "sections/content.work-best.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "image",
+        "lead",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "customer-logo"
+      ]
+    },
+    {
+      "id": "social-proof.ratings-wall",
+      "kind": "section",
+      "file": "sections/social-proof.ratings-wall.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "tiles",
+        "title",
+        "wall"
+      ],
+      "variants": [
+        "book-demo",
+        "work-loved"
+      ],
+      "assetRoles": [
+        "third-party-embed",
+        "third-party-mark"
+      ]
+    },
+    {
+      "id": "content.agency-directory",
+      "kind": "section",
+      "file": "sections/content.agency-directory.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "groups",
+        "perPage"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "content.image-step-cards",
+      "kind": "section",
+      "file": "sections/content.image-step-cards.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "cards",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "editorial-image",
+        "ui-icon"
+      ]
+    },
+    {
+      "id": "content.bounty-list",
+      "kind": "section",
+      "file": "sections/content.bounty-list.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "cards",
+        "comingSoon"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "person-portrait"
+      ]
+    },
+    {
+      "id": "content.experts-directory",
+      "kind": "section",
+      "file": "sections/content.experts-directory.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "featured",
+        "moreCount",
+        "moreTitle",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "person-portrait",
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "social-proof.senja-wall",
+      "kind": "section",
+      "file": "sections/social-proof.senja-wall.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "count"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "content.contest-sponsors",
+      "kind": "section",
+      "file": "sections/content.contest-sponsors.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "logos"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "customer-logo"
+      ]
+    },
+    {
+      "id": "content.contest-finalists",
+      "kind": "section",
+      "file": "sections/content.contest-finalists.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "groups",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "editorial-image",
+        "person-portrait"
+      ]
+    },
+    {
+      "id": "content.contest-submission-grid",
+      "kind": "section",
+      "file": "sections/content.contest-submission-grid.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "bonusBody",
+        "embed",
+        "judges",
+        "options"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "person-portrait",
+        "third-party-embed"
+      ]
+    },
+    {
+      "id": "content.contest-faq",
+      "kind": "section",
+      "file": "sections/content.contest-faq.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "items",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "content.replay-list",
+      "kind": "section",
+      "file": "sections/content.replay-list.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "rows",
+        "title"
+      ],
+      "variants": [
+        "replays-page",
+        "author-feed"
+      ],
+      "assetRoles": [
+        "editorial-image"
+      ]
+    },
+    {
+      "id": "content.post-grid",
+      "kind": "section",
+      "file": "sections/content.post-grid.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "cards",
+        "chips",
+        "pagination",
+        "title"
+      ],
+      "variants": [
+        "blog",
+        "csj",
+        "category",
+        "author"
+      ],
+      "assetRoles": [
+        "editorial-image"
+      ]
+    },
+    {
+      "id": "content.faq-list",
+      "kind": "section",
+      "file": "sections/content.faq-list.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "items"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "content.jobs-list",
+      "kind": "section",
+      "file": "sections/content.jobs-list.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "jobs"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "social-proof.logo-strip",
+      "kind": "section",
+      "file": "sections/social-proof.logo-strip.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "logos"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "customer-logo"
+      ]
+    },
+    {
+      "id": "content.jumpstart-offer",
+      "kind": "section",
+      "file": "sections/content.jumpstart-offer.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "expiresLabel",
+        "offerBody",
+        "velocityBody"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "content.ships-grid",
+      "kind": "section",
+      "file": "sections/content.ships-grid.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "items"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "content.ce-install-guide",
+      "kind": "section",
+      "file": "sections/content.ce-install-guide.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "pin",
+        "steps"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "lottie-animation"
+      ]
+    },
+    {
+      "id": "content.article",
+      "kind": "section",
+      "file": "sections/content.article.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "author",
+        "body",
+        "cover",
+        "summary"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "editorial-image",
+        "person-portrait"
+      ]
+    },
+    {
+      "id": "content.related-carousel",
+      "kind": "section",
+      "file": "sections/content.related-carousel.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "posts"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "editorial-image"
+      ]
+    },
+    {
+      "id": "content.author-row",
+      "kind": "section",
+      "file": "sections/content.author-row.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "avatar",
+        "name",
+        "role",
+        "socials"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "person-portrait"
+      ]
+    },
+    {
+      "id": "content.event-body",
+      "kind": "section",
+      "file": "sections/content.event-body.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "learn",
+        "transcript",
+        "video"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "third-party-embed"
+      ]
+    },
+    {
+      "id": "content.event-more",
+      "kind": "section",
+      "file": "sections/content.event-more.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "cards",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "editorial-image"
+      ]
+    },
+    {
+      "id": "content.expert-more",
+      "kind": "section",
+      "file": "sections/content.expert-more.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "experts",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "person-portrait",
+        "product-screenshot"
+      ]
+    },
+    {
+      "id": "content.agency-profile",
+      "kind": "section",
+      "file": "sections/content.agency-profile.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "location",
+        "logo",
+        "name",
+        "sections",
+        "services"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "customer-logo"
+      ]
+    },
+    {
+      "id": "hero.video",
+      "kind": "section",
+      "file": "sections/hero.video.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "overline",
+        "paragraph",
+        "primary",
+        "secondary",
+        "title",
+        "video"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "third-party-embed"
+      ]
+    },
+    {
+      "id": "content.legal-richtext",
+      "kind": "section",
+      "file": "sections/content.legal-richtext.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "blocks",
+        "bodyChars"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "content.career-body",
+      "kind": "section",
+      "file": "sections/content.career-body.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "applyHref",
+        "description"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "content.university-curriculum",
+      "kind": "section",
+      "file": "sections/content.university-curriculum.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "modules",
+        "trailer"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "third-party-embed"
+      ]
+    },
+    {
+      "id": "content.split-sections",
+      "kind": "section",
+      "file": "sections/content.split-sections.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "rows"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "editorial-image"
+      ]
+    },
+    {
+      "id": "content.bounty-detail",
+      "kind": "section",
+      "file": "sections/content.bounty-detail.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "captcha",
+        "details",
+        "formSections",
+        "submitIntro",
+        "submitTitle"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "third-party-embed"
+      ]
+    },
+    {
+      "id": "social-proof.comparison-reviews",
+      "kind": "section",
+      "file": "sections/social-proof.comparison-reviews.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "cards",
+        "overline",
+        "paragraph",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "editorial-image",
+        "third-party-mark"
+      ]
+    },
+    {
+      "id": "interactive.product-tabs-5",
+      "kind": "section",
+      "file": "sections/interactive.product-tabs-5.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "initial",
+        "order",
+        "overline",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "pricing.comparison-pricing",
+      "kind": "section",
+      "file": "sections/pricing.comparison-pricing.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "cards"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "third-party-mark"
+      ]
+    },
+    {
+      "id": "content.comparison-table",
+      "kind": "section",
+      "file": "sections/content.comparison-table.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "overline",
+        "paragraph",
+        "rows",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "overlay.psa-sticky",
+      "kind": "section",
+      "file": "sections/overlay.psa-sticky.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "text"
+      ],
+      "variants": [],
+      "assetRoles": []
+    },
+    {
+      "id": "social-proof.industry-testimonials",
+      "kind": "section",
+      "file": "sections/social-proof.industry-testimonials.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "cards",
+        "overline",
+        "paragraph",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "customer-logo",
+        "person-portrait"
+      ]
+    },
+    {
+      "id": "content.industry-examples",
+      "kind": "section",
+      "file": "sections/content.industry-examples.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "ctaText",
+        "examples",
+        "overline",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": [
+        "customer-logo",
+        "editorial-image"
+      ]
+    },
+    {
+      "id": "content.not-found",
+      "kind": "section",
+      "file": "sections/content.not-found.json",
+      "settableProps": [
+        "section",
+        "variant",
+        "surface",
+        "content",
+        "motion"
+      ],
+      "contentFields": [
+        "body",
+        "homeLink",
+        "title"
+      ],
+      "variants": [],
+      "assetRoles": []
+    }
+  ]
+}

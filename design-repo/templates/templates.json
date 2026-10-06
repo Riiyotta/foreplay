@@ -1,0 +1,2221 @@
+{
+  "version": "1.0.0",
+  "description": "One template per distinct page shape in the Foreplay clone. Nodes are structured objects; shell.navbar is always first, shell.footer and shell.exit-intent-modal are last (paid-landing has no footer). Optional nodes carry a data condition.",
+  "measuredFrom": [
+    "src/App.jsx:30-42",
+    "src/routes.jsx:18",
+    "src/routes.jsx:35"
+  ],
+  "nodeFields": {
+    "section": "section id",
+    "required": "must appear",
+    "repeatable": "may appear more than once",
+    "variant": "pinned variant for this template",
+    "condition": "data state under which an optional node appears",
+    "note": "free text"
+  },
+  "templates": [
+    {
+      "id": "home",
+      "purpose": "Convert first-time visitors: workflow promise, before/after proof, the five products, collaboration testimonials, features, trial CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Home.jsx:12-18"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.home",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.before-after",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.product-showcase",
+          "required": true,
+          "repeatable": false,
+          "variant": "research"
+        },
+        {
+          "section": "content.product-showcase",
+          "required": true,
+          "repeatable": false,
+          "variant": "analytics"
+        },
+        {
+          "section": "content.collaboration",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.security-grid",
+          "required": true,
+          "repeatable": false,
+          "variant": "home-features"
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "product-feature",
+      "purpose": "Explain one product (swipe-file, discovery, briefs): hero, before/after, use-case carousel, core-feature tabs, all features, trial banner, FAQ, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/SwipeFile.jsx:79",
+        "src/pages/Discovery.jsx:77",
+        "src/pages/Briefs.jsx:40"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.product",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.solution-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "interactive.product-carousel",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "interactive.product-tabs",
+          "required": true,
+          "repeatable": false,
+          "variant": "default"
+        },
+        {
+          "section": "content.feature-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "product-spyder",
+      "purpose": "Spyder product page: same as product-feature but the use cases are a 3-card security grid and the tabs use the spyder layout.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Spyder.jsx:47",
+        "src/pages/Spyder.jsx:69"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.product",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.solution-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.security-grid",
+          "required": true,
+          "repeatable": false,
+          "variant": "spyder-use-cases"
+        },
+        {
+          "section": "interactive.product-tabs",
+          "required": true,
+          "repeatable": false,
+          "variant": "spyder"
+        },
+        {
+          "section": "content.feature-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "product-lens",
+      "purpose": "Lens analytics page: hero, solution/graph/reporting white block, integrations, contextual reports + benchmarks, AI metadata, security grid, trial banner (no FAQ, no final CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Lens.jsx:92",
+        "src/pages/Lens.jsx:274"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.product",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.lens-solution-block",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "interactive.lens-integrations",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.lens-contextual-block",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.lens-enrichment",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.security-grid",
+          "required": true,
+          "repeatable": false,
+          "variant": "lens-security"
+        },
+        {
+          "section": "conversion.cta-banner",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "developer-api",
+      "purpose": "API page: shell hero with docs + integrations, API rows, credit pricing, FAQ (no final CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Api.jsx:53",
+        "src/pages/Api.jsx:170"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.product-shell",
+          "required": true,
+          "repeatable": false,
+          "variant": "api"
+        },
+        {
+          "section": "content.media-rows",
+          "required": true,
+          "repeatable": false,
+          "variant": "api"
+        },
+        {
+          "section": "pricing.api-credits",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "developer-mcp",
+      "purpose": "MCP page: shell hero with setup tabs, capability rows, FAQ (no final CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Mcp.jsx:138",
+        "src/pages/Mcp.jsx:221"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.product-shell",
+          "required": true,
+          "repeatable": false,
+          "variant": "mcp"
+        },
+        {
+          "section": "content.media-rows",
+          "required": true,
+          "repeatable": false,
+          "variant": "mcp"
+        },
+        {
+          "section": "content.faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "mobile-app",
+      "purpose": "Mobile app page: phone hero + feature stack; ends on a -80px spacer (no CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/MobileApp.jsx:21"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.product-shell",
+          "required": true,
+          "repeatable": false,
+          "variant": "mobile-app"
+        },
+        {
+          "section": "content.mobile-app-features",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "paid-landing",
+      "purpose": "/2026-paid-lp: gradient product hero + mobile-app feature stack and NO footer (App.jsx hideFooterOn).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/PaidLp2026.jsx:11",
+        "src/App.jsx:19"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.gradient",
+          "required": true,
+          "repeatable": false,
+          "variant": "product"
+        },
+        {
+          "section": "content.mobile-app-features",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "apps-extensions",
+      "purpose": "Companion apps: short centred hero + 3 download cards.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/AppsExtensions.jsx:15"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.product-content",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.security-grid",
+          "required": true,
+          "repeatable": false,
+          "variant": "apps-extensions"
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "chrome-extension",
+      "purpose": "Legacy chrome-extension install guide (no hero section: h1 lives in the guide).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/ChromeExtension.jsx:85"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "content.ce-install-guide",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "purpose": "Pricing: plans with billing toggle, comparison grid, FAQ, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Pricing.jsx:253",
+        "src/pages/Pricing.jsx:274"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "pricing.plans",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "pricing.compare-table",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "pre-black-friday",
+      "purpose": "Seasonal promo: animated hero, API credit pricing, FAQ (no CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/PreBlackFriday.jsx:69"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.promo",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "pricing.api-credits",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "book-demo",
+      "purpose": "Book a demo: booking hero with scheduler placeholder + ratings wall (no CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/BookDemo.jsx:66"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.booking",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "social-proof.ratings-wall",
+          "required": true,
+          "repeatable": false,
+          "variant": "book-demo"
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "watch-demo",
+      "purpose": "Watch the pre-recorded demo (single section page).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/WatchDemo.jsx:20"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.demo-video",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "application-form",
+      "purpose": "Experts/fireside application: centred head + NoteForms placeholder; no hero section, no CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/ExpertsApplication.jsx:7",
+        "src/pages/FiresideApplication.jsx:7"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "form.embed-application",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "work-with",
+      "purpose": "Work with brands/marketers: hero + lead form, best-marketers illustration, loved-by block, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/components/community/WorkWith.jsx:248"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "form.work-hero",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.work-best",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "social-proof.ratings-wall",
+          "required": true,
+          "repeatable": false,
+          "variant": "work-loved"
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "agency-directory",
+      "purpose": "Agency directory: hero + filterable feed (no CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/AgencyDirectory.jsx:39"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.directory",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.agency-directory",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "affiliates",
+      "purpose": "Affiliate program: page hero, 3 image steps, FAQ (no final CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Affiliates.jsx:26"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.page",
+          "required": true,
+          "repeatable": false,
+          "variant": "affiliates"
+        },
+        {
+          "section": "content.image-step-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "fireside",
+      "purpose": "Fireside events hub: page hero with tabs, why-attend cards, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Fireside.jsx:93"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.page",
+          "required": true,
+          "repeatable": false,
+          "variant": "fireside"
+        },
+        {
+          "section": "content.image-step-cards",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "bounties-index",
+      "purpose": "Bounties hub: page hero with characters + bounty list (no CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Bounties.jsx:67"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.page",
+          "required": true,
+          "repeatable": false,
+          "variant": "bounties"
+        },
+        {
+          "section": "content.bounty-list",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "experts-index",
+      "purpose": "Experts hub: split video hero, featured + all experts, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Experts.jsx:14"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.split-video",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.experts-directory",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "purpose": "Wall of love: section-head header, stand-in review wall, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Reviews.jsx:22"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.section-head",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "social-proof.senja-wall",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "contest",
+      "purpose": "Contest (scoped contest theme): header, sponsors, finalists (no CTA).",
+      "theme": "contest",
+      "measuredFrom": [
+        "src/pages/Contest.jsx:149"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.contest",
+          "required": true,
+          "repeatable": false,
+          "variant": "contest"
+        },
+        {
+          "section": "content.contest-sponsors",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.contest-finalists",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "contest-submission",
+      "purpose": "Contest submission hub (scoped contest theme): header, submission grid, FAQ (no CTA).",
+      "theme": "contest",
+      "measuredFrom": [
+        "src/pages/ContestSubmission.jsx:126"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.contest",
+          "required": true,
+          "repeatable": false,
+          "variant": "submission"
+        },
+        {
+          "section": "content.contest-submission-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.contest-faq",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "blog-index",
+      "purpose": "Blog index: gradient hero with featured/popular grid, paginated post grid, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Blog.jsx:30"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.gradient",
+          "required": true,
+          "repeatable": false,
+          "variant": "blog"
+        },
+        {
+          "section": "content.post-grid",
+          "required": true,
+          "repeatable": false,
+          "variant": "blog"
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "faq-index",
+      "purpose": "FAQ index: gradient hero with support buttons, 65 accordion rows, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Faq.jsx:16"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.gradient",
+          "required": true,
+          "repeatable": false,
+          "variant": "faq"
+        },
+        {
+          "section": "content.faq-list",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "careers-index",
+      "purpose": "Careers: centred hero + white jobs list (no CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Careers.jsx:17"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.centered",
+          "required": true,
+          "repeatable": false,
+          "variant": "demo"
+        },
+        {
+          "section": "content.jobs-list",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "creative-strategist-jobs",
+      "purpose": "Creative strategist job board: centred hero, article grid (66 cards), CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/CreativeStrategistJobs.jsx:19"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.centered",
+          "required": true,
+          "repeatable": false,
+          "variant": "demo"
+        },
+        {
+          "section": "content.post-grid",
+          "required": true,
+          "repeatable": false,
+          "variant": "csj"
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "media-kit",
+      "purpose": "Media kit: hero only, footer follows.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/MediaKit.jsx:8"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.media-kit",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "jumpstart",
+      "purpose": "Jumpstart 2026 offer: animated hero, logo strip, white offer block (no CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/Jumpstart2026.jsx:9"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.jumpstart",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "social-proof.logo-strip",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.jumpstart-offer",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "ships",
+      "purpose": "Ships product updates (scoped legacy theme): header + release grid (no CTA).",
+      "theme": "ships-legacy",
+      "measuredFrom": [
+        "src/pages/Ships.jsx:69"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.ships",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.ships-grid",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "fireside-replays",
+      "purpose": "All fireside replays: breadcrumb, title block, replay rows, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/FiresideReplays.jsx:15"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "nav.breadcrumb",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.blog-top",
+          "required": true,
+          "repeatable": false,
+          "variant": "replays"
+        },
+        {
+          "section": "content.replay-list",
+          "required": true,
+          "repeatable": false,
+          "variant": "replays-page"
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "post",
+      "purpose": "Blog post (184 entries): breadcrumb, title + excerpt, article with TOC/trial card, related carousel, author row, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Post.jsx:59"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "nav.breadcrumb",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.blog-top",
+          "required": true,
+          "repeatable": false,
+          "variant": "post"
+        },
+        {
+          "section": "content.article",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.related-carousel",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.author-row",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "expert",
+      "purpose": "Expert profile (67): profile hero (breadcrumb inside) + more experts + CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Expert.jsx:74"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.expert-profile",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.expert-more",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "faq-item",
+      "purpose": "Single FAQ (65): breadcrumb, question title + answer, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/FaqItem.jsx:11"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "nav.breadcrumb",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.blog-top",
+          "required": true,
+          "repeatable": false,
+          "variant": "faq"
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "author",
+      "purpose": "Author profile (43): breadcrumb, profile title block, optional blog grid and replay rows (each rendered only when non-empty), CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Author.jsx:30"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "nav.breadcrumb",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.blog-top",
+          "required": true,
+          "repeatable": false,
+          "variant": "author"
+        },
+        {
+          "section": "content.post-grid",
+          "required": false,
+          "repeatable": false,
+          "variant": "author",
+          "condition": "author has posts"
+        },
+        {
+          "section": "content.replay-list",
+          "required": false,
+          "repeatable": false,
+          "variant": "author-feed",
+          "condition": "author has replays"
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "event",
+      "purpose": "Fireside event replay (27): breadcrumb, title + meta, video/learn/transcript, more replays aside, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Event.jsx:88"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "nav.breadcrumb",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.blog-top",
+          "required": true,
+          "repeatable": false,
+          "variant": "event"
+        },
+        {
+          "section": "content.event-body",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.event-more",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "purpose": "Agency profile (26): breadcrumb, tilt profile card + stand-in sections + lead form, CTA (no hero section).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Agency.jsx:62"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "nav.breadcrumb",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.agency-profile",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "purpose": "Video page (16): demo hero with video placeholder, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Video.jsx:11"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.video",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "category",
+      "purpose": "Blog category (15): centred hero, topic chips + posts grid, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Category.jsx:10"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.centered",
+          "required": true,
+          "repeatable": false,
+          "variant": "fireside"
+        },
+        {
+          "section": "content.post-grid",
+          "required": true,
+          "repeatable": false,
+          "variant": "category"
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "purpose": "Foreplay vs competitor (10): hero, reviews, 5-product tabs, pricing, table, features grid, custom CTA, PSA sticky overlay.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Comparison.jsx:23"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.comparison",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "social-proof.comparison-reviews",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "interactive.product-tabs-5",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "pricing.comparison-pricing",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.comparison-table",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.security-grid",
+          "required": true,
+          "repeatable": false,
+          "variant": "comparison-features"
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "overlay.psa-sticky",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "purpose": "Industry solution page (6): hero with logo marquee, testimonials, 5-product tabs, ad examples, custom CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Industry.jsx:10"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.industry",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "social-proof.industry-testimonials",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "interactive.product-tabs-5",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.industry-examples",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "legal-page",
+      "purpose": "Legal page (5): title + full-bleed white rich text (no CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/LegalPage.jsx:9"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.legal-title",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.legal-richtext",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "career",
+      "purpose": "Job posting (3): breadcrumb, title, apply + description (no CTA).",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Career.jsx:30"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "nav.breadcrumb",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.blog-top",
+          "required": true,
+          "repeatable": false,
+          "variant": "career"
+        },
+        {
+          "section": "content.career-body",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "university-landing",
+      "purpose": "University classes landing (entry template 'landing'): hero with course cards, split sections, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/University.jsx:69"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.university",
+          "required": true,
+          "repeatable": false,
+          "variant": "landing"
+        },
+        {
+          "section": "content.split-sections",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "university-course",
+      "purpose": "University course (entry template 'course'): course hero, curriculum, split sections, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/University.jsx:182"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "hero.university",
+          "required": true,
+          "repeatable": false,
+          "variant": "course"
+        },
+        {
+          "section": "content.university-curriculum",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.split-sections",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "bounty",
+      "purpose": "Bounty detail (1): breadcrumb, title block with video/details, tabs + submit form, CTA.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/pages/templates/Bounty.jsx:98"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "nav.breadcrumb",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.blog-top",
+          "required": true,
+          "repeatable": false,
+          "variant": "bounty"
+        },
+        {
+          "section": "content.bounty-detail",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "conversion.cta-final",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    },
+    {
+      "id": "not-found",
+      "purpose": "Not-found state: rendered for unknown CMS slugs, the two '404' stub posts and the * catch-all.",
+      "theme": "dark",
+      "measuredFrom": [
+        "src/components/templates/Layout.jsx:55",
+        "src/App.jsx:37"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false,
+          "note": "global, src/App.jsx"
+        },
+        {
+          "section": "content.not-found",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
+          "required": true,
+          "repeatable": false,
+          "note": "global (MaybeFooter)"
+        },
+        {
+          "section": "shell.exit-intent-modal",
+          "required": true,
+          "repeatable": false,
+          "note": "global overlay, rendered after the footer"
+        }
+      ]
+    }
+  ]
+}

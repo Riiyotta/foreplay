@@ -1,0 +1,48 @@
+{
+  "$description": "Grids that recur or carry content contracts.",
+  "category": "layout",
+  "grid": {
+    "blogList": {
+      "columns": {
+        "base": 3,
+        "max-md": 2,
+        "max-sm": 1
+      },
+      "gap": {
+        "base": "16px",
+        "xl": "20px",
+        "2xl": "24px"
+      },
+      "measuredFrom": "src/components/templates/CardGrid.jsx:51"
+    },
+    "planCards": {
+      "columns": {
+        "base": 3,
+        "max-lg": 1
+      },
+      "gap": {
+        "base": "16px",
+        "max-lg": "32px",
+        "max-md": "24px",
+        "max-sm": "20px"
+      },
+      "measuredFrom": "src/pages/Pricing.jsx:235"
+    },
+    "beforeAfter": {
+      "columns": {
+        "base": 2,
+        "max-md": 1
+      },
+      "gap": "20px",
+      "measuredFrom": "src/components/BeforeAfter.jsx:54"
+    },
+    "featuredExperts": {
+      "columns": {
+        "base": 3,
+        "max-md": 1
+      },
+      "gap": "25px",
+      "measuredFrom": "src/pages/Experts.jsx:70"
+    }
+  }
+}

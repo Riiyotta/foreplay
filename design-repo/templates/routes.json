@@ -1,0 +1,605 @@
+{
+  "version": "1.0.0",
+  "description": "Every route the clone serves: 36 one-off pages (src/routes.jsx PAGES) and 14 CMS collections (TEMPLATES, data in src/data/<collection>.json). Each pattern binds to exactly one template; /university/:slug binds per entry (template field) and two post slugs are overridden to not-found.",
+  "measuredFrom": [
+    "src/routes.jsx:18-32",
+    "src/routes.jsx:35-39"
+  ],
+  "concreteUrlTotal": 506,
+  "sitemap": {
+    "file": "sitemap-routes.txt (source project)",
+    "urls": 505,
+    "note": "The sitemap list omits '/' ; with '/' added it equals the 506 concrete URLs computed here."
+  },
+  "routes": [
+    {
+      "path": "/",
+      "kind": "page",
+      "component": "src/pages/Home.jsx",
+      "template": "home",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:19"
+      ]
+    },
+    {
+      "path": "/affiliates",
+      "kind": "page",
+      "component": "src/pages/Affiliates.jsx",
+      "template": "affiliates",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:20"
+      ]
+    },
+    {
+      "path": "/briefs",
+      "kind": "page",
+      "component": "src/pages/Briefs.jsx",
+      "template": "product-feature",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:20"
+      ]
+    },
+    {
+      "path": "/blog",
+      "kind": "page",
+      "component": "src/pages/Blog.jsx",
+      "template": "blog-index",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:20"
+      ]
+    },
+    {
+      "path": "/discovery",
+      "kind": "page",
+      "component": "src/pages/Discovery.jsx",
+      "template": "product-feature",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:20"
+      ]
+    },
+    {
+      "path": "/experts",
+      "kind": "page",
+      "component": "src/pages/Experts.jsx",
+      "template": "experts-index",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:21"
+      ]
+    },
+    {
+      "path": "/faq",
+      "kind": "page",
+      "component": "src/pages/Faq.jsx",
+      "template": "faq-index",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:21"
+      ]
+    },
+    {
+      "path": "/creative-strategist-jobs",
+      "kind": "page",
+      "component": "src/pages/CreativeStrategistJobs.jsx",
+      "template": "creative-strategist-jobs",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:21"
+      ]
+    },
+    {
+      "path": "/careers",
+      "kind": "page",
+      "component": "src/pages/Careers.jsx",
+      "template": "careers-index",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:22"
+      ]
+    },
+    {
+      "path": "/ships",
+      "kind": "page",
+      "component": "src/pages/Ships.jsx",
+      "template": "ships",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:22"
+      ]
+    },
+    {
+      "path": "/experts-application",
+      "kind": "page",
+      "component": "src/pages/ExpertsApplication.jsx",
+      "template": "application-form",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:22"
+      ]
+    },
+    {
+      "path": "/watch-demo",
+      "kind": "page",
+      "component": "src/pages/WatchDemo.jsx",
+      "template": "watch-demo",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:23"
+      ]
+    },
+    {
+      "path": "/mobile-app",
+      "kind": "page",
+      "component": "src/pages/MobileApp.jsx",
+      "template": "mobile-app",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:23"
+      ]
+    },
+    {
+      "path": "/fireside",
+      "kind": "page",
+      "component": "src/pages/Fireside.jsx",
+      "template": "fireside",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:23"
+      ]
+    },
+    {
+      "path": "/fireside-application",
+      "kind": "page",
+      "component": "src/pages/FiresideApplication.jsx",
+      "template": "application-form",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:24"
+      ]
+    },
+    {
+      "path": "/apps-extensions",
+      "kind": "page",
+      "component": "src/pages/AppsExtensions.jsx",
+      "template": "apps-extensions",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:24"
+      ]
+    },
+    {
+      "path": "/fireside-replays",
+      "kind": "page",
+      "component": "src/pages/FiresideReplays.jsx",
+      "template": "fireside-replays",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:25"
+      ]
+    },
+    {
+      "path": "/spyder-ad-spy",
+      "kind": "page",
+      "component": "src/pages/Spyder.jsx",
+      "template": "product-spyder",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:25"
+      ]
+    },
+    {
+      "path": "/contest",
+      "kind": "page",
+      "component": "src/pages/Contest.jsx",
+      "template": "contest",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:25"
+      ]
+    },
+    {
+      "path": "/contest-submission",
+      "kind": "page",
+      "component": "src/pages/ContestSubmission.jsx",
+      "template": "contest-submission",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:26"
+      ]
+    },
+    {
+      "path": "/chrome-extension",
+      "kind": "page",
+      "component": "src/pages/ChromeExtension.jsx",
+      "template": "chrome-extension",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:26"
+      ]
+    },
+    {
+      "path": "/lens-creative-analytics",
+      "kind": "page",
+      "component": "src/pages/Lens.jsx",
+      "template": "product-lens",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:27"
+      ]
+    },
+    {
+      "path": "/pricing",
+      "kind": "page",
+      "component": "src/pages/Pricing.jsx",
+      "template": "pricing",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:27"
+      ]
+    },
+    {
+      "path": "/reviews",
+      "kind": "page",
+      "component": "src/pages/Reviews.jsx",
+      "template": "reviews",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:27"
+      ]
+    },
+    {
+      "path": "/swipe-file",
+      "kind": "page",
+      "component": "src/pages/SwipeFile.jsx",
+      "template": "product-feature",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:28"
+      ]
+    },
+    {
+      "path": "/book-demo",
+      "kind": "page",
+      "component": "src/pages/BookDemo.jsx",
+      "template": "book-demo",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:28"
+      ]
+    },
+    {
+      "path": "/api",
+      "kind": "page",
+      "component": "src/pages/Api.jsx",
+      "template": "developer-api",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:28"
+      ]
+    },
+    {
+      "path": "/work-with-brands",
+      "kind": "page",
+      "component": "src/pages/WorkWithBrands.jsx",
+      "template": "work-with",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:29"
+      ]
+    },
+    {
+      "path": "/work-with-marketers",
+      "kind": "page",
+      "component": "src/pages/WorkWithMarketers.jsx",
+      "template": "work-with",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:29"
+      ]
+    },
+    {
+      "path": "/bounties",
+      "kind": "page",
+      "component": "src/pages/Bounties.jsx",
+      "template": "bounties-index",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:30"
+      ]
+    },
+    {
+      "path": "/pre-black-friday",
+      "kind": "page",
+      "component": "src/pages/PreBlackFriday.jsx",
+      "template": "pre-black-friday",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:30"
+      ]
+    },
+    {
+      "path": "/agency-directory",
+      "kind": "page",
+      "component": "src/pages/AgencyDirectory.jsx",
+      "template": "agency-directory",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:30"
+      ]
+    },
+    {
+      "path": "/jumpstart-2026",
+      "kind": "page",
+      "component": "src/pages/Jumpstart2026.jsx",
+      "template": "jumpstart",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:31"
+      ]
+    },
+    {
+      "path": "/media-kit",
+      "kind": "page",
+      "component": "src/pages/MediaKit.jsx",
+      "template": "media-kit",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:31"
+      ]
+    },
+    {
+      "path": "/mcp",
+      "kind": "page",
+      "component": "src/pages/Mcp.jsx",
+      "template": "developer-mcp",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:31"
+      ]
+    },
+    {
+      "path": "/2026-paid-lp",
+      "kind": "page",
+      "component": "src/pages/PaidLp2026.jsx",
+      "template": "paid-landing",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:31"
+      ]
+    },
+    {
+      "path": "/post/:slug",
+      "kind": "cms",
+      "collection": "post",
+      "dataFile": "src/data/post.json",
+      "concreteUrlCount": 184,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/post.json:3"
+      ],
+      "template": "post"
+    },
+    {
+      "path": "/experts/:slug",
+      "kind": "cms",
+      "collection": "experts",
+      "dataFile": "src/data/experts.json",
+      "concreteUrlCount": 67,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/experts.json:3"
+      ],
+      "template": "expert"
+    },
+    {
+      "path": "/faqs/:slug",
+      "kind": "cms",
+      "collection": "faqs",
+      "dataFile": "src/data/faqs.json",
+      "concreteUrlCount": 65,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/faqs.json:3"
+      ],
+      "template": "faq-item"
+    },
+    {
+      "path": "/authors/:slug",
+      "kind": "cms",
+      "collection": "authors",
+      "dataFile": "src/data/authors.json",
+      "concreteUrlCount": 43,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/authors.json:3"
+      ],
+      "template": "author"
+    },
+    {
+      "path": "/events/:slug",
+      "kind": "cms",
+      "collection": "events",
+      "dataFile": "src/data/events.json",
+      "concreteUrlCount": 27,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/events.json:3"
+      ],
+      "template": "event"
+    },
+    {
+      "path": "/agencies/:slug",
+      "kind": "cms",
+      "collection": "agencies",
+      "dataFile": "src/data/agencies.json",
+      "concreteUrlCount": 26,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/agencies.json:3"
+      ],
+      "template": "agency"
+    },
+    {
+      "path": "/videos/:slug",
+      "kind": "cms",
+      "collection": "videos",
+      "dataFile": "src/data/videos.json",
+      "concreteUrlCount": 16,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/videos.json:3"
+      ],
+      "template": "video"
+    },
+    {
+      "path": "/category/:slug",
+      "kind": "cms",
+      "collection": "category",
+      "dataFile": "src/data/category.json",
+      "concreteUrlCount": 15,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/category.json:3"
+      ],
+      "template": "category"
+    },
+    {
+      "path": "/comparison/:slug",
+      "kind": "cms",
+      "collection": "comparison",
+      "dataFile": "src/data/comparison.json",
+      "concreteUrlCount": 10,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/comparison.json:3"
+      ],
+      "template": "comparison"
+    },
+    {
+      "path": "/industries/:slug",
+      "kind": "cms",
+      "collection": "industries",
+      "dataFile": "src/data/industries.json",
+      "concreteUrlCount": 6,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/industries.json:3"
+      ],
+      "template": "industry"
+    },
+    {
+      "path": "/page/:slug",
+      "kind": "cms",
+      "collection": "page",
+      "dataFile": "src/data/page.json",
+      "concreteUrlCount": 5,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/page.json:3"
+      ],
+      "template": "legal-page"
+    },
+    {
+      "path": "/careers/:slug",
+      "kind": "cms",
+      "collection": "careers",
+      "dataFile": "src/data/careers.json",
+      "concreteUrlCount": 3,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/careers.json:3"
+      ],
+      "template": "career"
+    },
+    {
+      "path": "/university/:slug",
+      "kind": "cms",
+      "collection": "university",
+      "dataFile": "src/data/university.json",
+      "concreteUrlCount": 2,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/university.json:3"
+      ],
+      "template": null,
+      "templateByEntryField": {
+        "field": "template",
+        "map": {
+          "landing": "university-landing",
+          "course": "university-course"
+        },
+        "entries": {
+          "classes": "university-landing",
+          "psychology-in-advertising": "university-course"
+        },
+        "measuredFrom": [
+          "src/pages/templates/University.jsx:256"
+        ]
+      }
+    },
+    {
+      "path": "/bounties/:slug",
+      "kind": "cms",
+      "collection": "bounties",
+      "dataFile": "src/data/bounties.json",
+      "concreteUrlCount": 1,
+      "measuredFrom": [
+        "src/routes.jsx:35-39",
+        "src/data/bounties.json:3"
+      ],
+      "template": "bounty"
+    }
+  ],
+  "concreteOverrides": [
+    {
+      "url": "/post/ai-emotional-analysis-new-ad-details",
+      "template": "not-found",
+      "reason": "CMS entry is a '404' stub (title '404', no order); getEntry() returns null -> TemplateNotFound",
+      "measuredFrom": [
+        "src/components/templates/data.js:16",
+        "src/pages/templates/Post.jsx:64"
+      ]
+    },
+    {
+      "url": "/post/restaurant-facebook-ad-examples",
+      "template": "not-found",
+      "reason": "CMS entry is a '404' stub (title '404', no order); getEntry() returns null -> TemplateNotFound",
+      "measuredFrom": [
+        "src/components/templates/data.js:16",
+        "src/pages/templates/Post.jsx:64"
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "from": "/university",
+      "to": "/university/classes",
+      "measuredFrom": [
+        "src/App.jsx:35"
+      ]
+    },
+    {
+      "from": "/apac-demo",
+      "to": "/book-demo",
+      "note": "/apac-demo is not specced; the book-demo APAC bar links here",
+      "measuredFrom": [
+        "src/App.jsx:36"
+      ]
+    }
+  ],
+  "catchAll": {
+    "path": "*",
+    "template": "not-found",
+    "measuredFrom": [
+      "src/App.jsx:37"
+    ]
+  },
+  "footerHiddenOn": [
+    "/2026-paid-lp"
+  ]
+}

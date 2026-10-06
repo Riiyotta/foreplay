@@ -1,0 +1,22 @@
+{
+  "id": "blog-list-card",
+  "kind": "component",
+  "purpose": "S4 card: 465/264 cover, 28px author avatar + name, 2-line title (label-l), 2-line ~120 char stand-in excerpt; hover bg white/3 + ring white/20.",
+  "measuredFrom": [
+    "src/components/templates/CardGrid.jsx:37",
+    "src/components/templates/CardGrid.jsx:6"
+  ],
+  "props": {
+    "post": {
+      "type": "postRef"
+    }
+  },
+  "tokensUsed": [
+    "component.blogListCard.radius",
+    "component.blogListCard.coverAspect",
+    "semanticMotion.cardHover"
+  ],
+  "composes": [
+    "avatar"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "content.before-after",
+  "kind": "section",
+  "category": "content",
+  "purpose": "First white block 'Your new secret weapon for ads': Before (logo rain physics) vs After Foreplay (loader video) cards.",
+  "measuredFrom": [
+    "src/pages/Home.jsx:13",
+    "src/components/BeforeAfter.jsx:31"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "title": {
+        "type": "string",
+        "required": true,
+        "maxChars": 30,
+        "measuredFrom": [
+          "src/components/BeforeAfter.jsx:41"
+        ]
+      },
+      "body": {
+        "type": "string",
+        "required": true,
+        "maxChars": 143,
+        "measuredFrom": [
+          "src/components/BeforeAfter.jsx:46-47"
+        ],
+        "note": "Homepage copy: 143 chars."
+      },
+      "before": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "type": "string",
+            "required": true,
+            "maxChars": 10,
+            "measuredFrom": [
+              "src/components/BeforeAfter.jsx:58"
+            ]
+          },
+          "body": {
+            "type": "string",
+            "required": true,
+            "maxChars": 50,
+            "measuredFrom": [
+              "src/components/BeforeAfter.jsx:59"
+            ]
+          }
+        }
+      },
+      "after": {
+        "type": "object",
+        "required": true,
+        "fields": {
+          "title": {
+            "type": "string",
+            "required": true,
+            "maxChars": 14,
+            "measuredFrom": [
+              "src/components/BeforeAfter.jsx:82"
+            ]
+          },
+          "body": {
+            "type": "string",
+            "required": true,
+            "maxChars": 49,
+            "measuredFrom": [
+              "src/components/BeforeAfter.jsx:83"
+            ]
+          },
+          "video": {
+            "type": "assetRef",
+            "assetRole": "product-video",
+            "required": true,
+            "measuredFrom": [
+              "src/components/BeforeAfter.jsx:91"
+            ]
+          }
+        }
+      },
+      "rainLogos": {
+        "type": "assetRef",
+        "assetRole": "customer-logo",
+        "required": true,
+        "measuredFrom": [
+          "src/components/logoRain.js:30"
+        ],
+        "note": "matter.js bodies are real brand logos; <=767 a static logos-rain.webp image is shown instead."
+      }
+    }
+  },
+  "mediaFields": [
+    "after.video",
+    "rainLogos"
+  ],
+  "constraints": {
+    "onePerPage": true,
+    "homeRouteOnly": true
+  },
+  "motion": {
+    "pattern": "physics-logo-rain",
+    "reducedMotionFallback": "static",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/logoRain.js:7",
+      "src/components/logoRain.js:10-11",
+      "src/components/logoRain.js:15"
+    ],
+    "cadenceMs": 300,
+    "trigger": "in-view-once",
+    "note": "matter-js 0.19.0; bodies dropped every 300ms after first intersection; 16/12/8 bodies by width."
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-md",
+        "change": "cards stack; rain canvas hidden, static image shown",
+        "measuredFrom": [
+          "src/components/BeforeAfter.jsx:75"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.whiteBlock",
+  "tokensUsed": [
+    "semanticColor.surface.whiteBlock",
+    "semanticRadius.whiteBlock",
+    "layout.grid.beforeAfter"
+  ],
+  "usedOnTemplates": [
+    "home"
+  ],
+  "usedOnRoutes": [
+    "/"
+  ]
+}

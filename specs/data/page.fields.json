@@ -1,0 +1,47 @@
+{
+ "api-bounty-terms-of-service": {
+  "url": "/page/api-bounty-terms-of-service",
+  "title": "API Bounty Terms of Service | Foreplay",
+  "desc": "‹137ch›",
+  "h1": "API Bounty Terms of Service",
+  "bodyLen": 4665,
+  "blocks": "p ol(11) p",
+  "links": 0
+ },
+ "api-terms": {
+  "url": "/page/api-terms",
+  "title": "API Addendum To Terms of Service | Foreplay",
+  "desc": "‹137ch›",
+  "h1": "API Addendum To Terms of Service",
+  "bodyLen": 2917,
+  "blocks": "p×3 h4 p×4 h4 p ul(5) h4 p×2 h4 p×2 h4 p×2",
+  "links": 0
+ },
+ "privacy-policy": {
+  "url": "/page/privacy-policy",
+  "title": "Privacy Policy | Foreplay",
+  "desc": "‹137ch›",
+  "h1": "Privacy Policy",
+  "bodyLen": 9780,
+  "blocks": "p h2 p ul(4) h2 p h2 h3 ul(5) h3 p h3 p ul(3) p h2 p×11 h2 p h2 p ul(5) h2 p h2 p h2 p h2 p h2 h3 p h3 p h3 p×2 h2 p h2 p h2 p h2 p",
+  "links": 0
+ },
+ "terms-of-service": {
+  "url": "/page/terms-of-service",
+  "title": "Terms of Service | Foreplay",
+  "desc": "‹137ch›",
+  "h1": "Terms of Service",
+  "bodyLen": 18583,
+  "blocks": "p×3 h2 p h2 p h2 p h2 p ul(3) h2 p×6 h2 p h2 p h2 p×4 h2 p h2 p×3 h2 p h2 p×4 h2 p h2 p h2 p h2 p×2 h2 p h2 p h2 p×4 h2 p h2 p h2 p h2 p h2 p×4",
+  "links": 7
+ },
+ "unverified-ad-awards-terms-of-service": {
+  "url": "/page/unverified-ad-awards-terms-of-service",
+  "title": "Unverified Ad Awards Terms of Service | Foreplay",
+  "desc": "‹137ch›",
+  "h1": "Unverified Ad Awards Terms of Service",
+  "bodyLen": 5517,
+  "blocks": "p ol(12)",
+  "links": 0
+ }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "content.agency-directory",
+  "kind": "section",
+  "category": "content",
+  "purpose": "Agency directory: filter sidebar (service/industry checkboxes with counts) + paginated feed of AgencyCards (9 per page). INTENTIONAL DEVIATION: <=767 the sidebar stacks above the feed (live overflows at 390).",
+  "measuredFrom": [
+    "src/components/community/AgencyDirectory.jsx:95"
+  ],
+  "variants": [],
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "groups": {
+        "type": "array",
+        "required": true,
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "object",
+          "required": true,
+          "fields": {
+            "title": {
+              "type": "string",
+              "required": true,
+              "maxChars": 10,
+              "measuredFrom": [
+                "src/components/community/AgencyDirectory.jsx:17"
+              ]
+            },
+            "options": {
+              "type": "array",
+              "required": true,
+              "minItems": 6,
+              "maxItems": 10,
+              "items": {
+                "type": "string",
+                "required": true,
+                "maxChars": 21,
+                "measuredFrom": [
+                  "src/components/community/AgencyDirectory.jsx:18"
+                ]
+              },
+              "measuredFrom": [
+                "src/components/community/AgencyDirectory.jsx:9"
+              ]
+            }
+          }
+        },
+        "measuredFrom": [
+          "src/components/community/AgencyDirectory.jsx:9"
+        ]
+      },
+      "perPage": {
+        "type": "integer",
+        "required": true,
+        "minimum": 9,
+        "measuredFrom": [
+          "src/components/community/AgencyDirectory.jsx:6"
+        ],
+        "maximum": 9
+      }
+    }
+  },
+  "mediaFields": [],
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "pattern": "none",
+    "reducedMotionFallback": "none-needed",
+    "reducedMotionImplemented": false,
+    "measuredFrom": [
+      "src/components/community/AgencyDirectory.jsx:95"
+    ]
+  },
+  "responsive": {
+    "changes": [
+      {
+        "at": "max-md",
+        "change": "sidebar stacks above feed (intentional fix)",
+        "measuredFrom": [
+          "src/pages/AgencyDirectory.jsx:8"
+        ]
+      }
+    ]
+  },
+  "defaultSurface": "surface.page",
+  "tokensUsed": [],
+  "usedOnTemplates": [
+    "agency-directory"
+  ],
+  "usedOnRoutes": [
+    "/agency-directory"
+  ]
+}

@@ -1,0 +1,157 @@
+[
+ {
+  "slug": "classes",
+  "title": "Classes",
+  "template": "landing",
+  "heroTitle": "Become a pro with free marketing & advertising masterclasses",
+  "logo": "/assets/templates/university/670fd3ca6faff7ca0dab1805_fu-logo-full.svg",
+  "courses": [
+   {
+    "href": "#",
+    "comingSoon": true,
+    "wordmark": null
+   },
+   {
+    "href": "#",
+    "comingSoon": true,
+    "wordmark": null
+   },
+   {
+    "href": "/university/psychology-in-advertising",
+    "comingSoon": false,
+    "wordmark": "/assets/templates/university/6716a79cb8150ee15297cbdd_psychology-in-advertising-wordmark.svg"
+   },
+   {
+    "href": "#",
+    "comingSoon": true,
+    "wordmark": null
+   },
+   {
+    "href": "#",
+    "comingSoon": true,
+    "wordmark": null
+   }
+  ],
+  "cardBg": "/assets/templates/university/670fd9e67b82d646bae48121_sarah-card-bg-tiny.avif",
+  "cardBgComingSoon": "/assets/templates/university/670fe2f95796e064e2204e42_blank-avatar-3.avif",
+  "heroBg": "/assets/templates/university/670fd465bbf6fd15113cf634_fu-header-background-tiny.avif",
+  "sections": [
+   {
+    "title": "Welcome to Your Campus",
+    "image": "/assets/templates/university/6718fae17ad24b460a6924a4_campus-photo-p-1080.avif",
+    "icon": "/assets/templates/university/670fd3ca6faff7ca0dab1805_fu-logo-full.svg",
+    "button": null,
+    "paragraphChars": 255
+   },
+   {
+    "title": "Become a Professor and Access 100,000+ Marketers",
+    "image": "/assets/templates/university/671914cc4802cf20d73e78df_become-professor-2-p-1080.avif",
+    "icon": null,
+    "button": {
+     "label": "Apply Now",
+     "href": "https://forms.gle/BjqX45o2nYzsgV9g6"
+    },
+    "paragraphChars": 128
+   }
+  ],
+  "updated": "2025-05-15"
+ },
+ {
+  "slug": "psychology-in-advertising",
+  "title": "Psychology in Advertising Course",
+  "template": "course",
+  "breadcrumb": "Psychology in Advertising Course",
+  "wordmark": "/assets/templates/university/6716a79cb8150ee15297cbdd_psychology-in-advertising-wordmark.svg",
+  "breadcrumbIcon": "/assets/templates/university/6716a66143f2eda698865685_fu-icon-mini.svg",
+  "teacher": "Sarah Levinger",
+  "teacherAvatar": "/assets/templates/university/645e5f3f6212d654117f4c6d_63b4ef2dc6c0f9cea84e73a3_sarah-l-headshot_1_.webp",
+  "freeTag": "Free Course Launching Soon",
+  "branding": "/assets/templates/university/6716a4ab68de1547d8eb8fe5_fu-1-branding-image-tiny.avif",
+  "modules": [
+   {
+    "label": "Trailer",
+    "title": "Psychology in Advertising Trailer",
+    "icon": "/assets/templates/university/6716b43bc943259847c9212a_play-icon-blue.svg"
+   },
+   {
+    "label": "Module 1",
+    "title": "The History of Psychology in Advertising",
+    "icon": "/assets/templates/university/6717ccee952a632e3eefdfad_hourglass-icon.svg"
+   },
+   {
+    "label": "Module 2",
+    "title": "Tactically Connect with Your Audience",
+    "icon": "/assets/templates/university/6717ccee952a632e3eefdfad_hourglass-icon.svg"
+   },
+   {
+    "label": "Module 3",
+    "title": "Emotional Storytelling - 5 Secret Frameworks",
+    "icon": "/assets/templates/university/6717ccee952a632e3eefdfad_hourglass-icon.svg"
+   },
+   {
+    "label": "Module 4",
+    "title": "10 Undeniable Lessons from Psychology & Neuroscience Books",
+    "icon": "/assets/templates/university/6717ccee952a632e3eefdfad_hourglass-icon.svg"
+   },
+   {
+    "label": "Module 5",
+    "title": "After the Click - The Emotional Customer Journey",
+    "icon": "/assets/templates/university/6717ccee952a632e3eefdfad_hourglass-icon.svg"
+   },
+   {
+    "label": "Module 6",
+    "title": "AMA with Zach & Sarah",
+    "icon": "/assets/templates/university/6717ccee952a632e3eefdfad_hourglass-icon.svg"
+   }
+  ],
+  "trailerYoutubeId": "TMGd8DYBvJ0",
+  "modulePosters": [
+   "/assets/templates/university/6717f1ccc96b6446acd8a2eb_Module_1-p-1080.avif",
+   "/assets/templates/university/6717f1cc6aeb52b034f0b4f6_Module_2-p-1080.avif",
+   "/assets/templates/university/6717f1cc9ca12324cf9cd65f_Module_3-p-1080.avif",
+   "/assets/templates/university/6717f1cc9adc35a513413a66_Module_4-p-1080.avif",
+   "/assets/templates/university/6717f1cda7c1743d971ef72b_Module_5-p-1080.avif",
+   "/assets/templates/university/6717f1cc0438c24c8a6ddb99_Module_6-p-1080.avif"
+  ],
+  "comingSoonIcon": "/assets/templates/university/6717db1b269f3135bef12511_hourglass-icon-white.svg",
+  "materials": [
+   {
+    "title": "Psychology Workbook",
+    "type": "PDF File",
+    "href": "#",
+    "icon": "/assets/templates/university/6717f46980c3debf7d2081c7_workbook-icon.svg"
+   },
+   {
+    "title": "Chat GPT Prompt",
+    "type": "Link",
+    "href": "#",
+    "icon": "/assets/templates/university/6717f468e358aa1b2bb847c6_prompt-icon.svg"
+   },
+   {
+    "title": "Emotional Ad Examples",
+    "type": "Swipe File",
+    "href": "#",
+    "icon": "/assets/templates/university/6717f4696f105cdfcdb1a4c1_ad-examples-icon.svg"
+   }
+  ],
+  "materialsHeading": "Download Class Materials (Coming Soon)",
+  "sections": [
+   {
+    "title": "Meet Sarah Levinger",
+    "image": "/assets/templates/university/6716bb772fab45c3a00935aa_sarah-image-cropped-p-1080.avif",
+    "button": null,
+    "paragraphChars": 460
+   },
+   {
+    "title": "Welcome to Your Campus",
+    "image": "/assets/templates/university/6718fae17ad24b460a6924a4_campus-photo-p-1080.avif",
+    "button": {
+     "label": "Browse Classes",
+     "href": "/university"
+    },
+    "paragraphChars": 255
+   }
+  ],
+  "updated": "2025-05-08"
+ }
+]

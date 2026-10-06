@@ -1,0 +1,18 @@
+{
+  "$description": "Component-scoped values for blogListCard.",
+  "category": "component",
+  "blogListCard": {
+    "background": {
+      "value": "{color.background}",
+      "measuredFrom": "specs/_shared-templates.md:54"
+    },
+    "radius": {
+      "value": "{borderRadius.20}",
+      "measuredFrom": "specs/_shared-templates.md:54"
+    },
+    "coverAspect": {
+      "value": "465/264",
+      "measuredFrom": "specs/_shared-templates.md:55"
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "repositoryId": "foreplay-clone-design-repo",
+  "status": "design-review-pending",
+  "productionApproved": false,
+  "repositoryVersion": "0.1.0",
+  "pageSpecVersion": "1.0.0",
+  "allowlistVersion": "1.0.0",
+  "versionFieldNote": "Only allowlistVersion is machine-checked: extraction/verify_all.py (allowlist-version) fails if it differs from tokens/llm/component-allowlist.json. counts are machine-checked too (counts check; --update-counts rewrites them). repositoryVersion and pageSpecVersion are hand-maintained documentation markers; nothing checks them automatically (pageSpecVersion is additionally pinned as a const inside the generated schema).",
+  "defaultTheme": "dark",
+  "schemaValidatedThemes": [
+    "dark",
+    "contest",
+    "ships-legacy"
+  ],
+  "themeNote": "dark is the site-wide theme; contest and ships-legacy are scoped sub-themes applied by a page wrapper on /contest, /contest-submission and /ships only (THEME_SCOPED rule).",
+  "counts": {
+    "tokens": {
+      "foundation": 307,
+      "semantic": 70,
+      "component": 37,
+      "layout": 20,
+      "total": 434,
+      "themeResolved": {
+        "contest": 32,
+        "dark": 32,
+        "ships-legacy": 32
+      }
+    },
+    "primitives": 18,
+    "components": 27,
+    "sections": 89,
+    "templates": 48,
+    "routePatterns": 50,
+    "pageRoutes": 36,
+    "cmsCollections": 14,
+    "concreteUrls": 506,
+    "redirects": 2,
+    "graphRules": 13,
+    "assetRoles": 12,
+    "allowlistEntries": 134
+  },
+  "countsNote": "Recomputed from the files by extraction/verify_all.py.",
+  "entryPoints": {
+    "manifest": "registry.manifest.json",
+    "readme": "README.md",
+    "changelog": "CHANGELOG.md",
+    "schema": "schema/pagespec.schema.json",
+    "exampleInstance": "schema/example.pagespec.json",
+    "semanticValidator": "schema/semantic_validate.py",
+    "adversarialTests": "schema/tests/adversarial_test.py",
+    "templates": "templates/templates.json",
+    "routes": "templates/routes.json",
+    "compatibilityGraph": "compatibility/graph.json",
+    "assetRoles": "assets/asset-roles.json",
+    "tokenCatalog": "tokens/llm/token-catalog.json",
+    "tokenPolicy": "tokens/llm/token-policy.json",
+    "componentAllowlist": "tokens/llm/component-allowlist.json",
+    "themes": [
+      "tokens/themes/dark.json",
+      "tokens/themes/contest.json",
+      "tokens/themes/ships-legacy.json"
+    ],
+    "contractDirectories": [
+      "primitives",
+      "components",
+      "sections"
+    ],
+    "tokenDirectories": [
+      "tokens/00-foundation",
+      "tokens/10-semantic",
+      "tokens/20-component",
+      "tokens/30-layout"
+    ],
+    "verification": [
+      "extraction/verify_all.py",
+      "extraction/prove_drift.py",
+      "extraction/build_schema.py"
+    ],
+    "citationLedger": "extraction/measured-values.json",
+    "citationAnchors": "extraction/citation-anchors.json",
+    "divergences": "extraction/divergences.json"
+  },
+  "sourceProject": {
+    "description": "External evidence, NOT part of this package: the Vite + React + Tailwind clone in the folder that contains design-repo/ (src/, public/, tailwind.config.js, src/index.css, src/data/, specs/, CLONE_SPEC.md, CLONE_ASSETS.md, sitemap-routes.txt). Every citation is relative to that folder.",
+    "framework": {
+      "react": "18.3.1",
+      "react-dom": "18.3.1",
+      "react-router-dom": "6.30.6",
+      "vite": "5.4.21",
+      "tailwindcss": "3.4.19",
+      "matter-js": "0.19.0",
+      "lottie-web": "5.12.2"
+    },
+    "declaredRanges": {
+      "react": "^18.3.1",
+      "react-router-dom": "^6.30.6",
+      "vite": "^5.4.0",
+      "tailwindcss": "^3.4.10",
+      "matter-js": "0.19.0",
+      "lottie-web": "^5.12.2"
+    },
+    "versionsReadFrom": "the source project's package.json (declared ranges) and node_modules/<pkg>/package.json (resolved); external evidence",
+    "snapshotDate": "2026-10-06",
+    "snapshotNote": "A snapshot of the clone as implemented on the snapshot date ('record as it is'): re-diff versions, counts and claims if the source changes."
+  },
+  "sourceNote": "The source is a clone of a REAL, LIVE company's site (Foreplay, foreplay.co). Brand name, logo, product imagery, customer logos and testimonial headshots belong to Foreplay or third parties. This repository is for local/internal use only and must not be published; generated pages must never reproduce real logos, real people's photos/names or real proprietary content (see assets/asset-roles.json globalProhibitions and the PERSON_PLACEHOLDER / ASSET_REF_POLICY validator rules).",
+  "constraints": {
+    "noOutboundShellLinks": "Navbar and footer contain no external links (removed: Sign in, Knowledge Base, Merch, API Docs, Feature Requests, Roadmap, Ask-AI row, social icons; rerouted: Chrome Extension -> /chrome-extension, review badges -> /chrome-extension and /reviews, Start free trial -> /pricing, Book a Call -> /book-demo). Enforced by NO_OUTBOUND_SHELL_LINKS.",
+    "noThirdPartyRequests": "Every third-party embed is a same-size placeholder (assetRole third-party-embed, placeholder-only); forms never submit.",
+    "copyPolicy": "Homepage copy is the user's own saved copy; all other long copy is deliberately stand-in text of matching length; contracts store character budgets (maxChars), never real text."
+  }
+}
