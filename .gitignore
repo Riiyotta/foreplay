@@ -3,3 +3,6 @@ dist/
 .DS_Store
 .vite/
 *.log
+
+# Regenerated from design-repo/ with the CLI zip tool; never committed alongside the live folder.
+*.zip
